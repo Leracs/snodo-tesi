@@ -1,6 +1,6 @@
 # Supporto interattivo e materiali per Figma
 
-Versione 0.1. Aprire `index.html` nel browser mantenendo intatte le cartelle del pacchetto. Non servono account, backend, librerie da scaricare o API. Il supporto funziona anche come file locale; la conservazione della sessione dipende dal browser. Il pulsante Riparti azzera soltanto i dati dimostrativi della sessione corrente.
+Versione 0.6. Aprire `index.html` nel browser mantenendo intatte le cartelle del pacchetto. Non servono account, backend, librerie da scaricare o API. Il supporto funziona anche come file locale; la conservazione della sessione dipende dal browser. Il pulsante Riparti azzera soltanto i dati dimostrativi della sessione corrente.
 
 Questa copia è consultabile online da GitHub Pages. La verifica originaria della demo è stata eseguita con un server locale sul computer dell’autore. Il pulsante Riparti riguarda soltanto la sessione dimostrativa, non il gate d’ingresso.
 
@@ -31,3 +31,11 @@ Le schede S05/S06 riusano il [pattern DS08/DS19](../06_design_system/Atmosfera_a
 ## Libreria dei componenti
 
 Il [design system](../06_design_system/index.html) raccoglie i componenti e le anteprime A/B. Le azioni “Prova nella scheda” e “Apri il dettaglio” aprono direttamente S05/S06 con luogo e direzione selezionati. La cornice della demo offre il link di ritorno al catalogo, anche su mobile. I parametri di ingresso sono validati e le bozze della sessione sono conservate.
+
+## Esplorazione e recensioni — integrazione v0.6
+
+Mappa/lista condividono città, query, filtri, numeri e selezione. Le card compatte hanno una preview della recensione con autore, data, compagnia e fascia; la stessa testimonianza è visibile prima dell’atmosfera nella scheda. I luoghi senza recensioni mostrano l’assenza esplicita. Il salvataggio è disponibile direttamente nella card.
+
+Budget e rumore sono filtri rapidi. S04 mantiene una bozza fino ad Applica: Annulla conserva la ricerca e Azzera modifica solo la bozza. Il rumore può essere necessario o preferito; in quest’ultimo caso dati mancanti e alternative oltre preferenza sono gruppi distinti, non corrispondenze certe. Budget e all’aperto restano requisiti. La scheda ha una sola CTA principale persistente: proposta personale oppure preferenza nella proposta di gruppo esistente.
+
+[Componenti e regole](../06_design_system/Esplorazione_e_recensioni.md). La mappa rimane schematica: non implementa pan geografico, bounds o ricerca live in un’area. I grafici DS08/DS19 restano separati dalle recensioni e dal gradimento.

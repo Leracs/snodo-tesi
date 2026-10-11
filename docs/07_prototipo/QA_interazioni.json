@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-11T14:57:11.638Z",
+  "generatedAt": "2026-10-11T15:29:36.666Z",
   "type": "technical_code_harness_with_minimal_fake_DOM",
   "executed": true,
   "finiteRun": true,
-  "passed": 14,
+  "passed": 23,
   "failed": 0,
   "status": "PASS",
   "scope": "Integrità dei dati e handler delle interazioni; regressioni delle correzioni segnalate.",
@@ -21,15 +21,15 @@
   "sources": [
     {
       "file": "index.html",
-      "sha256": "dfcf8317615a0b2c7442f250230d0be6398812b6dde7afb3f5075a5f4c45e893"
+      "sha256": "633ce1edbf3a8deb9a421a9a44f97beebb29891e671851aa72182bfacd66724f"
     },
     {
       "file": "app.js",
-      "sha256": "213c8909859dc2139c8b7147123f1dd58b72adacc5ad7030d1a22a578455c637"
+      "sha256": "f43bf2d769cf38514b36ff73ba811db4a5419a960f71e2c18cc336acf452bbbf"
     },
     {
       "file": "core.js",
-      "sha256": "e7d22c3d6132a6abb00191843267e8306b154e486d66515ddab9b8288c81ba7a"
+      "sha256": "fd47192e924161cdffa7eb26ade07c106fa5333d5532348722b211cccfb29975"
     },
     {
       "file": "catalogo.js",
@@ -49,7 +49,15 @@
     },
     {
       "file": "Verifiche_interazioni.cjs",
-      "sha256": "9bd90b740465f5fb43d277b4ac99ecc4b3a22ef5bdb32460cc5c85fdef9c1429"
+      "sha256": "e64bf0b30f4d6bbaa606a26400645bc4c39e2d4fe2fce67dc9e9d5be3a171784"
+    },
+    {
+      "file": "../06_design_system/esplorazione.js",
+      "sha256": "42d46d5b539eaaf72f1ce53a03e3e28269d03002a98c7c5030277fc4fa4e079e"
+    },
+    {
+      "file": "../06_design_system/esplorazione.css",
+      "sha256": "148cdde803e912efbeaebc4e4b334b0a56e9e24ab2a069bccf703bf66e40401c"
     }
   ],
   "results": [
@@ -136,6 +144,60 @@
       "name": "Parametri non validi non creano schermate, luoghi o temi",
       "status": "PASS",
       "evidence": "La sessione conserva il normale avvio quando la destinazione non è valida."
+    },
+    {
+      "id": "I15",
+      "name": "Recensione visibile in mappa, lista, scheda, gruppo e salvati",
+      "status": "PASS",
+      "evidence": "Una testimonianza e il suo contesto sono visibili nei cinque accessi; nessuna testimonianza inventata nello stato assente."
+    },
+    {
+      "id": "I16",
+      "name": "Preferenza separa assenze e alternative senza allentare il budget",
+      "status": "PASS",
+      "evidence": "Budget 20 € invariato: un match, una assenza e una alternativa; il requisito necessario mostra solo il match."
+    },
+    {
+      "id": "I17",
+      "name": "Azzera in editor e annulla preservano i criteri applicati",
+      "status": "PASS",
+      "evidence": "Reset resta nella bozza; annullamento conserva budget/rumore; applicazione registra la preferenza."
+    },
+    {
+      "id": "I18",
+      "name": "Salva e mappa/lista conservano ID, numero e selezione",
+      "status": "PASS",
+      "evidence": "Il luogo 2 resta salvato e selezionato tra marker, lista, dettaglio e ritorno."
+    },
+    {
+      "id": "I19",
+      "name": "CTA dal gruppo esprime preferenza e lascia le conferme aperte",
+      "status": "PASS",
+      "evidence": "La CTA torna al confronto, non trasforma preferenza o silenzio in accordo."
+    },
+    {
+      "id": "I20",
+      "name": "Proponi dalla ricerca conserva la proposta esistente della città",
+      "status": "PASS",
+      "evidence": "Titolo e partecipazione conservati; luogo aggiunto come proposta senza scelta o conferma automatica."
+    },
+    {
+      "id": "I21",
+      "name": "Ingresso recensione dal catalogo apre il luogo e mantiene il ritorno valido",
+      "status": "PASS",
+      "evidence": "Recensioni collegate all’ID corretto e back verso il contesto Milano."
+    },
+    {
+      "id": "I22",
+      "name": "Assistente contestuale reperisce la testimonianza del luogo aperto",
+      "status": "PASS",
+      "evidence": "Il reperimento usa l’ID della scheda, anche in un’altra città; l’assenza non genera una recensione."
+    },
+    {
+      "id": "I23",
+      "name": "Ricerca diretta in mappa e lista conserva città, filtri e salvati",
+      "status": "PASS",
+      "evidence": "Submit del form sulla mappa e pulsante Cerca nella lista applicano la query senza cambiare vista, città, vincoli o salvati."
     }
   ],
   "publication_note": "Copia per consultazione: i controlli e gli hash di origine descrivono gli asset del workspace. I percorsi locali sono stati normalizzati; il manifest di pubblicazione descrive i file distribuiti."

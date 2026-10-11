@@ -64,19 +64,19 @@ function harness(search = '') {
       storeField(match[1], element(attribute(match[1], 'id'), { value: selected?.value ?? '', options }));
     }
   }
-  for (const id of ['app', 'nav', 'toast', 'theme', 'reset', 'route-label']) root.set('#' + id, element(id));
+  for (const id of ['app', 'nav', 'toast', 'theme', 'reset', 'route-label', 'place-dock']) root.set('#' + id, element(id));
   Object.defineProperty(root.get('#app'), 'innerHTML', {
     get: () => appHtml,
     set: html => { appHtml = html; parseFields(html); }
   });
   const document = {
-    body: { dataset: { theme: 'A' } },
+    body: { dataset: { theme: 'B' } },
     querySelector: selector => root.get(selector) || page.get(selector) || null,
     querySelectorAll: () => [],
     addEventListener: (name, listener) => listeners.set(name, listener)
   };
   const context = {
-    window: { location: {search}, SNODO_CATALOG: JSON.parse(JSON.stringify(catalog)), SnodoCore: core, SnodoAtmosfera: require('../06_design_system/atmosfera-affluenza.js') },
+    window: { location: {search}, SNODO_CATALOG: JSON.parse(JSON.stringify(catalog)), SnodoCore: core, SnodoDiscovery: require('../06_design_system/esplorazione.js'), SnodoAtmosfera: require('../06_design_system/atmosfera-affluenza.js') },
     document,
     sessionStorage: { getItem: key => storage.get(key) || null, setItem: (key, value) => storage.set(key, value) },
     URLSearchParams, setTimeout: () => 0, clearTimeout() {}, console
@@ -85,7 +85,7 @@ function harness(search = '') {
   vm.runInContext(application, context, { filename: 'app.js' });
   const run = code => vm.runInContext(code, context);
   function click(action, dataset = {}, injected = false) {
-    const html = appHtml + root.get('#nav').innerHTML;
+    const html = appHtml + root.get('#nav').innerHTML + root.get('#place-dock').innerHTML;
     if (!injected) {
       const buttons = Array.from(html.matchAll(/<button\b([^>]*)>/g), match => match[1]);
       assert.ok(buttons.some(tag => attribute(tag, 'data-action') === action &&
@@ -96,6 +96,7 @@ function harness(search = '') {
   }
   return {
     run, click,
+    submit: id => listeners.get('submit')({target:{id},preventDefault(){}}),
     get: selector => document.querySelector(selector),
     html: () => appHtml,
     input: (selector, value) => {
@@ -288,11 +289,85 @@ test('I13', 'Il catalogo apre S05/S06 con luogo e tema coerenti', () => {
 test('I14', 'Parametri non validi non creano schermate, luoghi o temi', () => {
  const h=harness('?screen=S06&place=inesistente&theme=inesistente');
  assert.equal(h.run('state.screen'),'S01');assert.equal(h.run('state.selected'),null);
- assert.equal(h.run('document.body.dataset.theme'),'A');
+ assert.equal(h.run('document.body.dataset.theme'),'B');
  return 'La sessione conserva il normale avvio quando la destinazione non è valida.';
 });
 
-const sources = ['index.html', 'app.js', 'core.js', 'catalogo.js', 'Catalogo_mock.json', 'build_catalogo.py', 'Verifiche_core.cjs', 'Verifiche_interazioni.cjs'].map(file => ({
+test('I15', 'Recensione visibile in mappa, lista, scheda, gruppo e salvati', () => {
+ const h=harness();h.run("state.selected='luogo-roma-01';state.saved=['luogo-roma-01'];newGroup('Roma')");
+ for(const screen of ['S02','S03','S05','S13','S19']){
+  h.run("route('"+screen+"')");
+  assert.ok(h.html().includes('Potevamo parlare senza alzare la voce.'),screen);
+  assert.ok(h.html().includes('21.09.2026'),screen);
+  assert.ok(h.html().includes('19:00–21:00'),screen);
+ }
+ h.run("state.selected='luogo-roma-04';route('S05')");
+ assert.ok(h.html().includes('Il primo racconto manca ancora.'));
+ assert.ok(!h.html().includes('Potevamo parlare senza alzare la voce.'));
+ return 'Una testimonianza e il suo contesto sono visibili nei cinque accessi; nessuna testimonianza inventata nello stato assente.';
+});
+test('I16', 'Preferenza separa assenze e alternative senza allentare il budget', () => {
+ const h=harness();h.run("state.criteria={city:'Roma',query:'',budgetMax:20,noise:'basso',noiseMode:'preferred',outdoor:false};route('S03')");
+ const groups=h.run('K.partitionPlaces(C.places,state.criteria)');
+ assert.equal(groups.matched.length,1);assert.equal(groups.unknown.length,1);assert.equal(groups.other.length,1);
+ assert.equal(groups.unknown[0].id,'luogo-roma-04');assert.equal(groups.other[0].id,'luogo-roma-02');
+ assert.ok(h.html().includes('Da verificare'));assert.ok(h.html().includes('Altre alternative'));assert.ok(!h.html().includes('Sala Aperta'));
+ h.run("state.criteria.noiseMode='required';render()");assert.equal(h.run('K.partitionPlaces(C.places,state.criteria).all.length'),1);
+ return 'Budget 20 € invariato: un match, una assenza e una alternativa; il requisito necessario mostra solo il match.';
+});
+test('I17', 'Azzera in editor e annulla preservano i criteri applicati', () => {
+ const h=harness();h.run("state.criteria.budgetMax=20;state.criteria.noise='basso';route('S03')");h.click('filters');h.click('clear-filters');
+ assert.equal(h.run('state.criteria.budgetMax'),20);assert.equal(h.get('#budget').value,'');h.click('back');
+ assert.equal(h.run('state.criteria.budgetMax'),20);assert.equal(h.run('state.criteria.noise'),'basso');
+ h.click('filters');h.get('#noise-mode').value='preferred';h.click('apply-filters');assert.equal(h.run('state.criteria.noiseMode'),'preferred');
+ return 'Reset resta nella bozza; annullamento conserva budget/rumore; applicazione registra la preferenza.';
+});
+test('I18', 'Salva e mappa/lista conservano ID, numero e selezione', () => {
+ const h=harness();h.run("route('S02')");h.click('pin',{id:'luogo-roma-02'});h.click('card-save',{id:'luogo-roma-02'});
+ assert.ok(h.html().includes('sd-marker-saved'));h.click('search');assert.equal(h.run('state.mapSelected'),'luogo-roma-02');
+ assert.ok(h.html().includes('data-place-card="luogo-roma-02"'));h.click('map');assert.equal(h.run('state.mapSelected'),'luogo-roma-02');
+ h.click('place',{id:'luogo-roma-02'});h.click('back');assert.equal(h.run('state.mapSelected'),'luogo-roma-02');
+ return 'Il luogo 2 resta salvato e selezionato tra marker, lista, dettaglio e ritorno.';
+});
+test('I19', 'CTA dal gruppo esprime preferenza e lascia le conferme aperte', () => {
+ const h=harness();h.run("newGroup('Roma');route('S13')");h.click('place',{id:'luogo-roma-01'});
+ assert.ok(h.get('#place-dock').innerHTML.includes('Preferisco questo luogo'));
+ h.click('group-prefer',{id:'luogo-roma-01'});assert.equal(h.run('state.screen'),'S13');
+ assert.equal(h.run('state.group.members[0].preference'),'luogo-roma-01');assert.equal(h.run('state.group.members[0].confirmed'),null);
+ assert.equal(h.run('K.groupOutcome(state.group).agreed'),false);
+ return 'La CTA torna al confronto, non trasforma preferenza o silenzio in accordo.';
+});
+test('I20', 'Proponi dalla ricerca conserva la proposta esistente della città', () => {
+ const h=harness();h.run("newGroup('Roma');state.group.title='Venerdì';state.group.members[1].invite='accepted';state.selected='luogo-roma-02';state.placeContext='individual';route('S05')");
+ h.click('propose');assert.equal(h.run('state.group.title'),'Venerdì');assert.equal(h.run('state.group.members[1].invite'),'accepted');assert.equal(h.run('state.group.initial'),'luogo-roma-02');assert.equal(h.run('state.group.choice'),null);
+ return 'Titolo e partecipazione conservati; luogo aggiunto come proposta senza scelta o conferma automatica.';
+});
+test('I21', 'Ingresso recensione dal catalogo apre il luogo e mantiene il ritorno valido', () => {
+ const h=harness('?screen=S08&place=luogo-milano-01&theme=A');assert.equal(h.run('state.screen'),'S08');assert.ok(h.html().includes('Cortile Due'));h.click('back');assert.equal(h.run('state.screen'),'S02');assert.equal(h.run('state.criteria.city'),'Milano');
+ return 'Recensioni collegate all’ID corretto e back verso il contesto Milano.';
+});
+
+test('I22', 'Assistente contestuale reperisce la testimonianza del luogo aperto', () => {
+ const h=harness();h.run("state.selected='luogo-milano-01';route('S05')");h.click('assistant');assert.ok(h.html().includes('Cortile Due'));h.click('ai-place');assert.ok(h.html().includes('Recensione di Luca su Cortile Due'));assert.ok(!h.html().includes('Recensione di Luca su Cortile Uno'));
+ h.run("state.selected='luogo-roma-04';route('S05')");h.click('assistant');h.click('ai-place');assert.ok(h.html().includes('Non ci sono testimonianze'));assert.ok(!h.html().includes('Potevamo parlare senza alzare la voce.'));
+ return 'Il reperimento usa l’ID della scheda, anche in un’altra città; l’assenza non genera una recensione.';
+});
+
+test('I23', 'Ricerca diretta in mappa e lista conserva città, filtri e salvati', () => {
+ const h=harness();
+ h.run("state.criteria={city:'Roma',query:'',budgetMax:20,noise:'basso',noiseMode:'preferred',outdoor:false};state.saved=['luogo-roma-01'];route('S02')");
+ h.input('[name=query]',' San Lorenzo ');h.submit('search-form');
+ assert.equal(h.run('state.screen'),'S02');assert.equal(h.run('state.criteria.query'),'San Lorenzo');
+ assert.equal(h.run('state.mapSelected'),'luogo-roma-01');assert.ok(!h.html().includes('Seleziona Spazio Lume'));
+ h.click('search');assert.equal(h.get('[name=query]').value,'San Lorenzo');
+ h.input('[name=query]','');h.click('do-search');h.click('map');
+ assert.equal(h.run('state.criteria.query'),'');assert.equal(h.run('state.criteria.city'),'Roma');
+ assert.equal(h.run('state.criteria.budgetMax'),20);assert.equal(h.run('state.criteria.noiseMode'),'preferred');
+ assert.equal(h.run('state.saved[0]'),'luogo-roma-01');assert.ok(h.html().includes('Seleziona Spazio Lume'));
+ return 'Submit del form sulla mappa e pulsante Cerca nella lista applicano la query senza cambiare vista, città, vincoli o salvati.';
+});
+
+const sources = ['index.html', 'app.js', 'core.js', 'catalogo.js', 'Catalogo_mock.json', 'build_catalogo.py', 'Verifiche_core.cjs', 'Verifiche_interazioni.cjs', '../06_design_system/esplorazione.js', '../06_design_system/esplorazione.css'].map(file => ({
   file, sha256: crypto.createHash('sha256').update(fs.readFileSync(path.join(base, file))).digest('hex')
 }));
 const failures = results.filter(result => result.status === 'FAIL');

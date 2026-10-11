@@ -46,3 +46,14 @@
   --focus-width: 3px;
   --focus-offset: 3px;
 }
+
+[data-theme="A"] {
+  --place-thumbnail-width: 76px;
+  --place-thumbnail-height: 84px;
+  --place-card-padding: 16px;
+  --review-padding: 14px;
+  --map-marker-target: 44px;
+  --detail-media-height: 120px;
+  --place-action-height: 48px;
+  --review-excerpt-lines: 3;
+}

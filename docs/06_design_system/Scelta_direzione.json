@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-11",
+  "default_theme": "B",
+  "default_name": "Pop",
+  "alternative_theme": "A",
+  "alternative_name": "Calda",
+  "decision_author": "progettista",
+  "scope": ["sito dei materiali", "catalogo componenti", "prototipo HTML", "anteprime"],
+  "human_validation": "Non attribuita a test con partecipanti",
+  "preference_storage": "snodo-site-theme-v1"
+}

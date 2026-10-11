@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-11",
+  "status": "PASS",
+  "scope": "Tema generale Pop e pacchetto SVG",
+  "default_theme": "B",
+  "alternative_theme": "A",
+  "regressions": {
+    "passed": 41,
+    "failed": 0,
+    "data": 7,
+    "core": 11,
+    "interactions": 23
+  },
+  "svg": {
+    "files": 122,
+    "validation": "XML valido, hash manifest coerenti, testi modificabili, nessun raster/foreignObject",
+    "archive": "svg/SNODO-componenti-SVG.zip",
+    "archive_sha256": "e8f9a257aa56cfa9c1c6cb857a5701514bfa0b75491af8f784c4b1710e792581"
+  },
+  "browser": {
+    "transport": "HTTP localhost",
+    "checks": [
+      "Home e catalogo Pop a 1280 px",
+      "Home, tesi e catalogo senza overflow a 320 px",
+      "Home e catalogo senza overflow a 390 px",
+      "Prototipo S05 Pop senza overflow a 320 px",
+      "Calda selezionata in home conservata in tesi e catalogo; ritorno Pop",
+      "Download reale DS01-B-secondario.svg e archivio ZIP",
+      "DS01 secondario: link cambia da B ad A con selettore Stile",
+      "SVG composizione Atmosfera/Affluenza e card luogo aperti e controllati nel browser"
+    ]
+  },
+  "limitations": [
+    "SVG statici; importazione Figma non verificata.",
+    "Non è una verifica completa di accessibilità né un test con partecipanti."
+  ],
+  "publication_note": "Copia per consultazione: i controlli e gli hash di origine descrivono gli asset del workspace. I percorsi locali sono stati normalizzati; il manifest di pubblicazione descrive i file distribuiti."
+}

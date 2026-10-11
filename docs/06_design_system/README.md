@@ -1,6 +1,6 @@
 # Base di design system provvisoria
 
-SNODO, v0.5 — 11 ottobre 2026. Questa revisione affina proporzioni, gerarchie e dettagli dei componenti nelle due direzioni A/B; **nessuna UI definitiva è selezionata**. Non esiste in questa cartella una libreria Figma nativa già costruita o verificata.
+SNODO, v0.6 — 11 ottobre 2026. Questa revisione affina proporzioni, gerarchie e dettagli dei componenti nelle due direzioni A/B; **Pop (B) è la direzione principale scelta dal progettista; Calda (A) rimane alternativa**. Non esiste in questa cartella una libreria Figma nativa già costruita o verificata.
 
 [Apri il catalogo del design system](index.html): componenti, filtri, anteprime A/B e collegamenti al prototipo. [Guida per estendere il catalogo](Guida_catalogo.md).
 
@@ -10,7 +10,7 @@ Materiali:
 - `theme_A.json` / `theme_B.json`: valori piatti e misure delle due direzioni per il prototipo locale.
 - `tokens_A.css` / `tokens_B.css`: variabili CSS selezionate da `data-theme="A"` o `"B"`.
 - [Componenti_e_comportamenti.md](https://leracs.github.io/snodo-tesi/06_design_system/Componenti_e_comportamenti.md) e JSON: stati, proprietà e transizioni proposte.
-- [Corrispondenza_componenti_IA_DS.md](https://leracs.github.io/snodo-tesi/06_design_system/Corrispondenza_componenti_IA_DS.md) e [JSON](Corrispondenza_componenti_IA_DS.json): mappatura compositiva dei componenti visivi (DS01–DS17, DS19) rispetto ai componenti funzionali C01–C40 dell’architettura. I due namespace non sono intercambiabili.
+- [Corrispondenza_componenti_IA_DS.md](https://leracs.github.io/snodo-tesi/06_design_system/Corrispondenza_componenti_IA_DS.md) e [JSON](Corrispondenza_componenti_IA_DS.json): mappatura compositiva dei componenti visivi (DS01–DS22) rispetto ai componenti funzionali C01–C40 dell’architettura. I due namespace non sono intercambiabili.
 - [Stati_e_controlli.svg](https://leracs.github.io/snodo-tesi/06_design_system/Stati_e_controlli.svg) e PNG: campioni statici di default/hover/premuto/focus/loading/disabled, campi, tag e recuperi. I comportamenti annotati sono specifiche, non interazioni del file SVG.
 - [Contrasti.csv](https://leracs.github.io/snodo-tesi/06_design_system/Contrasti.csv) e [Markdown](https://leracs.github.io/snodo-tesi/06_design_system/Contrasti.md): calcoli sRGB, coppie effettive, criteri e limiti.
 - [Controlli_build.json](https://leracs.github.io/snodo-tesi/06_design_system/Controlli_build.json): comparabilità delle tile, larghezze e contrasti; nessun feedback umano.
@@ -21,7 +21,7 @@ Le dimensioni sono ipotesi reversibili. Restano comuni il frame mobile 390 × 84
 
 La tavola degli stati misura 1440 × 1920 px. Mostra controlli con padding, allineamento delle icone, focus coerente con la forma del componente, indicatore di caricamento e recuperi espliciti. Le annotazioni tecniche sono esterne ai campioni. La card luogo separa media orizzontale, tag passivi, prezzo, provenienza e azioni; recensione e messaggio AI restano componenti distinti. Le superfici non hanno tutte lo stesso peso: il colore guida l’attenzione su azioni e selezioni, mentre la lettura del contenuto conserva spazio e contrasto.
 
-La direzione A mantiene crema e terracotta. B riprende la tavola proposta dallo studente l’11 ottobre 2026 e usa la palette pop `#FD87BA`, `#ADE25D`, `#9E6CDA`, `#FCEC52`, `#80EFED`. Lo screenshot ricevuto è la guida precisa della B; la [board App su Pinterest](https://it.pinterest.com/resushitata/app/) è stata consultata come repertorio visivo nelle prime card. I token assegnano ruoli ai colori nei componenti dell’app, senza trasformare i motivi della moodboard in controlli. Le due direzioni mantengono quantità di informazioni e compiti confrontabili, con la selezione degli utenti ancora aperta.
+La direzione A mantiene crema e terracotta. B riprende la tavola proposta dallo studente l’11 ottobre 2026 e usa la palette pop `#FD87BA`, `#ADE25D`, `#9E6CDA`, `#FCEC52`, `#80EFED`. Lo screenshot ricevuto è la guida precisa della B; la [board App su Pinterest](https://it.pinterest.com/resushitata/app/) è stata consultata come repertorio visivo nelle prime card. I token assegnano ruoli ai colori nei componenti dell’app, senza trasformare i motivi della moodboard in controlli. Le due direzioni mantengono quantità di informazioni e compiti confrontabili, senza attribuire questa scelta a test con utenti.
 
 I colori semanticamente funzionali hanno ruoli condivisi. Successo, limite dei dati, errore e informazione sono sempre accompagnati da testo; una scelta selezionata presenta anche un segno vettoriale. Divider e accenti decorativi non sono l’unica indicazione di un controllo o stato. Non usare opacity sui testi della base: cambia il contrasto e richiede un nuovo calcolo.
 
@@ -31,10 +31,12 @@ La superficie calma non deve nascondere gerarchia, dato mancante o azione. Il si
 
 La revisione v0.4 separa DS08 (luce, rumore, comfort) da DS19 (affluenza in tre fasce e giorno selezionabile). [Specifica e stati](Atmosfera_affluenza.md) · [Dimostrazione interattiva A/B](Atmosfera_affluenza_demo.html) · [Verifiche tecniche](QA_atmosfera_affluenza.json). La stessa implementazione è presente nella scheda S05 e nel dettaglio S06. Sono aggiunti quattro ruoli di colore accessibili; i font del progetto restano invariati. Il pattern è integrato in HTML; le tavole statiche e Figma non risultano migrate.
 
-## Integrazioni dal benchmark
+## Esplorazione e recensioni: integrazione v0.6
 
-Il [confronto UX/UI con i quattro prodotti](../11_materiale_di_lavoro/Benchmark_UX_UI_e_integrazioni_SNODO.md) propone nuove proprietà per i componenti correnti e [DS-MAP — mappa, marker e lista equivalente](../11_materiale_di_lavoro/Benchmark_UX_UI_e_integrazioni_SNODO.md#3-ds-map-mappa-marker-e-accesso-equivalente-alla-lista). La specifica e le tavole sono materiale di lavoro: DS-MAP è un nome temporaneo, da numerare e inserire nel catalogo e nella corrispondenza IA/DS se adottato. Se adottato, creare varianti native, collegarlo a C05 e aggiornare inventari e verifiche.
+[Pattern e componenti nuovi](Esplorazione_e_recensioni.md) · [Anteprime interattive A/B](Esplorazione_demo.html). DS18 sostituisce il nome temporaneo DS-MAP. DS20 porta una testimonianza nelle card DS06; DS21 gestisce filtri rapidi e distinzione necessario/preferenza; DS22 rende persistente l’azione contestuale della scheda. DS10 mostra il riepilogo dei criteri interpretati prima dell’applicazione.
+
+I renderer `esplorazione.js` / `esplorazione.css` sono condivisi dal catalogo e dal prototipo. Il [benchmark](../11_materiale_di_lavoro/Benchmark_UX_UI_e_integrazioni_SNODO.md) resta la motivazione delle proposte. La libreria HTML è aggiornata; tile statiche, 33 tavole baseline e Figma richiedono un passaggio successivo esplicito.
 
 ## Passaggio alla libreria definitiva
 
-Prima raccogliere il confronto reale delle tile; poi registrare direzione e motivi, applicare eventuali revisioni, aggiornare i token e creare componenti nativi Figma con varianti/Auto Layout. Verificare testi lunghi, frame piccolo, espansione della scheda, scroll, ritorni e controlli. Il confronto visivo non dimostra usabilità o conformità WCAG generale. A può essere usata tecnicamente nel prototipo locale per costruire i flussi, purché sia dichiarata provvisoria e reversibile.
+Pop è la scelta del progettista per sito e prototipo. Raccogliere comunque riscontri reali sulle tile e sui flussi; poi registrare motivi e applicare eventuali revisioni, aggiornare i token e creare componenti nativi Figma con varianti/Auto Layout. Verificare testi lunghi, frame piccolo, espansione della scheda, scroll, ritorni e controlli. Il confronto visivo non dimostra usabilità o conformità WCAG generale. Calda rimane una variante selezionabile.

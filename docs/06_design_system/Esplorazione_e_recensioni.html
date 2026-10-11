@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="it" class="snodo-gate-locked"><head><meta name="robots" content="noindex,nofollow"><style id="snodo-access-critical">html.snodo-gate-locked body{overflow:hidden!important;background:#80EFED!important}html.snodo-gate-locked body>:not(#snodo-access-gate):not(#snodo-access-safety):not(noscript),html.snodo-gate-locked body>:not(#snodo-access-gate):not(#snodo-access-safety):not(noscript) *{visibility:hidden!important;pointer-events:none!important}</style><link rel="stylesheet" href="../accesso/gate.css?v=20261011-minimal"><script src="../accesso/gate.js?v=20261011-minimal" data-snodo-gate></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Esplorazione e recensioni — componenti integrati v0.6 · Tesi UX UI</title><link rel="stylesheet" href="../lettura.css?v=16a9a37ed7fa"><script src="../lettura.js?v=122077ec9eb6" defer></script><link rel="stylesheet" href="../tema-sito.css?v=ac93959cd0ef"><script src="../tema-sito.js?v=5e89b6f89f3f"></script></head>
+<body class="document lavoro"><noscript><div id="snodo-access-safety"><strong>SNODO · materiali della tesi</strong><p>Per usare il gate d’ingresso, attiva JavaScript nel browser e ricarica questa pagina.</p></div></noscript><a class="skip-link" href="#contenuto">Vai al contenuto</a>
+<header class="reader-top"><div class="reader-top-inner"><a class="back-link" href="../Materiale_di_lavoro.html"><span aria-hidden="true">←</span> Materiale di lavoro</a><div class="top-actions" data-snodo-access-actions><a href="index.html">Design system</a><a href="../Indice_consegne.html">Indice dei materiali</a><button type="button" class="print-button" data-print hidden>Stampa</button></div><label class="site-theme-choice"><span>Stile</span><select data-site-theme-control aria-label="Stile del sito"><option value="B">Pop</option><option value="A">Calda · alternativa</option></select></label></div></header>
+<main id="contenuto" class="reader-wrap" tabindex="-1"><header class="document-header"><h1 id="inizio">Esplorazione e recensioni — componenti integrati v0.6</h1><p class="document-meta">Uso operativo · 11 ottobre 2026 · circa 5 min di lettura</p></header><aside class="classification-banner lavoro" aria-label="Destinazione e stato del materiale"><div><span class="status-label">Uso operativo</span><strong>Proposta operativa</strong></div><p>Specifica o guida per sviluppare il progetto. I passaggi da raccontare nella tesi sono raccolti separatamente.</p><p class="classification-detail"><b>Collocazione:</b> Non da integrare come documento intero. Contiene istruzioni, ipotesi o controlli di costruzione; non è un capitolo pronto per la tesi.</p></aside><div class="reading-layout"><article class="prose"><p>11 ottobre 2026. <a href="Esplorazione_demo.html">Prova le anteprime A/B</a> · <a href="../07_prototipo/index.html?screen=S05&amp;place=luogo-roma-01&amp;theme=B">Apri il prototipo</a>.</p>
+<p>Questa revisione porta nel supporto HTML le proposte del benchmark e la richiesta di dare centralità alle recensioni. Catalogo e prototipo usano gli stessi renderer <a href="esplorazione.js" title="Apri il materiale collegato"><code>esplorazione.js</code></a> e <a href="esplorazione.css" title="Apri il materiale collegato"><code>esplorazione.css</code></a>. Le direzioni A/B conservano compiti e quantità di informazioni uguali; nessuna è stata scelta dagli utenti.</p>
+<h2 id="la-recensione-entra-nella-card">La recensione entra nella card</h2>
+<p>DS06 diventa una card compatta con illustrazione, città e zona, nome, prezzo indicativo, rumore contestuale e una preview DS20. Il salvataggio ha un controllo autonomo da 44 px; Apri scheda e Leggi la recensione sono azioni distinte. Non si rende cliccabile tutta la card annidando altri pulsanti.</p>
+<p>La preview presenta il testo della prima testimonianza nel catalogo, autore, data, compagnia e fascia della visita. Il criterio della demo è l’ordine del catalogo: non viene scelta automaticamente la recensione più favorevole. Nella card il testo occupa fino a tre righe, con accesso al racconto completo; in S05 il testo è visibile per intero prima dei grafici. Una visita non descrive tutte le condizioni future del luogo.</p>
+<p>Questo pattern compare in mappa, lista, scheda, salvati e alternative del gruppo. Il catalogo permette di provare anche testo lungo e nessuna recensione. Questi ultimi sono stati di anteprima locali; non alterano i dati dell’app. In mancanza di testimonianze si mostra «Il primo racconto manca ancora», senza aggiungerne una fittizia per riempire la card. Nessun nome, data o contributo della demo attesta una visita reale.</p>
+<h2 id="ds18-mappa-e-lista-equivalente">DS18 — Mappa e lista equivalente</h2>
+<p>DS18 è il nome definitivo del componente precedentemente chiamato DS-MAP. I marker hanno numero stabile all’interno della città, selezione annunciabile, salvataggio e indicazione <code>?</code> per rumore assente. La card porta lo stesso numero; mappa/lista usano lo stesso ID e la stessa ricerca. La selezione viene conservata nei ritorni, se il luogo rispetta ancora i criteri.</p>
+<p>La mappa HTML è schematica. Non usa GPS, coordinate reali, distanze geografiche, pan o ricerca live entro confini. Quando verrà introdotto un SDK, il pattern «Cerca in quest’area» dovrà essere attivato dopo uno spostamento esplicito e applicare gli stessi bounds alla lista. Non è rappresentato da un pulsante inattivo in questa versione.</p>
+<h2 id="ds21-filtri-rapidi-e-regole">DS21 — Filtri rapidi e regole</h2>
+<p>Budget e Rumore sono due controlli rapidi; Filtri mostra il numero di condizioni attive, escludendo città e periodo del dato. Attivare rapidamente Rumore imposta il requisito basso, fino a 2/5. Per cambiare la sua importanza si usa l’editor S04.</p>
+<p class="table-hint" hidden>↔ Scorri la tabella per leggere tutte le colonne.</p><div class="table-wrap" role="region" tabindex="0" aria-label="Tabella 1: DS21 — Filtri rapidi e regole"><table>
+<thead>
+<tr>
+<th scope="col">Regola</th>
+<th scope="col">Corrispondenze</th>
+<th scope="col">Dati mancanti</th>
+<th scope="col">Valori oltre il limite</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Rumore necessario</td>
+<td>Solo valori disponibili entro limite</td>
+<td>Esclusi</td>
+<td>Esclusi</td>
+</tr>
+<tr>
+<td>Rumore preferito</td>
+<td>Primo gruppo</td>
+<td>Gruppo Da verificare</td>
+<td>Gruppo Altre alternative</td>
+</tr>
+</tbody></table>
+</div>
+<p>Budget e all’aperto restano requisiti necessari. Nessuna alternativa oltre la preferenza viene chiamata corrispondenza. Il confronto usa il periodo mostrato nella scheda e valori predisposti; non promette il rumore presente al momento dell’arrivo.</p>
+<p>In S04 i campi modificano una bozza. Applica sostituisce la ricerca; Annulla conserva la ricerca applicata; Azzera azzera solo la bozza, mantenendo città e query. Si può quindi azzerare e poi annullare senza perdere i criteri precedenti. Cambiare città mantiene i criteri dichiarati finché non vengono applicati o azzerati esplicitamente.</p>
+<h2 id="ds22-una-cta-contestuale">DS22 — Una CTA contestuale</h2>
+<p>Nella scheda S05 una sola azione principale rimane sopra la navigazione. Da ricerca personale invita a Proponi al gruppo. Se esiste una proposta della stessa città, il luogo entra tra le alternative senza cancellare partecipanti e risposte. Dal confronto del gruppo la CTA è Preferisco questo luogo: registra una preferenza, poi torna al gruppo. La conferma rimane un’azione distinta.</p>
+<p>Il luogo incompatibile con i requisiti condivisi mantiene la scheda leggibile e mostra il motivo per cui la preferenza non è disponibile. Salva resta un’icona autonoma, Indicazioni e Racconta una visita sono secondarie nel contenuto; in S08 la scrittura torna ad avere il proprio ingresso principale.</p>
+<h2 id="ds10-criteri-prima-dei-consigli">DS10 — Criteri prima dei consigli</h2>
+<p>L’assistente di ricerca presenta criteri, numero di corrispondenze, fonti e limite della demo. Correggi apre una bozza nell’editor; Vedi i luoghi applica solo dopo un gesto dell’utente. Dopo la risposta, il pulsante per interpretare un nuovo messaggio diventa secondario. Nel gruppo l’ingresso AI rimane secondario rispetto alla decisione esplicita. Dalla scheda, l’accesso contestuale mantiene ID e città del luogo e può mostrare la sua testimonianza originale. Un luogo senza recensioni produce una dichiarazione di assenza, non un riepilogo inventato. Revisione prima/dopo, rifiuto, ripristino e invio della recensione mantengono i controlli già presenti.</p>
+<h2 id="come-portare-questi-componenti-in-figma">Come portare questi componenti in Figma</h2>
+<p class="table-hint" hidden>↔ Scorri la tabella per leggere tutte le colonne.</p><div class="table-wrap" role="region" tabindex="0" aria-label="Tabella 2: Come portare questi componenti in Figma"><table>
+<thead>
+<tr>
+<th scope="col">Componente</th>
+<th scope="col">Proprietà e varianti da costruire</th>
+<th scope="col">Regole di Auto Layout</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>DS06 Card luogo</td>
+<td>tema A/B, normale/gruppo, salvato, categoria, dati mancanti</td>
+<td>Larghezza fill, padding 16, gap 12, immagine 76×84; testo flessibile e controllo Salva 44×44</td>
+</tr>
+<tr>
+<td>DS20 Preview recensione</td>
+<td>card/scheda, breve/lunga/assente</td>
+<td>Stack verticale, padding 14–16; citazione non sovrapposta ai metadati; card max 3 righe con ingresso completo</td>
+</tr>
+<tr>
+<td>DS18 Marker</td>
+<td>default/selezionato/salvato/rumore assente</td>
+<td>Target 44×44, badge indipendente dal numero; lista alternativa sempre accessibile</td>
+</tr>
+<tr>
+<td>DS21 Criteri</td>
+<td>attivo/inattivo, necessario/preferenza, conteggio</td>
+<td>Controlli min 44, wrap delle righe; editor separato con Applica/Annulla/Azzera</td>
+</tr>
+<tr>
+<td>DS22 CTA</td>
+<td>personale/gruppo/incompatibile</td>
+<td>Slot persistente sopra nav, min 48; testo del destinatario e motivo se non disponibile</td>
+</tr>
+<tr>
+<td>DS10 Riepilogo AI</td>
+<td>corrispondenze/nessun risultato/correzione</td>
+<td>Criteri e limiti prima delle azioni; una CTA principale; nessuna applicazione automatica</td>
+</tr>
+</tbody></table>
+</div>
+<p>La versione HTML consente di provare gli stati. Le style tile statiche e i 33 wireframe baseline restano le tavole della revisione precedente: non si devono scambiare per rappresentazioni già migrate. Il prossimo passaggio è ricostruire queste composizioni nel file Figma, confrontarle con le due direzioni e verificarle con persone reali. Le verifiche tecniche non sono risultati di ricerca o usabilità.</p>
+<section class="document-end" aria-label="Materiali collegati"><p><a href="Esplorazione_e_recensioni.md" download>Scarica il sorgente Markdown</a></p><p><a href="../Materiale_di_lavoro.html">Torna a materiale di lavoro</a></p></section></article><aside class="toc" aria-label="Indice del documento"><details open><summary>In questa pagina</summary><nav aria-label="Sezioni del documento"><ul><li><a href="#la-recensione-entra-nella-card">La recensione entra nella card</a></li><li><a href="#ds18-mappa-e-lista-equivalente">DS18 — Mappa e lista equivalente</a></li><li><a href="#ds21-filtri-rapidi-e-regole">DS21 — Filtri rapidi e regole</a></li><li><a href="#ds22-una-cta-contestuale">DS22 — Una CTA contestuale</a></li><li><a href="#ds10-criteri-prima-dei-consigli">DS10 — Criteri prima dei consigli</a></li><li><a href="#come-portare-questi-componenti-in-figma">Come portare questi componenti in Figma</a></li></ul></nav></details></aside></div><nav class="next-documents" aria-label="Altri documenti della stessa raccolta"><a href="../11_materiale_di_lavoro/Benchmark_UX_UI_e_integrazioni_SNODO.html"><small>← Documento precedente</small><strong>Benchmark UX/UI e integrazioni per SNODO</strong></a><a class="next" href="../Materiale_di_lavoro.html"><small>Torna alla raccolta →</small><strong>Materiale di lavoro</strong></a></nav></main>
+</body></html>

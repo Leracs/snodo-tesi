@@ -1,5 +1,5 @@
 {
-  "version": "0.1",
+  "version": "0.2",
   "status": "provisional",
   "source_IA": "03_architettura/Componenti.csv",
   "mapping": [
@@ -31,9 +31,10 @@
       "nome_IA": "Criteri attivi",
       "id_IA": "C04",
       "id_DS": [
-        "DS03"
+        "DS03",
+        "DS21"
       ],
-      "tipo": "composizione_specificata_non_istanziata"
+      "tipo": "composizione_HTML_implementata_non_Figma"
     },
     {
       "nome_IA": "Mappa e selezione",
@@ -41,26 +42,30 @@
       "id_DS": [
         "DS11",
         "DS06",
-        "DS04"
+        "DS04",
+        "DS18"
       ],
-      "tipo": "composizione_specificata_non_istanziata"
+      "tipo": "composizione_HTML_implementata_non_Figma"
     },
     {
       "nome_IA": "Card luogo",
       "id_IA": "C06",
       "id_DS": [
-        "DS06"
+        "DS06",
+        "DS20"
       ],
-      "tipo": "composizione_specificata_non_istanziata"
+      "tipo": "composizione_HTML_implementata_non_Figma"
     },
     {
       "nome_IA": "Controlli lista",
       "id_IA": "C07",
       "id_DS": [
         "DS01",
-        "DS03"
+        "DS03",
+        "DS18",
+        "DS21"
       ],
-      "tipo": "composizione_specificata_non_istanziata"
+      "tipo": "composizione_HTML_implementata_non_Figma"
     },
     {
       "nome_IA": "Filtri",
@@ -68,17 +73,19 @@
       "id_DS": [
         "DS02",
         "DS03",
-        "DS01"
+        "DS01",
+        "DS21"
       ],
-      "tipo": "composizione_specificata_non_istanziata"
+      "tipo": "composizione_HTML_implementata_non_Figma"
     },
     {
       "nome_IA": "Scheda/pannello",
       "id_IA": "C09",
       "id_DS": [
-        "DS11"
+        "DS11",
+        "DS22"
       ],
-      "tipo": "composizione_specificata_non_istanziata"
+      "tipo": "composizione_HTML_implementata_non_Figma"
     },
     {
       "nome_IA": "Informazioni pratiche",
@@ -93,9 +100,10 @@
       "nome_IA": "Azioni luogo",
       "id_IA": "C11",
       "id_DS": [
-        "DS01"
+        "DS01",
+        "DS22"
       ],
-      "tipo": "composizione_specificata_non_istanziata"
+      "tipo": "composizione_HTML_implementata_non_Figma"
     },
     {
       "nome_IA": "Atmosfera contestuale",
@@ -121,9 +129,10 @@
       "nome_IA": "Card recensione",
       "id_IA": "C14",
       "id_DS": [
-        "DS09"
+        "DS09",
+        "DS20"
       ],
-      "tipo": "composizione_specificata_non_istanziata"
+      "tipo": "composizione_HTML_implementata_non_Figma"
     },
     {
       "nome_IA": "Origine/limiti del dato",
@@ -168,9 +177,10 @@
       "id_DS": [
         "DS10",
         "DS06",
-        "DS07"
+        "DS07",
+        "DS20"
       ],
-      "tipo": "composizione_specificata_non_istanziata"
+      "tipo": "composizione_HTML_implementata_non_Figma"
     },
     {
       "nome_IA": "Elenco proposte",
@@ -222,9 +232,10 @@
       "id_IA": "C25",
       "id_DS": [
         "DS12",
-        "DS06"
+        "DS06",
+        "DS20"
       ],
-      "tipo": "composizione_specificata_non_istanziata"
+      "tipo": "composizione_HTML_implementata_non_Figma"
     },
     {
       "nome_IA": "Commenti nella proposta",
@@ -315,9 +326,10 @@
       "id_DS": [
         "DS06",
         "DS15",
-        "DS01"
+        "DS01",
+        "DS20"
       ],
-      "tipo": "composizione_specificata_non_istanziata"
+      "tipo": "composizione_HTML_implementata_non_Figma"
     },
     {
       "nome_IA": "Profilo e bozze",

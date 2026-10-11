@@ -1,21 +1,23 @@
 <!doctype html>
 <html lang="it" class="snodo-gate-locked">
-<head><meta name="robots" content="noindex,nofollow"><style id="snodo-access-critical">html.snodo-gate-locked body{overflow:hidden!important;background:#F7F1E8!important}html.snodo-gate-locked body>:not(#snodo-access-gate):not(#snodo-access-safety):not(noscript),html.snodo-gate-locked body>:not(#snodo-access-gate):not(#snodo-access-safety):not(noscript) *{visibility:hidden!important;pointer-events:none!important}</style><link rel="stylesheet" href="../accesso/gate.css?v=20261011-minimal"><script src="../accesso/gate.js?v=20261011-minimal" data-snodo-gate></script>
+<head><meta name="robots" content="noindex,nofollow"><style id="snodo-access-critical">html.snodo-gate-locked body{overflow:hidden!important;background:#80EFED!important}html.snodo-gate-locked body>:not(#snodo-access-gate):not(#snodo-access-safety):not(noscript),html.snodo-gate-locked body>:not(#snodo-access-gate):not(#snodo-access-safety):not(noscript) *{visibility:hidden!important;pointer-events:none!important}</style><link rel="stylesheet" href="../accesso/gate.css?v=20261011-minimal"><script src="../accesso/gate.js?v=20261011-minimal" data-snodo-gate></script>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <title>SNODO — supporto interattivo di progetto</title>
-  <link rel="stylesheet" href="../06_design_system/tokens_A.css?v=bbafde42627b"><link rel="stylesheet" href="../06_design_system/tokens_B.css?v=d239690954d0"><link rel="stylesheet" href="app.css?v=a6253c0f3f9c">
+  <link rel="stylesheet" href="../06_design_system/tokens_A.css?v=f7f9467711da"><link rel="stylesheet" href="../06_design_system/tokens_B.css?v=cada0f36d4a6"><link rel="stylesheet" href="app.css?v=541352855ee0">
   <link rel="stylesheet" href="../06_design_system/atmosfera-affluenza.css?v=b442faeb9aec">
-  <script src="../06_design_system/atmosfera-affluenza.js?v=662cf167cef5" defer></script>
-  <script src="catalogo.js?v=341909daa157" defer></script><script src="core.js?v=e7d22c3d6132" defer></script><script src="app.js?v=213c8909859d" defer></script>
-</head>
-<body data-theme="A"><noscript><div id="snodo-access-safety"><strong>SNODO · materiali della tesi</strong><p>Per usare il gate d’ingresso, attiva JavaScript nel browser e ricarica questa pagina.</p></div></noscript>
+  <script src="../06_design_system/atmosfera-affluenza.js?v=903fbe9f3d16" defer></script>
+  <link rel="stylesheet" href="../06_design_system/esplorazione.css?v=148cdde803e9">
+  <script src="../06_design_system/esplorazione.js?v=42d46d5b539e" defer></script>
+  <script src="catalogo.js?v=341909daa157" defer></script><script src="core.js?v=fd47192e9241" defer></script><script src="app.js?v=f43bf2d769cf" defer></script>
+<link rel="stylesheet" href="../tema-sito.css?v=ac93959cd0ef"><script src="../tema-sito.js?v=5e89b6f89f3f"></script></head>
+<body data-theme="B"><noscript><div id="snodo-access-safety"><strong>SNODO · materiali della tesi</strong><p>Per usare il gate d’ingresso, attiva JavaScript nel browser e ricarica questa pagina.</p></div></noscript>
   <nav class="site-nav" aria-label="Navigazione dei materiali">
     <a href="../Indice_consegne.html"><span aria-hidden="true">←</span> Indice dei materiali</a>
   </nav>
   <aside class="workbench" aria-label="Controlli della dimostrazione">
     <h1>SNODO <span>nome provvisorio</span></h1>
     <p>Un supporto per percorrere l’architettura. Luoghi, informazioni, AI e risposte degli amici sono simulati. Non è il prototipo Figma.</p>
-    <div class="controls"><label>Direzione provvisoria <select id="theme"><option value="A">A · Calda editoriale</option><option value="B">B · Pop pastello</option></select></label><button id="reset">Riparti</button></div>
+    <div class="controls"><label>Direzione visiva <select id="theme"><option value="B">Pop · principale</option><option value="A">Calda · alternativa</option></select></label><button id="reset">Riparti</button></div>
     <details><summary>Scenari e controlli di simulazione</summary><div class="scenario-buttons">
       <button data-sim="individual">Scelta individuale</button><button data-sim="group">Scelta con amici</button><button data-sim="review">Recensione</button>
       <button data-sim="chiara-accept">Chiara: accetta l’invito</button><button data-sim="friends-accept">Amici: accettano l’invito</button><button data-sim="friends-confirm">Amici: confermano il luogo</button>
@@ -27,6 +29,7 @@
   </aside>
   <div class="device"><div class="statusbar" aria-hidden="true"><span>9:41</span><span>● ▰</span></div>
     <main id="app" aria-label="Applicazione dimostrativa" tabindex="-1"></main>
+    <div id="place-dock" aria-label="Azione principale del luogo"></div>
     <nav id="nav" aria-label="Navigazione principale"></nav>
     <div id="toast" role="status" aria-live="polite"></div>
   </div>

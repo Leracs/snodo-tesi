@@ -148,9 +148,28 @@ button.chip.neutral { background: var(--surface); color: var(--muted); border-co
 .geo button { display: block; text-align: left; border: 0; background: transparent; padding: 0; min-height: 44px; font-size: 16px; font-weight: bold; }
 .geo small { display: block; font-weight: normal; color: var(--muted); font-size: 12px; line-height: 1.5; margin-top: 2px; }
 .geo > .meta { font-size: 12px; }
-.searchbar { display: flex; gap: 8px; align-items: stretch; margin: 18px 0; }
-.searchbar button { justify-content: flex-start; flex: 1; min-width: 0; min-height: 52px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-field, 12px); padding: 12px 14px; text-align: left; font-size: 16px; font-weight: normal; line-height: 1.4; color: var(--muted); }
-.searchbar .filter { flex: 0 0 64px; display: grid; place-items: center; text-align: center; padding: 8px; font-size: 16px; font-weight: bold; color: var(--text); }
+.searchbar {
+  display: flex; align-items: center; gap: 8px; min-width: 0; height: 56px;
+  margin: 18px 0; padding: 5px 5px 5px 14px; background: var(--surface);
+  border: 1px solid var(--border); border-radius: var(--radius-field, 12px);
+}
+.searchbar:focus-within { border-color: var(--focus); box-shadow: 0 0 0 2px var(--focus); }
+.searchbar > svg { width: 20px; height: 20px; flex: 0 0 20px; color: var(--muted); }
+.searchbar input {
+  flex: 1 1 0; min-width: 0; width: 0; height: 44px; padding: 0;
+  border: 0; border-radius: 0; background: transparent; color: var(--text);
+  font-size: 16px; line-height: 1.4;
+}
+.searchbar input:focus-visible { outline: none; }
+.searchbar input::placeholder { color: var(--muted); opacity: 1; }
+.searchbar .search-submit {
+  flex: 0 0 auto; min-width: 64px; height: 44px; min-height: 44px; padding: 0 12px;
+  border: 0; border-radius: calc(var(--radius-field, 12px) - 5px);
+  background: var(--primary); color: var(--onPrimary, #fff); font-size: 14px;
+  font-weight: bold; line-height: 1;
+}
+.searchbar .search-submit:hover { background: var(--primary-hover); }
+.search-label { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .map { height: 292px; position: relative; overflow: hidden; background: #ECE7DD; border: 1px solid var(--divider); border-radius: var(--radius); margin: 18px 0; }
 .map-art { position: absolute; height: 100%; width: 100%; }
 .map-pin { position: absolute; z-index: 1; display: grid; place-items: center; width: 44px; height: 44px; border: 2px solid var(--surface); border-radius: 24px; padding: 0; background: var(--primary); color: var(--onPrimary, #FFF); font-size: 16px; font-weight: bold; box-shadow: 0 3px 8px #22222218; }
@@ -268,8 +287,7 @@ body[data-theme="B"] .field input, body[data-theme="B"] .field select, body[data
 body[data-theme="B"] .chip { border-radius: var(--radius-passive-tag, 14px); background: var(--surfaceMuted); color: var(--text); }
 body[data-theme="B"] button.chip { border: 1.5px solid var(--border); border-radius: 22px; background: var(--pop-green); }
 body[data-theme="B"] button.chip.neutral { background: var(--surface); border-color: var(--divider); color: var(--muted); }
-body[data-theme="B"] .searchbar button { border-width: 1.5px; border-radius: var(--radius-field, 18px); }
-body[data-theme="B"] .searchbar .filter { background: var(--pop-green); }
+body[data-theme="B"] .searchbar { border-width: 1.5px; }
 body[data-theme="B"] .map-art > rect:first-child { fill: #F1F2EE; }
 body[data-theme="B"] .map-art > path:first-of-type { stroke: #D2E8E5; }
 body[data-theme="B"] .map-art > path:nth-of-type(2) { stroke: #FFF; }

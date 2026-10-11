@@ -10,6 +10,8 @@ GitHub Pages pubblica `docs` dal ramo `codex/pubblicazione`. Il file `.nojekyll`
 
 La sezione `docs/06_design_system/index.html` raccoglie le componenti, gli stati, i token e le anteprime A/B. È collegata dalla navigazione principale e dalla Home. Atmosfera e Affluenza riusano lo stesso codice delle schermate S05/S06 del prototipo; la libreria apre direttamente la schermata, il luogo e il tema selezionati.
 
+Pop (B) è la direzione principale del sito, del catalogo e del prototipo; Calda (A) rimane alternativa. La scelta Stile si conserva tra le pagine. La sezione `#download-svg` offre 122 SVG dei componenti e delle varianti, anche in un archivio ZIP. Ogni scheda e il playground hanno un download coerente con il tema selezionato.
+
 Il catalogo è generato da `Componenti_e_comportamenti.json` tramite `docs/06_design_system/costruisci_catalogo.mjs`. La guida per estenderlo è in `docs/06_design_system/Guida_catalogo.md`.
 
 La pubblicazione avviene quando le modifiche di `docs` raggiungono il ramo `codex/pubblicazione`. Il ramo di lavoro può essere pushato e revisionato prima di aggiornare quel ramo.

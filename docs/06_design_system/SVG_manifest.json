@@ -1,0 +1,1227 @@
+{
+  "default_theme": "B",
+  "format": "native_SVG_shapes_and_editable_text",
+  "font": "Boldonse embedded under OFL; body fonts use system fallbacks",
+  "entries": [
+    {
+      "id": "DS01",
+      "name": "Pulsante",
+      "theme": "B",
+      "variant": "Primario",
+      "file": "svg/DS01-B-primario.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "be8fee914bfd779af2a841e1b680b31109f2d224ded3d1c32f7c5cd3983cb94d"
+    },
+    {
+      "id": "DS01",
+      "name": "Pulsante",
+      "theme": "B",
+      "variant": "Secondario",
+      "file": "svg/DS01-B-secondario.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "50a9d15ba3e38b7ed02a44ce2ef555d17afa9dab58382513e906be6440b416b5"
+    },
+    {
+      "id": "DS01",
+      "name": "Pulsante",
+      "theme": "B",
+      "variant": "Caricamento",
+      "file": "svg/DS01-B-caricamento.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "d8b1947ca50dac04469c8e4c9dec529eca32e28a21ff6cbf7a7d0bb990726aea"
+    },
+    {
+      "id": "DS01",
+      "name": "Pulsante",
+      "theme": "B",
+      "variant": "Disabilitato",
+      "file": "svg/DS01-B-disabilitato.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "2e203f055eb1d134dc82a6faec778c689129ef52b200e04dcceab85c5c983cba"
+    },
+    {
+      "id": "DS02",
+      "name": "Campo e ricerca",
+      "theme": "B",
+      "variant": "Compilato",
+      "file": "svg/DS02-B-compilato.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "4153aab9557a1681f809d63ed63e1196e6c50461bb3d2550362730f107a86ff3"
+    },
+    {
+      "id": "DS02",
+      "name": "Campo e ricerca",
+      "theme": "B",
+      "variant": "Vuoto",
+      "file": "svg/DS02-B-vuoto.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "d0d9c81a84d9260e84156a4406e093dc8097d9ace0d6195d714555a5b8f950fd"
+    },
+    {
+      "id": "DS02",
+      "name": "Campo e ricerca",
+      "theme": "B",
+      "variant": "Errore",
+      "file": "svg/DS02-B-errore.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "98a4ff91ef4f0141da1a00c2efc2e6c551a3f008107d263fbea9cab9643b9f6e"
+    },
+    {
+      "id": "DS03",
+      "name": "Tag / criterio",
+      "theme": "B",
+      "variant": "Selezionato",
+      "file": "svg/DS03-B-selezionato.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "237091e385e7de26e627ab05468fd4825c87bc0cbbd2737a21002bf2d339b490"
+    },
+    {
+      "id": "DS03",
+      "name": "Tag / criterio",
+      "theme": "B",
+      "variant": "Non selezionato",
+      "file": "svg/DS03-B-non-selezionato.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "857547afe9e1115382ee699c9ab7593ae49aa98fcb8403be6b3d97ad098442da"
+    },
+    {
+      "id": "DS04",
+      "name": "Navigazione",
+      "theme": "B",
+      "variant": "Esplora",
+      "file": "svg/DS04-B-esplora.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "4756ca9d20d33eb1c1b8dc57e78e1ed5af685b0a3a25d55da1a982d3fb42c20d"
+    },
+    {
+      "id": "DS04",
+      "name": "Navigazione",
+      "theme": "B",
+      "variant": "Salvati",
+      "file": "svg/DS04-B-salvati.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "8480f0163cba4ea378a00f04c5a16ba5c029ff9e8217679d62cabbcfd5b56f35"
+    },
+    {
+      "id": "DS05",
+      "name": "Contesto città/zona",
+      "theme": "B",
+      "variant": "Corrente",
+      "file": "svg/DS05-B-corrente.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "29b12e31639feaa67ac78c192fe6ed0ea3749b4cbb0314db2256b33e6573b756"
+    },
+    {
+      "id": "DS05",
+      "name": "Contesto città/zona",
+      "theme": "B",
+      "variant": "Posizione negata",
+      "file": "svg/DS05-B-posizione-negata.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "6879f8f7a1703bde1ed5a17f27ed34a1f821145ba9db01c87c456379e5693606"
+    },
+    {
+      "id": "DS06",
+      "name": "Card luogo",
+      "theme": "B",
+      "variant": "Standard",
+      "file": "svg/DS06-B-standard.svg",
+      "width": 390,
+      "height": 552,
+      "sha256": "f010cc6354876c3e33a19adc69ea57e4eec31e8f00337e30a2fc5099a9f3f03c"
+    },
+    {
+      "id": "DS06",
+      "name": "Card luogo",
+      "theme": "B",
+      "variant": "Nessuna recensione",
+      "file": "svg/DS06-B-nessuna-recensione.svg",
+      "width": 390,
+      "height": 446,
+      "sha256": "a4a10b9c324f1dba7534c7d676a5cfed069b0897e7b5302c6e95999fe32a8ec0"
+    },
+    {
+      "id": "DS07",
+      "name": "Provenienza",
+      "theme": "B",
+      "variant": "Disponibile",
+      "file": "svg/DS07-B-disponibile.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "7f0207405ca1a677746e4ef010d4b7509f557f5e1c1ad28d696bbe88045f6224"
+    },
+    {
+      "id": "DS07",
+      "name": "Provenienza",
+      "theme": "B",
+      "variant": "Mancante",
+      "file": "svg/DS07-B-mancante.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "3a04332f2ef6d027d6e1cd8cab80c95f39dc8519bc1191fd5153b3801bb9b40a"
+    },
+    {
+      "id": "DS07",
+      "name": "Provenienza",
+      "theme": "B",
+      "variant": "Vecchio",
+      "file": "svg/DS07-B-vecchio.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "d5df519aa8534324274462bf81699799c852db209f4bd0797288c376f88dd20a"
+    },
+    {
+      "id": "DS08",
+      "name": "Atmosfera",
+      "theme": "B",
+      "variant": "Dati limitati",
+      "file": "svg/DS08-B-dati-limitati.svg",
+      "width": 390,
+      "height": 272,
+      "sha256": "c0005d8b499a1f5c103928a14a45917ffba43497df38a1aac91490edcd6bf304"
+    },
+    {
+      "id": "DS08",
+      "name": "Atmosfera",
+      "theme": "B",
+      "variant": "Dati assenti",
+      "file": "svg/DS08-B-dati-assenti.svg",
+      "width": 390,
+      "height": 272,
+      "sha256": "bbb8e63617269231e92bbfb86dfe0a438aa7335da6b2dade87db14be03d06e91"
+    },
+    {
+      "id": "DS09",
+      "name": "Recensione",
+      "theme": "B",
+      "variant": "Breve",
+      "file": "svg/DS09-B-breve.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "2b3e2e57e3702d5451999eea5c2b26e4404bb67ef48f8f0c5bb5b429f6885094"
+    },
+    {
+      "id": "DS09",
+      "name": "Recensione",
+      "theme": "B",
+      "variant": "Senza testo",
+      "file": "svg/DS09-B-senza-testo.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "8c6b49df682882fc823c97fe6e0b5a808a63ff714637c012a063c00504403717"
+    },
+    {
+      "id": "DS10",
+      "name": "Messaggio AI",
+      "theme": "B",
+      "variant": "Risposta",
+      "file": "svg/DS10-B-risposta.svg",
+      "width": 390,
+      "height": 381,
+      "sha256": "fd97ed7cdda73a5b6cc8a2672ceafb19e0333c2bcdc9392d2b951506f4939c65"
+    },
+    {
+      "id": "DS10",
+      "name": "Messaggio AI",
+      "theme": "B",
+      "variant": "Attesa",
+      "file": "svg/DS10-B-attesa.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "dbeb9f247f7efbbf7bbd23401b48c8a65b5e664e1da3993bfda1d54c300c3f24"
+    },
+    {
+      "id": "DS10",
+      "name": "Messaggio AI",
+      "theme": "B",
+      "variant": "Nessun risultato",
+      "file": "svg/DS10-B-nessun-risultato.svg",
+      "width": 390,
+      "height": 405,
+      "sha256": "6f51de28f92c9381179ec4f2f7dd5bb515fc5419ec925185b1a0f9574245b3ac"
+    },
+    {
+      "id": "DS11",
+      "name": "Scheda/pannello",
+      "theme": "B",
+      "variant": "Intermedio",
+      "file": "svg/DS11-B-intermedio.svg",
+      "width": 390,
+      "height": 258,
+      "sha256": "6fc6b8b20c7dd7323c4b424f1b13fc866db40c8a7e0aebb1e63732d317d3f509"
+    },
+    {
+      "id": "DS11",
+      "name": "Scheda/pannello",
+      "theme": "B",
+      "variant": "Ridotto",
+      "file": "svg/DS11-B-ridotto.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "544e9e345228b530c68060e8ef056e7c2b84a2002d7f23f63dabcf2e1fc452a0"
+    },
+    {
+      "id": "DS12",
+      "name": "Proposta gruppo",
+      "theme": "B",
+      "variant": "Proposto",
+      "file": "svg/DS12-B-proposto.svg",
+      "width": 390,
+      "height": 198,
+      "sha256": "e2343e4c64576e8078574d075c8c8863e8f32d014fa981a05f24a16a3caf214a"
+    },
+    {
+      "id": "DS12",
+      "name": "Proposta gruppo",
+      "theme": "B",
+      "variant": "Concordato",
+      "file": "svg/DS12-B-concordato.svg",
+      "width": 390,
+      "height": 198,
+      "sha256": "58b28810e3551db22180f095117bfdc8b6351e0a57e6da2e91e68a6ff57a120d"
+    },
+    {
+      "id": "DS12",
+      "name": "Proposta gruppo",
+      "theme": "B",
+      "variant": "Da rivedere",
+      "file": "svg/DS12-B-da-rivedere.svg",
+      "width": 390,
+      "height": 198,
+      "sha256": "2a843e24bbbf1f38c7019ce2c3d49854f2239a0630f703e9ed3203f33802cdc8"
+    },
+    {
+      "id": "DS13",
+      "name": "Bozza recensione / confronto",
+      "theme": "B",
+      "variant": "Bozza",
+      "file": "svg/DS13-B-bozza.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "9e37f69a7434a47d55896a869eca27650d9897233a907eb373aadb4881ceb6d0"
+    },
+    {
+      "id": "DS13",
+      "name": "Bozza recensione / confronto",
+      "theme": "B",
+      "variant": "Proposta",
+      "file": "svg/DS13-B-proposta.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "f2be60b1f2be6f089b20ce0dc8c3821046e4b73bbacae4d98e425bfea329f9fb"
+    },
+    {
+      "id": "DS14",
+      "name": "Feedback",
+      "theme": "B",
+      "variant": "Conferma",
+      "file": "svg/DS14-B-conferma.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "cbe4c1a1f1466cb68fa64e06a23001af1f958841728a2578e396087742e56caa"
+    },
+    {
+      "id": "DS14",
+      "name": "Feedback",
+      "theme": "B",
+      "variant": "Avviso",
+      "file": "svg/DS14-B-avviso.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "df1e5d7655dc08f0c2e6e7a7f58c3bc2b1c186d0878baf714743e0c84c0c1810"
+    },
+    {
+      "id": "DS14",
+      "name": "Feedback",
+      "theme": "B",
+      "variant": "Errore",
+      "file": "svg/DS14-B-errore.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "41e406ad3b20e905b85ba0550144579886a4b80fb60ea25d836d552a6ac79650"
+    },
+    {
+      "id": "DS15",
+      "name": "Vuoto / errore recuperabile",
+      "theme": "B",
+      "variant": "Vuoto",
+      "file": "svg/DS15-B-vuoto.svg",
+      "width": 390,
+      "height": 204,
+      "sha256": "59ad0aa91706a0df7f620a9316548c28ba466e4c324e755856763b9657416c21"
+    },
+    {
+      "id": "DS15",
+      "name": "Vuoto / errore recuperabile",
+      "theme": "B",
+      "variant": "Errore",
+      "file": "svg/DS15-B-errore.svg",
+      "width": 390,
+      "height": 204,
+      "sha256": "c02414001fbf4ad6a0452a68f7572e947c46c30617922da46d2a9fd53db74785"
+    },
+    {
+      "id": "DS16",
+      "name": "Dialogo / uscita esterna",
+      "theme": "B",
+      "variant": "Uscita esterna",
+      "file": "svg/DS16-B-uscita-esterna.svg",
+      "width": 390,
+      "height": 214,
+      "sha256": "b7b805e80545fb63434e8f6f02655db318edcc021f92b694a8d5daf513409131"
+    },
+    {
+      "id": "DS16",
+      "name": "Dialogo / uscita esterna",
+      "theme": "B",
+      "variant": "App assente",
+      "file": "svg/DS16-B-app-assente.svg",
+      "width": 390,
+      "height": 190,
+      "sha256": "8f79973b02d80696754e3b89f47459398223821d56d339acc97fabe12a8b8ea4"
+    },
+    {
+      "id": "DS17",
+      "name": "Media / galleria",
+      "theme": "B",
+      "variant": "Caricata",
+      "file": "svg/DS17-B-caricata.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "02b0141ade48f41f656412596a6b732c9ae484d4a7d1c732105beeeefa0494ef"
+    },
+    {
+      "id": "DS17",
+      "name": "Media / galleria",
+      "theme": "B",
+      "variant": "Assente",
+      "file": "svg/DS17-B-assente.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "231fd9d865230dd0e181140b867d078333c4d54765a261a3c23e117616d475ea"
+    },
+    {
+      "id": "DS18",
+      "name": "Mappa, marker e lista equivalente",
+      "theme": "B",
+      "variant": "Default",
+      "file": "svg/DS18-B-default.svg",
+      "width": 390,
+      "height": 352,
+      "sha256": "1efa85a2c19183fedfdf2456fb13d5903f45c072bcfb970b337f1b768ca2d253"
+    },
+    {
+      "id": "DS18",
+      "name": "Mappa, marker e lista equivalente",
+      "theme": "B",
+      "variant": "Selezionato",
+      "file": "svg/DS18-B-selezionato.svg",
+      "width": 390,
+      "height": 352,
+      "sha256": "ed0d3b62e68489f878bffced199b3e6555d88beb61dda6e5fd327161233181a2"
+    },
+    {
+      "id": "DS18",
+      "name": "Mappa, marker e lista equivalente",
+      "theme": "B",
+      "variant": "Salvato",
+      "file": "svg/DS18-B-salvato.svg",
+      "width": 390,
+      "height": 352,
+      "sha256": "aab62bb5736cd9f4a62b84785380f0cb63077bc5e1c02ff8590cf16d9bf23eec"
+    },
+    {
+      "id": "DS18",
+      "name": "Mappa, marker e lista equivalente",
+      "theme": "B",
+      "variant": "Rumore assente",
+      "file": "svg/DS18-B-rumore-assente.svg",
+      "width": 390,
+      "height": 352,
+      "sha256": "ef94fd47a9914cd32d73284c0c01e809ef798e091821a1bb9b331c08ff73a077"
+    },
+    {
+      "id": "DS19",
+      "name": "Affluenza per fasce",
+      "theme": "B",
+      "variant": "Dati limitati",
+      "file": "svg/DS19-B-dati-limitati.svg",
+      "width": 390,
+      "height": 346,
+      "sha256": "a1683cd67b0d786461106e056432a453b05ef3beffbfa2d50ef350b71118a864"
+    },
+    {
+      "id": "DS19",
+      "name": "Affluenza per fasce",
+      "theme": "B",
+      "variant": "Fascia assente il lunedì",
+      "file": "svg/DS19-B-fascia-assente-il-lunedi.svg",
+      "width": 390,
+      "height": 346,
+      "sha256": "2115ab383185081b0b5f7988d3fb1c46a31c10748014115ab91061c2dba9db89"
+    },
+    {
+      "id": "DS19",
+      "name": "Affluenza per fasce",
+      "theme": "B",
+      "variant": "Dati assenti",
+      "file": "svg/DS19-B-dati-assenti.svg",
+      "width": 390,
+      "height": 350,
+      "sha256": "9f1fbac3b14467fddae7dac04cc576f467c8b836a5db015c99df802fea5207e8"
+    },
+    {
+      "id": "DS20",
+      "name": "Preview della recensione",
+      "theme": "B",
+      "variant": "Disponibile",
+      "file": "svg/DS20-B-disponibile.svg",
+      "width": 390,
+      "height": 245,
+      "sha256": "41cadb33edc160e066e4f0186c0ea5cb79f1058ef61faf2af37fe815895cad6f"
+    },
+    {
+      "id": "DS20",
+      "name": "Preview della recensione",
+      "theme": "B",
+      "variant": "Testo lungo",
+      "file": "svg/DS20-B-testo-lungo.svg",
+      "width": 390,
+      "height": 293,
+      "sha256": "1078def5417d99df4e31e451ab7867e18be39637df08e6ae76c837923bcdda33"
+    },
+    {
+      "id": "DS20",
+      "name": "Preview della recensione",
+      "theme": "B",
+      "variant": "Nessuna recensione",
+      "file": "svg/DS20-B-nessuna-recensione.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "914c3c7f3feb9d1a6e9e66fd2082d7e333af5a6ad48e89d3a2d29a53c1c7f2fd"
+    },
+    {
+      "id": "DS21",
+      "name": "Filtri rapidi e regola del criterio",
+      "theme": "B",
+      "variant": "Non selezionato",
+      "file": "svg/DS21-B-non-selezionato.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "75e1ac48a1894578452afcc377299b23e9c7b008a779eed062cef133b4076402"
+    },
+    {
+      "id": "DS21",
+      "name": "Filtri rapidi e regola del criterio",
+      "theme": "B",
+      "variant": "Requisito",
+      "file": "svg/DS21-B-requisito.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "9e3767b10346c52c6f3365a234ed70cdba4795eab32bfe87fac702794ac1d5f0"
+    },
+    {
+      "id": "DS21",
+      "name": "Filtri rapidi e regola del criterio",
+      "theme": "B",
+      "variant": "Preferenza",
+      "file": "svg/DS21-B-preferenza.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "76cffbd6cd650a849c6c9bdd576fb8ff6480586f7dd9184a6d72c05ac3d5e45e"
+    },
+    {
+      "id": "DS22",
+      "name": "Azione contestuale della scheda",
+      "theme": "B",
+      "variant": "Proponi al gruppo",
+      "file": "svg/DS22-B-proponi-al-gruppo.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "00b8544aea83fbca850933106ca4720b864fc7cb05bc1084aeb6a30cc15a32fe"
+    },
+    {
+      "id": "DS22",
+      "name": "Azione contestuale della scheda",
+      "theme": "B",
+      "variant": "Preferenza nel gruppo",
+      "file": "svg/DS22-B-preferenza-nel-gruppo.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "ce25d01e6831932bf40e3b8b2fce1816e01a0c4552b068418907353a61529152"
+    },
+    {
+      "id": "DS22",
+      "name": "Azione contestuale della scheda",
+      "theme": "B",
+      "variant": "Incompatibile",
+      "file": "svg/DS22-B-incompatibile.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "98a405c0cd8ee128c1dcc05cae712a11db42923398764f10013ce64e8a2097a9"
+    },
+    {
+      "id": "DS08-DS19",
+      "name": "Atmosfera e affluenza",
+      "theme": "B",
+      "variant": "Dati limitati",
+      "file": "svg/DS08-DS19-B-dati-limitati.svg",
+      "width": 390,
+      "height": 616,
+      "sha256": "bf00ba8642780c901182821b666253e9782aae3bdbc71cbf2ae9ab9091e4f100"
+    },
+    {
+      "id": "DS08-DS19",
+      "name": "Atmosfera e affluenza",
+      "theme": "B",
+      "variant": "Fascia assente il lunedì",
+      "file": "svg/DS08-DS19-B-fascia-assente-il-lunedi.svg",
+      "width": 390,
+      "height": 616,
+      "sha256": "5d39e88a607134ff918443da9d201314ae649582e96bfb6227ca9811d01ff03d"
+    },
+    {
+      "id": "DS08-DS19",
+      "name": "Atmosfera e affluenza",
+      "theme": "B",
+      "variant": "Dati assenti",
+      "file": "svg/DS08-DS19-B-dati-assenti.svg",
+      "width": 390,
+      "height": 620,
+      "sha256": "30faa8f812f899bd6070908091e3a1bc652788a1cdb284e1850d3c5334aa98c1"
+    },
+    {
+      "id": "DS19",
+      "name": "Selettore del giorno",
+      "theme": "B",
+      "variant": "Selettore giorno",
+      "file": "svg/DS19-B-selettore-giorno.svg",
+      "width": 390,
+      "height": 452,
+      "sha256": "1ad120dd28cfead8db44d87f919d90b647de88cc206f79afeec4805b00b8f81f"
+    },
+    {
+      "id": "DS01",
+      "name": "Pulsante",
+      "theme": "A",
+      "variant": "Primario",
+      "file": "svg/DS01-A-primario.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "b876dad850e8515aaef4432ac81f815d89c2f8d8a07a3164ee435d255f6d920b"
+    },
+    {
+      "id": "DS01",
+      "name": "Pulsante",
+      "theme": "A",
+      "variant": "Secondario",
+      "file": "svg/DS01-A-secondario.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "018ff9aa0e3e60586db7dc57de7121d3ba2a811d53175ed075c7aaf345ec7876"
+    },
+    {
+      "id": "DS01",
+      "name": "Pulsante",
+      "theme": "A",
+      "variant": "Caricamento",
+      "file": "svg/DS01-A-caricamento.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "e3e70ac63ea89ecafb9b75f0dc3c84fd9464891d97207586122e595a5a362289"
+    },
+    {
+      "id": "DS01",
+      "name": "Pulsante",
+      "theme": "A",
+      "variant": "Disabilitato",
+      "file": "svg/DS01-A-disabilitato.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "260b4994b17c8e3425e526464a6c1b250067337ebb21be3ed76c83e274215d5f"
+    },
+    {
+      "id": "DS02",
+      "name": "Campo e ricerca",
+      "theme": "A",
+      "variant": "Compilato",
+      "file": "svg/DS02-A-compilato.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "e132173449ca795814a250ae0119b2cf22edeacebd969c0a6c9cd1af07fc8e56"
+    },
+    {
+      "id": "DS02",
+      "name": "Campo e ricerca",
+      "theme": "A",
+      "variant": "Vuoto",
+      "file": "svg/DS02-A-vuoto.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "1114c0ab38a5264b4d65064b86fdfcb3670e2bb189f8894ee72f955f59876267"
+    },
+    {
+      "id": "DS02",
+      "name": "Campo e ricerca",
+      "theme": "A",
+      "variant": "Errore",
+      "file": "svg/DS02-A-errore.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "2d410549b33ba3cc290658341d6993fc2a88d33cd0568e29ac36764f0afe8241"
+    },
+    {
+      "id": "DS03",
+      "name": "Tag / criterio",
+      "theme": "A",
+      "variant": "Selezionato",
+      "file": "svg/DS03-A-selezionato.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "8b7e05179beb598df3decff158f3e9b9b7654b7f7fe4d562465eeaa70aa6c7e2"
+    },
+    {
+      "id": "DS03",
+      "name": "Tag / criterio",
+      "theme": "A",
+      "variant": "Non selezionato",
+      "file": "svg/DS03-A-non-selezionato.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "f9d12a72ae44cf0e2b056633775e7ab582ac1873a09c9bf7910aa231ee9565d0"
+    },
+    {
+      "id": "DS04",
+      "name": "Navigazione",
+      "theme": "A",
+      "variant": "Esplora",
+      "file": "svg/DS04-A-esplora.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "d37ce2e7bfd30617896ea6fae3b1e6e51854b398f2810a2b73e2a08623e315f0"
+    },
+    {
+      "id": "DS04",
+      "name": "Navigazione",
+      "theme": "A",
+      "variant": "Salvati",
+      "file": "svg/DS04-A-salvati.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "729b4a4a47b66e04f24981fd47ef6b30b2090911a5bb22d0f8db9980aee30999"
+    },
+    {
+      "id": "DS05",
+      "name": "Contesto città/zona",
+      "theme": "A",
+      "variant": "Corrente",
+      "file": "svg/DS05-A-corrente.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "361a7e9f6e4e1691588cc56c728f9521ee0c3ed0eca11610bee2f75e1e8794db"
+    },
+    {
+      "id": "DS05",
+      "name": "Contesto città/zona",
+      "theme": "A",
+      "variant": "Posizione negata",
+      "file": "svg/DS05-A-posizione-negata.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "d0b5b576c7cc11f696acdaa5fcb39fdcf5b93a20acb249555318b1047a2b0230"
+    },
+    {
+      "id": "DS06",
+      "name": "Card luogo",
+      "theme": "A",
+      "variant": "Standard",
+      "file": "svg/DS06-A-standard.svg",
+      "width": 390,
+      "height": 553,
+      "sha256": "355d720b707a98236e6764f7552b6a0b481fd79ffa5ccd549ed66b7f656d609b"
+    },
+    {
+      "id": "DS06",
+      "name": "Card luogo",
+      "theme": "A",
+      "variant": "Nessuna recensione",
+      "file": "svg/DS06-A-nessuna-recensione.svg",
+      "width": 390,
+      "height": 447,
+      "sha256": "daa0fc450160623db43568e42df2a2bd18b0ed18d2465a35678b092d9d25900f"
+    },
+    {
+      "id": "DS07",
+      "name": "Provenienza",
+      "theme": "A",
+      "variant": "Disponibile",
+      "file": "svg/DS07-A-disponibile.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "ae32511f7a259f855a88b0ffc348894f120847bfc08971d5295047b2505b0986"
+    },
+    {
+      "id": "DS07",
+      "name": "Provenienza",
+      "theme": "A",
+      "variant": "Mancante",
+      "file": "svg/DS07-A-mancante.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "5ffc086b3238a2552e6f994af8d744fb7614a4b40e69a6a6b9bbe2b9f1b6ad54"
+    },
+    {
+      "id": "DS07",
+      "name": "Provenienza",
+      "theme": "A",
+      "variant": "Vecchio",
+      "file": "svg/DS07-A-vecchio.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "20d0de9ae997761134c5b36cfc1ac34ee7ec3aec311592de4a8547a8d591ebb0"
+    },
+    {
+      "id": "DS08",
+      "name": "Atmosfera",
+      "theme": "A",
+      "variant": "Dati limitati",
+      "file": "svg/DS08-A-dati-limitati.svg",
+      "width": 390,
+      "height": 276,
+      "sha256": "0097c17dd31ffd9cda453df90cefb81508c53d72dc476333891b2b492bd11457"
+    },
+    {
+      "id": "DS08",
+      "name": "Atmosfera",
+      "theme": "A",
+      "variant": "Dati assenti",
+      "file": "svg/DS08-A-dati-assenti.svg",
+      "width": 390,
+      "height": 276,
+      "sha256": "48783988b52ae6c2ccb9132793cb3f69287a8d45d5ff35ac453cf7efa99e0afd"
+    },
+    {
+      "id": "DS09",
+      "name": "Recensione",
+      "theme": "A",
+      "variant": "Breve",
+      "file": "svg/DS09-A-breve.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "607df79e8ed30e311e34d453e5aa9685b2bc98c96b48bfa94a5af0296410d5fb"
+    },
+    {
+      "id": "DS09",
+      "name": "Recensione",
+      "theme": "A",
+      "variant": "Senza testo",
+      "file": "svg/DS09-A-senza-testo.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "ebce350bf098911116ffcf65a5dbda77c2c11933c5ec58f965f93aa652127ba2"
+    },
+    {
+      "id": "DS10",
+      "name": "Messaggio AI",
+      "theme": "A",
+      "variant": "Risposta",
+      "file": "svg/DS10-A-risposta.svg",
+      "width": 390,
+      "height": 380,
+      "sha256": "28458b5c9a21d726a083163a0852bc7e8d5f27d2d3b75f6094bc71b53b94720d"
+    },
+    {
+      "id": "DS10",
+      "name": "Messaggio AI",
+      "theme": "A",
+      "variant": "Attesa",
+      "file": "svg/DS10-A-attesa.svg",
+      "width": 390,
+      "height": 186,
+      "sha256": "3b0211d130dd1f931634aab0e24dd9c3d189320492fe729fcaa123a140ae1fbf"
+    },
+    {
+      "id": "DS10",
+      "name": "Messaggio AI",
+      "theme": "A",
+      "variant": "Nessun risultato",
+      "file": "svg/DS10-A-nessun-risultato.svg",
+      "width": 390,
+      "height": 404,
+      "sha256": "f9dd0454eb84bd3eb1dcde616faeebfd4ec7a9bba5a75aef6e40da751fd94c07"
+    },
+    {
+      "id": "DS11",
+      "name": "Scheda/pannello",
+      "theme": "A",
+      "variant": "Intermedio",
+      "file": "svg/DS11-A-intermedio.svg",
+      "width": 390,
+      "height": 258,
+      "sha256": "5f099b5558505cb2eae566fcb6a8f8168e93e708b39943da888942a46f68e9b3"
+    },
+    {
+      "id": "DS11",
+      "name": "Scheda/pannello",
+      "theme": "A",
+      "variant": "Ridotto",
+      "file": "svg/DS11-A-ridotto.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "b741f3fbf5f71f65565cca980e5c0df0867015cd9a803430ce70d959eb4ec806"
+    },
+    {
+      "id": "DS12",
+      "name": "Proposta gruppo",
+      "theme": "A",
+      "variant": "Proposto",
+      "file": "svg/DS12-A-proposto.svg",
+      "width": 390,
+      "height": 198,
+      "sha256": "025600eae9c02bbea11e3c3f819aa11e1389d949c44d09190cbc5f927ac92ff9"
+    },
+    {
+      "id": "DS12",
+      "name": "Proposta gruppo",
+      "theme": "A",
+      "variant": "Concordato",
+      "file": "svg/DS12-A-concordato.svg",
+      "width": 390,
+      "height": 198,
+      "sha256": "e11924855fbe421fc5a78756ea420c316c4a353db0570eb8182e5c57892ec840"
+    },
+    {
+      "id": "DS12",
+      "name": "Proposta gruppo",
+      "theme": "A",
+      "variant": "Da rivedere",
+      "file": "svg/DS12-A-da-rivedere.svg",
+      "width": 390,
+      "height": 198,
+      "sha256": "a39040dd02641a75164e9e96f9d51a0b696efb42618c0337e22ae428cf4a17e1"
+    },
+    {
+      "id": "DS13",
+      "name": "Bozza recensione / confronto",
+      "theme": "A",
+      "variant": "Bozza",
+      "file": "svg/DS13-A-bozza.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "2db5c6cb592d10c8000a1ea498cbd3e83ec6cf5bdd5126daaafd22b2029ec8b7"
+    },
+    {
+      "id": "DS13",
+      "name": "Bozza recensione / confronto",
+      "theme": "A",
+      "variant": "Proposta",
+      "file": "svg/DS13-A-proposta.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "d45e4b71c5d62cf9cc22c69ae6e2bdacc436ee14ab58e3e1e6485bb0e060a0b9"
+    },
+    {
+      "id": "DS14",
+      "name": "Feedback",
+      "theme": "A",
+      "variant": "Conferma",
+      "file": "svg/DS14-A-conferma.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "09ccea6e2010ab95a8fd3edd880f67ede8f2efb9c7b34165e5711ad1b8a7e813"
+    },
+    {
+      "id": "DS14",
+      "name": "Feedback",
+      "theme": "A",
+      "variant": "Avviso",
+      "file": "svg/DS14-A-avviso.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "ab713fb2358994c2e49cd054b6090e71652b3878d8349cd3d968f35e10960553"
+    },
+    {
+      "id": "DS14",
+      "name": "Feedback",
+      "theme": "A",
+      "variant": "Errore",
+      "file": "svg/DS14-A-errore.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "15ff5cbaf0a401faf84b92fad17d869a59ee05df8d790ea536a58af4793b6ace"
+    },
+    {
+      "id": "DS15",
+      "name": "Vuoto / errore recuperabile",
+      "theme": "A",
+      "variant": "Vuoto",
+      "file": "svg/DS15-A-vuoto.svg",
+      "width": 390,
+      "height": 204,
+      "sha256": "765b5918217ca07a886cb1639392cbfb64d7b8facbdd11331e09574f28a18e68"
+    },
+    {
+      "id": "DS15",
+      "name": "Vuoto / errore recuperabile",
+      "theme": "A",
+      "variant": "Errore",
+      "file": "svg/DS15-A-errore.svg",
+      "width": 390,
+      "height": 204,
+      "sha256": "f79ea8de5e4bbb34740d37c20348e55a185fb2d235df6cfa961b6d25638a7820"
+    },
+    {
+      "id": "DS16",
+      "name": "Dialogo / uscita esterna",
+      "theme": "A",
+      "variant": "Uscita esterna",
+      "file": "svg/DS16-A-uscita-esterna.svg",
+      "width": 390,
+      "height": 214,
+      "sha256": "f6da406663652bdc067f652d8f3a6b768a36b0f71c1c9f1f8b0934a6c64cfd06"
+    },
+    {
+      "id": "DS16",
+      "name": "Dialogo / uscita esterna",
+      "theme": "A",
+      "variant": "App assente",
+      "file": "svg/DS16-A-app-assente.svg",
+      "width": 390,
+      "height": 190,
+      "sha256": "7f331c558ca403ce23e954ede6deedf52b932d59722c6cca582ddb72501584b4"
+    },
+    {
+      "id": "DS17",
+      "name": "Media / galleria",
+      "theme": "A",
+      "variant": "Caricata",
+      "file": "svg/DS17-A-caricata.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "024a279b08a9ed05f10fc14f97f002df0165567de42e99641fada52d95fc0c0e"
+    },
+    {
+      "id": "DS17",
+      "name": "Media / galleria",
+      "theme": "A",
+      "variant": "Assente",
+      "file": "svg/DS17-A-assente.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "91f20671f55f67736e2e468096f0944a93395fb9db5a5d1378d0b0c0865d6ef3"
+    },
+    {
+      "id": "DS18",
+      "name": "Mappa, marker e lista equivalente",
+      "theme": "A",
+      "variant": "Default",
+      "file": "svg/DS18-A-default.svg",
+      "width": 390,
+      "height": 352,
+      "sha256": "a884c9b19e477da0043cf56fe597bb46e957f1b79f78f858871eb61e760ad5fc"
+    },
+    {
+      "id": "DS18",
+      "name": "Mappa, marker e lista equivalente",
+      "theme": "A",
+      "variant": "Selezionato",
+      "file": "svg/DS18-A-selezionato.svg",
+      "width": 390,
+      "height": 352,
+      "sha256": "871a19a58d72d3be649ddefab822ea9d1be154e370b94a000c2290c941be27c6"
+    },
+    {
+      "id": "DS18",
+      "name": "Mappa, marker e lista equivalente",
+      "theme": "A",
+      "variant": "Salvato",
+      "file": "svg/DS18-A-salvato.svg",
+      "width": 390,
+      "height": 352,
+      "sha256": "c2c4aafae55a47907caa99a43d9ea44d590841328e0213516211fbfda948f7f7"
+    },
+    {
+      "id": "DS18",
+      "name": "Mappa, marker e lista equivalente",
+      "theme": "A",
+      "variant": "Rumore assente",
+      "file": "svg/DS18-A-rumore-assente.svg",
+      "width": 390,
+      "height": 352,
+      "sha256": "1eddab748e673f5a3fdc16bf05eb5639062397a83c199e996070a03ab5500747"
+    },
+    {
+      "id": "DS19",
+      "name": "Affluenza per fasce",
+      "theme": "A",
+      "variant": "Dati limitati",
+      "file": "svg/DS19-A-dati-limitati.svg",
+      "width": 390,
+      "height": 346,
+      "sha256": "426ee0572fe588f0f27a85594109fc57183bf2a318e0431404c3c167ed9f6511"
+    },
+    {
+      "id": "DS19",
+      "name": "Affluenza per fasce",
+      "theme": "A",
+      "variant": "Fascia assente il lunedì",
+      "file": "svg/DS19-A-fascia-assente-il-lunedi.svg",
+      "width": 390,
+      "height": 346,
+      "sha256": "85129a3218d0e23c554595c3d04e50cc82d2662a8c6f9cb9df85bd325b83023f"
+    },
+    {
+      "id": "DS19",
+      "name": "Affluenza per fasce",
+      "theme": "A",
+      "variant": "Dati assenti",
+      "file": "svg/DS19-A-dati-assenti.svg",
+      "width": 390,
+      "height": 350,
+      "sha256": "2cceea12ecd6832cc5daa9b5089d882957c2747def6a70580c896fa8f95fe16d"
+    },
+    {
+      "id": "DS20",
+      "name": "Preview della recensione",
+      "theme": "A",
+      "variant": "Disponibile",
+      "file": "svg/DS20-A-disponibile.svg",
+      "width": 390,
+      "height": 245,
+      "sha256": "8e293d90c2dc44730e328523cd1787c257347d59b4f93b61c7e6b92fa63331aa"
+    },
+    {
+      "id": "DS20",
+      "name": "Preview della recensione",
+      "theme": "A",
+      "variant": "Testo lungo",
+      "file": "svg/DS20-A-testo-lungo.svg",
+      "width": 390,
+      "height": 293,
+      "sha256": "3dea87c02bdeec01920c5189b58a71d5154efd9a395c233051c88d38d7dbbc69"
+    },
+    {
+      "id": "DS20",
+      "name": "Preview della recensione",
+      "theme": "A",
+      "variant": "Nessuna recensione",
+      "file": "svg/DS20-A-nessuna-recensione.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "6f2499feddf37238db8b684817db5bdf631d1846d80e05b863a904df188e3fe0"
+    },
+    {
+      "id": "DS21",
+      "name": "Filtri rapidi e regola del criterio",
+      "theme": "A",
+      "variant": "Non selezionato",
+      "file": "svg/DS21-A-non-selezionato.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "f722a1e7bbcbfea0828f74ce94762859890be82c5144e53d0acd545bfa7819dd"
+    },
+    {
+      "id": "DS21",
+      "name": "Filtri rapidi e regola del criterio",
+      "theme": "A",
+      "variant": "Requisito",
+      "file": "svg/DS21-A-requisito.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "a4a6ae2a1e63d1dfcd8e043448a8619ea4a629ab57e429db5febdfa7b9268358"
+    },
+    {
+      "id": "DS21",
+      "name": "Filtri rapidi e regola del criterio",
+      "theme": "A",
+      "variant": "Preferenza",
+      "file": "svg/DS21-A-preferenza.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "45c38ad365fbaf4d32f8f22ee81ed44995b0b22b4d81616e34eade5416f0a398"
+    },
+    {
+      "id": "DS22",
+      "name": "Azione contestuale della scheda",
+      "theme": "A",
+      "variant": "Proponi al gruppo",
+      "file": "svg/DS22-A-proponi-al-gruppo.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "887e7a469293b67e4c8d0c5b1d5f726a14d24881b1bdbb78665566ad2da56cd3"
+    },
+    {
+      "id": "DS22",
+      "name": "Azione contestuale della scheda",
+      "theme": "A",
+      "variant": "Preferenza nel gruppo",
+      "file": "svg/DS22-A-preferenza-nel-gruppo.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "2466b1b932897b643a346af510ddde294cb3837c457fd0f5f0153d0943670700"
+    },
+    {
+      "id": "DS22",
+      "name": "Azione contestuale della scheda",
+      "theme": "A",
+      "variant": "Incompatibile",
+      "file": "svg/DS22-A-incompatibile.svg",
+      "width": 390,
+      "height": 180,
+      "sha256": "da6b4399d0214e7f56fed6665ad449e58d9e4f69c0091324cb80cc2cedaf2932"
+    },
+    {
+      "id": "DS08-DS19",
+      "name": "Atmosfera e affluenza",
+      "theme": "A",
+      "variant": "Dati limitati",
+      "file": "svg/DS08-DS19-A-dati-limitati.svg",
+      "width": 390,
+      "height": 620,
+      "sha256": "57443e2bdab9a8a80558d6608237c03a7e221071a31b09a1d6213f9efe2283da"
+    },
+    {
+      "id": "DS08-DS19",
+      "name": "Atmosfera e affluenza",
+      "theme": "A",
+      "variant": "Fascia assente il lunedì",
+      "file": "svg/DS08-DS19-A-fascia-assente-il-lunedi.svg",
+      "width": 390,
+      "height": 620,
+      "sha256": "5922ed6a324e7ac15b6568eb429c0a00b4c3d2b0435f463e89a109e824c05df7"
+    },
+    {
+      "id": "DS08-DS19",
+      "name": "Atmosfera e affluenza",
+      "theme": "A",
+      "variant": "Dati assenti",
+      "file": "svg/DS08-DS19-A-dati-assenti.svg",
+      "width": 390,
+      "height": 624,
+      "sha256": "69a9fca634b4b16f1aa22954c5684bd4882dc66fea220efda5a5a3b5ff8b312d"
+    },
+    {
+      "id": "DS19",
+      "name": "Selettore del giorno",
+      "theme": "A",
+      "variant": "Selettore giorno",
+      "file": "svg/DS19-A-selettore-giorno.svg",
+      "width": 390,
+      "height": 452,
+      "sha256": "19e0407c77e6dd7fe0beaf22c82a2dd33dc5e8069d7a4eedd323f421d775e81d"
+    }
+  ]
+}
