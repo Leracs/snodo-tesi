@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T16:08:41.442Z",
+  "generatedAt": "2026-10-11T16:15:26.557Z",
   "type": "technical_code_harness_with_minimal_fake_DOM",
   "executed": true,
   "finiteRun": true,
@@ -21,11 +21,11 @@
   "sources": [
     {
       "file": "index.html",
-      "sha256": "9c2e5205c6ce0ed0f7d688d4a656546a58220cbc53c5a65fcc2b8baa0d9facdb"
+      "sha256": "5300359b2f01b1e81b7c3bea99c7f2ae25a7611bd6e0a958d285212676a1d54d"
     },
     {
       "file": "app.js",
-      "sha256": "a63a21561f7e2daf9b54c34b38be4c2372f918e949b9341646dad6bd23b3eb29"
+      "sha256": "7a603cf5d768f58a2a0421b8fbf19f33e581022d67f1c28a74e4c47a8110edf5"
     },
     {
       "file": "core.js",
@@ -49,7 +49,7 @@
     },
     {
       "file": "Verifiche_interazioni.cjs",
-      "sha256": "c899df4d61dda235d6db5f733afd8d782f629ac489fd1755ded2a041c96d09e7"
+      "sha256": "ffe07b9360af34be6c0cca2bc51c1db3740524d969312dee7ac42764ffda4322"
     },
     {
       "file": "../06_design_system/esplorazione.js",
@@ -227,7 +227,7 @@
       "id": "I28",
       "name": "Fotografie locali, crediti e galleria seguono il luogo selezionato",
       "status": "PASS",
-      "evidence": "Otto copertine distinte e foto locali con alt, crediti originali e natura illustrativa; apertura e chiusura della seconda foto della galleria."
+      "evidence": "Otto copertine distinte e foto locali con alt, crediti originali e natura illustrativa; apertura della seconda foto nel carosello e ritorno alla scheda."
     },
     {
       "id": "I29",
@@ -243,21 +243,22 @@
     },
     {
       "id": "I31",
-      "name": "Galleria unica con tag e navigazione tra locale e utenti",
+      "name": "Un carosello con tag e navigazione tra locale e utenti",
       "status": "PASS",
-      "evidence": "Un’unica raccolta con tag Dal locale/nome, priorità allo username, passaggio tra origini e limiti agli estremi; ID di altro luogo rifiutato."
+      "evidence": "Un componente nella scheda e nella galleria; tag Dal locale/nome, priorità allo username, posizione conservata, passaggio tra origini e limiti agli estremi."
     },
     {
       "id": "I32",
       "name": "Foto e recensione permettono un percorso di andata e ritorno",
       "status": "PASS",
-      "evidence": "Dalla recensione allo scatto e ritorno, conservando foto, luogo e variante; chiusura dello scatto nella raccolta completa."
+      "evidence": "Dalla recensione al carosello e ritorno, conservando foto, luogo e variante; Indietro torna direttamente alla schermata precedente."
     },
     {
       "id": "I33",
       "name": "Assenza di foto utenti e vecchi link non nascondono le immagini del locale",
       "status": "PASS",
-      "evidence": "Vecchi parametri ignorati; senza foto utenti resta la galleria del luogo; stato vuoto solo se non esiste alcuno scatto."
+      "evidence": "Vecchi parametri ignorati; senza foto utenti resta il carosello del luogo; stato vuoto solo se non esiste alcuno scatto."
     }
-  ]
+  ],
+  "publication_note": "Copia per consultazione: i controlli e gli hash di origine descrivono gli asset del workspace. I percorsi locali sono stati normalizzati; il manifest di pubblicazione descrive i file distribuiti."
 }

@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-10-11T16:16:11.029351+00:00",
+  "status": "verified_local",
+  "implementation": "Componente fotografico unico a carosello in S05 e S07; tag sovrapposti Dal locale oppure nome/username.",
+  "checks": {
+    "interaction_harness": "33/33 PASS",
+    "browser_single_component_S05": true,
+    "browser_photos_loaded_S07": "6/6",
+    "browser_tags": [
+      "Dal locale",
+      "Dal locale",
+      "Dal locale",
+      "Luca",
+      "Chiara",
+      "Matteo"
+    ],
+    "browser_keyboard_navigation": true,
+    "browser_review_return_preserves_photo": true,
+    "browser_last_next_disabled": true,
+    "browser_app_width": 373,
+    "browser_app_scroll_width": 373,
+    "touch_swipe": "Implementato; verificato nel DOM simulato per direzione e soglia. Non verificato su dispositivo touch reale.",
+    "viewport_override": "Il browser ha mantenuto il viewport desktop; verificato il componente nella cornice di 373 px."
+  },
+  "preview": "output/Anteprima_carosello_SNODO.png",
+  "sources": {
+    "app.js": "7a603cf5d768f58a2a0421b8fbf19f33e581022d67f1c28a74e4c47a8110edf5",
+    "app.css": "43ef0f409d6d034882b958f841f399d1b19b55431aae05bb920d71146889cf62",
+    "index.html": "5300359b2f01b1e81b7c3bea99c7f2ae25a7611bd6e0a958d285212676a1d54d",
+    "Verifiche_interazioni.cjs": "ffe07b9360af34be6c0cca2bc51c1db3740524d969312dee7ac42764ffda4322"
+  },
+  "publication_status": "approved_pending_deploy",
+  "publication_note": "Copia per consultazione: i controlli e gli hash di origine descrivono gli asset del workspace. I percorsi locali sono stati normalizzati; il manifest di pubblicazione descrive i file distribuiti."
+}

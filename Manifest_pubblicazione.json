@@ -1522,23 +1522,28 @@
     },
     {
       "path": "docs/07_prototipo/LEGGIMI.html",
-      "sha256": "ee9a859ec34e5ee6ec1e20662f1854827c2593c3410a5b6087e427a51ed1f598",
-      "bytes": 15015
+      "sha256": "2b8cc540bbb5bfafb04ce6875c9369cde347a4942695c3bae511220bbf326e15",
+      "bytes": 15102
     },
     {
       "path": "docs/07_prototipo/LEGGIMI.md",
-      "sha256": "08670c608d9f513869824f18b022f31f7caa8c03adf9c77fdae39c56bba3f965",
-      "bytes": 8045
+      "sha256": "936780b08c563412d4d3e575e748f267d1dafc79fc7a6c29abebe887339d5694",
+      "bytes": 8038
+    },
+    {
+      "path": "docs/07_prototipo/QA_carosello_foto.json",
+      "sha256": "20b09346efccc43aef64e4a0ac82cea0bc985ca3bc0ebe1c4842545a4e5c4c95",
+      "bytes": 1637
     },
     {
       "path": "docs/07_prototipo/QA_galleria_unica.json",
-      "sha256": "c071e6b6be9509e3ee97aa8f1498301e1e71c690c7a10ceeb61794a504ab2fa3",
-      "bytes": 1055
+      "sha256": "b9c190f6d8698f3c24324d096683f25f3ac13077b2572d860c837acef263bdae",
+      "bytes": 1533
     },
     {
       "path": "docs/07_prototipo/QA_interazioni.json",
-      "sha256": "f4b65af15888ff26923f0f7baf8bf59ed8fd6d2ca597ed2130b9314333b1261c",
-      "bytes": 10568
+      "sha256": "b860235d7f44873973fd2275fa0a438ab5764930c39f98ab05cd246d274c621f",
+      "bytes": 10821
     },
     {
       "path": "docs/07_prototipo/Scenari_AI.json",
@@ -1577,18 +1582,18 @@
     },
     {
       "path": "docs/07_prototipo/Verifiche_interazioni.cjs",
-      "sha256": "c899df4d61dda235d6db5f733afd8d782f629ac489fd1755ded2a041c96d09e7",
-      "bytes": 32719
+      "sha256": "ffe07b9360af34be6c0cca2bc51c1db3740524d969312dee7ac42764ffda4322",
+      "bytes": 33446
     },
     {
       "path": "docs/07_prototipo/app.css",
-      "sha256": "1e7e97ff412738e2fdc3e224f39edf814c7822f677b5d3dec6bc826eb97cecb3",
-      "bytes": 34631
+      "sha256": "43ef0f409d6d034882b958f841f399d1b19b55431aae05bb920d71146889cf62",
+      "bytes": 33628
     },
     {
       "path": "docs/07_prototipo/app.js",
-      "sha256": "a63a21561f7e2daf9b54c34b38be4c2372f918e949b9341646dad6bd23b3eb29",
-      "bytes": 51472
+      "sha256": "7a603cf5d768f58a2a0421b8fbf19f33e581022d67f1c28a74e4c47a8110edf5",
+      "bytes": 51072
     },
     {
       "path": "docs/07_prototipo/build_catalogo.py",
@@ -1607,7 +1612,7 @@
     },
     {
       "path": "docs/07_prototipo/index.html",
-      "sha256": "9c2e5205c6ce0ed0f7d688d4a656546a58220cbc53c5a65fcc2b8baa0d9facdb",
+      "sha256": "10fff4e04a30f3dda56beb33ab30f276c14b6b58be76612cf4d7d79f209c8e9d",
       "bytes": 4927
     },
     {

@@ -25,5 +25,11 @@
     "catalogo.js": "1c171924207b4cf7c1a0b23c70f58833e26d6ec0f1cf8091a53d87568cabfaf3",
     "index.html": "9c2e5205c6ce0ed0f7d688d4a656546a58220cbc53c5a65fcc2b8baa0d9facdb"
   },
-  "photo_and_user_attribution": "simulata; fotografie stock con crediti originali preservati"
+  "photo_and_user_attribution": "simulata; fotografie stock con crediti originali preservati",
+  "publication_status": "superseded_local_design",
+  "prepared_repository": "/private/tmp/snodo-galleria-unica-20261011",
+  "prepared_commit": "6a23077",
+  "preview": "output/Anteprima_galleria_unica_SNODO.png",
+  "superseded_by": "QA_carosello_foto.json",
+  "publication_note": "Copia per consultazione: i controlli e gli hash di origine descrivono gli asset del workspace. I percorsi locali sono stati normalizzati; il manifest di pubblicazione descrive i file distribuiti."
 }
