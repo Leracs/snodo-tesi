@@ -64,3 +64,49 @@ body[data-theme] .workbench h1 { font-family:var(--font-heading); font-weight:va
 body[data-theme] .workbench h1 span,body[data-theme] .workbench button,body[data-theme] .workbench select { font-family:var(--font-body); }
 body[data-theme] .workbench button,body[data-theme] .workbench select { color:var(--text); background:var(--surface); border-color:var(--border); border-radius:var(--radius-control); }
 body[data-theme] .workbench details { border-color:var(--divider); }
+
+/* Pop: il colore fa da cornice; la lettura avviene su superfici neutre. */
+@media screen {
+  html[data-site-theme='B'] .reader-wrap {
+    width:calc(100% - 48px);
+    margin:28px auto;
+    padding:40px;
+    background:var(--surface);
+    border:1px solid var(--divider);
+    border-radius:var(--radius-card);
+  }
+  html[data-site-theme='B'] .reader-footer {
+    width:calc(100% - 48px);
+    margin:0 auto 28px;
+    padding:18px 28px;
+    background:var(--surface);
+    border:1px solid var(--divider);
+    border-radius:18px;
+  }
+  html[data-site-theme='B'] .home-feature {
+    --site-hero-bg:var(--surfaceMuted);
+    --site-hero-ink:var(--text);
+    border:1px solid var(--divider);
+  }
+  html[data-site-theme='B'] .document-header h1,
+  html[data-site-theme='B'] .ds-hero h1,
+  html[data-site-theme='B'] .home-feature h2 { line-height:1.35; letter-spacing:0; }
+  html[data-site-theme='B'] .prose { max-width:68ch; font-size:18px; line-height:1.75; }
+  html[data-site-theme='B'] .prose h2 { line-height:1.45; letter-spacing:0; }
+  html[data-site-theme='B'] .reading-layout { gap:40px; }
+  html[data-site-theme='B'] .toc { background:var(--surfaceMuted); padding:12px 16px; border:1px solid var(--divider); border-radius:18px; }
+  html[data-site-theme='B'] .ds-card,
+  html[data-site-theme='B'] .ds-foundation,
+  html[data-site-theme='B'] .ds-feature { border-color:var(--divider); }
+  html[data-site-theme='B'] body[data-theme='B'] { --bg:var(--surface); }
+  html[data-site-theme='B'] body[data-theme='B'] .workbench { background:var(--surface); border:1px solid var(--divider); border-radius:24px; padding:24px; }
+  html[data-site-theme='B'] body[data-theme='B'] .workbench h1 { margin-top:0; }
+  html[data-site-theme='B'] body[data-theme='B'] .workbench .controls { flex-wrap:wrap; }
+}
+@media screen and (max-width:780px) {
+  html[data-site-theme='B'] .reader-wrap { width:calc(100% - 24px); margin:16px auto; padding:24px 18px; border-radius:24px; }
+  html[data-site-theme='B'] .reader-footer { width:calc(100% - 24px); margin-bottom:16px; padding:16px 18px; }
+  html[data-site-theme='B'] .prose { font-size:17px; line-height:1.75; }
+  html[data-site-theme='B'] .home-feature { padding:24px 18px; }
+  html[data-site-theme='B'] body[data-theme='B'] .workbench { padding:20px; }
+}

@@ -39,3 +39,9 @@ Mappa/lista condividono città, query, filtri, numeri e selezione. Le card compa
 Budget e rumore sono filtri rapidi. S04 mantiene una bozza fino ad Applica: Annulla conserva la ricerca e Azzera modifica solo la bozza. Il rumore può essere necessario o preferito; in quest’ultimo caso dati mancanti e alternative oltre preferenza sono gruppi distinti, non corrispondenze certe. Budget e all’aperto restano requisiti. La scheda ha una sola CTA principale persistente: proposta personale oppure preferenza nella proposta di gruppo esistente.
 
 [Componenti e regole](../06_design_system/Esplorazione_e_recensioni.md). La mappa rimane schematica: non implementa pan geografico, bounds o ricerca live in un’area. I grafici DS08/DS19 restano separati dalle recensioni e dal gradimento.
+
+## Mappa aperta — S22
+
+Da Esplora, «Apri mappa» apre una vista dedicata: selezionando un segnaposto cambia l’anteprima in basso. L’anteprima mostra luogo, spesa indicativa o limite del criterio, recensione mock (oppure assenza), salvataggio e «Apri dettaglio». Dalla scheda, Indietro torna alla mappa con lo stesso luogo selezionato. Ricerca, città e filtri restano condivisi con la lista. Lo scenario «Mappa aperta» è disponibile nei controlli esterni; il link diretto è `index.html?screen=S22`.
+
+La mappa e le posizioni restano schematiche; questa vista non introduce cartografia, geolocalizzazione o percorsi reali.

@@ -37,15 +37,16 @@
       "Pop predefinito; selettore Calda alternativo conservato tra home, tesi e catalogo",
       "Download SVG coerente con componente, variante e tema: DS01 secondario B/A",
       "Download reale di un SVG e dello ZIP dal browser",
-      "Sezione download leggibile a 320 px"
+      "Sezione download leggibile a 320 px",
+      "Revisione Pop: superficie editoriale bianca e catalogo senza overflow a 320px"
     ]
   },
   "regression_tests": {
-    "passed": 41,
+    "passed": 45,
     "failed": 0,
     "data": 7,
     "core": 11,
-    "interactions": 23
+    "interactions": 27
   },
   "publication": {
     "status": "ready_for_push",
@@ -68,7 +69,7 @@
     "Componenti_e_comportamenti.json": "3f5185ba5324a1f54db45b6005b55c389132606435110ec71b55311d5843d9ea",
     "esplorazione.js": "42d46d5b539eaaf72f1ce53a03e3e28269d03002a98c7c5030277fc4fa4e079e",
     "esplorazione.css": "148cdde803e912efbeaebc4e4b334b0a56e9e24ab2a069bccf703bf66e40401c",
-    "tema-sito.css": "ac93959cd0ef028e82064bfa063cd5314b1fdca3dd3298e503f4f6512e55e14e",
+    "tema-sito.css": "8d8f2b259e5242015562e130637d0b874310fd0793288ab8eebf4bf40d5bddd3",
     "tema-sito.js": "5e89b6f89f3fe26e6d95fce21a46e39583a26746507971f2af7c35a3b5248b6b"
   },
   "svg": {

@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-11",
+  "status": "PASS",
+  "scope": "Revisione delle superfici di lettura Pop nel sito e nella cornice del prototipo",
+  "changes": [
+    "Verde acqua come sfondo generale; contenuti dentro una superficie bianca",
+    "Hero della home neutra, indici laterali su superficie chiara",
+    "Documenti: corpo 18px/31.5px desktop, 17px/29.75px mobile, larghezza massima 68ch",
+    "Device e cornice dei controlli del prototipo su bianco"
+  ],
+  "browser": {
+    "transport": "HTTP localhost",
+    "checks": [
+      "Pagina Style tiles a 320/390/1280px senza overflow orizzontale",
+      "Home e catalogo a 320px senza overflow; contenuti su bianco",
+      "Prototipo avvio a 320px: device e controlli su bianco, nessun overflow",
+      "S06 Pop a 390px: device su bianco, nessun overflow",
+      "Selettore Pop/Calda: nuove superfici applicate solo a Pop",
+      "Link SVG nel playground conservato"
+    ],
+    "viewports": [
+      320,
+      390,
+      1280
+    ]
+  },
+  "contrasts": [
+    {
+      "foreground": "#000000",
+      "background": "#FFFFFF",
+      "ratio": 21.0
+    },
+    {
+      "foreground": "#4B4B4B",
+      "background": "#FFFFFF",
+      "ratio": 8.724
+    },
+    {
+      "foreground": "#713799",
+      "background": "#FFFFFF",
+      "ratio": 7.753
+    }
+  ],
+  "assets": {
+    "tema-sito.css": "8d8f2b259e5242015562e130637d0b874310fd0793288ab8eebf4bf40d5bddd3"
+  },
+  "limitations": [
+    "Verifica tecnica mirata, non audit completo di accessibilità o test con partecipanti.",
+    "Le tavole comparative statiche e i 122 SVG dei componenti conservano il proprio layout."
+  ],
+  "regressions": {
+    "passed": 45,
+    "failed": 0,
+    "data": 7,
+    "core": 11,
+    "interactions": 27
+  },
+  "publication_note": "Copia per consultazione: i controlli e gli hash di origine descrivono gli asset del workspace. I percorsi locali sono stati normalizzati; il manifest di pubblicazione descrive i file distribuiti."
+}
