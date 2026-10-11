@@ -125,40 +125,10 @@ button{cursor:pointer}
 /* Guida operativa nel portale, separata dalle schede di testo candidato. */
 .portal-jumps{display:flex;flex-wrap:wrap;gap:8px 26px;border-block:1px solid var(--line);padding:9px 0;margin:0 0 30px;font-size:14px}
 .portal-jumps a{display:inline-flex;align-items:center;min-height:44px}
-.checklist-shortcut{display:flex;justify-content:space-between;align-items:center;gap:32px;margin:34px 0;padding:26px 30px;border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:8px;background:var(--surface)}
-.checklist-shortcut .eyebrow{font-size:10px;margin-bottom:10px}
-.checklist-shortcut h2{font:25px/1.3 var(--site-font-heading,Georgia);margin:0 0 10px}
-.checklist-shortcut p{font-size:15px;line-height:1.65;margin:0;max-width:66ch}
-.checklist-shortcut>a{flex:0 0 220px;font-size:15px;font-weight:bold;min-height:44px;display:flex;align-items:center}
-.thesis-checklist{border:1px solid var(--border);border-top:4px solid var(--accent);border-radius:9px;padding:30px;margin:0 0 46px;background:var(--site-soft);scroll-margin-top:100px}
-.checklist-header .eyebrow{font-size:10px;margin-bottom:12px;color:var(--accent)}
-.checklist-header h2{font:34px/1.2 var(--site-font-heading,Georgia);letter-spacing:-.02em;margin:0 0 14px;text-wrap:balance}
-.checklist-header>p:last-child{font-size:16px;max-width:78ch;line-height:1.7;margin:0 0 22px}
-.checklist-start{border-left:3px solid var(--accent);padding:4px 0 4px 18px;font-size:15px;line-height:1.65;margin:0 0 24px}
-.checklist-start>strong{font-size:12px;letter-spacing:.04em;text-transform:uppercase}
-.checklist-start p{max-width:80ch;margin:5px 0 0}
-.checklist-tools{display:flex;align-items:center;justify-content:space-between;gap:24px;margin:22px 0 12px}
-.checklist-progress{flex:1;max-width:470px}
-.checklist-progress p{font-size:14px;font-weight:bold;margin:0 0 7px}
-.checklist-progress progress{display:block;width:100%;height:9px;accent-color:var(--dataAccent);border:0;border-radius:10px;overflow:hidden;background:var(--line)}
-.checklist-progress progress::-webkit-progress-bar{background:var(--line)}
-.checklist-progress progress::-webkit-progress-value{background:var(--dataAccent)}
-.checklist-progress progress::-moz-progress-bar{background:var(--dataAccent)}
-.checklist-tools button{min-height:44px;padding:9px 15px;color:var(--ink);background:var(--surface);border:1px solid var(--border);border-radius:6px;font-size:14px;line-height:1.5}
-.checklist-help{font-size:12px;line-height:1.7;color:var(--muted);max-width:95ch;margin:12px 0 24px}
-.checklist-phase{margin:12px 0;border:1px solid #c2b2a2;border-radius:7px;background:var(--surface)}
-.checklist-phase>summary{display:flex;align-items:center;gap:17px;list-style:none;padding:19px 20px;cursor:pointer;min-height:64px;line-height:1.4}
-.checklist-phase>summary::-webkit-details-marker{display:none}
-.checklist-phase>summary::after{content:'+';font-size:25px;line-height:1;flex:0 0 20px;text-align:center;color:var(--accent)}
-.checklist-phase[open]>summary::after{content:'−'}
 .phase-number{flex:0 0 32px;font-size:13px;font-weight:bold;color:var(--accent)}
 .phase-title{flex:1;font-size:18px;font-weight:bold;min-width:0}
 .phase-count{flex:0 0 auto;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;border:1px solid var(--line);padding:4px 8px;border-radius:5px}
-.checklist-phase.is-complete .phase-count{background:var(--site-calm);border-color:var(--line);color:var(--ink)}
-.checklist-phase-body{padding:0 20px 8px 69px;border-top:1px solid var(--line)}
 .phase-note{font-size:14px;line-height:1.65;color:var(--muted);margin:18px 0 22px;max-width:84ch}
-.checklist-tasks{list-style:none;padding:0;margin:0}
-.checklist-task{padding:20px 0 23px;border-top:1px solid var(--line)}
 .task-heading{display:flex;align-items:baseline;position:relative;gap:12px;min-height:44px}
 .task-heading input{flex:0 0 20px;width:20px;height:20px;accent-color:var(--dataAccent);cursor:pointer;margin:0;position:relative;top:3px}
 .task-heading label{font-size:17px;font-weight:bold;line-height:1.5;cursor:pointer;min-height:44px;display:block;padding:4px 0 8px;flex:1}
@@ -168,10 +138,8 @@ button{cursor:pointer}
 .task-links{display:flex;flex-wrap:wrap;gap:0 20px;padding-left:32px;align-items:center}
 .task-links>span{width:100%;font-size:10px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin-top:3px}
 .task-links a{display:inline-flex;align-items:center;min-height:44px;font-size:13px;line-height:1.55;padding:6px 0}
-.checklist-task.is-complete .task-heading label{color:var(--ink)}
-.checklist-end{font-size:13px;color:var(--muted);line-height:1.7;max-width:90ch;margin:22px 0 0}
-@media(max-width:780px){.checklist-shortcut{flex-direction:column;align-items:flex-start;gap:14px;padding:21px}.checklist-shortcut>a{flex:auto}.portal-jumps{gap:3px 22px;font-size:13px}.thesis-checklist{padding:20px 15px;scroll-margin-top:90px}.checklist-header h2{font-size:29px}.checklist-tools{align-items:flex-start;flex-direction:column;gap:12px}.checklist-progress{width:100%;max-width:none}.checklist-phase>summary{padding:17px 12px;gap:10px;flex-wrap:wrap}.phase-number{flex-basis:23px}.phase-title{font-size:16px;flex-basis:calc(100% - 66px)}.phase-count{order:2;margin-left:33px}.checklist-phase>summary::after{align-self:flex-start}.checklist-phase-body{padding:0 14px 5px}.phase-note{font-size:13px}.task-heading label{font-size:16px}.task-action,.task-result{padding-left:0;font-size:14px}.task-links{padding-left:0}.checklist-header>p:last-child{font-size:15px}}
-@media print{.portal-jumps,.checklist-shortcut,.checklist-tools,.checklist-help{display:none!important}.thesis-checklist{background:white;padding:14pt;margin:0 0 20pt}.checklist-header h2{font-size:22pt}.checklist-phase>summary{padding:12pt 0}.checklist-phase>summary::after{display:none}.checklist-phase-body{padding:0 10pt}.checklist-task{break-inside:avoid}.task-action,.task-result,.phase-note{font-size:10pt}.task-heading label{font-size:11pt}.task-links a{font-size:9pt;min-height:0}.checklist-phase{break-inside:auto}.checklist-header,.checklist-phase>summary{break-after:avoid}}
+@media(max-width:780px){.portal-jumps{gap:3px 22px;font-size:13px}.phase-number{flex-basis:23px}.phase-title{font-size:16px;flex-basis:calc(100% - 66px)}.phase-count{order:2;margin-left:33px}.phase-note{font-size:13px}.task-heading label{font-size:16px}.task-action,.task-result{padding-left:0;font-size:14px}.task-links{padding-left:0}}
+@media print{.portal-jumps{display:none!important}.task-action,.task-result,.phase-note{font-size:10pt}.task-heading label{font-size:11pt}.task-links a{font-size:9pt;min-height:0}}
 @media(max-width:780px){.area-grid,.contribution-grid,.work-shortcuts{grid-template-columns:1fr}.area-card{padding:25px}.area-card h2{font-size:28px}.portal-lead{font-size:17px}.classification-banner{padding:16px}.collection-note{padding:17px}.portal .library-group li a{font-size:16px}}
 @media print{.classification-banner,.collection-note,.work-shortcuts{display:none!important}.contribution-card,.area-card{break-inside:avoid}.portal .reader-top{display:none}}
 @media(max-width:1000px){.reading-layout{grid-template-columns:minmax(0,1fr) 220px;gap:30px}.reader-wrap{padding-top:38px}.document-header h1{font-size:42px}}
@@ -355,16 +323,9 @@ body[data-review-view="clean"] .figure-revision-note{display:none}
 .hub-completion-note{margin:18px 0 0;color:var(--muted);font-size:13px}
 .hub-completion-note summary{cursor:pointer;min-height:44px;padding:10px 0}
 .hub-completion-note p{margin:4px 0 12px;max-width:88ch;line-height:1.7}
-.checklist-page .thesis-checklist{background:transparent;padding:0;border:0;border-radius:0;margin-bottom:25px}
-.checklist-page .checklist-header .eyebrow{display:none}
-.checklist-page .checklist-header h2{font-size:24px;margin-bottom:10px}
-.checklist-page .checklist-header>p:last-child{font-size:14px;color:var(--muted);margin-bottom:20px}
-.checklist-page .checklist-start{font-size:14px;background:var(--site-calm);border-left-color:var(--dataAccent);padding:16px 20px;border-radius:0 6px 6px 0}
-.checklist-page .checklist-tools{margin-top:24px}
-.checklist-return{display:inline-flex;align-items:center;min-height:44px;font-size:14px}
 @media(max-width:900px){.home-primary{padding:28px}.home-primary h2{font-size:34px}.home-route{padding:23px}.home-route h2{font-size:23px}.portal-brand .brand-caption{display:none}}
-@media(max-width:780px){.portal .reader-top-inner{flex-wrap:wrap;gap:0;padding:7px 18px}.portal-brand{min-height:37px;font-size:20px}.portal .top-actions{width:100%;gap:3px;justify-content:flex-start;flex-wrap:wrap;font-size:12px}.portal .top-actions>a{display:inline-flex;padding:5px 12px}.portal-wrap{padding-top:28px}.portal .document-header h1{font-size:36px}.portal .portal-lead{font-size:16px}.home-paths,.figure-collection-grid{grid-template-columns:1fr}.home-paths{gap:18px}.home-primary h2{font-size:34px}.home-secondary{gap:14px}.home-route{padding:22px 24px}.home-route h2{font-size:25px}.thesis-download,.next-step-panel{flex-direction:column;align-items:flex-start;gap:12px}.thesis-download{margin-bottom:16px}.thesis-download .portal-button{font-size:13px}.tesi .portal-jumps{gap:22px;margin-bottom:24px}.hub-section-heading{align-items:flex-start;flex-direction:column;gap:6px}.hub-section-heading h2{font-size:25px}.thesis-reading-row{gap:14px;flex-wrap:wrap;padding:18px 0}.reading-number{min-width:25px;font-size:20px;padding-top:19px}.reading-summary{flex-basis:calc(100% - 40px)}.reading-summary h3{font-size:22px}.thesis-reading-row>.status-label{margin:0 0 0 39px}.reading-description{font-size:13px}.figure-collection-card{padding:22px}.next-step-panel{padding:22px}.hub-section,#checklist{scroll-margin-top:145px}#revisioni{scroll-margin-top:155px}.portal .reader-footer{font-size:11px}.portal .top-actions .snodo-access-exit{margin-left:auto}}
-@media print{.thesis-download,.next-step-panel,.hub-completion-note{display:none}.home-paths{display:block}.home-primary,.home-route{background:white;margin-bottom:15pt}.thesis-reading-row,.figure-collection-card{break-inside:avoid}.integration-note{display:none}.thesis-reading-row{padding:12pt 0}.portal .document-header h1{font-size:28pt}.checklist-page .thesis-checklist{padding:0}}
+@media(max-width:780px){.portal .reader-top-inner{flex-wrap:wrap;gap:0;padding:7px 18px}.portal-brand{min-height:37px;font-size:20px}.portal .top-actions{width:100%;gap:3px;justify-content:flex-start;flex-wrap:wrap;font-size:12px}.portal .top-actions>a{display:inline-flex;padding:5px 12px}.portal-wrap{padding-top:28px}.portal .document-header h1{font-size:36px}.portal .portal-lead{font-size:16px}.home-paths,.figure-collection-grid{grid-template-columns:1fr}.home-paths{gap:18px}.home-primary h2{font-size:34px}.home-secondary{gap:14px}.home-route{padding:22px 24px}.home-route h2{font-size:25px}.thesis-download,.next-step-panel{flex-direction:column;align-items:flex-start;gap:12px}.thesis-download{margin-bottom:16px}.thesis-download .portal-button{font-size:13px}.tesi .portal-jumps{gap:22px;margin-bottom:24px}.hub-section-heading{align-items:flex-start;flex-direction:column;gap:6px}.hub-section-heading h2{font-size:25px}.thesis-reading-row{gap:14px;flex-wrap:wrap;padding:18px 0}.reading-number{min-width:25px;font-size:20px;padding-top:19px}.reading-summary{flex-basis:calc(100% - 40px)}.reading-summary h3{font-size:22px}.thesis-reading-row>.status-label{margin:0 0 0 39px}.reading-description{font-size:13px}.figure-collection-card{padding:22px}.next-step-panel{padding:22px}.hub-section{scroll-margin-top:145px}#revisioni{scroll-margin-top:155px}.portal .reader-footer{font-size:11px}.portal .top-actions .snodo-access-exit{margin-left:auto}}
+@media print{.thesis-download,.next-step-panel,.hub-completion-note{display:none}.home-paths{display:block}.home-primary,.home-route{background:white;margin-bottom:15pt}.thesis-reading-row,.figure-collection-card{break-inside:avoid}.integration-note{display:none}.thesis-reading-row{padding:12pt 0}.portal .document-header h1{font-size:28pt}}
 /* Rifinitura dei quattro contributi testuali. Integrare dopo le regole del reader.
    I testi candidati, le revisioni inline e i confronti rimangono invariati. */
 .reader-contribution .document-header { margin-bottom: 24px; }

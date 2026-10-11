@@ -25,9 +25,8 @@ html[data-site-theme='B'] .home-feature h2 { font:400 clamp(28px,3vw,42px)/1.7 v
 .portal-button-secondary:hover,.home-route:hover { background:var(--site-soft); }
 .home-route,.figure-collection-card,.contribution-card,.area-card { border-radius:var(--radius-card); }
 .portal .top-actions>a[aria-current='page'] { background:var(--site-soft); color:var(--accent); }
-.status-label,.collection-note,.checklist-start,.next-step-panel { background:var(--site-calm); color:var(--ink); border-color:var(--divider); }
+.status-label,.collection-note,.next-step-panel { background:var(--site-calm); color:var(--ink); border-color:var(--divider); }
 .lavoro .status-label { background:var(--site-soft); color:var(--accent); border-color:var(--dataAccent); }
-.checklist-progress progress::-webkit-progress-value { background:var(--dataAccent); }
 .ds-library { background:var(--paper); color:var(--ink); }
 .ds-hero h1,.ds-feature-copy h2,.ds-section>h2,.ds-extension h2 { font-family:var(--site-font-heading); }
 .ds-feature,.ds-card,.ds-foundation { background:var(--surface); border-color:var(--border); border-radius:var(--radius-card); }

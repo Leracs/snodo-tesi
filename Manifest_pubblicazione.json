@@ -22,7 +22,7 @@
     },
     {
       "path": "docs/01_ricerca/Matrice_evidenze.html",
-      "sha256": "eb41ebf5ff32953d47833cf00bbe555e38a0079ea572da453c29852ba322668d",
+      "sha256": "0b803bece240076cfaca5bf631fd1d2a5fff266d520a9f133b27d72e4e1bf9c2",
       "bytes": 38123
     },
     {
@@ -67,7 +67,7 @@
     },
     {
       "path": "docs/02_flussi/Journey_comparabili.html",
-      "sha256": "b619855aba12fdb9117756c54f1edd4bc695710b1b3d45325ec3d336b491e51e",
+      "sha256": "37386501b79cd828386e7e1dd3063c39b3c25e7ea001e54a9992d89f0fbb7f72",
       "bytes": 12545
     },
     {
@@ -77,7 +77,7 @@
     },
     {
       "path": "docs/02_flussi/User_flow.html",
-      "sha256": "3c7223b7d9d4375e0c3802c78a53b86adac9742ec1a123b2d2cbe0ab044f2558",
+      "sha256": "099190f739ded8d86cdba04a24b68c3cce049f8a135052397777400adab726e6",
       "bytes": 13856
     },
     {
@@ -87,7 +87,7 @@
     },
     {
       "path": "docs/03_architettura/Architettura_generale.html",
-      "sha256": "86dd843d9bbeaff17107364df5b45d0a521a536eaaecc44cd011a3fa957ae222",
+      "sha256": "4cb2b6772e37b924f624b6ca193eea43a4e8c68297c1b9ad2c666964b472eb51",
       "bytes": 12263
     },
     {
@@ -127,7 +127,7 @@
     },
     {
       "path": "docs/03_architettura/Inventario_schermate.html",
-      "sha256": "ffc26decc58645041c7efbb20a9e21c25af47eefea69bb184274f30cb96c3088",
+      "sha256": "e397eb480dadad43062989480b4b56354bfdfb0694062cce95ad5dfaec7420c3",
       "bytes": 70693
     },
     {
@@ -142,7 +142,7 @@
     },
     {
       "path": "docs/03_architettura/Matrice_requisiti.html",
-      "sha256": "3c13bdaed7def13794ef901c0871f7e1b41599c8468dc780e570e6878d9739e1",
+      "sha256": "3ec3ee8d95e443e71898eeb8ca6df8421d726fd50f0357db6f819fe932fbf7d0",
       "bytes": 14295
     },
     {
@@ -152,7 +152,7 @@
     },
     {
       "path": "docs/04_wireframe/LEGGIMI.html",
-      "sha256": "ebdf5b9477924365cb344ddae3863814de24fcf9435ae360423c7d71aa49e775",
+      "sha256": "a93291d55541880a658bb16062fd2e20c22a72a7ad54f9989ab9b175be9438ac",
       "bytes": 32384
     },
     {
@@ -192,7 +192,7 @@
     },
     {
       "path": "docs/04_wireframe/Verifica_materiali.html",
-      "sha256": "037f3628af6d391cf86caa48d658bc020f369878274b4df4f1f044cb562f0ff7",
+      "sha256": "7deafd9e739f336c36cb52b8146ae68f9f9a5eb88361340bc3d81d4b7b84deff",
       "bytes": 8214
     },
     {
@@ -552,7 +552,7 @@
     },
     {
       "path": "docs/05_style_tiles/Protocollo_confronto.html",
-      "sha256": "196f17d4d171064ebaed9a4126051da55e54581c48492ee9b9b47c19dea53c88",
+      "sha256": "4f484f876b704b36c1ff2ba2920e9f25476a7338047f49f6b348f13afa3e4ca4",
       "bytes": 13432
     },
     {
@@ -562,7 +562,7 @@
     },
     {
       "path": "docs/05_style_tiles/README.html",
-      "sha256": "6c2dc3f5b0e10c1a884d33a3a27ff26f4879b44bc311d058d5c4b83f5e764d79",
+      "sha256": "d65ccd6448d4a2baa22acb2cdc27b209a70cfbe2b03043a966e6913bc3d61fd0",
       "bytes": 21202
     },
     {
@@ -622,7 +622,7 @@
     },
     {
       "path": "docs/06_design_system/Atmosfera_affluenza.html",
-      "sha256": "95bc6191f67affe17c9bd205f607d1639fed7b2aa6498f0495a88ba409213a41",
+      "sha256": "040162377bd21278b5436aaedf1b249a593967758844a118e1f365f0bf614c14",
       "bytes": 11641
     },
     {
@@ -632,12 +632,12 @@
     },
     {
       "path": "docs/06_design_system/Atmosfera_affluenza_demo.html",
-      "sha256": "db241f08eba076123d306d070a0f43c970f746849bf23289a0d0734a681acdd5",
+      "sha256": "673a2fcf47afdacda6e1ec706b18fdff3d8f7c59143a4fffb74dbc7828e61b79",
       "bytes": 4751
     },
     {
       "path": "docs/06_design_system/Componenti_e_comportamenti.html",
-      "sha256": "56d1c3a78794e4f94940fecee4aefc40cba5a8c53127395ec3213e24f7daa5ae",
+      "sha256": "59c5a76fc7ae083858fd35b19d3875ec0cd7abf2d63bf5f5a0c7aeed41b1ce38",
       "bytes": 20343
     },
     {
@@ -657,7 +657,7 @@
     },
     {
       "path": "docs/06_design_system/Contrasti.html",
-      "sha256": "29b6ce0a90cad75b2c6b16f5571f86955c1efbfcbb36236665a4fa3c794dad32",
+      "sha256": "7499091516971b3753a5aa8e579289f23a875fdd91d178fcca67b6f60f9ba166",
       "bytes": 21768
     },
     {
@@ -672,7 +672,7 @@
     },
     {
       "path": "docs/06_design_system/Corrispondenza_componenti_IA_DS.html",
-      "sha256": "de48d13c6df9ef4e2995130ba85f572743438e1e05b67a17e1d90b790ac94063",
+      "sha256": "a3cce79ad524d3f6a56bbc0091ffd0aec73448e42b43634a5765e70a6c4a2b61",
       "bytes": 10440
     },
     {
@@ -687,12 +687,12 @@
     },
     {
       "path": "docs/06_design_system/Esplorazione_demo.html",
-      "sha256": "967f78530164248858288ff790669de82834de1065a84aa0e25f767c65ca047a",
+      "sha256": "e3020166b92a3e9702b409263c5313ec10c32c12a2930773b768cef5ae8dad07",
       "bytes": 6538
     },
     {
       "path": "docs/06_design_system/Esplorazione_e_recensioni.html",
-      "sha256": "4a77cbacaba713a47e1b525cd08fef08e9b704e26e2f22af2fbc9333985f0111",
+      "sha256": "7420e228c336013103770ebf6472e453b5f32c7f91230360be42fca9a8d4dac2",
       "bytes": 12478
     },
     {
@@ -702,7 +702,7 @@
     },
     {
       "path": "docs/06_design_system/Guida_catalogo.html",
-      "sha256": "3377135ec7c98e4c08d85e8300b590d8b6ae80653204fe99ee19de69561f12d6",
+      "sha256": "c6ab20fd7883f6c2b6910106d289f491576ea22e64fdcec246f30d5a2fc89dc3",
       "bytes": 10892
     },
     {
@@ -732,7 +732,7 @@
     },
     {
       "path": "docs/06_design_system/README.html",
-      "sha256": "5386ff2c7503c0622f2d53cfb51abf86e1bcea6a4fd742be4ba5689734561776",
+      "sha256": "f549fac960d7f11e575fa886eaf926feba16844da5506abd25f93fd26b4aaa05",
       "bytes": 14574
     },
     {
@@ -827,7 +827,7 @@
     },
     {
       "path": "docs/06_design_system/index.html",
-      "sha256": "2394f94dd132d35c3280c2ca5d332979fde0033ac3598f426a915c2fab10050b",
+      "sha256": "2a4ccc0e60eb1b534d3a52d12ab41caec68674967cdfc0298eb6e04af2e6d524",
       "bytes": 63528
     },
     {
@@ -1502,7 +1502,7 @@
     },
     {
       "path": "docs/07_prototipo/Assemblaggio_Figma.html",
-      "sha256": "45c6e48782dce70915503072005bc052239d28a4ed5e502e1ade0f40df1e7a6e",
+      "sha256": "9753923e7da02c34c3df544cb8d431e6423d84a8becfd076dbcf510e4085ac7f",
       "bytes": 19172
     },
     {
@@ -1522,7 +1522,7 @@
     },
     {
       "path": "docs/07_prototipo/LEGGIMI.html",
-      "sha256": "12fa129f3fb156eb38791841fd9d85074544e4a082d9819effd076ee2857af07",
+      "sha256": "aa911441ad56fa68e46d6131f9fc376354e558e64d6649dc17af61f35901c1c2",
       "bytes": 12559
     },
     {
@@ -1542,7 +1542,7 @@
     },
     {
       "path": "docs/07_prototipo/Specifica_assistente_AI.html",
-      "sha256": "a268ab5ad3c48139dcdf2dc30ddce1ddfa62ae9748e5fe3b6759f5769da55c8c",
+      "sha256": "8a97b7cff659a3ab6e827442712eacce7df63eb5d16e3f08e7ed7328feaebb0c",
       "bytes": 27259
     },
     {
@@ -1557,7 +1557,7 @@
     },
     {
       "path": "docs/07_prototipo/Verifica_supporto_locale.html",
-      "sha256": "5abd8aa6e8047513d9f3ff78b356ca05e1c273d39780ebdc8a8051b793f4c7d4",
+      "sha256": "77e79469d74e136c1a4589407bac62ca316e96bae601a64eaf9bc49e9be4b0d9",
       "bytes": 11839
     },
     {
@@ -1602,7 +1602,7 @@
     },
     {
       "path": "docs/07_prototipo/index.html",
-      "sha256": "f19f37aac34b58252d5ae84b56c8033a3494e77b053d97fcad361e651a9b1f14",
+      "sha256": "5827c7b03a3e63abaecd085085110a73955d46a0507562bb3be3cdf4c8f8081c",
       "bytes": 4741
     },
     {
@@ -1617,7 +1617,7 @@
     },
     {
       "path": "docs/08_test/Protocollo_test_formativo.html",
-      "sha256": "21cbb5a02cc7b5a61fc7d465c7db89bf9f3f8829cd3cd0718904dbbb070abe5e",
+      "sha256": "ad7f750e59b6bcef106724ad1ec2b4353360d142073d6af52de79e14b97e40de",
       "bytes": 18754
     },
     {
@@ -1632,7 +1632,7 @@
     },
     {
       "path": "docs/09_tesi/Registro_editoriale.html",
-      "sha256": "20199c34f013129bc49d5b952d66129e00b35bb040c4baba2fc652af993f1dcd",
+      "sha256": "69ad14890fb9f007b8768c9ba9e30ade86ab5f6ccff235aaf2561ed1d4df87b8",
       "bytes": 11363
     },
     {
@@ -1647,7 +1647,7 @@
     },
     {
       "path": "docs/09_tesi/Tesi_sezioni_revisionate_e_sviluppo.html",
-      "sha256": "9d76a0709b05396f0226ceeb119b9d5429cbcbb763760386eb45911e3d61ef83",
+      "sha256": "ea21d9fc2c6794fbd7ba37085ebf3a25fe3b02c5e08a5f9291ee77b5c53d6f47",
       "bytes": 58101
     },
     {
@@ -1657,7 +1657,7 @@
     },
     {
       "path": "docs/10_contributi_tesi/01_Introduzione_e_metodo.html",
-      "sha256": "76982bc205202f7ac026024ec2139c3136b38ae9073ecac20be46c2920f4dff9",
+      "sha256": "e3e02cf23557cadf728bc674bc5aaa958474fae32d9d318719ef6202f5298abf",
       "bytes": 42733
     },
     {
@@ -1667,7 +1667,7 @@
     },
     {
       "path": "docs/10_contributi_tesi/02_Risultati_della_ricerca.html",
-      "sha256": "47b3c94a4d6c316822dcdbb4996d56a4f03e3c7086e368baf0c0789c935e36a5",
+      "sha256": "1fe9a472f4e6db94150ed599d8f47c91db1161d8fc835f9fc7ed4c2edf5fa44e",
       "bytes": 65996
     },
     {
@@ -1677,7 +1677,7 @@
     },
     {
       "path": "docs/10_contributi_tesi/03_Proposta_progettuale.html",
-      "sha256": "53e0896525a1921483982f2bbe8f17efabb9f27cd34d2ba867d63c85b67ff525",
+      "sha256": "fe367eeb1149308c708e3cecf26b6387a196193f6d3ef7e7fc7bde8f93093ff8",
       "bytes": 154128
     },
     {
@@ -1687,7 +1687,7 @@
     },
     {
       "path": "docs/10_contributi_tesi/04_Valutazione_prevista.html",
-      "sha256": "94949dc78487accb02161ec7ff57bcc0ffeb63beb2a869a351e1c72e0603b491",
+      "sha256": "251d3ff0f3b7088235abf9bb333ba8e343e0146fc7f9fa0b5dd5ee35a73df397",
       "bytes": 13848
     },
     {
@@ -1697,7 +1697,7 @@
     },
     {
       "path": "docs/10_contributi_tesi/05_Grafici_della_ricerca.html",
-      "sha256": "4cf8dc0296d2cf1823c89aee580de9d9ccb6df7531a590b62ec6748ce658d398",
+      "sha256": "64e6942b2d80debf7caaec68cff536fe5a5e957f3b69bf45e83708ed04c3c684",
       "bytes": 33339
     },
     {
@@ -1707,7 +1707,7 @@
     },
     {
       "path": "docs/10_contributi_tesi/06_Apparati_del_progetto.html",
-      "sha256": "2c3118afc82ddf5a4022c7641c0ec25bf83703cc4005894812f96d59ed502a82",
+      "sha256": "594f5c6616b1144b2da783ec27225514c13de6eac57b7c726a09d5e74bdabe94",
       "bytes": 36555
     },
     {
@@ -1852,7 +1852,7 @@
     },
     {
       "path": "docs/11_materiale_di_lavoro/Benchmark_UX_UI_e_integrazioni_SNODO.html",
-      "sha256": "d3a12e102c3f87fc25ec836e8d76d05917d4d98f4c1d1645b781418938b18995",
+      "sha256": "f927231c8b67c859762b5f0a04e84e1408d0ff6f1c288e5b3ad77a5cd1726b88",
       "bytes": 45969
     },
     {
@@ -1877,7 +1877,7 @@
     },
     {
       "path": "docs/11_materiale_di_lavoro/Separazione_editoriale.html",
-      "sha256": "3a417abc199d36f045bbc16b1950c97b1a44933181d0cde2485944c7193690d0",
+      "sha256": "ec4b4cd2e5187127d4bcc3a157cef4e2b4579502a677b75a25b42dbdd4d89f69",
       "bytes": 15212
     },
     {
@@ -1977,17 +1977,17 @@
     },
     {
       "path": "docs/Contributi_tesi.html",
-      "sha256": "514d270167c1a4aa3cd3d767ebf290a768e575fded0cfa022f36ad2156de58d6",
+      "sha256": "fe1b1d23a3f2bffa269b5dd58b44dfcc962cefbf1973c250cc4485b6ad7e72c1",
       "bytes": 7241
     },
     {
       "path": "docs/Indice_consegne.html",
-      "sha256": "d3efbcc881fda6dda35f21f4f1fcd546476fed2b4b882cc77c9a040d9deece5e",
+      "sha256": "a4691ac698a99b1154dd7b22b711cf16c9d287c16c0e22b7d6f1725d3895b612",
       "bytes": 3752
     },
     {
       "path": "docs/LEGGIMI.html",
-      "sha256": "beb6a234472d9eb5e972c96b05ec4603985bfdc95768a42d9918bd6482a39767",
+      "sha256": "4d99cd5f6a34358df2ed5940c54dcac890c28d5aab1a8db3aa86c3ec67377bda",
       "bytes": 7482
     },
     {
@@ -1997,12 +1997,12 @@
     },
     {
       "path": "docs/Materiale_di_lavoro.html",
-      "sha256": "d2ad70a7aa3e0937a34eac47b28d84000859130ba5761252e6dfb62123a3ea0a",
+      "sha256": "b97737f34bb9350c23e04c6047253b9a72cf45a92df8af0eeac1af82de6b55b3",
       "bytes": 30226
     },
     {
       "path": "docs/Registro_decisioni.html",
-      "sha256": "b27b25f0be8a08b27f4ad1460a7415427fa1adddc8911f9a54c5e93a06ab9bdb",
+      "sha256": "9f6c8e455c68c0c24d8ecf89a545c48ca2a4926a7ec49e98338af2d8230a5ae3",
       "bytes": 9741
     },
     {
@@ -2012,7 +2012,7 @@
     },
     {
       "path": "docs/Revisione_professore.html",
-      "sha256": "55c572ed05fc175a78f0c2b13130ff05c1f4345cbb90bc673215ba5f27d3d61a",
+      "sha256": "6f722a0670bf7cc8962e90d364170869f524c711847e087821ef86933bd7cb62",
       "bytes": 7970
     },
     {
@@ -2022,7 +2022,7 @@
     },
     {
       "path": "docs/Stato_consegne.html",
-      "sha256": "d25e3dfffca246fa1335c7a60d5b8416fce2d4e09cc3937e46f27ff3d1d91709",
+      "sha256": "f1d555546fd7db73677833ba5edf7c37ccae63297fc93a1af946bc8289e7c6d3",
       "bytes": 8211
     },
     {
@@ -2042,13 +2042,13 @@
     },
     {
       "path": "docs/index.html",
-      "sha256": "d3efbcc881fda6dda35f21f4f1fcd546476fed2b4b882cc77c9a040d9deece5e",
+      "sha256": "a4691ac698a99b1154dd7b22b711cf16c9d287c16c0e22b7d6f1725d3895b612",
       "bytes": 3752
     },
     {
       "path": "docs/lettura.css",
-      "sha256": "af7382866f66a7ce79b178b3a0b5cf44932e5445c44f850dda54f2f0eb459d1b",
-      "bytes": 55180
+      "sha256": "868e5071176ce753cd7866aeffee961d229630ac02f0cb998187bca0b96bb39b",
+      "bytes": 50341
     },
     {
       "path": "docs/lettura.js",
@@ -2067,8 +2067,8 @@
     },
     {
       "path": "docs/tema-sito.css",
-      "sha256": "11fe83733352397ea82efd3354adb8cc25a8a44f60df2b0c32ab0b59295eecc4",
-      "bytes": 13394
+      "sha256": "0304e64d432a455db75ecc5bee5a6f324b0bbb735a82c0fa958380bfc981e536",
+      "bytes": 13290
     },
     {
       "path": "docs/tema-sito.js",
