@@ -1,0 +1,358 @@
+{
+  "date": "2026-10-11",
+  "ui_revision": "0.3",
+  "product_name": "SNODO",
+  "product_name_status": "provisional",
+  "status": "proposed_no_selected_direction",
+  "regenerates_both_tiles": true,
+  "rasterization": "Every PNG rasterized from its SVG through bundled Node.js/sharp",
+  "tile_dimensions": {
+    "width": 1440,
+    "height": 1840
+  },
+  "states_dimensions": {
+    "width": 1440,
+    "height": 1920
+  },
+  "mobile_component_width_px": 360,
+  "same_product_content": true,
+  "logical_paragraph_equality_by_component": {
+    "03": true,
+    "04": true,
+    "05": true,
+    "06": true,
+    "07": true,
+    "08": true,
+    "09": true
+  },
+  "same_product_component_quantity": true,
+  "component_sections_each_tile": 9,
+  "allowed_content_differences": [
+    "Palette: cinque ruoli A / cinque accenti B e relativi codici HEX",
+    "Nomi direzione e descrizione visuale",
+    "Font e nota di fallback",
+    "Ritorni a capo dipendenti dai font",
+    "Decorazioni e impaginazione della direzione"
+  ],
+  "overflow_checks": [],
+  "contrast_failures": [],
+  "contrast_checks": {
+    "pairs": 72,
+    "pass": 68,
+    "not_applicable": 4
+  },
+  "font_rendering_B": {
+    "heading": "Boldonse-Regular.ttf: SVG glyph outlines with Unicode in data-text and metadata",
+    "body_intent": "Forma DJR Text",
+    "body_actual": "Helvetica Neue",
+    "body_actual_file": "/System/Library/Fonts/HelveticaNeue.ttc",
+    "body_indices": {
+      "regular": 0,
+      "bold": 1
+    },
+    "Forma_DJR_Text_available": false
+  },
+  "brand_palette_B": {
+    "accentPink": "#FD87BA",
+    "accentGreen": "#ADE25D",
+    "accentPurple": "#9E6CDA",
+    "accentYellow": "#FCEC52",
+    "accentTurquoise": "#80EFED"
+  },
+  "component_geometry": {
+    "card_radius_A": 20,
+    "card_radius_B": 32,
+    "control_height": 48,
+    "field_height": 52,
+    "field_radius_A": 12,
+    "field_radius_B": 18,
+    "passive_tag_height": 28,
+    "interactive_filter_height": 44,
+    "icon_grid": 24,
+    "icon_stroke": 1.8,
+    "bookmark_hit_area": [
+      44,
+      44
+    ],
+    "navigation": [
+      360,
+      80
+    ],
+    "active_icon_capsule": [
+      48,
+      32
+    ]
+  },
+  "assets": [
+    {
+      "svg": "05_style_tiles/Style_tile_A.svg",
+      "png": "05_style_tiles/Style_tile_A.png",
+      "width": 1440,
+      "height": 1840,
+      "component_areas": [
+        {
+          "id": "01",
+          "title": "Palette e ruoli",
+          "x": 80,
+          "y": 356,
+          "width": 760,
+          "height": 144
+        },
+        {
+          "id": "02",
+          "title": "Tipografia e gerarchia",
+          "x": 928,
+          "y": 356,
+          "width": 428,
+          "height": 144
+        },
+        {
+          "id": "05",
+          "title": "Card luogo",
+          "x": 80,
+          "y": 550,
+          "width": 360,
+          "height": 550
+        },
+        {
+          "id": "06",
+          "title": "Atmosfera: intensità, non voto",
+          "x": 80,
+          "y": 1144,
+          "width": 360,
+          "height": 452
+        },
+        {
+          "id": "03",
+          "title": "Azioni, campo e criteri",
+          "x": 528,
+          "y": 550,
+          "width": 360,
+          "height": 368
+        },
+        {
+          "id": "04",
+          "title": "Orientamento e navigazione",
+          "x": 528,
+          "y": 960,
+          "width": 360,
+          "height": 372
+        },
+        {
+          "id": "07",
+          "title": "Contributo di una persona",
+          "x": 976,
+          "y": 550,
+          "width": 360,
+          "height": 300
+        },
+        {
+          "id": "08",
+          "title": "Messaggio dell’assistente",
+          "x": 976,
+          "y": 904,
+          "width": 360,
+          "height": 336
+        },
+        {
+          "id": "09",
+          "title": "Feedback semantico",
+          "x": 528,
+          "y": 1344,
+          "width": 808,
+          "height": 292
+        }
+      ],
+      "text_nodes": 73,
+      "overflows": [],
+      "heading_sources": [],
+      "rasterization": "PNG from SVG via sharp"
+    },
+    {
+      "svg": "05_style_tiles/Style_tile_B.svg",
+      "png": "05_style_tiles/Style_tile_B.png",
+      "width": 1440,
+      "height": 1840,
+      "component_areas": [
+        {
+          "id": "01",
+          "title": "Palette e ruoli",
+          "x": 80,
+          "y": 356,
+          "width": 760,
+          "height": 144
+        },
+        {
+          "id": "02",
+          "title": "Tipografia e gerarchia",
+          "x": 928,
+          "y": 356,
+          "width": 428,
+          "height": 144
+        },
+        {
+          "id": "05",
+          "title": "Card luogo",
+          "x": 80,
+          "y": 550,
+          "width": 360,
+          "height": 550
+        },
+        {
+          "id": "06",
+          "title": "Atmosfera: intensità, non voto",
+          "x": 80,
+          "y": 1144,
+          "width": 360,
+          "height": 452
+        },
+        {
+          "id": "03",
+          "title": "Azioni, campo e criteri",
+          "x": 528,
+          "y": 550,
+          "width": 360,
+          "height": 368
+        },
+        {
+          "id": "04",
+          "title": "Orientamento e navigazione",
+          "x": 528,
+          "y": 960,
+          "width": 360,
+          "height": 372
+        },
+        {
+          "id": "07",
+          "title": "Contributo di una persona",
+          "x": 976,
+          "y": 550,
+          "width": 360,
+          "height": 300
+        },
+        {
+          "id": "08",
+          "title": "Messaggio dell’assistente",
+          "x": 976,
+          "y": 904,
+          "width": 360,
+          "height": 336
+        },
+        {
+          "id": "09",
+          "title": "Feedback semantico",
+          "x": 528,
+          "y": 1344,
+          "width": 808,
+          "height": 292
+        }
+      ],
+      "text_nodes": 73,
+      "overflows": [],
+      "heading_sources": [
+        {
+          "text": "SNODO",
+          "x": 80,
+          "baseline": 145,
+          "size": 72,
+          "weight": 400,
+          "font": "Boldonse",
+          "svg": "glyph outlines from actual local font file"
+        },
+        {
+          "text": "Un posto per il tuo momento.",
+          "x": 80,
+          "baseline": 244,
+          "size": 38,
+          "weight": 400,
+          "font": "Boldonse",
+          "svg": "glyph outlines from actual local font file"
+        },
+        {
+          "text": "Dove ti va di andare?",
+          "x": 928,
+          "baseline": 428,
+          "size": 24,
+          "weight": 400,
+          "font": "Boldonse",
+          "svg": "glyph outlines from actual local font file"
+        },
+        {
+          "text": "Cortile Uno",
+          "x": 104,
+          "baseline": 823,
+          "size": 20,
+          "weight": 400,
+          "font": "Boldonse",
+          "svg": "glyph outlines from actual local font file"
+        }
+      ],
+      "rasterization": "PNG from SVG via sharp"
+    },
+    {
+      "svg": "06_design_system/Stati_e_controlli.svg",
+      "png": "06_design_system/Stati_e_controlli.png",
+      "width": 1440,
+      "height": 1920,
+      "component_areas": [],
+      "text_nodes": 89,
+      "overflows": [],
+      "heading_sources": [
+        {
+          "text": "Direzione B",
+          "x": 752,
+          "baseline": 238,
+          "size": 28,
+          "weight": 400,
+          "font": "Boldonse",
+          "svg": "glyph outlines from actual local font file"
+        }
+      ],
+      "rasterization": "PNG from SVG via sharp"
+    },
+    {
+      "svg": "05_style_tiles/Media_cortile_A.svg",
+      "png": "05_style_tiles/Media_cortile_A.png",
+      "width": 360,
+      "height": 200,
+      "component_areas": [],
+      "text_nodes": 1,
+      "overflows": [],
+      "heading_sources": [],
+      "rasterization": "PNG from SVG via sharp"
+    },
+    {
+      "svg": "05_style_tiles/Media_cortile_B.svg",
+      "png": "05_style_tiles/Media_cortile_B.png",
+      "width": 360,
+      "height": 200,
+      "component_areas": [],
+      "text_nodes": 1,
+      "overflows": [],
+      "heading_sources": [],
+      "rasterization": "PNG from SVG via sharp"
+    }
+  ],
+  "runtime_dependencies": [
+    "Python 3",
+    "Pillow for font metrics",
+    "fontTools for Boldonse glyph outlines; install separately",
+    "Bundled Node.js and sharp for SVG-to-PNG rendering",
+    "Local Georgia/Trebuchet MS/Helvetica Neue; no Forma DJR Text supplied"
+  ],
+  "limitations": [
+    "Static SVG components; no native Figma import or interactive component library verified",
+    "No real feedback, test outcome or selected direction",
+    "Product catalog, illustration, visit, contribution and intensity values are mock",
+    "Atmosphere intensity is not satisfaction or a questionnaire-derived score",
+    "Glyph outline headings retain Unicode in metadata; native text editability unverified",
+    "Geometry and contrast checks do not replace usability or accessibility testing"
+  ],
+  "font_svg_modes": {
+    "A_heading": "native SVG text: Georgia",
+    "A_body": "native SVG text: Trebuchet MS",
+    "B_heading": "glyph outlines: Boldonse-Regular.ttf",
+    "B_body": "native SVG text: Helvetica Neue; Forma DJR Text unavailable"
+  },
+  "publication_note": "Copia per consultazione: i controlli e gli hash di origine descrivono gli asset del workspace. I percorsi locali sono stati normalizzati; il manifest di pubblicazione descrive i file distribuiti."
+}

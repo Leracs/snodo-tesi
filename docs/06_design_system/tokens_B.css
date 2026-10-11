@@ -1,0 +1,51 @@
+/* SNODO B: provvisorio, nessuna preferenza utenti acquisita */
+/* Forma DJR Text è intent; Helvetica Neue è il fallback effettivamente disponibile. */
+@font-face { font-family: "Boldonse"; src: url("../05_style_tiles/fonts/Boldonse-Regular.ttf") format("truetype"); font-style: normal; font-weight: 400; font-display: swap; }
+[data-theme="B"] {
+  --background: #80EFED;
+  --surface: #FFFFFF;
+  --surfaceMuted: #F2F2EE;
+  --text: #000000;
+  --muted: #4B4B4B;
+  --primary: #000000;
+  --primaryHover: #252525;
+  --primaryPressed: #111111;
+  --primarySoft: #80EFED;
+  --secondaryBg: #80EFED;
+  --onSecondary: #000000;
+  --border: #000000;
+  --divider: #BDBDB5;
+  --focus: #000000;
+  --accentDecorative: #9E6CDA;
+  --accentPink: #FD87BA;
+  --accentGreen: #ADE25D;
+  --accentPurple: #9E6CDA;
+  --accentYellow: #FCEC52;
+  --accentTurquoise: #80EFED;
+  --success: #235B2E;
+  --successBg: #E8F6E8;
+  --warning: #684900;
+  --warningBg: #FFF2CC;
+  --danger: #A42335;
+  --dangerBg: #FDE8EB;
+  --info: #254E68;
+  --infoBg: #E7F1F7;
+  --onPrimary: #80EFED;
+  --font-heading: "Boldonse", sans-serif;
+  --font-body: "Forma DJR Text", "Helvetica Neue", Helvetica, sans-serif;
+  --heading-weight: 400;
+  --body-size: 16px;
+  --body-line: 24px;
+  --radius-card: 32px;
+  --radius-control: 32px;
+  --radius-field: 18px;
+  --radius-passive-tag: 14px;
+  --passive-tag-height: 28px;
+  --filter-height: 44px;
+  --icon-size: 24px;
+  --icon-stroke: 1.8px;
+  --control-height: 48px;
+  --field-height: 52px;
+  --focus-width: 3px;
+  --focus-offset: 3px;
+}

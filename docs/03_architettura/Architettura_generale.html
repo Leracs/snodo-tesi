@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="it" class="snodo-gate-locked"><head><meta name="robots" content="noindex,nofollow"><style id="snodo-access-critical">html.snodo-gate-locked body{overflow:hidden!important;background:#F7F1E8!important}html.snodo-gate-locked body>:not(#snodo-access-gate):not(#snodo-access-safety):not(noscript),html.snodo-gate-locked body>:not(#snodo-access-gate):not(#snodo-access-safety):not(noscript) *{visibility:hidden!important;pointer-events:none!important}</style><link rel="stylesheet" href="../accesso/gate.css"><script src="../accesso/gate.js" data-snodo-gate></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Architettura costruita e oggetti informativi · Tesi UX UI</title><link rel="stylesheet" href="../lettura.css?v=20261011-checklist-v1"><script src="../lettura.js?v=20261011-checklist-v1" defer></script></head>
+<body class="document lavoro"><noscript><div id="snodo-access-safety"><strong>SNODO · materiali della tesi</strong><p>Per usare il gate d’ingresso, attiva JavaScript nel browser e ricarica questa pagina.</p></div></noscript><a class="skip-link" href="#contenuto">Vai al contenuto</a>
+<header class="reader-top"><div class="reader-top-inner"><a class="back-link" href="../Materiale_di_lavoro.html"><span aria-hidden="true">←</span> Materiale di lavoro</a><div class="top-actions"><a href="../Indice_consegne.html">Indice dei materiali</a><button type="button" class="print-button" data-print hidden>Stampa</button></div></div></header>
+<main id="contenuto" class="reader-wrap" tabindex="-1"><header class="document-header"><p class="eyebrow">Materiale di lavoro · Architettura delle informazioni</p><h1 id="inizio">Architettura costruita e oggetti informativi</h1><p class="document-meta">Uso operativo · 11 ottobre 2026 · circa 4 min di lettura</p></header><aside class="classification-banner lavoro" aria-label="Destinazione e stato del materiale"><div><span class="status-label">Uso operativo</span><strong>Proposta operativa</strong></div><p>Specifica o guida per sviluppare il progetto. I passaggi da raccontare nella tesi sono raccolti separatamente.</p><p class="classification-detail"><b>Collocazione:</b> Non da integrare come documento intero. Contiene istruzioni, ipotesi o controlli di costruzione; non è un capitolo pronto per la tesi.</p></aside><div class="reading-layout"><article class="prose"><p>v1.0 — 11 ottobre 2026</p>
+<p>La copertura iniziale è tutta Italia (C). Le quattro aree e la disposizione sono H reversibili. Diagrammi e wireframe sono materiali costruiti e importabili; le interazioni native Figma e i test reali non sono verificati. Nessun catalogo concreto è contenuto in questi asset.</p>
+<h2 id="mappa-generale">Mappa generale</h2>
+<p>Esplora / Salvati / Chat / Profilo sono le quattro destinazioni. AI, recensione, provenienza e Maps sono percorsi trasversali. Città e zona sono contesto, non una quinta area.</p>
+<div class="section-figures" data-figure-section="Mappa generale"><figure class="inline-figure"><header class="figure-header"><p class="figure-type">Proposta progettuale</p><b class="figure-title">Architettura generale proposta</b></header><a class="figure-preview" href="Architettura_generale.svg?v=mv3qowbn.aai" data-figure-viewer data-figure-title="Architettura generale proposta" data-figure-caption="Quattro aree di navigazione, oggetti condivisi e assistente trasversale compongono l’architettura proposta. La struttura resta da valutare con le persone." aria-label="Ingrandisci: Architettura generale proposta"><img src="Architettura_generale.svg?v=mv3qowbn.aai" alt="Architettura generale proposta" width="1600" height="1350" loading="lazy" decoding="async"></a><figcaption><p>Quattro aree di navigazione, oggetti condivisi e assistente trasversale compongono l’architettura proposta. La struttura resta da valutare con le persone.</p><div class="figure-actions"><a href="Architettura_generale.svg?v=mv3qowbn.aai" data-figure-viewer data-figure-title="Architettura generale proposta" data-figure-caption="Quattro aree di navigazione, oggetti condivisi e assistente trasversale compongono l’architettura proposta. La struttura resta da valutare con le persone.">Ingrandisci</a><a href="Architettura_generale.svg" download>Scarica SVG</a><a href="Architettura_generale.png" download>Scarica PNG</a></div></figcaption></figure>
+</div>
+<h2 id="oggetti">Oggetti</h2>
+<p class="table-hint" hidden>↔ Scorri la tabella per leggere tutte le colonne.</p><div class="table-wrap" role="region" tabindex="0" aria-label="Tabella 1: Oggetti"><table>
+<thead>
+<tr>
+<th scope="col">ID</th>
+<th scope="col">Oggetto</th>
+<th scope="col">Campi strutturali</th>
+<th scope="col">Regola</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>O01</td>
+<td>Luogo</td>
+<td>id, città, zona, posizione, categoria, informazioni pratiche</td>
+<td>Unico ID da mappa/lista/AI/salvati/gruppo</td>
+</tr>
+<tr>
+<td>O02</td>
+<td>Contesto geografico</td>
+<td>città, zona, riferimento distanze, origine manuale/posizione autorizzata</td>
+<td>Ricerca altrove senza GPS; copertura Italia</td>
+</tr>
+<tr>
+<td>O03</td>
+<td>Informazione sul luogo</td>
+<td>tipo, valore o assente, fonte, aggiornamento, contesto temporale</td>
+<td>Dichiarazione/contributo/riepilogo distinti</td>
+</tr>
+<tr>
+<td>O04</td>
+<td>Media</td>
+<td>tipo, origine, data, contesto</td>
+<td>Locale/utente etichettati; origine non certifica veridicità</td>
+</tr>
+<tr>
+<td>O05</td>
+<td>Visita dichiarata</td>
+<td>luogo_id, data, fascia, occasione facoltativa</td>
+<td>Dichiarata dalla persona; nessun rilevamento obbligatorio</td>
+</tr>
+<tr>
+<td>O06</td>
+<td>Recensione</td>
+<td>visita, risposte, appunti, testo applicato, visibilità, identità mostrata, stato</td>
+<td>AI suggerisce; autore applica e invia esplicitamente</td>
+</tr>
+<tr>
+<td>O07</td>
+<td>Indicatore atmosfera</td>
+<td>dimensione, periodo, scala, quantità, recenza, incertezza</td>
+<td>Condizioni separate; nessun comfort universale/live</td>
+</tr>
+<tr>
+<td>O08</td>
+<td>Criterio</td>
+<td>dimensione, valore, vincolo/preferenza, origine, area di applicazione</td>
+<td>Correggibile; AI non allenta un vincolo da sola</td>
+</tr>
+<tr>
+<td>O09</td>
+<td>Salvataggio</td>
+<td>luogo_id, raccolta facoltativa</td>
+<td>Collegamento; non duplica dati del luogo</td>
+</tr>
+<tr>
+<td>O10</td>
+<td>Conversazione</td>
+<td>contesto, messaggi, autori, invocazioni AI</td>
+<td>AI individuale o chat di una proposta; nessun feed</td>
+</tr>
+<tr>
+<td>O11</td>
+<td>Proposta di uscita</td>
+<td>città/zona, occasione, data/fascia, alternative, risposte, stato</td>
+<td>Decisione umana; cambi importanti richiedono riconferma</td>
+</tr>
+<tr>
+<td>O12</td>
+<td>Partecipazione</td>
+<td>invito, adesione, vincoli condivisi, preferenza, conferma</td>
+<td>Invito/adesione/preferenza/accordo non coincidono</td>
+</tr>
+<tr>
+<td>O13</td>
+<td>Preferenza personale</td>
+<td>criterio esplicito, modifica</td>
+<td>Privata finché non condivisa volontariamente</td>
+</tr>
+</tbody></table>
+</div>
+<h2 id="relazioni">Relazioni</h2>
+<p class="table-hint" hidden>↔ Scorri la tabella per leggere tutte le colonne.</p><div class="table-wrap" role="region" tabindex="0" aria-label="Tabella 2: Relazioni"><table>
+<thead>
+<tr>
+<th scope="col">Da</th>
+<th scope="col">A</th>
+<th scope="col">Cardinalità proposta</th>
+<th scope="col">Relazione</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>O01</td>
+<td>O03</td>
+<td>1:N</td>
+<td>ha informazioni</td>
+</tr>
+<tr>
+<td>O01</td>
+<td>O04</td>
+<td>1:N</td>
+<td>ha media</td>
+</tr>
+<tr>
+<td>O01</td>
+<td>O05</td>
+<td>1:N</td>
+<td>riceve visite dichiarate</td>
+</tr>
+<tr>
+<td>O05</td>
+<td>O06</td>
+<td>1:0..1</td>
+<td>sostiene contributo</td>
+</tr>
+<tr>
+<td>O06</td>
+<td>O07</td>
+<td>N:N</td>
+<td>può contribuire al riepilogo</td>
+</tr>
+<tr>
+<td>O02</td>
+<td>O08</td>
+<td>1:N</td>
+<td>definisce area/riferimento dei criteri</td>
+</tr>
+<tr>
+<td>O08</td>
+<td>O01</td>
+<td>N:N</td>
+<td>filtra o descrive compatibilità, anche incerta</td>
+</tr>
+<tr>
+<td>O09</td>
+<td>O01</td>
+<td>N:1</td>
+<td>riferisce senza copia</td>
+</tr>
+<tr>
+<td>O10</td>
+<td>O11</td>
+<td>1:0..1</td>
+<td>chat associata alla proposta</td>
+</tr>
+<tr>
+<td>O11</td>
+<td>O01</td>
+<td>N:N</td>
+<td>confronta alternative</td>
+</tr>
+<tr>
+<td>O11</td>
+<td>O12</td>
+<td>1:N</td>
+<td>raccoglie stati delle persone</td>
+</tr>
+<tr>
+<td>O12</td>
+<td>O08</td>
+<td>1:N</td>
+<td>condivide criteri volontari</td>
+</tr>
+<tr>
+<td>O11</td>
+<td>O02</td>
+<td>N:1</td>
+<td>ha contesto condiviso esplicito</td>
+</tr>
+<tr>
+<td>O13</td>
+<td>O08</td>
+<td>1:1</td>
+<td>conserva criterio personale</td>
+</tr>
+</tbody></table>
+</div>
+<h2 id="invarianti-e-riuso">Invarianti e riuso</h2>
+<ul>
+<li>Italia confermata; demo Roma/Milano reversibile.</li>
+<li>Nessuna città implicita dal GPS.</li>
+<li>Distanza dal riferimento esplicito, non durata.</li>
+<li>Luogo e contesto unici tra mappa/lista/AI/gruppo/salvati.</li>
+<li>Preferenze private condivise solo volontariamente.</li>
+<li>Invito, adesione, preferenza e accordo distinti; silenzio non consenso; H gruppo completo concordato solo con aderenti confermati e nessun invito pendente.</li>
+<li>Inviti declinati visibili: non votano e non bloccano; inviti pendenti non sono voti ma lasciano provvisorio il gruppo completo; Maps accessibile anche da esito provvisorio.</li>
+<li>AI recensione: proposta, applicazione, anteprima, invio espliciti.</li>
+<li>Mappa sempre visibile non vincolo; stato espanso ammesso a schermata intera.</li>
+</ul>
+<p>La tabella di coerenza del catalogo concreto è preparata separatamente. Gli ID di luogo previsti sono luogo-roma-01..04 e luogo-milano-01..04; qui compaiono solo etichette di tipo. Amsterdam è un contesto della ricerca e rimane fuori dalla copertura italiana iniziale.</p>
+<p>L’AI usa gli stessi oggetti e i criteri visibili. L’output non è una seconda scheda né una decisione autonoma. Nel gruppo si usano criteri condivisi volontariamente; nella recensione si usano soltanto informazioni fornite dall’autore.</p>
+<p>Fonte di progetto: Prompt operativo consolidato e Analisi_progetto_e_requisiti.md, 11 ottobre 2026; ricerca disponibile nei CSV e nell’analisi verificata. H non significa dato osservato.</p>
+<section class="document-end" aria-label="Materiali collegati"><h2>Materiali collegati</h2><ul><li><a href="Architettura_generale.png">Mappa generale — anteprima</a></li><li><a href="Architettura_generale.svg">Mappa generale — SVG modificabile</a></li><li><a href="Architettura_oggetti_relazioni.json">Architettura oggetti relazioni.json</a></li></ul><p><a href="Architettura_generale.md" download>Scarica il sorgente Markdown</a></p><p><a href="../Materiale_di_lavoro.html">Torna a materiale di lavoro</a></p></section></article><aside class="toc" aria-label="Indice del documento"><details open><summary>In questa pagina</summary><nav aria-label="Sezioni del documento"><ul><li><a href="#mappa-generale">Mappa generale</a></li><li><a href="#oggetti">Oggetti</a></li><li><a href="#relazioni">Relazioni</a></li><li><a href="#invarianti-e-riuso">Invarianti e riuso</a></li></ul></nav></details></aside></div><nav class="next-documents" aria-label="Altri documenti della stessa raccolta"><a href="../02_flussi/Journey_comparabili.html"><small>← Documento precedente</small><strong>Journey comparabili: attuale ricostruito e atteso</strong></a><a class="next" href="Inventario_schermate.html"><small>Documento successivo →</small><strong>Inventario strutturale delle 21 schermate</strong></a></nav></main>
+<footer class="reader-footer">Materiale di lavoro · Proposta operativa. Il sorgente è conservato nel pacchetto.</footer></body></html>

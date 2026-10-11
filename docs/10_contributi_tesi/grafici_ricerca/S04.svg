@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="720" height="502" preserveAspectRatio="xMinYMin meet" viewBox="0 0 720 502" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="720" height="502"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-502)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="720" height="502" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="28" y="466" style="font-family: Helvetica-Bold; font-size: 23px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,932) scale(1,-1)">Atmosfera, distanza e budget orientano la scelta</text>
+			<text x="28" y="435" style="font-family: Helvetica; font-size: 16px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,870) scale(1,-1)">N = 50 · percentuale di persone che selezionano ciascun criterio</text>
+			<text x="28" y="24" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,48) scale(1,-1)">completa.</text>
+			<text x="28" y="42" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,84) scale(1,-1)">Sono mostrate le cinque opzioni principali; 5 risposte libere restano nella tabella</text>
+			<text x="28" y="60" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,120) scale(1,-1)">Risposte multiple: le percentuali non devono sommare a 100%.</text>
+			<text x="28" y="78" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,156) scale(1,-1)">Fonte: SONDAGGIO TESI.csv.</text>
+			<path d="M 295,130 L 295,394 Z" style="stroke: rgb(88%,90%,91%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="284.885" y="107" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,214) scale(1,-1)">0%</text>
+			<path d="M 380,130 L 380,394 Z" style="stroke: rgb(88%,90%,91%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="365.993" y="107" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,214) scale(1,-1)">25%</text>
+			<path d="M 465,130 L 465,394 Z" style="stroke: rgb(88%,90%,91%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="450.993" y="107" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,214) scale(1,-1)">50%</text>
+			<path d="M 550,130 L 550,394 Z" style="stroke: rgb(88%,90%,91%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="535.993" y="107" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,214) scale(1,-1)">75%</text>
+			<path d="M 635,130 L 635,394 Z" style="stroke: rgb(88%,90%,91%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="617.101" y="107" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,214) scale(1,-1)">100%</text>
+			<text x="204.088" y="362.6" style="font-family: Helvetica; font-size: 16px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,725) scale(1,-1)">Atmosfera</text>
+			<g transform="">
+				<g transform="">
+					<rect x="295.0" y="357.6689655172414" width="251.60000000000002" height="19.862068965517267" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(13%,42%,38%); fill-rule: evenodd;"/>
+					<g transform=""/>
+				</g>
+				<g transform=""/>
+				<g transform=""/>
+			</g>
+			<text x="555.6" y="362.6" style="font-family: Helvetica; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,725) scale(1,-1)">37 · 74,0%</text>
+			<text x="154.28" y="309.8" style="font-family: Helvetica; font-size: 16px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,619) scale(1,-1)">Distanza da casa</text>
+			<g transform="">
+				<g transform="">
+					<rect x="295.0" y="304.8689655172414" width="204.0" height="19.862068965517267" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(13%,42%,38%); fill-rule: evenodd;"/>
+					<g transform=""/>
+				</g>
+				<g transform=""/>
+				<g transform=""/>
+			</g>
+			<text x="508.0" y="309.8" style="font-family: Helvetica; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,619) scale(1,-1)">30 · 60,0%</text>
+			<text x="226.296" y="257.0" style="font-family: Helvetica; font-size: 16px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,514) scale(1,-1)">Budget</text>
+			<g transform="">
+				<g transform="">
+					<rect x="295.0" y="252.06896551724137" width="183.60000000000002" height="19.86206896551724" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(13%,42%,38%); fill-rule: evenodd;"/>
+					<g transform=""/>
+				</g>
+				<g transform=""/>
+				<g transform=""/>
+			</g>
+			<text x="487.6" y="257.0" style="font-family: Helvetica; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,514) scale(1,-1)">27 · 54,0%</text>
+			<text x="190.744" y="204.20000000000002" style="font-family: Helvetica; font-size: 16px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,408) scale(1,-1)">Accoglienza</text>
+			<g transform="">
+				<g transform="">
+					<rect x="295.0" y="199.26896551724138" width="81.60000000000002" height="19.86206896551724" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(13%,42%,38%); fill-rule: evenodd;"/>
+					<g transform=""/>
+				</g>
+				<g transform=""/>
+				<g transform=""/>
+			</g>
+			<text x="385.6" y="204.20000000000002" style="font-family: Helvetica; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,408) scale(1,-1)">12 · 24,0%</text>
+			<text x="106.29599999999999" y="151.4" style="font-family: Helvetica; font-size: 16px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,302) scale(1,-1)">Possibilità di co-working</text>
+			<g transform="">
+				<g transform="">
+					<rect x="295.0" y="146.46896551724137" width="68.0" height="19.86206896551724" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(13%,42%,38%); fill-rule: evenodd;"/>
+					<g transform=""/>
+				</g>
+				<g transform=""/>
+				<g transform=""/>
+			</g>
+			<text x="372.0" y="151.4" style="font-family: Helvetica; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,302) scale(1,-1)">10 · 20,0%</text>
+		</g>
+	</g>
+</svg>

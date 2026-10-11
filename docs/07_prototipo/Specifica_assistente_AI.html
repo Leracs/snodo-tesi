@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="it" class="snodo-gate-locked"><head><meta name="robots" content="noindex,nofollow"><style id="snodo-access-critical">html.snodo-gate-locked body{overflow:hidden!important;background:#F7F1E8!important}html.snodo-gate-locked body>:not(#snodo-access-gate):not(#snodo-access-safety):not(noscript),html.snodo-gate-locked body>:not(#snodo-access-gate):not(#snodo-access-safety):not(noscript) *{visibility:hidden!important;pointer-events:none!important}</style><link rel="stylesheet" href="../accesso/gate.css"><script src="../accesso/gate.js" data-snodo-gate></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Assistente e integrazione nel prodotto · Tesi UX UI</title><link rel="stylesheet" href="../lettura.css?v=20261011-checklist-v1"><script src="../lettura.js?v=20261011-checklist-v1" defer></script></head>
+<body class="document lavoro"><noscript><div id="snodo-access-safety"><strong>SNODO · materiali della tesi</strong><p>Per usare il gate d’ingresso, attiva JavaScript nel browser e ricarica questa pagina.</p></div></noscript><a class="skip-link" href="#contenuto">Vai al contenuto</a>
+<header class="reader-top"><div class="reader-top-inner"><a class="back-link" href="../Materiale_di_lavoro.html"><span aria-hidden="true">←</span> Materiale di lavoro</a><div class="top-actions"><a href="../Indice_consegne.html">Indice dei materiali</a><button type="button" class="print-button" data-print hidden>Stampa</button></div></div></header>
+<main id="contenuto" class="reader-wrap" tabindex="-1"><header class="document-header"><p class="eyebrow">Materiale di lavoro · Assistente e prototipo</p><h1 id="inizio">Assistente e integrazione nel prodotto</h1><p class="document-meta">Uso operativo · 11 ottobre 2026 · circa 6 min di lettura</p></header><aside class="classification-banner lavoro" aria-label="Destinazione e stato del materiale"><div><span class="status-label">Uso operativo</span><strong>Proposta operativa</strong></div><p>Specifica o guida per sviluppare il progetto. I passaggi da raccontare nella tesi sono raccolti separatamente.</p><p class="classification-detail"><b>Collocazione:</b> Non da integrare come documento intero. Contiene istruzioni, ipotesi o controlli di costruzione; non è un capitolo pronto per la tesi.</p></aside><div class="reading-layout"><article class="prose"><p>Versione 0.1 · 11 ottobre 2026. Specifica progettuale H, derivata dai compiti confermati C e dai requisiti R01–R15. Il prototipo usa risposte predisposte e un catalogo dimostrativo; questa specifica non descrive un modello già implementato.</p>
+<h2 id="ruolo-e-confini">Ruolo e confini</h2>
+<p>L&#39;assistente trasforma una richiesta in criteri che la persona può leggere e correggere. Cerca nello stesso catalogo usato dai filtri, apre la stessa scheda luogo e mantiene il contesto del compito. Nella proposta agli amici aiuta a confrontare alternative; nella recensione lavora sugli appunti forniti. Il percorso manuale resta disponibile in tutti e tre i casi.</p>
+<p>Il prodotto è pensato inizialmente per tutta Italia. La demo contiene otto luoghi fittizi in due città. Un catalogo dimostrativo incompleto non corrisponde alla copertura prevista del prodotto. Nessuna informazione del catalogo costituisce una raccomandazione su un esercizio reale.</p>
+<p>L&#39;AI non attesta sicurezza, inclusività, autenticità di una recensione o disponibilità attuale. Non deduce condizioni personali sensibili e non interpreta una risposta mancante come consenso. L&#39;obiettivo di ridurre lo sforzo di ricerca sarà valutabile soltanto attraverso attività osservate, con i limiti della simulazione.</p>
+<h2 id="i-tre-contesti">I tre contesti</h2>
+<p class="table-hint" hidden>↔ Scorri la tabella per leggere tutte le colonne.</p><div class="table-wrap" role="region" tabindex="0" aria-label="Tabella 1: I tre contesti"><table class="wide-table">
+<thead>
+<tr>
+<th scope="col">Contesto</th>
+<th scope="col">Ingresso</th>
+<th scope="col">Informazioni disponibili</th>
+<th scope="col">Risultato</th>
+<th scope="col">Conferma della persona</th>
+<th scope="col">Uscita e recupero</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Ricerca individuale S10</td>
+<td>Pulsante Assistente da Esplora, lista o scheda</td>
+<td>Città e zona visibili; riferimento delle distanze; criteri della ricerca; richiesta corrente. Preferenze private solo se scelte esplicitamente</td>
+<td>Criteri interpretati, corrispondenze del catalogo, motivazione, fonte e dati mancanti</td>
+<td>Applicare criteri; scegliere una scheda; salvare o avviare navigazione</td>
+<td>Chiudi e ritorna all&#39;origine; modifica criteri; ricerca manuale se AI indisponibile</td>
+</tr>
+<tr>
+<td>Proposta con amici S13</td>
+<td>Invocazione esplicita nella proposta</td>
+<td>Città dell&#39;uscita; vincoli volontariamente condivisi; stato inviti; alternative; risposte esplicite</td>
+<td>Alternative compatibili e compromessi; incompatibilità e persone ancora in attesa</td>
+<td>Il singolo risponde; l&#39;esito si concorda soltanto con conferme esplicite dei partecipanti coinvolti</td>
+<td>Rimuovi suggerimento; modifica proposta; riapri decisione. Le modifiche rilevanti annullano le conferme precedenti</td>
+</tr>
+<tr>
+<td>Recensione S16</td>
+<td>Aiutami a rivedere il testo</td>
+<td>Luogo della bozza; contesto della visita dichiarato; risposte e appunti scritti. Nessun testo altrui</td>
+<td>Suggerimento separato dagli appunti con confronto prima e dopo</td>
+<td>Applica, modifica o rifiuta. Successiva anteprima e invio esplicito</td>
+<td>Conserva bozza; ritorna alla scrittura manuale; ripristina appunti</td>
+</tr>
+</tbody></table>
+</div>
+<h2 id="contratto-tra-assistente-e-interfaccia">Contratto tra assistente e interfaccia</h2>
+<p>Ogni richiesta conserva un identificativo, il contesto di provenienza e una versione dei criteri. L&#39;output riferisce identificativi dei luoghi, non crea schede parallele. La scheda raggiunta da AI, mappa, salvati o chat risolve lo stesso oggetto del catalogo. Quando il contesto cambia, una risposta precedente resta leggibile ma non si applica silenziosamente alla nuova ricerca.</p>
+<p>L&#39;output di ricerca comprende: stato; criteri interpretati; criteri da chiarire; identificativi dei luoghi; motivi collegati a campi del catalogo; informazioni non disponibili; provenienza e aggiornamento. I motivi non diventano un punteggio universale di benessere. Le condizioni ambientali sono descritte separatamente dal gradimento personale.</p>
+<p>Per una distanza si mostra sempre il riferimento geografico. La ricerca in una città diversa non richiede GPS e non usa implicitamente la posizione corrente. Una richiesta ambigua chiede la città prima di proporre alternative. Se la città è esplicita, la proposta di cambio viene resa visibile nei criteri; applicandola si aggiornano mappa e lista insieme.</p>
+<p>Il gruppo ha un proprio contesto: città, occasione, vincoli condivisi e partecipanti. La ricerca personale può avere un&#39;altra città e preferenze private. Un salvataggio individuale è trasferito al gruppo soltanto tramite una proposta esplicita, che ne conserva la città. Una modifica a città, luogo scelto o vincolo obbligatorio richiede nuove conferme.</p>
+<div class="section-figures" data-figure-section="Contratto tra assistente e interfaccia"><div class="figure-grid"><figure class="inline-figure is-wireframe"><header class="figure-header"><p class="figure-type">Wireframe proposto</p><b class="figure-title">Schermata S10 — Assistente individuale</b></header><a class="figure-preview" href="../04_wireframe/svg/S10.svg?v=mv3qowbp.ih" data-figure-viewer data-figure-title="Schermata S10 — Assistente individuale" data-figure-caption="Struttura e componenti della schermata; etichette di tipo, senza contenuti specifici di un locale. Le interazioni rappresentate restano da realizzare e verificare." aria-label="Ingrandisci: Schermata S10 — Assistente individuale"><img src="../04_wireframe/svg/S10.svg?v=mv3qowbp.ih" alt="Schermata S10 — Assistente individuale" width="390" height="844" loading="lazy" decoding="async"></a><figcaption><p>Struttura e componenti della schermata; etichette di tipo, senza contenuti specifici di un locale. Le interazioni rappresentate restano da realizzare e verificare.</p><div class="figure-actions"><a href="../04_wireframe/svg/S10.svg?v=mv3qowbp.ih" data-figure-viewer data-figure-title="Schermata S10 — Assistente individuale" data-figure-caption="Struttura e componenti della schermata; etichette di tipo, senza contenuti specifici di un locale. Le interazioni rappresentate restano da realizzare e verificare.">Ingrandisci</a><a href="../04_wireframe/svg/S10.svg" download>Scarica SVG</a><a href="../04_wireframe/png/S10.png" download>Scarica PNG</a></div></figcaption></figure>
+<figure class="inline-figure is-wireframe"><header class="figure-header"><p class="figure-type">Wireframe proposto</p><b class="figure-title">Schermata S04 — Filtri</b></header><a class="figure-preview" href="../04_wireframe/svg/S04.svg?v=mv3qowbo.sbh" data-figure-viewer data-figure-title="Schermata S04 — Filtri" data-figure-caption="Struttura e componenti della schermata; etichette di tipo, senza contenuti specifici di un locale. Le interazioni rappresentate restano da realizzare e verificare." aria-label="Ingrandisci: Schermata S04 — Filtri"><img src="../04_wireframe/svg/S04.svg?v=mv3qowbo.sbh" alt="Schermata S04 — Filtri" width="390" height="844" loading="lazy" decoding="async"></a><figcaption><p>Struttura e componenti della schermata; etichette di tipo, senza contenuti specifici di un locale. Le interazioni rappresentate restano da realizzare e verificare.</p><div class="figure-actions"><a href="../04_wireframe/svg/S04.svg?v=mv3qowbo.sbh" data-figure-viewer data-figure-title="Schermata S04 — Filtri" data-figure-caption="Struttura e componenti della schermata; etichette di tipo, senza contenuti specifici di un locale. Le interazioni rappresentate restano da realizzare e verificare.">Ingrandisci</a><a href="../04_wireframe/svg/S04.svg" download>Scarica SVG</a><a href="../04_wireframe/png/S04.png" download>Scarica PNG</a></div></figcaption></figure>
+</div></div>
+<h2 id="stati-da-rappresentare">Stati da rappresentare</h2>
+<p class="table-hint" hidden>↔ Scorri la tabella per leggere tutte le colonne.</p><div class="table-wrap" role="region" tabindex="0" aria-label="Tabella 2: Stati da rappresentare"><table>
+<thead>
+<tr>
+<th scope="col">Stato</th>
+<th scope="col">Comportamento dell&#39;interfaccia</th>
+<th scope="col">Azione successiva</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Pronto</td>
+<td>Mostra il contesto attuale e l&#39;input</td>
+<td>Scrivere o tornare al percorso manuale</td>
+</tr>
+<tr>
+<td>Chiarimento</td>
+<td>Domanda puntuale sul criterio mancante; nessun risultato prematuro</td>
+<td>Scegliere città o specificare un vincolo</td>
+</tr>
+<tr>
+<td>Criteri da controllare</td>
+<td>Elenco modificabile di città, budget, condizioni, priorità</td>
+<td>Correggere o applicare</td>
+</tr>
+<tr>
+<td>Risultati</td>
+<td>Card standard, motivi e informazioni mancanti</td>
+<td>Aprire scheda o confrontare</td>
+</tr>
+<tr>
+<td>Nessun risultato</td>
+<td>Conserva i vincoli; spiega quale combinazione non ha corrispondenze</td>
+<td>Persona sceglie che cosa modificare</td>
+</tr>
+<tr>
+<td>Fonti insufficienti</td>
+<td>Il dato mancante resta mancante; evita una conclusione certa</td>
+<td>Aprire origine o scegliere un altro luogo</td>
+</tr>
+<tr>
+<td>Fonti discordanti</td>
+<td>Mostra i resoconti con contesto e data, senza nascondere la differenza</td>
+<td>Approfondire o mantenere incertezza</td>
+</tr>
+<tr>
+<td>Interpretazione errata</td>
+<td>Permette correzione dei criteri senza perdere la richiesta</td>
+<td>Rigenerare la ricerca dopo modifica esplicita</td>
+</tr>
+<tr>
+<td>Indisponibile</td>
+<td>Messaggio breve e accesso alla ricerca/scrittura manuale</td>
+<td>Proseguire il compito senza AI</td>
+</tr>
+<tr>
+<td>Fuori copertura</td>
+<td>Spiega la copertura iniziale italiana</td>
+<td>Modificare città; non simulare disponibilità in Amsterdam</td>
+</tr>
+</tbody></table>
+</div>
+<div class="section-figures" data-figure-section="Stati da rappresentare"><div class="figure-grid"><figure class="inline-figure is-wireframe"><header class="figure-header"><p class="figure-type">Variante di stato proposta</p><b class="figure-title">Schermata S10-C — Chiarimento della città</b></header><a class="figure-preview" href="../04_wireframe/svg/S10-C.svg?v=mv3qowbr.h9" data-figure-viewer data-figure-title="Schermata S10-C — Chiarimento della città" data-figure-caption="Struttura e componenti della schermata; etichette di tipo, senza contenuti specifici di un locale. Le interazioni rappresentate restano da realizzare e verificare." aria-label="Ingrandisci: Schermata S10-C — Chiarimento della città"><img src="../04_wireframe/svg/S10-C.svg?v=mv3qowbr.h9" alt="Schermata S10-C — Chiarimento della città" width="390" height="844" loading="lazy" decoding="async"></a><figcaption><p>Struttura e componenti della schermata; etichette di tipo, senza contenuti specifici di un locale. Le interazioni rappresentate restano da realizzare e verificare.</p><div class="figure-actions"><a href="../04_wireframe/svg/S10-C.svg?v=mv3qowbr.h9" data-figure-viewer data-figure-title="Schermata S10-C — Chiarimento della città" data-figure-caption="Struttura e componenti della schermata; etichette di tipo, senza contenuti specifici di un locale. Le interazioni rappresentate restano da realizzare e verificare.">Ingrandisci</a><a href="../04_wireframe/svg/S10-C.svg" download>Scarica SVG</a><a href="../04_wireframe/png/S10-C.png" download>Scarica PNG</a></div></figcaption></figure>
+<figure class="inline-figure is-wireframe"><header class="figure-header"><p class="figure-type">Variante di stato proposta</p><b class="figure-title">Schermata S10-U — Assistente indisponibile</b></header><a class="figure-preview" href="../04_wireframe/svg/S10-U.svg?v=mv3qowbr.kp" data-figure-viewer data-figure-title="Schermata S10-U — Assistente indisponibile" data-figure-caption="Struttura e componenti della schermata; etichette di tipo, senza contenuti specifici di un locale. Le interazioni rappresentate restano da realizzare e verificare." aria-label="Ingrandisci: Schermata S10-U — Assistente indisponibile"><img src="../04_wireframe/svg/S10-U.svg?v=mv3qowbr.kp" alt="Schermata S10-U — Assistente indisponibile" width="390" height="844" loading="lazy" decoding="async"></a><figcaption><p>Struttura e componenti della schermata; etichette di tipo, senza contenuti specifici di un locale. Le interazioni rappresentate restano da realizzare e verificare.</p><div class="figure-actions"><a href="../04_wireframe/svg/S10-U.svg?v=mv3qowbr.kp" data-figure-viewer data-figure-title="Schermata S10-U — Assistente indisponibile" data-figure-caption="Struttura e componenti della schermata; etichette di tipo, senza contenuti specifici di un locale. Le interazioni rappresentate restano da realizzare e verificare.">Ingrandisci</a><a href="../04_wireframe/svg/S10-U.svg" download>Scarica SVG</a><a href="../04_wireframe/png/S10-U.png" download>Scarica PNG</a></div></figcaption></figure>
+</div></div>
+<h2 id="regole-della-proposta-agli-amici">Regole della proposta agli amici</h2>
+<p>Quattro stati distinti: invitato, partecipante, preferenza espressa e conferma. La preferenza per un&#39;alternativa non equivale alla conferma dell&#39;esito. La regola iniziale H richiede conferma dei partecipanti che hanno accettato l&#39;invito; gli invitati in attesa restano visibili e impediscono di presentare l&#39;esito come accordo dell&#39;intero gruppo. Si può conservare una proposta provvisoria. Non è prevista la chiusura automatica a maggioranza.</p>
+<p>Se un invitato declina, il suo stato resta indicato e non si attribuisce un voto. Una partecipazione rifiutata non va confusa con la bocciatura del luogo. Se due vincoli obbligatori sono incompatibili, l&#39;assistente li espone e chiede quale modificare; non sceglie per il gruppo. Il test formativo deve verificare quanto la regola risulti comprensibile e se produca uno stallo inutile.</p>
+<div class="section-figures" data-figure-section="Regole della proposta agli amici"><div class="figure-grid"><figure class="inline-figure is-wireframe"><header class="figure-header"><p class="figure-type">Wireframe proposto</p><b class="figure-title">Schermata S13 — Proposta di gruppo</b></header><a class="figure-preview" href="../04_wireframe/svg/S13.svg?v=mv3qowbp.xde" data-figure-viewer data-figure-title="Schermata S13 — Proposta di gruppo" data-figure-caption="Struttura e componenti della schermata; etichette di tipo, senza contenuti specifici di un locale. Le interazioni rappresentate restano da realizzare e verificare." aria-label="Ingrandisci: Schermata S13 — Proposta di gruppo"><img src="../04_wireframe/svg/S13.svg?v=mv3qowbp.xde" alt="Schermata S13 — Proposta di gruppo" width="390" height="844" loading="lazy" decoding="async"></a><figcaption><p>Struttura e componenti della schermata; etichette di tipo, senza contenuti specifici di un locale. Le interazioni rappresentate restano da realizzare e verificare.</p><div class="figure-actions"><a href="../04_wireframe/svg/S13.svg?v=mv3qowbp.xde" data-figure-viewer data-figure-title="Schermata S13 — Proposta di gruppo" data-figure-caption="Struttura e componenti della schermata; etichette di tipo, senza contenuti specifici di un locale. Le interazioni rappresentate restano da realizzare e verificare.">Ingrandisci</a><a href="../04_wireframe/svg/S13.svg" download>Scarica SVG</a><a href="../04_wireframe/png/S13.png" download>Scarica PNG</a></div></figcaption></figure>
+<figure class="inline-figure is-wireframe"><header class="figure-header"><p class="figure-type">Variante di stato proposta</p><b class="figure-title">Schermata S14-W — Decisione in attesa</b></header><a class="figure-preview" href="../04_wireframe/svg/S14-W.svg?v=mv3qowbs.2aa" data-figure-viewer data-figure-title="Schermata S14-W — Decisione in attesa" data-figure-caption="Struttura e componenti della schermata; etichette di tipo, senza contenuti specifici di un locale. Le interazioni rappresentate restano da realizzare e verificare." aria-label="Ingrandisci: Schermata S14-W — Decisione in attesa"><img src="../04_wireframe/svg/S14-W.svg?v=mv3qowbs.2aa" alt="Schermata S14-W — Decisione in attesa" width="390" height="844" loading="lazy" decoding="async"></a><figcaption><p>Struttura e componenti della schermata; etichette di tipo, senza contenuti specifici di un locale. Le interazioni rappresentate restano da realizzare e verificare.</p><div class="figure-actions"><a href="../04_wireframe/svg/S14-W.svg?v=mv3qowbs.2aa" data-figure-viewer data-figure-title="Schermata S14-W — Decisione in attesa" data-figure-caption="Struttura e componenti della schermata; etichette di tipo, senza contenuti specifici di un locale. Le interazioni rappresentate restano da realizzare e verificare.">Ingrandisci</a><a href="../04_wireframe/svg/S14-W.svg" download>Scarica SVG</a><a href="../04_wireframe/png/S14-W.png" download>Scarica PNG</a></div></figcaption></figure>
+</div></div>
+<h2 id="regole-della-recensione">Regole della recensione</h2>
+<p>Il suggerimento conserva i fatti, il tono e il giudizio degli appunti. Un testo negativo non viene reso positivo e non vengono aggiunti prezzi, servizi, visite, dialoghi o qualità non dichiarati dall&#39;autore. Le osservazioni riferite a una specifica visita non diventano proprietà permanenti del luogo.</p>
+<p>Appunti e suggerimento sono separati. La persona sceglie se applicare il testo. L&#39;anteprima chiarisce visibilità e identità mostrata: recensione pubblica con nome mostrato oppure contributo al gruppo selezionato con identità nota ai partecipanti. Un alias pubblico è una scelta di presentazione e non una promessa di anonimato tecnico. Il prototipo non implementa account, moderazione o protezioni di identità.</p>
+<p>L&#39;invio avviene soltanto da S17. Un errore conserva la bozza; il nuovo tentativo usa lo stesso identificativo di invio, per evitare duplicati nella demo. Un messaggio di esito indica che la pubblicazione è simulata. Non vengono trasmessi dati a un servizio.</p>
+<div class="section-figures" data-figure-section="Regole della recensione"><div class="figure-grid"><figure class="inline-figure is-wireframe"><header class="figure-header"><p class="figure-type">Variante di stato proposta</p><b class="figure-title">Schermata S16-A — AI: confronto prima/dopo</b></header><a class="figure-preview" href="../04_wireframe/svg/S16-A.svg?v=mv3qowbs.6qp" data-figure-viewer data-figure-title="Schermata S16-A — AI: confronto prima/dopo" data-figure-caption="Struttura e componenti della schermata; etichette di tipo, senza contenuti specifici di un locale. Le interazioni rappresentate restano da realizzare e verificare." aria-label="Ingrandisci: Schermata S16-A — AI: confronto prima/dopo"><img src="../04_wireframe/svg/S16-A.svg?v=mv3qowbs.6qp" alt="Schermata S16-A — AI: confronto prima/dopo" width="390" height="844" loading="lazy" decoding="async"></a><figcaption><p>Struttura e componenti della schermata; etichette di tipo, senza contenuti specifici di un locale. Le interazioni rappresentate restano da realizzare e verificare.</p><div class="figure-actions"><a href="../04_wireframe/svg/S16-A.svg?v=mv3qowbs.6qp" data-figure-viewer data-figure-title="Schermata S16-A — AI: confronto prima/dopo" data-figure-caption="Struttura e componenti della schermata; etichette di tipo, senza contenuti specifici di un locale. Le interazioni rappresentate restano da realizzare e verificare.">Ingrandisci</a><a href="../04_wireframe/svg/S16-A.svg" download>Scarica SVG</a><a href="../04_wireframe/png/S16-A.png" download>Scarica PNG</a></div></figcaption></figure>
+<figure class="inline-figure is-wireframe"><header class="figure-header"><p class="figure-type">Wireframe proposto</p><b class="figure-title">Schermata S17 — Anteprima/visibilità</b></header><a class="figure-preview" href="../04_wireframe/svg/S17.svg?v=mv3qowbq.f2c" data-figure-viewer data-figure-title="Schermata S17 — Anteprima/visibilità" data-figure-caption="Struttura e componenti della schermata; etichette di tipo, senza contenuti specifici di un locale. Le interazioni rappresentate restano da realizzare e verificare." aria-label="Ingrandisci: Schermata S17 — Anteprima/visibilità"><img src="../04_wireframe/svg/S17.svg?v=mv3qowbq.f2c" alt="Schermata S17 — Anteprima/visibilità" width="390" height="844" loading="lazy" decoding="async"></a><figcaption><p>Struttura e componenti della schermata; etichette di tipo, senza contenuti specifici di un locale. Le interazioni rappresentate restano da realizzare e verificare.</p><div class="figure-actions"><a href="../04_wireframe/svg/S17.svg?v=mv3qowbq.f2c" data-figure-viewer data-figure-title="Schermata S17 — Anteprima/visibilità" data-figure-caption="Struttura e componenti della schermata; etichette di tipo, senza contenuti specifici di un locale. Le interazioni rappresentate restano da realizzare e verificare.">Ingrandisci</a><a href="../04_wireframe/svg/S17.svg" download>Scarica SVG</a><a href="../04_wireframe/png/S17.png" download>Scarica PNG</a></div></figcaption></figure>
+</div></div>
+<h2 id="script-e-simulazioni">Script e simulazioni</h2>
+<p>Gli script verificabili sono in <a href="Scenari_AI.json" title="Apri il materiale collegato"><code>Scenari_AI.json</code></a>; il catalogo unico è <a href="Catalogo_mock.json" title="Apri il materiale collegato"><code>Catalogo_mock.json</code></a>. Il supporto HTML riconosce soltanto richieste predisposte, con una risposta di limite per le altre. Non è un chatbot generalista. I messaggi degli amici e i guasti si attivano da controlli di simulazione esterni all&#39;app; il partecipante viene informato della simulazione prima del compito.</p>
+<p>La città richiesta, il budget e la scelta delle condizioni possono essere modificati manualmente. I casi di recupero coprono ricerca senza risultati, inviti in attesa/incompatibilità e fallimento dell&#39;invio. Le interazioni del supporto locale non provano il funzionamento del futuro prototipo Figma; il file nativo richiederà un controllo separato.</p>
+<h2 id="realizzazione-futura">Realizzazione futura</h2>
+<p>Un servizio reale richiederebbe catalogo aggiornato, provenienza dei campi, gestione dei contributi, account e permessi, moderazione e controllo degli output. Il flusso progettato deve mantenere tracciabile la relazione tra un&#39;affermazione e i dati da cui deriva. Queste sono condizioni di realizzazione, non capacità già presenti nella demo.</p>
+<h2 id="verifiche-previste">Verifiche previste</h2>
+<p>R01/R02: una richiesta in Milano da una ricerca iniziale Roma cambia il contesto in modo leggibile senza GPS. R04/R05: un dato ambientale con pochi contributi resta qualificato. R08/R09: preferenza, conferma e attesa non si confondono. R10: ogni card AI apre lo stesso luogo del catalogo. R11/R12: un suggerimento non viene applicato né pubblicato senza azioni separate. R13: errore e ripresa preservano gli appunti. Queste verifiche tecniche non sostituiscono le osservazioni delle persone.</p>
+<section class="document-end" aria-label="Materiali collegati"><h2>Materiali collegati</h2><ul><li><a href="Scenari_AI.json">Scenari AI.json</a></li></ul><p><a href="Specifica_assistente_AI.md" download>Scarica il sorgente Markdown</a></p><p><a href="../Materiale_di_lavoro.html">Torna a materiale di lavoro</a></p></section></article><aside class="toc" aria-label="Indice del documento"><details open><summary>In questa pagina</summary><nav aria-label="Sezioni del documento"><ul><li><a href="#ruolo-e-confini">Ruolo e confini</a></li><li><a href="#i-tre-contesti">I tre contesti</a></li><li><a href="#contratto-tra-assistente-e-interfaccia">Contratto tra assistente e interfaccia</a></li><li><a href="#stati-da-rappresentare">Stati da rappresentare</a></li><li><a href="#regole-della-proposta-agli-amici">Regole della proposta agli amici</a></li><li><a href="#regole-della-recensione">Regole della recensione</a></li><li><a href="#script-e-simulazioni">Script e simulazioni</a></li><li><a href="#realizzazione-futura">Realizzazione futura</a></li><li><a href="#verifiche-previste">Verifiche previste</a></li></ul></nav></details></aside></div><nav class="next-documents" aria-label="Altri documenti della stessa raccolta"><a href="LEGGIMI.html"><small>← Documento precedente</small><strong>Supporto interattivo e materiali per Figma</strong></a><a class="next" href="Assemblaggio_Figma.html"><small>Documento successivo →</small><strong>Assemblaggio del prototipo Figma</strong></a></nav></main>
+<footer class="reader-footer">Materiale di lavoro · Proposta operativa. Il sorgente è conservato nel pacchetto.</footer></body></html>

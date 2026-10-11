@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="it" class="snodo-gate-locked"><head><meta name="robots" content="noindex,nofollow"><style id="snodo-access-critical">html.snodo-gate-locked body{overflow:hidden!important;background:#F7F1E8!important}html.snodo-gate-locked body>:not(#snodo-access-gate):not(#snodo-access-safety):not(noscript),html.snodo-gate-locked body>:not(#snodo-access-gate):not(#snodo-access-safety):not(noscript) *{visibility:hidden!important;pointer-events:none!important}</style><link rel="stylesheet" href="../accesso/gate.css"><script src="../accesso/gate.js" data-snodo-gate></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Corrispondenza tra componenti dell’architettura e design system · Tesi UX UI</title><link rel="stylesheet" href="../lettura.css?v=20261011-checklist-v1"><script src="../lettura.js?v=20261011-checklist-v1" defer></script></head>
+<body class="document lavoro"><noscript><div id="snodo-access-safety"><strong>SNODO · materiali della tesi</strong><p>Per usare il gate d’ingresso, attiva JavaScript nel browser e ricarica questa pagina.</p></div></noscript><a class="skip-link" href="#contenuto">Vai al contenuto</a>
+<header class="reader-top"><div class="reader-top-inner"><a class="back-link" href="../Materiale_di_lavoro.html"><span aria-hidden="true">←</span> Materiale di lavoro</a><div class="top-actions"><a href="../Indice_consegne.html">Indice dei materiali</a><button type="button" class="print-button" data-print hidden>Stampa</button></div></div></header>
+<main id="contenuto" class="reader-wrap" tabindex="-1"><header class="document-header"><p class="eyebrow">Materiale di lavoro · Design system</p><h1 id="inizio">Corrispondenza tra componenti dell’architettura e design system</h1><p class="document-meta">Uso operativo · 11 ottobre 2026 · circa 3 min di lettura</p></header><aside class="classification-banner lavoro" aria-label="Destinazione e stato del materiale"><div><span class="status-label">Uso operativo</span><strong>Proposta operativa</strong></div><p>Specifica o guida per sviluppare il progetto. I passaggi da raccontare nella tesi sono raccolti separatamente.</p><p class="classification-detail"><b>Collocazione:</b> Non da integrare come documento intero. Contiene istruzioni, ipotesi o controlli di costruzione; non è un capitolo pronto per la tesi.</p></aside><div class="reading-layout"><article class="prose"><p>Due namespace distinti: <strong>C01–C40</strong> identificano responsabilità/componenti funzionali dell’architettura; <strong>DS01–DS17</strong> identificano primitive e composizioni della base visiva. Non sono lo stesso catalogo e non va dedotta una corrispondenza numerica. Una responsabilità IA può usare più elementi DS.</p>
+<p>Mappatura v0.1 sul file <a href="../03_architettura/Componenti.csv" title="Apri il materiale collegato"><code>03_architettura/Componenti.csv</code></a>, 11 ottobre 2026. Descrive come costruire le composizioni; non attesta componenti nativi già istanziati o comportamento testato.</p>
+<p class="table-hint" hidden>↔ Scorri la tabella per leggere tutte le colonne.</p><div class="table-wrap" role="region" tabindex="0" aria-label="Tabella 1: Corrispondenza tra componenti dell’architettura e design system"><table>
+<thead>
+<tr>
+<th scope="col">Nome dell’architettura</th>
+<th scope="col">ID DS applicabili</th>
+<th scope="col">ID IA</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Contesto geografico</td>
+<td>DS05</td>
+<td>C01</td>
+</tr>
+<tr>
+<td>Riferimento distanze</td>
+<td>DS05</td>
+<td>C02</td>
+</tr>
+<tr>
+<td>Campo ricerca</td>
+<td>DS02</td>
+<td>C03</td>
+</tr>
+<tr>
+<td>Criteri attivi</td>
+<td>DS03</td>
+<td>C04</td>
+</tr>
+<tr>
+<td>Mappa e selezione</td>
+<td>DS11, DS06, DS04</td>
+<td>C05</td>
+</tr>
+<tr>
+<td>Card luogo</td>
+<td>DS06</td>
+<td>C06</td>
+</tr>
+<tr>
+<td>Controlli lista</td>
+<td>DS01, DS03</td>
+<td>C07</td>
+</tr>
+<tr>
+<td>Filtri</td>
+<td>DS02, DS03, DS01</td>
+<td>C08</td>
+</tr>
+<tr>
+<td>Scheda/pannello</td>
+<td>DS11</td>
+<td>C09</td>
+</tr>
+<tr>
+<td>Informazioni pratiche</td>
+<td>DS07, DS02</td>
+<td>C10</td>
+</tr>
+<tr>
+<td>Azioni luogo</td>
+<td>DS01</td>
+<td>C11</td>
+</tr>
+<tr>
+<td>Atmosfera contestuale</td>
+<td>DS08</td>
+<td>C12</td>
+</tr>
+<tr>
+<td>Galleria e viewer</td>
+<td>DS17</td>
+<td>C13</td>
+</tr>
+<tr>
+<td>Card recensione</td>
+<td>DS09</td>
+<td>C14</td>
+</tr>
+<tr>
+<td>Origine/limiti del dato</td>
+<td>DS07</td>
+<td>C15</td>
+</tr>
+<tr>
+<td>Segnalazione semplice</td>
+<td>DS02, DS01, DS14</td>
+<td>C16</td>
+</tr>
+<tr>
+<td>Ingresso assistente</td>
+<td>DS01, DS10</td>
+<td>C17</td>
+</tr>
+<tr>
+<td>Conversazione AI</td>
+<td>DS10, DS02, DS01</td>
+<td>C18</td>
+</tr>
+<tr>
+<td>Output ricerca AI</td>
+<td>DS10, DS06, DS07</td>
+<td>C19</td>
+</tr>
+<tr>
+<td>Elenco proposte</td>
+<td>DS12, DS06</td>
+<td>C20</td>
+</tr>
+<tr>
+<td>Contesto proposta</td>
+<td>DS12, DS05, DS02</td>
+<td>C21</td>
+</tr>
+<tr>
+<td>Inviti</td>
+<td>DS12, DS01</td>
+<td>C22</td>
+</tr>
+<tr>
+<td>Partecipanti e stato</td>
+<td>DS12</td>
+<td>C23</td>
+</tr>
+<tr>
+<td>Vincoli condivisi</td>
+<td>DS12, DS03</td>
+<td>C24</td>
+</tr>
+<tr>
+<td>Alternative comparabili</td>
+<td>DS12, DS06</td>
+<td>C25</td>
+</tr>
+<tr>
+<td>Commenti nella proposta</td>
+<td>DS12, DS02</td>
+<td>C26</td>
+</tr>
+<tr>
+<td>Preferenza alternativa</td>
+<td>DS12, DS01</td>
+<td>C27</td>
+</tr>
+<tr>
+<td>Conferma decisione</td>
+<td>DS12, DS01</td>
+<td>C28</td>
+</tr>
+<tr>
+<td>Esito e riapertura</td>
+<td>DS12, DS14</td>
+<td>C29</td>
+</tr>
+<tr>
+<td>Visita e domande</td>
+<td>DS13, DS02, DS03</td>
+<td>C30</td>
+</tr>
+<tr>
+<td>Bozza/appunti</td>
+<td>DS13, DS02</td>
+<td>C31</td>
+</tr>
+<tr>
+<td>AI revisione prima/dopo</td>
+<td>DS13, DS10</td>
+<td>C32</td>
+</tr>
+<tr>
+<td>Anteprima/visibilità</td>
+<td>DS13, DS03</td>
+<td>C33</td>
+</tr>
+<tr>
+<td>Invio contributo</td>
+<td>DS13, DS01, DS14</td>
+<td>C34</td>
+</tr>
+<tr>
+<td>Salvati</td>
+<td>DS06, DS15, DS01</td>
+<td>C35</td>
+</tr>
+<tr>
+<td>Profilo e bozze</td>
+<td>DS13, DS02, DS03</td>
+<td>C36</td>
+</tr>
+<tr>
+<td>Passaggio Maps</td>
+<td>DS16</td>
+<td>C37</td>
+</tr>
+<tr>
+<td>Recupero e feedback</td>
+<td>DS15, DS14</td>
+<td>C38</td>
+</tr>
+<tr>
+<td>Navigazione e ritorno</td>
+<td>DS04, DS11</td>
+<td>C39</td>
+</tr>
+<tr>
+<td>Limite dimostrativo</td>
+<td>DS07, DS10, DS14</td>
+<td>C40</td>
+</tr>
+</tbody></table>
+</div>
+<p>La mappa schematica e i controlli lista richiedono una composizione di scheda/selezione, card, pulsanti e criteri: la base non include un SDK di mappe. Profilo/Salvati e inviti non sono disegnati come nuovi primitivi; riusano componenti e regole e devono essere costruiti nei rispettivi frame S01–S21. Il limite dimostrativo attraversa i componenti: nel prototipo resta esplicito anche fuori dall’interfaccia simulata.</p>
+<p>I dettagli dei nomi DS e delle transizioni sono in <a href="Componenti_e_comportamenti.html">Componenti_e_comportamenti.md</a>.</p>
+<div class="section-figures" data-figure-section="@end"><figure class="inline-figure"><header class="figure-header"><p class="figure-type">Proposta progettuale</p><b class="figure-title">Stati dei componenti</b></header><a class="figure-preview" href="Stati_e_controlli.svg?v=mv3v1crn.e6d" data-figure-viewer data-figure-title="Stati dei componenti" data-figure-caption="Stati dei componenti, revisione 0.3: pulsanti, campi, selezioni, focus e messaggi di recupero nelle due direzioni provvisorie. I campioni statici documentano le specifiche visive proposte; i comportamenti vanno verificati nel file navigabile. La tavola non costituisce una verifica complessiva di accessibilità." aria-label="Ingrandisci: Stati dei componenti"><img src="Stati_e_controlli.svg?v=mv3v1crn.e6d" alt="Stati dei componenti" width="1440" height="1920" loading="lazy" decoding="async"></a><figcaption><p>Stati dei componenti, revisione 0.3: pulsanti, campi, selezioni, focus e messaggi di recupero nelle due direzioni provvisorie. I campioni statici documentano le specifiche visive proposte; i comportamenti vanno verificati nel file navigabile. La tavola non costituisce una verifica complessiva di accessibilità.</p><div class="figure-actions"><a href="Stati_e_controlli.svg?v=mv3v1crn.e6d" data-figure-viewer data-figure-title="Stati dei componenti" data-figure-caption="Stati dei componenti, revisione 0.3: pulsanti, campi, selezioni, focus e messaggi di recupero nelle due direzioni provvisorie. I campioni statici documentano le specifiche visive proposte; i comportamenti vanno verificati nel file navigabile. La tavola non costituisce una verifica complessiva di accessibilità.">Ingrandisci</a><a href="Stati_e_controlli.svg" download>Scarica SVG</a><a href="Stati_e_controlli.png" download>Scarica PNG</a></div></figcaption></figure>
+</div>
+<section class="document-end" aria-label="Materiali collegati"><p><a href="Corrispondenza_componenti_IA_DS.md" download>Scarica il sorgente Markdown</a></p><p><a href="../Materiale_di_lavoro.html">Torna a materiale di lavoro</a></p></section></article></div><nav class="next-documents" aria-label="Altri documenti della stessa raccolta"><a href="Componenti_e_comportamenti.html"><small>← Documento precedente</small><strong>Componenti, stati e comportamento — proposta v0.3</strong></a><a class="next" href="Contrasti.html"><small>Documento successivo →</small><strong>Contrasti delle due basi provvisorie</strong></a></nav></main>
+<footer class="reader-footer">Materiale di lavoro · Proposta operativa. Il sorgente è conservato nel pacchetto.</footer></body></html>

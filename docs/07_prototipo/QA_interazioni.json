@@ -1,0 +1,153 @@
+{
+  "generatedAt": "2026-10-11T13:26:05.643Z",
+  "type": "technical_code_harness_with_minimal_fake_DOM",
+  "executed": true,
+  "finiteRun": true,
+  "passed": 12,
+  "failed": 0,
+  "status": "PASS",
+  "scope": "Integrità dei dati e handler delle interazioni; regressioni delle correzioni segnalate.",
+  "limitations": [
+    "Non esegue un browser né il motore di layout.",
+    "Non verifica pixel, scroll, focus reale, tastiera o lettore di schermo.",
+    "Non è una sessione con partecipanti e non dimostra comprensione o usabilità.",
+    "I dati e i testi degli scenari sono mock."
+  ],
+  "appName": "SNODO",
+  "storagePolicy": {
+    "key": "altrove-demo-v01",
+    "behavior": "Chiave storica conservata in lettura e scrittura; nessuna migrazione o cancellazione dei dati di prova della sessione."
+  },
+  "sources": [
+    {
+      "file": "index.html",
+      "sha256": "e7cd243b734af3022360d647551b99fbe34a7a595e0402e3c8199a8879f644e5"
+    },
+    {
+      "file": "app.js",
+      "sha256": "36d4976167eac23a39c1b38bbba2e4cae84a4c77ab27de3ed35c4a031483f92b"
+    },
+    {
+      "file": "core.js",
+      "sha256": "e7d22c3d6132a6abb00191843267e8306b154e486d66515ddab9b8288c81ba7a"
+    },
+    {
+      "file": "catalogo.js",
+      "sha256": "835b6ed2e29b3c68b8c7e0557e7208b419ef2c64682ab0f4a0cd49a637a1704a"
+    },
+    {
+      "file": "Catalogo_mock.json",
+      "sha256": "b09f4a22e6a95866c0bd498d84a2904458aa8e4743be6c858dba16c7f2c79800"
+    },
+    {
+      "file": "build_catalogo.py",
+      "sha256": "6abe9c96e48112d6631e78a9ea233f0d74b6ad8375dda815fef9c69a2084227e"
+    },
+    {
+      "file": "Verifiche_core.cjs",
+      "sha256": "32dd20c4ba9bed944b216d02283919e1a38a984cf4a499ccee54904a718f7355"
+    },
+    {
+      "file": "Verifiche_interazioni.cjs",
+      "sha256": "0da2dd13a27cb88fc4f02faa9678f7a80abfb4164793ab3b97945f675f08ac9b"
+    }
+  ],
+  "results": [
+    {
+      "id": "I01",
+      "name": "S15 conserva data, fascia e rumore uscendo dalla bozza",
+      "status": "PASS",
+      "evidence": "I tre campi modificati rimangono nella bozza dopo S15 → S20."
+    },
+    {
+      "id": "I02",
+      "name": "S17 conserva visibilità e nome tornando a modificare il testo",
+      "status": "PASS",
+      "evidence": "Destinatario gruppo e nome sopravvivono a S17 → S16 → S17."
+    },
+    {
+      "id": "I03",
+      "name": "Correggi e annulla non applica il cambio città proposto dall’AI",
+      "status": "PASS",
+      "evidence": "La proposta Milano resta temporanea; annullando resta la ricerca Roma/San Lorenzo."
+    },
+    {
+      "id": "I04",
+      "name": "Applica conserva budget AI personalizzato e sostituisce query precedente",
+      "status": "PASS",
+      "evidence": "Il budget 25 € è selezionato e conservato; la query romana non resta nascosta nei criteri di Milano."
+    },
+    {
+      "id": "I05",
+      "name": "Appunti originali conservati dopo applicazione, modifica e ripristino",
+      "status": "PASS",
+      "evidence": "Lo snapshot iniziale resta intatto; Ripristina recupera anche la critica sui prezzi."
+    },
+    {
+      "id": "I06",
+      "name": "Modifica dell’autore invalida il suggerimento AI precedente",
+      "status": "PASS",
+      "evidence": "Suggerimento invalidato e pannello rimosso dopo un input nuovo."
+    },
+    {
+      "id": "I07",
+      "name": "Richiesta AI a vuoto non congela uno snapshot originale vuoto",
+      "status": "PASS",
+      "evidence": "Un tentativo senza testo non diventa il contenuto da ripristinare."
+    },
+    {
+      "id": "I08",
+      "name": "Il luogo proposto incompatibile resta visibile e non confermabile",
+      "status": "PASS",
+      "evidence": "Sala Aperta resta nella proposta con avviso; il guard rifiuta la selezione incompatibile senza allentare vincoli."
+    },
+    {
+      "id": "I09",
+      "name": "Categoria affollamento coerente con valore predisposto",
+      "status": "PASS",
+      "evidence": "Gli otto record usano categorie coerenti con i propri valori, incluse le assenze."
+    },
+    {
+      "id": "I10",
+      "name": "Cambio luogo archivia e recupera la bozza precedente",
+      "status": "PASS",
+      "evidence": "Due bozze visibili; ripresa per ID restituisce il testo e il luogo originali."
+    },
+    {
+      "id": "I11",
+      "name": "Nuova recensione sullo stesso luogo usa un ID distinto dopo invio",
+      "status": "PASS",
+      "evidence": "Due invii distinti, nessun riuso dell’ID della bozza già inviata."
+    },
+    {
+      "id": "I12",
+      "name": "Errore e retry preservano bozza, nome, visibilità e un solo invio",
+      "status": "PASS",
+      "evidence": "Il recupero mantiene il contributo e le scelte; il retry duplicato non crea un altro invio."
+    }
+  ],
+  "presentationSources": [
+    {
+      "file": "app.css",
+      "sha256": "0731de0a4bd378d65d4e0e3ce07f2d144fe6d2785fb243537fe71878b9708134"
+    },
+    {
+      "file": "../06_design_system/tokens_A.css",
+      "sha256": "c3e95f3c3073bbf7ebb86fca711236f5157adbaa09292e452cd5122652dc156d"
+    },
+    {
+      "file": "../06_design_system/tokens_B.css",
+      "sha256": "85e63114c794fd6489a6d5fbe4a051c099c7c538b3a019073186220efe369fcd"
+    },
+    {
+      "file": "../05_style_tiles/Media_cortile_A.svg",
+      "sha256": "3093f91a2521f622decec6dae54f8a8572997c6c72e69909cd0a0d382aa0744c"
+    },
+    {
+      "file": "../05_style_tiles/Media_cortile_B.svg",
+      "sha256": "41a02984b66b356cf6c68a034d62634d6f3d9088349c726bc0e03e7de866197a"
+    }
+  ],
+  "presentationScope": "Modifica del solo markup della funzione card e dei CSS: media dimostrativi, gerarchia nome/prezzo, metadati e componenti. Dati, handler, routing e chiave di sessione invariati. Gli hash presentationSources tracciano i file visivi; questo harness non ne verifica layout o pixel.",
+  "publication_note": "Copia per consultazione: i controlli e gli hash di origine descrivono gli asset del workspace. I percorsi locali sono stati normalizzati; il manifest di pubblicazione descrive i file distribuiti."
+}

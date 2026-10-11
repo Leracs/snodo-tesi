@@ -1,0 +1,34 @@
+﻿id,schermata,titolo,stato,svg,png,dimensioni,azione
+S01,S01,Avvio/città e zona,base,svg/S01.svg,png/S01.png,390×844,Esplora nella città scelta
+S02,S02,Esplora mappa,base,svg/S02.svg,png/S02.png,390×844,Apri luogo selezionato
+S03,S03,Ricerca/lista,base,svg/S03.svg,png/S03.png,390×844,Apri risultato
+S04,S04,Filtri,base,svg/S04.svg,png/S04.png,390×844,Applica criteri
+S05,S05,Scheda su mappa,base,svg/S05.svg,png/S05.png,390×844,Decidi: salva/proponi/naviga
+S06,S06,Atmosfera,base,svg/S06.svg,png/S06.png,390×844,Approfondisci fonte
+S07,S07,Galleria/viewer,base,svg/S07.svg,png/S07.png,390×844,Apri media
+S08,S08,Recensioni/dettaglio,base,svg/S08.svg,png/S08.png,390×844,Leggi contributo
+S09,S09,Origine/nota sul dato,base,svg/S09.svg,png/S09.png,390×844,Comprendi e torna al contesto
+S10,S10,Assistente individuale,base,svg/S10.svg,png/S10.png,390×844,Applica criteri o apri risultato
+S11,S11,Chat/proposte,base,svg/S11.svg,png/S11.png,390×844,Nuova proposta
+S12,S12,Crea proposta/invita,base,svg/S12.svg,png/S12.png,390×844,Invia inviti e crea proposta
+S13,S13,Proposta di gruppo,base,svg/S13.svg,png/S13.png,390×844,Conferma o contesta la proposta scelta
+S14,S14,Esito condiviso,base,svg/S14.svg,png/S14.png,390×844,Apri luogo o riapri decisione
+S15,S15,Recensione guidata,base,svg/S15.svg,png/S15.png,390×844,Continua alla scrittura
+S16,S16,Testo/aiuto AI,base,svg/S16.svg,png/S16.png,390×844,Vai all’anteprima
+S17,S17,Anteprima/visibilità,base,svg/S17.svg,png/S17.png,390×844,Pubblica o invia al gruppo scelto
+S18,S18,Esito contributo,base,svg/S18.svg,png/S18.png,390×844,Torna al luogo / recupera invio
+S19,S19,Salvati,base,svg/S19.svg,png/S19.png,390×844,Apri luogo salvato
+S20,S20,Profilo/bozze,base,svg/S20.svg,png/S20.png,390×844,Riprendi bozza
+S21,S21,Uscita e ritorno Maps,base,svg/S21.svg,png/S21.png,390×844,Apri servizio esterno scelto
+S01-R,S01,Posizione negata,variante,svg/S01-R.svg,png/S01-R.png,390×844,Vedi specifica stati e inventario
+S03-R,S03,Nessun risultato,variante,svg/S03-R.svg,png/S03-R.png,390×844,Vedi specifica stati e inventario
+S05-RID,S05,Pannello ridotto,variante,svg/S05-RID.svg,png/S05-RID.png,390×844,Vedi specifica stati e inventario
+S05-ESP,S05,Pannello espanso,variante,svg/S05-ESP.svg,png/S05-ESP.png,390×844,Vedi specifica stati e inventario
+S10-C,S10,Chiarimento della città,variante,svg/S10-C.svg,png/S10-C.png,390×844,Vedi specifica stati e inventario
+S10-U,S10,Assistente indisponibile,variante,svg/S10-U.svg,png/S10-U.png,390×844,Vedi specifica stati e inventario
+S12-I,S12,Invito e adesione,variante,svg/S12-I.svg,png/S12-I.png,390×844,Vedi specifica stati e inventario
+S13-R,S13,Vincoli incompatibili,variante,svg/S13-R.svg,png/S13-R.png,390×844,Vedi specifica stati e inventario
+S13-C,S13,Conferma esplicita,variante,svg/S13-C.svg,png/S13-C.png,390×844,Vedi specifica stati e inventario
+S14-W,S14,Decisione in attesa,variante,svg/S14-W.svg,png/S14-W.png,390×844,Vedi specifica stati e inventario
+S16-A,S16,AI: confronto prima/dopo,variante,svg/S16-A.svg,png/S16-A.png,390×844,Vedi specifica stati e inventario
+S18-R,S18,Invio fallito,variante,svg/S18-R.svg,png/S18-R.png,390×844,Vedi specifica stati e inventario

@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "site": "https://leracs.github.io/snodo-tesi/",
+  "scope": "Gate frontend e export statico; non autenticazione sicura",
+  "static_checks": {
+    "html_pages": 37,
+    "local_references_checked": 1327,
+    "all_HTML_gated": true,
+    "absolute_local_HTML_paths": 0
+  },
+  "WebCrypto_checks_passed": 14,
+  "browser_preview": {
+    "wrong_password_rejected": true,
+    "correct_password_opens_index": true,
+    "logout_relocks": true,
+    "direct_prototype_URL_requires_gate": true,
+    "prototype_opens_after_password": true,
+    "relative_navigation_to_style_materials_retains_access": true,
+    "reload_retains_access": true,
+    "both_tiles_and_courtyard_assets_load": true,
+    "horizontal_overflow_observed": false,
+    "base_path_tested": "/snodo-tesi/",
+    "viewport": [
+      1280,
+      720
+    ]
+  },
+  "without_JS": "Lock HTML/CSS e noscript verificati nel markup delle 37 pagine; JavaScript non è stato disattivato nel browser di prova.",
+  "gate_assets": [
+    {
+      "file": "docs/accesso/gate.js",
+      "sha256": "f5389185beca128c6aa47cf1ef35e4da82a7cfd8b36fd330b8ef9dd1ab3fdf01"
+    },
+    {
+      "file": "docs/accesso/gate.css",
+      "sha256": "62d5af491c8796c69d2d5a87aa8cb8a40abe54458bc04207a347d069ea3ae2ea"
+    }
+  ],
+  "raw_originals_excluded": true,
+  "original_workspace_unchanged": true,
+  "repository_public_chosen_by_user": true
+}

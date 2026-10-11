@@ -1,0 +1,97 @@
+{
+  "version": "0.1",
+  "simulated": true,
+  "scenarios": [
+    {
+      "id": "AI01",
+      "context": "ricerca",
+      "input": "Un posto tranquillo a Roma entro 20 euro",
+      "state": "risultati",
+      "city": "Roma",
+      "budgetMax": 20,
+      "noise": "basso",
+      "expectedIds": [
+        "luogo-roma-01"
+      ],
+      "missing": "Pochi contributi sul rumore; non è una garanzia."
+    },
+    {
+      "id": "AI02",
+      "context": "ricerca",
+      "input": "Un posto tranquillo a Milano entro 20 euro",
+      "state": "cambio_citta",
+      "city": "Milano",
+      "budgetMax": 20,
+      "noise": "basso",
+      "expectedIds": [
+        "luogo-milano-01"
+      ],
+      "applyRequired": true
+    },
+    {
+      "id": "AI03",
+      "context": "ricerca",
+      "input": "Un posto tranquillo",
+      "state": "chiarimento",
+      "ask": "In quale città vuoi cercare?",
+      "expectedIds": []
+    },
+    {
+      "id": "AI04",
+      "context": "ricerca",
+      "input": "Un posto tranquillo a Roma entro 5 euro",
+      "state": "nessun_risultato",
+      "city": "Roma",
+      "budgetMax": 5,
+      "noise": "basso",
+      "expectedIds": [],
+      "noSilentRelaxation": true
+    },
+    {
+      "id": "AI05",
+      "context": "ricerca",
+      "input": "Un posto a Amsterdam",
+      "state": "fuori_copertura",
+      "expectedIds": []
+    },
+    {
+      "id": "AI06",
+      "context": "ricerca",
+      "input": "indisponibile",
+      "state": "indisponibile",
+      "fallback": "S03"
+    },
+    {
+      "id": "AI07",
+      "context": "gruppo",
+      "state": "in_attesa",
+      "criteriaSource": "solo criteri condivisi",
+      "noImplicitConsent": true,
+      "fallback": "confronto manuale"
+    },
+    {
+      "id": "AI08",
+      "context": "gruppo",
+      "state": "conflitto",
+      "budgetMax": 5,
+      "noise": "basso",
+      "expectedIds": [],
+      "noSilentRelaxation": true
+    },
+    {
+      "id": "AI09",
+      "context": "recensione",
+      "input": "Cortile piacevole. Con gli amici parlavamo senza alzare la voce. Prezzi più alti di quanto mi aspettassi.",
+      "suggestion": "Il cortile mi è piaciuto: con gli amici riuscivamo a parlare senza alzare la voce. I prezzi erano più alti di quanto mi aspettassi.",
+      "applyRequired": true,
+      "publishRequired": true
+    },
+    {
+      "id": "AI10",
+      "context": "recensione",
+      "state": "indisponibile",
+      "preserveNotes": true,
+      "fallback": "scrittura manuale"
+    }
+  ]
+}

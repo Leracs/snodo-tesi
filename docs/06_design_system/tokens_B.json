@@ -1,0 +1,300 @@
+{
+  "color": {
+    "background": {
+      "$type": "color",
+      "$value": "#80EFED"
+    },
+    "surface": {
+      "$type": "color",
+      "$value": "#FFFFFF"
+    },
+    "surfaceMuted": {
+      "$type": "color",
+      "$value": "#F2F2EE"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "#000000"
+    },
+    "muted": {
+      "$type": "color",
+      "$value": "#4B4B4B"
+    },
+    "primary": {
+      "$type": "color",
+      "$value": "#000000"
+    },
+    "primaryHover": {
+      "$type": "color",
+      "$value": "#252525"
+    },
+    "primaryPressed": {
+      "$type": "color",
+      "$value": "#111111"
+    },
+    "primarySoft": {
+      "$type": "color",
+      "$value": "#80EFED"
+    },
+    "secondaryBg": {
+      "$type": "color",
+      "$value": "#80EFED"
+    },
+    "onSecondary": {
+      "$type": "color",
+      "$value": "#000000"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "#000000"
+    },
+    "divider": {
+      "$type": "color",
+      "$value": "#BDBDB5"
+    },
+    "focus": {
+      "$type": "color",
+      "$value": "#000000"
+    },
+    "accentDecorative": {
+      "$type": "color",
+      "$value": "#9E6CDA"
+    },
+    "accentPink": {
+      "$type": "color",
+      "$value": "#FD87BA"
+    },
+    "accentGreen": {
+      "$type": "color",
+      "$value": "#ADE25D"
+    },
+    "accentPurple": {
+      "$type": "color",
+      "$value": "#9E6CDA"
+    },
+    "accentYellow": {
+      "$type": "color",
+      "$value": "#FCEC52"
+    },
+    "accentTurquoise": {
+      "$type": "color",
+      "$value": "#80EFED"
+    },
+    "success": {
+      "$type": "color",
+      "$value": "#235B2E"
+    },
+    "successBg": {
+      "$type": "color",
+      "$value": "#E8F6E8"
+    },
+    "warning": {
+      "$type": "color",
+      "$value": "#684900"
+    },
+    "warningBg": {
+      "$type": "color",
+      "$value": "#FFF2CC"
+    },
+    "danger": {
+      "$type": "color",
+      "$value": "#A42335"
+    },
+    "dangerBg": {
+      "$type": "color",
+      "$value": "#FDE8EB"
+    },
+    "info": {
+      "$type": "color",
+      "$value": "#254E68"
+    },
+    "infoBg": {
+      "$type": "color",
+      "$value": "#E7F1F7"
+    },
+    "onPrimary": {
+      "$type": "color",
+      "$value": "#80EFED"
+    }
+  },
+  "font": {
+    "heading": {
+      "$type": "fontFamily",
+      "$value": "Boldonse"
+    },
+    "body": {
+      "$type": "fontFamily",
+      "$value": "Forma DJR Text",
+      "$description": "Intent; preview renderizzata in Helvetica Neue perché Forma DJR Text non è disponibile."
+    },
+    "bodyPreview": {
+      "$type": "fontFamily",
+      "$value": "Helvetica Neue"
+    }
+  },
+  "fontSize": {
+    "caption": {
+      "$type": "dimension",
+      "$value": "14px"
+    },
+    "body": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "bodyStrong": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "titleSmall": {
+      "$type": "dimension",
+      "$value": "24px"
+    },
+    "title": {
+      "$type": "dimension",
+      "$value": "32px"
+    },
+    "display": {
+      "$type": "dimension",
+      "$value": "44px"
+    }
+  },
+  "lineHeight": {
+    "body": {
+      "$type": "dimension",
+      "$value": "24px"
+    },
+    "caption": {
+      "$type": "dimension",
+      "$value": "20px"
+    },
+    "title": {
+      "$type": "dimension",
+      "$value": "40px"
+    }
+  },
+  "space": {
+    "4": {
+      "$type": "dimension",
+      "$value": "4px"
+    },
+    "8": {
+      "$type": "dimension",
+      "$value": "8px"
+    },
+    "12": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "16": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "24": {
+      "$type": "dimension",
+      "$value": "24px"
+    },
+    "32": {
+      "$type": "dimension",
+      "$value": "32px"
+    },
+    "40": {
+      "$type": "dimension",
+      "$value": "40px"
+    },
+    "48": {
+      "$type": "dimension",
+      "$value": "48px"
+    },
+    "64": {
+      "$type": "dimension",
+      "$value": "64px"
+    }
+  },
+  "radius": {
+    "card": {
+      "$type": "dimension",
+      "$value": "32px"
+    },
+    "control": {
+      "$type": "dimension",
+      "$value": "32px"
+    },
+    "chip": {
+      "$type": "dimension",
+      "$value": "22px"
+    },
+    "field": {
+      "$type": "dimension",
+      "$value": "18px"
+    },
+    "passiveTag": {
+      "$type": "dimension",
+      "$value": "14px"
+    }
+  },
+  "size": {
+    "controlHeight": {
+      "$type": "dimension",
+      "$value": "48px"
+    },
+    "fieldHeight": {
+      "$type": "dimension",
+      "$value": "52px"
+    },
+    "touchTargetRecommended": {
+      "$type": "dimension",
+      "$value": "44px"
+    },
+    "passiveTagHeight": {
+      "$type": "dimension",
+      "$value": "28px"
+    },
+    "filterHeight": {
+      "$type": "dimension",
+      "$value": "44px"
+    },
+    "iconSize": {
+      "$type": "dimension",
+      "$value": "24px"
+    }
+  },
+  "border": {
+    "width": {
+      "$type": "dimension",
+      "$value": "1.5px"
+    },
+    "focusWidth": {
+      "$type": "dimension",
+      "$value": "3px"
+    },
+    "focusOffset": {
+      "$type": "dimension",
+      "$value": "3px"
+    }
+  },
+  "fontWeight": {
+    "heading": {
+      "$type": "fontWeight",
+      "$value": 400
+    },
+    "body": {
+      "$type": "fontWeight",
+      "$value": 400
+    },
+    "strong": {
+      "$type": "fontWeight",
+      "$value": 700
+    }
+  },
+  "motion": {
+    "duration": {
+      "$type": "duration",
+      "$value": "160ms"
+    },
+    "reduced": {
+      "$type": "duration",
+      "$value": "0ms"
+    }
+  },
+  "$description": "SNODO variante B; provvisoria, non selezionata. JSON da mappare in importer/variabili Figma; import nativo non eseguito."
+}

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="720" height="484" preserveAspectRatio="xMinYMin meet" viewBox="0 0 720 484" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="720" height="484"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-484)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="720" height="484" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="28" y="448" style="font-family: Helvetica-Bold; font-size: 23px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,896) scale(1,-1)">Il racconto privato è più frequente della recensione</text>
+			<text x="28" y="417" style="font-family: Helvetica; font-size: 16px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,834) scale(1,-1)">N = 33 · percentuale di persone per azione dichiarata</text>
+			<text x="28" y="24" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,48) scale(1,-1)">2 persone selezionano Nulla insieme ad altre azioni: mantenute e segnalate.</text>
+			<text x="28" y="42" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,84) scale(1,-1)">Risposte multiple. 9 persone selezionano sia Non ci torno più sia recensione negativa.</text>
+			<text x="28" y="60" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,120) scale(1,-1)">Fonte: Sondaggio2.csv.</text>
+			<path d="M 295,112 L 295,376 Z" style="stroke: rgb(88%,90%,91%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="284.885" y="89" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,178) scale(1,-1)">0%</text>
+			<path d="M 380,112 L 380,376 Z" style="stroke: rgb(88%,90%,91%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="365.993" y="89" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,178) scale(1,-1)">25%</text>
+			<path d="M 465,112 L 465,376 Z" style="stroke: rgb(88%,90%,91%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="450.993" y="89" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,178) scale(1,-1)">50%</text>
+			<path d="M 550,112 L 550,376 Z" style="stroke: rgb(88%,90%,91%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="535.993" y="89" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,178) scale(1,-1)">75%</text>
+			<path d="M 635,112 L 635,376 Z" style="stroke: rgb(88%,90%,91%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="617.101" y="89" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,178) scale(1,-1)">100%</text>
+			<text x="164.952" y="344.6" style="font-family: Helvetica; font-size: 16px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,689) scale(1,-1)">Non ci torno più</text>
+			<g transform="">
+				<g transform="">
+					<rect x="295.0" y="339.6689655172414" width="278.18181818181824" height="19.862068965517267" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(13%,42%,38%); fill-rule: evenodd;"/>
+					<g transform=""/>
+				</g>
+				<g transform=""/>
+				<g transform=""/>
+			</g>
+			<text x="582.1818181818182" y="344.6" style="font-family: Helvetica; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,689) scale(1,-1)">27 · 81,8%</text>
+			<text x="94.744" y="291.8" style="font-family: Helvetica; font-size: 16px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,583) scale(1,-1)">Parlo con amici o familiari</text>
+			<g transform="">
+				<g transform="">
+					<rect x="295.0" y="286.8689655172414" width="226.66666666666663" height="19.862068965517267" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(13%,42%,38%); fill-rule: evenodd;"/>
+					<g transform=""/>
+				</g>
+				<g transform=""/>
+				<g transform=""/>
+			</g>
+			<text x="530.6666666666666" y="291.8" style="font-family: Helvetica; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,583) scale(1,-1)">22 · 66,7%</text>
+			<text x="51.99199999999999" y="239.0" style="font-family: Helvetica; font-size: 16px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,478) scale(1,-1)">Lascio una recensione negativa</text>
+			<g transform="">
+				<g transform="">
+					<rect x="295.0" y="234.06896551724137" width="113.33333333333331" height="19.86206896551724" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(13%,42%,38%); fill-rule: evenodd;"/>
+					<g transform=""/>
+				</g>
+				<g transform=""/>
+				<g transform=""/>
+			</g>
+			<text x="417.3333333333333" y="239.0" style="font-family: Helvetica; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,478) scale(1,-1)">11 · 33,3%</text>
+			<text x="135.624" y="186.20000000000002" style="font-family: Helvetica; font-size: 16px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,372) scale(1,-1)">Condivido sui social</text>
+			<g transform="">
+				<g transform="">
+					<rect x="295.0" y="181.26896551724138" width="20.606060606060623" height="19.86206896551724" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(13%,42%,38%); fill-rule: evenodd;"/>
+					<g transform=""/>
+				</g>
+				<g transform=""/>
+				<g transform=""/>
+			</g>
+			<text x="324.6060606060606" y="186.20000000000002" style="font-family: Helvetica; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,372) scale(1,-1)">2 · 6,1%</text>
+			<text x="240.552" y="133.4" style="font-family: Helvetica; font-size: 16px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,266) scale(1,-1)">Nulla</text>
+			<g transform="">
+				<g transform="">
+					<rect x="295.0" y="128.46896551724137" width="20.606060606060623" height="19.86206896551724" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(13%,42%,38%); fill-rule: evenodd;"/>
+					<g transform=""/>
+				</g>
+				<g transform=""/>
+				<g transform=""/>
+			</g>
+			<text x="324.6060606060606" y="133.4" style="font-family: Helvetica; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,266) scale(1,-1)">2 · 6,1%</text>
+		</g>
+	</g>
+</svg>

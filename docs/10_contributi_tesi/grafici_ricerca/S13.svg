@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="720" height="422" preserveAspectRatio="xMinYMin meet" viewBox="0 0 720 422" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="720" height="422"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-422)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="720" height="422" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="28" y="386" style="font-family: Helvetica-Bold; font-size: 23px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,772) scale(1,-1)">Quanto viene percepita una funzione rigida degli</text>
+			<text x="28" y="358" style="font-family: Helvetica-Bold; font-size: 23px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,716) scale(1,-1)">spazi</text>
+			<text x="28" y="327" style="font-family: Helvetica; font-size: 16px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,654) scale(1,-1)">Due rami del primo sondaggio · distribuzione dei punteggi 1–5</text>
+			<text x="28" y="24" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,48) scale(1,-1)">bisogni.</text>
+			<text x="28" y="42" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,84) scale(1,-1)">La domanda non chiede direttamente se tutti i luoghi siano adatti o inadatti ai propri</text>
+			<text x="28" y="60" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,120) scale(1,-1)">working.</text>
+			<text x="28" y="78" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,156) scale(1,-1)">Numeri nelle barre = risposte. Esempi diversi: tavolini per lo studio e ricarica nel co-</text>
+			<text x="28" y="96" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,192) scale(1,-1)">Fonte: SONDAGGIO TESI.csv.</text>
+			<rect x="28" y="287" width="13" height="13" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(89%,90%,92%); fill-rule: evenodd;"/>
+			<text x="47" y="287" style="font-family: Helvetica; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,574) scale(1,-1)">1</text>
+			<rect x="120" y="287" width="13" height="13" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(76%,80%,83%); fill-rule: evenodd;"/>
+			<text x="139" y="287" style="font-family: Helvetica; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,574) scale(1,-1)">2</text>
+			<rect x="212" y="287" width="13" height="13" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(54%,61%,66%); fill-rule: evenodd;"/>
+			<text x="231" y="287" style="font-family: Helvetica; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,574) scale(1,-1)">3</text>
+			<rect x="304" y="287" width="13" height="13" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(29%,55%,51%); fill-rule: evenodd;"/>
+			<text x="323" y="287" style="font-family: Helvetica; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,574) scale(1,-1)">4</text>
+			<rect x="396" y="287" width="13" height="13" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,36%,32%); fill-rule: evenodd;"/>
+			<text x="415" y="287" style="font-family: Helvetica; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,574) scale(1,-1)">5</text>
+			<text x="488" y="287" style="font-family: Helvetica; font-size: 15px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,574) scale(1,-1)">Punteggi</text>
+			<path d="M 300,148 L 300,252 Z" style="stroke: rgb(88%,90%,91%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="289.885" y="125" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,250) scale(1,-1)">0%</text>
+			<path d="M 381.5,148 L 381.5,252 Z" style="stroke: rgb(88%,90%,91%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="367.493" y="125" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,250) scale(1,-1)">25%</text>
+			<path d="M 463,148 L 463,252 Z" style="stroke: rgb(88%,90%,91%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="448.993" y="125" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,250) scale(1,-1)">50%</text>
+			<path d="M 544.5,148 L 544.5,252 Z" style="stroke: rgb(88%,90%,91%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="530.493" y="125" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,250) scale(1,-1)">75%</text>
+			<path d="M 626,148 L 626,252 Z" style="stroke: rgb(88%,90%,91%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="608.101" y="125" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,250) scale(1,-1)">100%</text>
+			<text x="165.024" y="221.0" style="font-family: Helvetica; font-size: 16px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,442) scale(1,-1)">Studenti · n = 17</text>
+			<rect x="300" y="211.0" width="38.35294117647061" height="30.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(89%,90%,92%); fill-rule: evenodd;"/>
+			<text x="315.0064705882353" y="221.0" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,442) scale(1,-1)">2</text>
+			<rect x="338.3529411764706" y="211.0" width="95.88235294117646" height="30.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(76%,80%,83%); fill-rule: evenodd;"/>
+			<text x="382.1241176470588" y="221.0" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,442) scale(1,-1)">5</text>
+			<rect x="434.2352941176471" y="211.0" width="57.529411764705856" height="30.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(54%,61%,66%); fill-rule: evenodd;"/>
+			<text x="458.83" y="221.0" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,442) scale(1,-1)">3</text>
+			<rect x="491.7647058823529" y="211.0" width="95.88235294117646" height="30.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(29%,55%,51%); fill-rule: evenodd;"/>
+			<text x="535.5358823529413" y="221.0" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,442) scale(1,-1)">5</text>
+			<rect x="587.6470588235294" y="211.0" width="38.35294117647061" height="30.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,36%,32%); fill-rule: evenodd;"/>
+			<text x="602.6535294117647" y="221.0" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,442) scale(1,-1)">2</text>
+			<text x="133.904" y="169.0" style="font-family: Helvetica; font-size: 16px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,338) scale(1,-1)">Non studenti · n = 33</text>
+			<rect x="300" y="159.0" width="29.636363636363626" height="30.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(89%,90%,92%); fill-rule: evenodd;"/>
+			<text x="310.6481818181818" y="169.0" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,338) scale(1,-1)">3</text>
+			<rect x="329.6363636363636" y="159.0" width="59.27272727272725" height="30.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(76%,80%,83%); fill-rule: evenodd;"/>
+			<text x="355.10272727272724" y="169.0" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,338) scale(1,-1)">6</text>
+			<rect x="388.9090909090909" y="159.0" width="98.78787878787875" height="30.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(54%,61%,66%); fill-rule: evenodd;"/>
+			<text x="429.9630303030303" y="169.0" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,338) scale(1,-1)">10</text>
+			<rect x="487.69696969696963" y="159.0" width="88.90909090909088" height="30.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(29%,55%,51%); fill-rule: evenodd;"/>
+			<text x="527.9815151515152" y="169.0" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,338) scale(1,-1)">9</text>
+			<rect x="576.6060606060605" y="159.0" width="49.39393939393938" height="30.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,36%,32%); fill-rule: evenodd;"/>
+			<text x="597.1330303030303" y="169.0" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,338) scale(1,-1)">5</text>
+		</g>
+	</g>
+</svg>

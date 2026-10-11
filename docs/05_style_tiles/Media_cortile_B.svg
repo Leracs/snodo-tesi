@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="200" viewBox="0 0 360 200" role="img" aria-labelledby="title desc">
+<title id="title">SNODO · cortile dimostrativo · B</title>
+<desc id="desc">SNODO, nome provvisorio. Componenti statici di progetto; luoghi, visite e contributi mock. Nessun risultato di test con utenti.</desc>
+<defs><filter id="card-shadow" x="-25%" y="-25%" width="150%" height="160%"><feDropShadow dx="0" dy="5" stdDeviation="9" flood-color="#28221F" flood-opacity="0.075"/></filter></defs>
+<defs><clipPath id="media-1"><rect x="0" y="0" width="360" height="200" rx="16"/></clipPath></defs><g clip-path="url(#media-1)"><g transform="translate(0 0) scale(1.0 1.0526315789473684)">
+<rect x="0" y="0" width="360" height="190" rx="0" fill="#FD87BA"/>
+<circle cx="280" cy="35" r="20" fill="#FCEC52"/>
+<path d="M0 131H360V190H0Z" fill="#F2F2EE"/>
+<rect x="35" y="36" width="290" height="107" rx="0" fill="#FFFFFF"/>
+<rect x="28" y="32" width="304" height="8" rx="0" fill="#9E6CDA"/>
+<path d="M35 142H325" fill="none" stroke="#D5D5CE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M60 142V89a25 25 0 0 1 50 0V142Z" fill="#333333"/>
+<path d="M85 76L85 142" stroke="#FFFFFF" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M63 113L107 113" stroke="#FFFFFF" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M54 143V89a31 31 0 0 1 62 0V143" fill="none" stroke="#D5D5CE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M145 142V89a25 25 0 0 1 50 0V142Z" fill="#333333"/>
+<path d="M170 76L170 142" stroke="#FFFFFF" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M148 113L192 113" stroke="#FFFFFF" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M139 143V89a31 31 0 0 1 62 0V143" fill="none" stroke="#D5D5CE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M230 142V89a25 25 0 0 1 50 0V142Z" fill="#333333"/>
+<path d="M255 76L255 142" stroke="#FFFFFF" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M233 113L277 113" stroke="#FFFFFF" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M224 143V89a31 31 0 0 1 62 0V143" fill="none" stroke="#D5D5CE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 155L360 155" stroke="#D5D5CE" stroke-width="1" fill="none" stroke-linecap="round"/>
+<path d="M0 172L360 172" stroke="#D5D5CE" stroke-width="1" fill="none" stroke-linecap="round"/>
+<path d="M180 131L-60 190" stroke="#D5D5CE" stroke-width="1" fill="none" stroke-linecap="round"/>
+<path d="M180 131L50 190" stroke="#D5D5CE" stroke-width="1" fill="none" stroke-linecap="round"/>
+<path d="M180 131L155 190" stroke="#D5D5CE" stroke-width="1" fill="none" stroke-linecap="round"/>
+<path d="M180 131L260 190" stroke="#D5D5CE" stroke-width="1" fill="none" stroke-linecap="round"/>
+<path d="M180 131L365 190" stroke="#D5D5CE" stroke-width="1" fill="none" stroke-linecap="round"/>
+<path d="M180 131L470 190" stroke="#D5D5CE" stroke-width="1" fill="none" stroke-linecap="round"/>
+<rect x="158" y="155" width="119" height="8" rx="3" fill="#000000"/>
+<path d="M171 163L171 180" stroke="#000000" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M264 163L264 180" stroke="#000000" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M15 150H43L38 178H20Z" fill="#9E6CDA"/>
+<path d="M29 154V97" fill="none" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M29 120C5 120 3 93 12 90C25 85 31 108 29 120Z" fill="#ADE25D"/>
+<path d="M29 132C50 125 60 101 49 98C32 93 26 120 29 132Z" fill="#ADE25D"/>
+<path d="M29 105C16 97 20 76 30 72C44 79 43 97 29 105Z" fill="#ADE25D"/>
+<polygon points="320.000,62.000 321.697,70.303 330.000,72.000 321.697,73.697 320.000,82.000 318.303,73.697 310.000,72.000 318.303,70.303" fill="#80EFED"/>
+</g></g>
+<rect x="12" y="164" width="198" height="24" rx="6" fill="#FFFFFF"/>
+<text x="22" y="181" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#000000">Illustrazione dimostrativa</text>
+<metadata id="ui-source">{&quot;typography_sources&quot;: [], &quot;logical_product_copy&quot;: {}, &quot;component_areas&quot;: [], &quot;scale&quot;: &quot;mobile components 1 CSS px = 1 SVG unit&quot;, &quot;status&quot;: &quot;static_proposal_no_user_test&quot;}</metadata>
+</svg>

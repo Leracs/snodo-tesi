@@ -1,0 +1,163 @@
+origine,hotspot,trigger,azione,destinazione,regola,stato
+S01,Esplora nella città scelta,On click,Navigate to,S02,Città manuale; nessun GPS necessario,da_realizzare_e_verificare_in_Figma
+S01,Posizione non concessa,On click,Navigate to,S01-R,"Evento predisposto, nessuna autorizzazione reale nel test",da_realizzare_e_verificare_in_Figma
+S01-R,Scegli città manualmente,On click,Navigate to,S02,,da_realizzare_e_verificare_in_Figma
+S02,Ricerca,On click,Navigate to,S03,,da_realizzare_e_verificare_in_Figma
+S02,Cambia città / filtri,On click,Navigate to,S04,,da_realizzare_e_verificare_in_Figma
+S02,Marker / card luogo,On click,Navigate to,S05-RID,,da_realizzare_e_verificare_in_Figma
+S02,Assistente,On click,Navigate to,S10,,da_realizzare_e_verificare_in_Figma
+S03,Filtri,On click,Navigate to,S04,,da_realizzare_e_verificare_in_Figma
+S03,Mappa,On click,Navigate to,S02,,da_realizzare_e_verificare_in_Figma
+S03,Card luogo,On click,Navigate to,S05,,da_realizzare_e_verificare_in_Figma
+S03,Assistente,On click,Navigate to,S10,,da_realizzare_e_verificare_in_Figma
+S03,Combinazione senza corrispondenze,On click,Navigate to,S03-R,,da_realizzare_e_verificare_in_Figma
+S03-R,Modifica criteri,On click,Navigate to,S04,Conserva città e vincoli finché non modificati esplicitamente,da_realizzare_e_verificare_in_Figma
+S04,Applica criteri con risultati,On click,Navigate to,S03,,da_realizzare_e_verificare_in_Figma
+S04,Applica criteri senza risultati,On click,Navigate to,S03-R,,da_realizzare_e_verificare_in_Figma
+S05-RID,Espandi pannello,On click,Navigate to,S05,,da_realizzare_e_verificare_in_Figma
+S05,Espandi dettaglio,On click,Navigate to,S05-ESP,,da_realizzare_e_verificare_in_Figma
+S05-ESP,Riduci pannello,On click,Navigate to,S05,"Conserva luogo, criteri e punto della mappa",da_realizzare_e_verificare_in_Figma
+S05,Atmosfera,On click,Navigate to,S06,,da_realizzare_e_verificare_in_Figma
+S05,Galleria,On click,Navigate to,S07,,da_realizzare_e_verificare_in_Figma
+S05,Recensioni,On click,Navigate to,S08,,da_realizzare_e_verificare_in_Figma
+S05,Origine del dato,On click,Navigate to,S09,,da_realizzare_e_verificare_in_Figma
+S05,Proponi agli amici,On click,Navigate to,S12,,da_realizzare_e_verificare_in_Figma
+S05,Racconta visita,On click,Navigate to,S15,,da_realizzare_e_verificare_in_Figma
+S05,Come arrivare,On click,Navigate to,S21,,da_realizzare_e_verificare_in_Figma
+S05,Assistente,On click,Navigate to,S10,,da_realizzare_e_verificare_in_Figma
+S05,Salva luogo,On click,Change to / variabile,S05,"Resta nella scheda; cambia stato del salvataggio, ID unico",da_realizzare_e_verificare_in_Figma
+S05-ESP,Atmosfera,On click,Navigate to,S06,,da_realizzare_e_verificare_in_Figma
+S05-ESP,Galleria,On click,Navigate to,S07,,da_realizzare_e_verificare_in_Figma
+S05-ESP,Recensioni,On click,Navigate to,S08,,da_realizzare_e_verificare_in_Figma
+S05-ESP,Origine del dato,On click,Navigate to,S09,,da_realizzare_e_verificare_in_Figma
+S05-ESP,Proponi agli amici,On click,Navigate to,S12,,da_realizzare_e_verificare_in_Figma
+S05-ESP,Racconta visita,On click,Navigate to,S15,,da_realizzare_e_verificare_in_Figma
+S05-ESP,Come arrivare,On click,Navigate to,S21,,da_realizzare_e_verificare_in_Figma
+S05-ESP,Assistente,On click,Navigate to,S10,,da_realizzare_e_verificare_in_Figma
+S05-ESP,Salva luogo,On click,Change to / variabile,S05-ESP,"Resta nella scheda; cambia stato del salvataggio, ID unico",da_realizzare_e_verificare_in_Figma
+S06,Indietro,On click,Back,origine,Ripristina oggetto e provenienza; la fonte può essere stata aperta anche da AI/gruppo,da_realizzare_e_verificare_in_Figma
+S07,Indietro,On click,Back,origine,Ripristina oggetto e provenienza; la fonte può essere stata aperta anche da AI/gruppo,da_realizzare_e_verificare_in_Figma
+S08,Indietro,On click,Back,origine,Ripristina oggetto e provenienza; la fonte può essere stata aperta anche da AI/gruppo,da_realizzare_e_verificare_in_Figma
+S09,Indietro,On click,Back,origine,Ripristina oggetto e provenienza; la fonte può essere stata aperta anche da AI/gruppo,da_realizzare_e_verificare_in_Figma
+S06,Origine e limiti,On click,Navigate to,S09,,da_realizzare_e_verificare_in_Figma
+S08,Origine contributo,On click,Navigate to,S09,,da_realizzare_e_verificare_in_Figma
+S08,Scrivi recensione,On click,Navigate to,S15,,da_realizzare_e_verificare_in_Figma
+S10,Richiesta senza città chiara,On click,Navigate to,S10-C,,da_realizzare_e_verificare_in_Figma
+S10-C,Chiarisci città,On click,Navigate to,S10,,da_realizzare_e_verificare_in_Figma
+S10,Applica criteri,On click,Navigate to,S03,Lista e mappa usano la stessa città e criteri,da_realizzare_e_verificare_in_Figma
+S10,Correggi criteri,On click,Navigate to,S04,,da_realizzare_e_verificare_in_Figma
+S10,AI indisponibile,On click,Navigate to,S10-U,,da_realizzare_e_verificare_in_Figma
+S10-U,Percorso manuale,On click,Navigate to,S03,,da_realizzare_e_verificare_in_Figma
+S11,Nuova proposta,On click,Navigate to,S12,,da_realizzare_e_verificare_in_Figma
+S11,Riprendi proposta,On click,Navigate to,S13,,da_realizzare_e_verificare_in_Figma
+S12,Invia inviti,On click,Navigate to,S12-I,,da_realizzare_e_verificare_in_Figma
+S12-I,Vai alla proposta,On click,Navigate to,S13,,da_realizzare_e_verificare_in_Figma
+S13,Esprimi preferenza,On click,Navigate to,S13-C,Preferenza distinta dalla conferma,da_realizzare_e_verificare_in_Figma
+S13,Invoca AI,On click,Change to / variabile,S13,"Suggerimento, non chiusura della decisione",da_realizzare_e_verificare_in_Figma
+S13,Vincoli incompatibili,On click,Navigate to,S13-R,,da_realizzare_e_verificare_in_Figma
+S13-R,Modifica volontariamente un criterio,On click,Navigate to,S13,Nessun allentamento implicito; le conferme precedenti vengono riaperte,da_realizzare_e_verificare_in_Figma
+S13-C,Conferma personale con risposte mancanti,On click,Navigate to,S14-W,,da_realizzare_e_verificare_in_Figma
+S13-C,Tutti aderenti confermati e nessun invito pendente,On click,Navigate to,S14,"Evento simulato degli amici, non consenso automatico",da_realizzare_e_verificare_in_Figma
+S14,Riapri / cambia città luogo o vincoli,On click,Navigate to,S13,Invalidate conferme precedenti,da_realizzare_e_verificare_in_Figma
+S14,Apri luogo scelto,On click,Navigate to,S05,,da_realizzare_e_verificare_in_Figma
+S14,Come arrivare,On click,Navigate to,S21,,da_realizzare_e_verificare_in_Figma
+S14-W,Riapri / cambia città luogo o vincoli,On click,Navigate to,S13,Invalidate conferme precedenti,da_realizzare_e_verificare_in_Figma
+S14-W,Apri luogo scelto,On click,Navigate to,S05,,da_realizzare_e_verificare_in_Figma
+S14-W,Come arrivare,On click,Navigate to,S21,,da_realizzare_e_verificare_in_Figma
+S15,Continua al testo,On click,Navigate to,S16,,da_realizzare_e_verificare_in_Figma
+S15,Conserva bozza ed esci,On click,Navigate to,S20,,da_realizzare_e_verificare_in_Figma
+S16,Aiuto AI,On click,Navigate to,S16-A,,da_realizzare_e_verificare_in_Figma
+S16-A,Applica suggerimento alla bozza,On click,Navigate to,S16,"Aggiorna soltanto bozza, nessun invio",da_realizzare_e_verificare_in_Figma
+S16-A,Rifiuta suggerimento,On click,Navigate to,S16,Appunti invariati,da_realizzare_e_verificare_in_Figma
+S16,Anteprima,On click,Navigate to,S17,,da_realizzare_e_verificare_in_Figma
+S16,Conserva bozza ed esci,On click,Navigate to,S20,,da_realizzare_e_verificare_in_Figma
+S17,Modifica testo,On click,Navigate to,S16,,da_realizzare_e_verificare_in_Figma
+S17,Invia esplicitamente con destinatari chiari,On click,Navigate to,S18,,da_realizzare_e_verificare_in_Figma
+S17,Errore invio predisposto,On click,Navigate to,S18-R,,da_realizzare_e_verificare_in_Figma
+S18-R,Riprova stesso invio,On click,Navigate to,S18,Controlla stato; bozza e ID non duplicati,da_realizzare_e_verificare_in_Figma
+S18-R,Riprendi bozza,On click,Navigate to,S16,,da_realizzare_e_verificare_in_Figma
+S18,Torna al luogo,On click,Navigate to,S05,,da_realizzare_e_verificare_in_Figma
+S19,Card salvata,On click,Navigate to,S05,,da_realizzare_e_verificare_in_Figma
+S19,Proponi luogo salvato,On click,Navigate to,S12,,da_realizzare_e_verificare_in_Figma
+S20,Riprendi bozza,On click,Navigate to,S16,,da_realizzare_e_verificare_in_Figma
+S21,Simula passaggio Maps e ritorno,On click,Back,origine,Nessun tragitto reale per luogo fittizio; stesso contesto al ritorno,da_realizzare_e_verificare_in_Figma
+S02,Navigazione Esplora,On click,Navigate to,S02,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S02,Navigazione Salvati,On click,Navigate to,S19,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S02,Navigazione Chat,On click,Navigate to,S11,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S02,Navigazione Profilo,On click,Navigate to,S20,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S03,Navigazione Esplora,On click,Navigate to,S02,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S03,Navigazione Salvati,On click,Navigate to,S19,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S03,Navigazione Chat,On click,Navigate to,S11,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S03,Navigazione Profilo,On click,Navigate to,S20,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S04,Navigazione Esplora,On click,Navigate to,S02,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S04,Navigazione Salvati,On click,Navigate to,S19,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S04,Navigazione Chat,On click,Navigate to,S11,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S04,Navigazione Profilo,On click,Navigate to,S20,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S05,Navigazione Esplora,On click,Navigate to,S02,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S05,Navigazione Salvati,On click,Navigate to,S19,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S05,Navigazione Chat,On click,Navigate to,S11,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S05,Navigazione Profilo,On click,Navigate to,S20,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S06,Navigazione Esplora,On click,Navigate to,S02,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S06,Navigazione Salvati,On click,Navigate to,S19,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S06,Navigazione Chat,On click,Navigate to,S11,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S06,Navigazione Profilo,On click,Navigate to,S20,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S07,Navigazione Esplora,On click,Navigate to,S02,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S07,Navigazione Salvati,On click,Navigate to,S19,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S07,Navigazione Chat,On click,Navigate to,S11,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S07,Navigazione Profilo,On click,Navigate to,S20,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S08,Navigazione Esplora,On click,Navigate to,S02,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S08,Navigazione Salvati,On click,Navigate to,S19,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S08,Navigazione Chat,On click,Navigate to,S11,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S08,Navigazione Profilo,On click,Navigate to,S20,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S09,Navigazione Esplora,On click,Navigate to,S02,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S09,Navigazione Salvati,On click,Navigate to,S19,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S09,Navigazione Chat,On click,Navigate to,S11,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S09,Navigazione Profilo,On click,Navigate to,S20,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S10,Navigazione Esplora,On click,Navigate to,S02,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S10,Navigazione Salvati,On click,Navigate to,S19,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S10,Navigazione Chat,On click,Navigate to,S11,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S10,Navigazione Profilo,On click,Navigate to,S20,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S11,Navigazione Esplora,On click,Navigate to,S02,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S11,Navigazione Salvati,On click,Navigate to,S19,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S11,Navigazione Chat,On click,Navigate to,S11,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S11,Navigazione Profilo,On click,Navigate to,S20,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S12,Navigazione Esplora,On click,Navigate to,S02,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S12,Navigazione Salvati,On click,Navigate to,S19,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S12,Navigazione Chat,On click,Navigate to,S11,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S12,Navigazione Profilo,On click,Navigate to,S20,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S13,Navigazione Esplora,On click,Navigate to,S02,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S13,Navigazione Salvati,On click,Navigate to,S19,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S13,Navigazione Chat,On click,Navigate to,S11,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S13,Navigazione Profilo,On click,Navigate to,S20,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S14,Navigazione Esplora,On click,Navigate to,S02,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S14,Navigazione Salvati,On click,Navigate to,S19,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S14,Navigazione Chat,On click,Navigate to,S11,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S14,Navigazione Profilo,On click,Navigate to,S20,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S15,Navigazione Esplora,On click,Navigate to,S02,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S15,Navigazione Salvati,On click,Navigate to,S19,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S15,Navigazione Chat,On click,Navigate to,S11,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S15,Navigazione Profilo,On click,Navigate to,S20,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S16,Navigazione Esplora,On click,Navigate to,S02,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S16,Navigazione Salvati,On click,Navigate to,S19,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S16,Navigazione Chat,On click,Navigate to,S11,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S16,Navigazione Profilo,On click,Navigate to,S20,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S17,Navigazione Esplora,On click,Navigate to,S02,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S17,Navigazione Salvati,On click,Navigate to,S19,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S17,Navigazione Chat,On click,Navigate to,S11,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S17,Navigazione Profilo,On click,Navigate to,S20,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S18,Navigazione Esplora,On click,Navigate to,S02,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S18,Navigazione Salvati,On click,Navigate to,S19,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S18,Navigazione Chat,On click,Navigate to,S11,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S18,Navigazione Profilo,On click,Navigate to,S20,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S19,Navigazione Esplora,On click,Navigate to,S02,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S19,Navigazione Salvati,On click,Navigate to,S19,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S19,Navigazione Chat,On click,Navigate to,S11,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S19,Navigazione Profilo,On click,Navigate to,S20,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S20,Navigazione Esplora,On click,Navigate to,S02,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S20,Navigazione Salvati,On click,Navigate to,S19,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S20,Navigazione Chat,On click,Navigate to,S11,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S20,Navigazione Profilo,On click,Navigate to,S20,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S21,Navigazione Esplora,On click,Navigate to,S02,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S21,Navigazione Salvati,On click,Navigate to,S19,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S21,Navigazione Chat,On click,Navigate to,S11,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma
+S21,Navigazione Profilo,On click,Navigate to,S20,Bozza preservata prima di lasciare la composizione,da_realizzare_e_verificare_in_Figma

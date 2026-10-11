@@ -1,0 +1,95 @@
+{
+  "variant": "B",
+  "status": "provisional",
+  "headingFont": "Boldonse",
+  "headingWeight": 400,
+  "bodyFont": "Helvetica Neue",
+  "bodyFontIntent": "Forma DJR Text",
+  "fontAvailability": {
+    "heading": "local TTF; SVG headings are glyph outlines",
+    "body": "Helvetica Neue preview fallback; Forma DJR Text unavailable"
+  },
+  "colors": {
+    "background": "#80EFED",
+    "surface": "#FFFFFF",
+    "surfaceMuted": "#F2F2EE",
+    "text": "#000000",
+    "muted": "#4B4B4B",
+    "primary": "#000000",
+    "primaryHover": "#252525",
+    "primaryPressed": "#111111",
+    "primarySoft": "#80EFED",
+    "secondaryBg": "#80EFED",
+    "onSecondary": "#000000",
+    "border": "#000000",
+    "divider": "#BDBDB5",
+    "focus": "#000000",
+    "accentDecorative": "#9E6CDA",
+    "accentPink": "#FD87BA",
+    "accentGreen": "#ADE25D",
+    "accentPurple": "#9E6CDA",
+    "accentYellow": "#FCEC52",
+    "accentTurquoise": "#80EFED",
+    "success": "#235B2E",
+    "successBg": "#E8F6E8",
+    "warning": "#684900",
+    "warningBg": "#FFF2CC",
+    "danger": "#A42335",
+    "dangerBg": "#FDE8EB",
+    "info": "#254E68",
+    "infoBg": "#E7F1F7",
+    "onPrimary": "#80EFED"
+  },
+  "common": {
+    "bodyFont": "Helvetica Neue",
+    "bodySize": 16,
+    "bodyLineHeight": 24,
+    "typeScale": {
+      "caption": 14,
+      "body": 16,
+      "bodyStrong": 16,
+      "titleSmall": 24,
+      "title": 32,
+      "display": 44
+    },
+    "spacing": [
+      4,
+      8,
+      12,
+      16,
+      24,
+      32,
+      40,
+      48,
+      64
+    ],
+    "radius": {
+      "card": 32,
+      "control": 32,
+      "chip": 22,
+      "field": 18,
+      "passiveTag": 14
+    },
+    "stroke": 1.8,
+    "targetMinimumRecommended": 44,
+    "controlHeight": 48,
+    "fieldHeight": 52,
+    "passiveTagHeight": 28,
+    "filterHeight": 44,
+    "iconSize": 24,
+    "navWidth": 360,
+    "navHeight": 80,
+    "navActiveCapsule": {
+      "width": 48,
+      "height": 32
+    },
+    "focusWidth": 3,
+    "focusOffset": 3,
+    "motionDurationMs": 160,
+    "motionReducedMs": 0,
+    "mobileFrame": {
+      "width": 390,
+      "height": 844
+    }
+  }
+}

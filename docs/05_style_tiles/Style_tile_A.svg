@@ -1,0 +1,287 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1840" viewBox="0 0 1440 1840" role="img" aria-labelledby="title desc">
+<title id="title">SNODO · style tile A · UI 0.3</title>
+<desc id="desc">SNODO, nome provvisorio. Componenti statici di progetto; luoghi, visite e contributi mock. Nessun risultato di test con utenti.</desc>
+<defs><filter id="card-shadow" x="-25%" y="-25%" width="150%" height="160%"><feDropShadow dx="0" dy="5" stdDeviation="9" flood-color="#28221F" flood-opacity="0.075"/></filter></defs>
+<rect x="0" y="0" width="1440" height="1840" rx="0" fill="#F7F1E8"/>
+<text x="80" y="145" font-family="Georgia" font-size="76" font-weight="400" text-anchor="start" fill="#28221F">SNODO</text>
+<text x="1356" y="83" font-family="Trebuchet MS" font-size="14" font-weight="700" text-anchor="end" fill="#28221F">Direzione A</text>
+<text x="1356" y="108" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="end" fill="#64544A">Crema / editoriale</text>
+<text x="80" y="244" font-family="Georgia" font-size="44" font-weight="400" text-anchor="start" fill="#28221F">Un posto per il tuo momento.</text>
+<text x="80" y="288" font-family="Trebuchet MS" font-size="18" font-weight="400" text-anchor="start" fill="#64544A">Luoghi, persone e informazioni da leggere con calma.</text>
+<path d="M1120 170L1356 170" stroke="#D7C9B9" stroke-width="1" fill="none" stroke-linecap="round"/>
+<text x="1120" y="198" font-family="Trebuchet MS" font-size="13" font-weight="700" text-anchor="start" fill="#64544A">LUOGHI</text>
+<text x="1120" y="224" font-family="Trebuchet MS" font-size="13" font-weight="700" text-anchor="start" fill="#64544A">PERSONE</text>
+<text x="1120" y="250" font-family="Trebuchet MS" font-size="13" font-weight="700" text-anchor="start" fill="#64544A">MOMENTI</text>
+<path d="M80 328L1356 328" stroke="#D7C9B9" stroke-width="1" fill="none" stroke-linecap="round"/>
+<g id="component-01" data-component-title="Palette e ruoli">
+<text x="80" y="371" font-family="Trebuchet MS" font-size="13" font-weight="700" text-anchor="start" fill="#9C432D">01</text>
+<text x="112" y="371" font-family="Trebuchet MS" font-size="13" font-weight="700" text-anchor="start" fill="#64544A">PALETTE E RUOLI</text>
+<rect x="80" y="397" width="120" height="34" rx="8" fill="#F7F1E8" stroke="#D7C9B9" stroke-width="1.5"/>
+<text x="80" y="459" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#28221F">Sfondo</text>
+<text x="80" y="482" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">#F7F1E8</text>
+<rect x="230" y="397" width="120" height="34" rx="8" fill="#FFFCF7" stroke="#D7C9B9" stroke-width="1.5"/>
+<text x="230" y="459" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#28221F">Superficie</text>
+<text x="230" y="482" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">#FFFCF7</text>
+<rect x="380" y="397" width="120" height="34" rx="8" fill="#28221F"/>
+<text x="380" y="459" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#28221F">Testo</text>
+<text x="380" y="482" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">#28221F</text>
+<rect x="530" y="397" width="120" height="34" rx="8" fill="#9C432D"/>
+<text x="530" y="459" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#28221F">Azione</text>
+<text x="530" y="482" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">#9C432D</text>
+<rect x="680" y="397" width="120" height="34" rx="8" fill="#795000"/>
+<text x="680" y="459" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#28221F">Dati limitati</text>
+<text x="680" y="482" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">#795000</text>
+</g>
+<g id="component-02" data-component-title="Tipografia e gerarchia">
+<text x="928" y="371" font-family="Trebuchet MS" font-size="13" font-weight="700" text-anchor="start" fill="#9C432D">02</text>
+<text x="960" y="371" font-family="Trebuchet MS" font-size="13" font-weight="700" text-anchor="start" fill="#64544A">TIPOGRAFIA E GERARCHIA</text>
+<text x="928" y="428" font-family="Georgia" font-size="24" font-weight="400" text-anchor="start" fill="#28221F">Dove ti va di andare?</text>
+<text x="928" y="463" font-family="Trebuchet MS" font-size="16" font-weight="400" text-anchor="start" fill="#28221F">Le informazioni utili, prima di scegliere.</text>
+<text x="928" y="490" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Titolo 24 · corpo 16 / 24 · nota 14 / 20</text>
+</g>
+<rect x="48" y="528" width="1344" height="1132" rx="32" fill="#FFFCF7"/>
+<g id="component-05" data-component-title="Card luogo">
+<text x="80" y="556" font-family="Trebuchet MS" font-size="13" font-weight="700" text-anchor="start" fill="#9C432D">05</text>
+<text x="112" y="556" font-family="Trebuchet MS" font-size="13" font-weight="700" text-anchor="start" fill="#64544A">CARD LUOGO</text>
+<rect x="80" y="590" width="360" height="510" rx="20" fill="#FFFCF7" filter="url(#card-shadow)"/>
+<defs><clipPath id="media-1"><rect x="88" y="598" width="344" height="184" rx="16"/></clipPath></defs><g clip-path="url(#media-1)"><g transform="translate(88 598) scale(0.9555555555555556 0.968421052631579)">
+<rect x="0" y="0" width="360" height="190" rx="0" fill="#EBD6C8"/>
+<circle cx="280" cy="35" r="20" fill="#D97A4A"/>
+<path d="M0 131H360V190H0Z" fill="#E6D9CB"/>
+<rect x="35" y="36" width="290" height="107" rx="0" fill="#FFF4E6"/>
+<rect x="28" y="32" width="304" height="8" rx="0" fill="#C7AA94"/>
+<path d="M35 142H325" fill="none" stroke="#CAB8A8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M60 142V89a25 25 0 0 1 50 0V142Z" fill="#8A7769"/>
+<path d="M85 76L85 142" stroke="#FFF4E6" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M63 113L107 113" stroke="#FFF4E6" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M54 143V89a31 31 0 0 1 62 0V143" fill="none" stroke="#CAB8A8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M145 142V89a25 25 0 0 1 50 0V142Z" fill="#8A7769"/>
+<path d="M170 76L170 142" stroke="#FFF4E6" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M148 113L192 113" stroke="#FFF4E6" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M139 143V89a31 31 0 0 1 62 0V143" fill="none" stroke="#CAB8A8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M230 142V89a25 25 0 0 1 50 0V142Z" fill="#8A7769"/>
+<path d="M255 76L255 142" stroke="#FFF4E6" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M233 113L277 113" stroke="#FFF4E6" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M224 143V89a31 31 0 0 1 62 0V143" fill="none" stroke="#CAB8A8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 155L360 155" stroke="#CAB8A8" stroke-width="1" fill="none" stroke-linecap="round"/>
+<path d="M0 172L360 172" stroke="#CAB8A8" stroke-width="1" fill="none" stroke-linecap="round"/>
+<path d="M180 131L-60 190" stroke="#CAB8A8" stroke-width="1" fill="none" stroke-linecap="round"/>
+<path d="M180 131L50 190" stroke="#CAB8A8" stroke-width="1" fill="none" stroke-linecap="round"/>
+<path d="M180 131L155 190" stroke="#CAB8A8" stroke-width="1" fill="none" stroke-linecap="round"/>
+<path d="M180 131L260 190" stroke="#CAB8A8" stroke-width="1" fill="none" stroke-linecap="round"/>
+<path d="M180 131L365 190" stroke="#CAB8A8" stroke-width="1" fill="none" stroke-linecap="round"/>
+<path d="M180 131L470 190" stroke="#CAB8A8" stroke-width="1" fill="none" stroke-linecap="round"/>
+<rect x="158" y="155" width="119" height="8" rx="3" fill="#9C432D"/>
+<path d="M171 163L171 180" stroke="#9C432D" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M264 163L264 180" stroke="#9C432D" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M15 150H43L38 178H20Z" fill="#9C432D"/>
+<path d="M29 154V97" fill="none" stroke="#8A7769" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M29 120C5 120 3 93 12 90C25 85 31 108 29 120Z" fill="#6B7752"/>
+<path d="M29 132C50 125 60 101 49 98C32 93 26 120 29 132Z" fill="#6B7752"/>
+<path d="M29 105C16 97 20 76 30 72C44 79 43 97 29 105Z" fill="#6B7752"/>
+</g></g>
+<rect x="100" y="746" width="198" height="24" rx="6" fill="#FFFCF7"/>
+<text x="110" y="763" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#28221F">Illustrazione dimostrativa</text>
+<rect x="376" y="612" width="44" height="44" rx="22" fill="#FFFCF7" filter="url(#card-shadow)"/>
+<g transform="translate(386 622) scale(1.0)" stroke="#9C432D" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="bookmark">
+<path d="M6 3h12v18l-6-4l-6 4Z"/>
+</g>
+<text x="104" y="823" font-family="Georgia" font-size="26" font-weight="400" text-anchor="start" fill="#28221F">Cortile Uno</text>
+<g transform="translate(104 838) scale(0.75)" stroke="#64544A" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="pin">
+<path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/>
+<path d="M12 12.5a2.5 2.5 0 1 1 0-5a2.5 2.5 0 0 1 0 5"/>
+</g>
+<text x="130" y="853" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Roma · San Lorenzo</text>
+<rect x="104" y="875" width="92" height="28" rx="8" fill="#EEE4D7"/>
+<text x="150.0" y="894" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="middle" fill="#28221F">Cortile</text>
+<rect x="204" y="875" width="104" height="28" rx="8" fill="#EEE4D7"/>
+<text x="256.0" y="894" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="middle" fill="#28221F">Aperitivo</text>
+<text x="104" y="947" font-family="Trebuchet MS" font-size="24" font-weight="700" text-anchor="start" fill="#28221F">12–18 €</text>
+<text x="234" y="947" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">a persona</text>
+<path d="M104 967L416 967" stroke="#D7C9B9" stroke-width="1" fill="none" stroke-linecap="round"/>
+<text x="104" y="991" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Prezzo: gestore · 01/10/2026</text>
+<text x="104" y="1014" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Dati dimostrativi</text>
+<rect x="104" y="1036" width="312" height="48" rx="12" fill="#9C432D"/>
+<g transform="translate(200.5 1048.0) scale(1.0)" stroke="#FFFFFF" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="arrow">
+<path d="M5 12h14"/>
+<path d="M14 7l5 5l-5 5"/>
+</g>
+<text x="232.5" y="1065.0" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="start" fill="#FFFFFF">Apri scheda</text>
+</g>
+<g id="component-06" data-component-title="Atmosfera: intensità, non voto">
+<text x="80" y="1150" font-family="Trebuchet MS" font-size="13" font-weight="700" text-anchor="start" fill="#9C432D">06</text>
+<text x="112" y="1150" font-family="Trebuchet MS" font-size="13" font-weight="700" text-anchor="start" fill="#64544A">ATMOSFERA · INTENSITÀ</text>
+<rect x="80" y="1180" width="360" height="414" rx="20" fill="#FFFCF7" filter="url(#card-shadow)"/>
+<text x="104" y="1214" font-family="Trebuchet MS" font-size="14" font-weight="700" text-anchor="start" fill="#28221F">Visite · 18–21 · settembre 2026</text>
+<text x="104" y="1264" font-family="Trebuchet MS" font-size="16" font-weight="400" text-anchor="start" fill="#28221F">Rumore</text>
+<text x="416" y="1264" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="end" fill="#64544A">2/5</text>
+<rect x="104" y="1277" width="56" height="7" rx="3.5" fill="#9C432D"/>
+<rect x="168" y="1277" width="56" height="7" rx="3.5" fill="#9C432D"/>
+<rect x="232" y="1277" width="56" height="7" rx="3.5" fill="#EEE4D7"/>
+<rect x="296" y="1277" width="56" height="7" rx="3.5" fill="#EEE4D7"/>
+<rect x="360" y="1277" width="56" height="7" rx="3.5" fill="#EEE4D7"/>
+<text x="104" y="1320" font-family="Trebuchet MS" font-size="16" font-weight="400" text-anchor="start" fill="#28221F">Luce</text>
+<text x="416" y="1320" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="end" fill="#64544A">3/5</text>
+<rect x="104" y="1333" width="56" height="7" rx="3.5" fill="#9C432D"/>
+<rect x="168" y="1333" width="56" height="7" rx="3.5" fill="#9C432D"/>
+<rect x="232" y="1333" width="56" height="7" rx="3.5" fill="#9C432D"/>
+<rect x="296" y="1333" width="56" height="7" rx="3.5" fill="#EEE4D7"/>
+<rect x="360" y="1333" width="56" height="7" rx="3.5" fill="#EEE4D7"/>
+<text x="104" y="1376" font-family="Trebuchet MS" font-size="16" font-weight="400" text-anchor="start" fill="#28221F">Affollamento</text>
+<text x="416" y="1376" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="end" fill="#64544A">2/5</text>
+<rect x="104" y="1389" width="56" height="7" rx="3.5" fill="#9C432D"/>
+<rect x="168" y="1389" width="56" height="7" rx="3.5" fill="#9C432D"/>
+<rect x="232" y="1389" width="56" height="7" rx="3.5" fill="#EEE4D7"/>
+<rect x="296" y="1389" width="56" height="7" rx="3.5" fill="#EEE4D7"/>
+<rect x="360" y="1389" width="56" height="7" rx="3.5" fill="#EEE4D7"/>
+<text x="104" y="1439" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Scala: 1 intensità bassa; 5 alta.</text>
+<text x="104" y="1470" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Copertura: 3 visite mock; 2 risposte sul rumore.</text>
+<rect x="104" y="1515" width="312" height="58" rx="10" fill="#FFF0CB"/>
+<g transform="translate(116 1532) scale(0.75)" stroke="#795000" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="warning">
+<path d="M12 3l10 18H2Z"/>
+<path d="M12 9v5"/>
+<path d="M12 17h.01"/>
+</g>
+<text x="146" y="1537" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#795000">Utenti · 01/10/2026 · dati limitati e</text>
+<text x="146" y="1557" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#795000">dimostrativi</text>
+</g>
+<g id="component-03" data-component-title="Azioni, campo e criteri">
+<text x="528" y="556" font-family="Trebuchet MS" font-size="13" font-weight="700" text-anchor="start" fill="#9C432D">03</text>
+<text x="560" y="556" font-family="Trebuchet MS" font-size="13" font-weight="700" text-anchor="start" fill="#64544A">AZIONI E CRITERI</text>
+<text x="528" y="590" font-family="Trebuchet MS" font-size="14" font-weight="700" text-anchor="start" fill="#28221F">Cosa cerchi?</text>
+<rect x="528" y="604" width="360" height="52" rx="12" fill="#FFFCF7" stroke="#8A7769" stroke-width="1.5"/>
+<g transform="translate(544 618) scale(1.0)" stroke="#64544A" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="search">
+<path d="M10.5 17.5a7 7 0 1 1 0-14a7 7 0 0 1 0 14"/>
+<path d="M16 16l5 5"/>
+</g>
+<text x="580" y="635" font-family="Trebuchet MS" font-size="16" font-weight="400" text-anchor="start" fill="#28221F">Un aperitivo con amici</text>
+<rect x="528" y="678" width="360" height="48" rx="12" fill="#9C432D"/>
+<g transform="translate(639.5 690.0) scale(1.0)" stroke="#FFFFFF" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="arrow">
+<path d="M5 12h14"/>
+<path d="M14 7l5 5l-5 5"/>
+</g>
+<text x="671.5" y="707.0" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="start" fill="#FFFFFF">Esplora luoghi</text>
+<rect x="528" y="740" width="360" height="48" rx="12" fill="#FFFCF7" stroke="#8A7769" stroke-width="1.5"/>
+<g transform="translate(646.5 752.0) scale(1.0)" stroke="#9C432D" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="sparkle">
+<path d="M12 2l2.7 7.3L22 12l-7.3 2.7L12 22l-2.7-7.3L2 12l7.3-2.7Z"/>
+</g>
+<text x="678.5" y="769.0" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="start" fill="#9C432D">Chiedi all’AI</text>
+<rect x="528" y="810" width="170" height="44" rx="22" fill="#F6DDD0"/>
+<g transform="translate(540 820) scale(0.8333333333333334)" stroke="#9C432D" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="check">
+<path d="M5 12l4 4l10-10"/>
+</g>
+<text x="625.0" y="837" font-family="Trebuchet MS" font-size="15" font-weight="700" text-anchor="middle" fill="#9C432D">Fino a 20 €</text>
+<rect x="710" y="810" width="178" height="44" rx="22" fill="#FFFCF7" stroke="#8A7769" stroke-width="1.5"/>
+<text x="799.0" y="837" font-family="Trebuchet MS" font-size="15" font-weight="400" text-anchor="middle" fill="#28221F">Per parlare</text>
+<rect x="528" y="866" width="170" height="44" rx="22" fill="#FFFCF7" stroke="#8A7769" stroke-width="1.5"/>
+<g transform="translate(540 876) scale(0.8333333333333334)" stroke="#28221F" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="plus">
+<path d="M12 5v14"/>
+<path d="M5 12h14"/>
+</g>
+<text x="625.0" y="893" font-family="Trebuchet MS" font-size="15" font-weight="400" text-anchor="middle" fill="#28221F">Altri criteri</text>
+</g>
+<g id="component-04" data-component-title="Orientamento e navigazione">
+<text x="528" y="976" font-family="Trebuchet MS" font-size="13" font-weight="700" text-anchor="start" fill="#9C432D">04</text>
+<text x="560" y="976" font-family="Trebuchet MS" font-size="13" font-weight="700" text-anchor="start" fill="#64544A">ORIENTAMENTO E NAVIGAZIONE</text>
+<text x="528" y="1020" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="start" fill="#28221F">Roma · San Lorenzo</text>
+<text x="839.0" y="1021.0" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="middle" fill="#9C432D">Cambia</text>
+<text x="528" y="1054" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Contesto di ricerca modificabile</text>
+<rect x="528" y="1082" width="360" height="80" rx="24" fill="#FFFCF7" filter="url(#card-shadow)"/>
+<rect x="549" y="1092" width="48" height="32" rx="16" fill="#F6DDD0"/>
+<g transform="translate(561 1096) scale(1.0)" stroke="#9C432D" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="compass">
+<path d="M12 22a10 10 0 1 1 0-20a10 10 0 0 1 0 20"/>
+<path d="M15.5 8.5l-2 5l-5 2l2-5Z"/>
+</g>
+<text x="573" y="1145" font-family="Trebuchet MS" font-size="14" font-weight="700" text-anchor="middle" fill="#9C432D">Esplora</text>
+<g transform="translate(651 1096) scale(1.0)" stroke="#64544A" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="bookmark">
+<path d="M6 3h12v18l-6-4l-6 4Z"/>
+</g>
+<text x="663" y="1145" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="middle" fill="#64544A">Salvati</text>
+<g transform="translate(741 1096) scale(1.0)" stroke="#64544A" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="chat">
+<path d="M5 4h14a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-8l-5 3v-3H5a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3Z"/>
+</g>
+<text x="753" y="1145" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="middle" fill="#64544A">Chat</text>
+<g transform="translate(831 1096) scale(1.0)" stroke="#64544A" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="profile">
+<path d="M12 12a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9"/>
+<path d="M3.5 21v-1a8.5 8.5 0 0 1 17 0v1"/>
+</g>
+<text x="843" y="1145" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="middle" fill="#64544A">Profilo</text>
+<rect x="528" y="1186" width="360" height="48" rx="12" fill="#FFFCF7" stroke="#8A7769" stroke-width="1.5"/>
+<g transform="translate(645.0078125 1198.0) scale(1.0)" stroke="#9C432D" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="sparkle">
+<path d="M12 2l2.7 7.3L22 12l-7.3 2.7L12 22l-2.7-7.3L2 12l7.3-2.7Z"/>
+</g>
+<text x="677.0078125" y="1215.0" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="start" fill="#9C432D">Assistente AI</text>
+<text x="528" y="1264" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Accesso trasversale, sempre con nome.</text>
+</g>
+<g id="component-07" data-component-title="Contributo di una persona">
+<text x="976" y="556" font-family="Trebuchet MS" font-size="13" font-weight="700" text-anchor="start" fill="#9C432D">07</text>
+<text x="1008" y="556" font-family="Trebuchet MS" font-size="13" font-weight="700" text-anchor="start" fill="#64544A">CONTRIBUTO DI UNA PERSONA</text>
+<rect x="976" y="590" width="360" height="260" rx="20" fill="#FFFCF7" filter="url(#card-shadow)"/>
+<circle cx="1018" cy="636" r="18" fill="#F6DDD0"/>
+<text x="1018" y="642" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="middle" fill="#28221F">L</text>
+<text x="1052" y="629" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="start" fill="#28221F">Luca</text>
+<text x="1052" y="653" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Visita: 21 settembre 2026 · 19–21</text>
+<text x="1000" y="715" font-family="Trebuchet MS" font-size="20" font-weight="400" text-anchor="start" fill="#28221F">Potevamo parlare senza alzare la</text>
+<text x="1000" y="744" font-family="Trebuchet MS" font-size="20" font-weight="400" text-anchor="start" fill="#28221F">voce.</text>
+<path d="M1000 768L1312 768" stroke="#D7C9B9" stroke-width="1" fill="none" stroke-linecap="round"/>
+<text x="1000" y="800" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Contributo e visita dimostrativi · identità</text>
+<text x="1000" y="820" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">visibile</text>
+</g>
+<g id="component-08" data-component-title="Messaggio dell’assistente">
+<text x="976" y="922" font-family="Trebuchet MS" font-size="13" font-weight="700" text-anchor="start" fill="#9C432D">08</text>
+<text x="1008" y="922" font-family="Trebuchet MS" font-size="13" font-weight="700" text-anchor="start" fill="#64544A">MESSAGGIO DELL’ASSISTENTE</text>
+<rect x="976" y="950" width="360" height="290" rx="20" fill="#FFFCF7" filter="url(#card-shadow)"/>
+<circle cx="1016" cy="986" r="16" fill="#F6DDD0"/>
+<g transform="translate(1006 976) scale(0.8333333333333334)" stroke="#9C432D" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="sparkle">
+<path d="M12 2l2.7 7.3L22 12l-7.3 2.7L12 22l-2.7-7.3L2 12l7.3-2.7Z"/>
+</g>
+<text x="1042" y="992" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="start" fill="#28221F">Assistente AI</text>
+<rect x="1234" y="974" width="78" height="24" rx="12" fill="#E6EFF1"/>
+<text x="1273" y="992" font-family="Trebuchet MS" font-size="14" font-weight="700" text-anchor="middle" fill="#345968">Simulato</text>
+<text x="1000" y="1045" font-family="Trebuchet MS" font-size="16" font-weight="400" text-anchor="start" fill="#28221F">Ho mantenuto Roma e budget fino a 20 €.</text>
+<text x="1000" y="1069" font-family="Trebuchet MS" font-size="16" font-weight="400" text-anchor="start" fill="#28221F">Il rumore ha dati limitati.</text>
+<path d="M1000 1088L1312 1088" stroke="#D7C9B9" stroke-width="1" fill="none" stroke-linecap="round"/>
+<text x="1000" y="1122" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Catalogo mock · scheda e contributi del luogo</text>
+<rect x="1000" y="1170" width="312" height="48" rx="12" fill="#FFFCF7" stroke="#8A7769" stroke-width="1.5"/>
+<text x="1156.0" y="1199.0" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="middle" fill="#9C432D">Modifica criteri</text>
+</g>
+<g id="component-09" data-component-title="Feedback semantico">
+<text x="528" y="1357" font-family="Trebuchet MS" font-size="13" font-weight="700" text-anchor="start" fill="#9C432D">09</text>
+<text x="560" y="1357" font-family="Trebuchet MS" font-size="13" font-weight="700" text-anchor="start" fill="#64544A">IL COLORE HA UN RUOLO, IL MESSAGGIO RESTA ESPLICITO</text>
+<rect x="528" y="1394" width="360" height="96" rx="16" fill="#E3F0E8"/>
+<g transform="translate(544 1412) scale(1.0)" stroke="#285844" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="check">
+<path d="M5 12l4 4l10-10"/>
+</g>
+<text x="580" y="1430" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="start" fill="#285844">Contributo inviato</text>
+<text x="544" y="1465" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#285844">Dopo l’invio esplicito</text>
+<rect x="976" y="1394" width="360" height="96" rx="16" fill="#FFF0CB"/>
+<g transform="translate(992 1412) scale(1.0)" stroke="#795000" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="warning">
+<path d="M12 3l10 18H2Z"/>
+<path d="M12 9v5"/>
+<path d="M12 17h.01"/>
+</g>
+<text x="1028" y="1430" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="start" fill="#795000">Pochi dati</text>
+<text x="992" y="1465" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#795000">Limite dei dati visibile</text>
+<rect x="528" y="1514" width="360" height="96" rx="16" fill="#FBE4DF"/>
+<g transform="translate(544 1532) scale(1.0)" stroke="#A0302C" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="error">
+<path d="M12 22a10 10 0 1 1 0-20a10 10 0 0 1 0 20"/>
+<path d="M8 8l8 8"/>
+<path d="M16 8l-8 8"/>
+</g>
+<text x="580" y="1550" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="start" fill="#A0302C">Invio non riuscito</text>
+<text x="544" y="1585" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#A0302C">Bozza conservata</text>
+<rect x="976" y="1514" width="360" height="96" rx="16" fill="#E6EFF1"/>
+<g transform="translate(992 1532) scale(1.0)" stroke="#345968" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="info">
+<path d="M12 22a10 10 0 1 1 0-20a10 10 0 0 1 0 20"/>
+<path d="M12 11v6"/>
+<path d="M12 7h.01"/>
+</g>
+<text x="1028" y="1550" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="start" fill="#345968">AI simulata</text>
+<text x="992" y="1585" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#345968">Origine dichiarata</text>
+</g>
+<text x="80" y="1712" font-family="Trebuchet MS" font-size="16" font-weight="400" text-anchor="start" fill="#64544A">SNODO è un nome provvisorio. Tutti i luoghi, le visite e i valori dell’app in questa tavola sono mock.</text>
+<text x="80" y="1746" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Style tile statica · stessa struttura A/B · direzione da confrontare con le tre persone</text>
+<text x="80" y="1776" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Componenti a scala mobile 1:1 · tag descrittivi 28 px · filtri interattivi 44 px</text>
+<text x="80" y="1806" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Georgia + Trebuchet MS</text>
+<metadata id="ui-source">{&quot;typography_sources&quot;: [], &quot;logical_product_copy&quot;: {&quot;01&quot;: [&quot;Sfondo&quot;, &quot;#F7F1E8&quot;, &quot;Superficie&quot;, &quot;#FFFCF7&quot;, &quot;Testo&quot;, &quot;#28221F&quot;, &quot;Azione&quot;, &quot;#9C432D&quot;, &quot;Dati limitati&quot;, &quot;#795000&quot;], &quot;02&quot;: [&quot;Dove ti va di andare?&quot;, &quot;Le informazioni utili, prima di scegliere.&quot;, &quot;Titolo 24 · corpo 16 / 24 · nota 14 / 20&quot;], &quot;05&quot;: [&quot;Illustrazione dimostrativa&quot;, &quot;Cortile Uno&quot;, &quot;Roma · San Lorenzo&quot;, &quot;Cortile&quot;, &quot;Aperitivo&quot;, &quot;12–18 €&quot;, &quot;a persona&quot;, &quot;Prezzo: gestore · 01/10/2026&quot;, &quot;Dati dimostrativi&quot;, &quot;Apri scheda&quot;], &quot;06&quot;: [&quot;Visite · 18–21 · settembre 2026&quot;, &quot;Rumore&quot;, &quot;2/5&quot;, &quot;Luce&quot;, &quot;3/5&quot;, &quot;Affollamento&quot;, &quot;2/5&quot;, &quot;Scala: 1 intensità bassa; 5 alta.&quot;, &quot;Copertura: 3 visite mock; 2 risposte sul rumore.&quot;, &quot;Utenti · 01/10/2026 · dati limitati e dimostrativi&quot;], &quot;03&quot;: [&quot;Cosa cerchi?&quot;, &quot;Un aperitivo con amici&quot;, &quot;Esplora luoghi&quot;, &quot;Chiedi all’AI&quot;, &quot;Fino a 20 €&quot;, &quot;Per parlare&quot;, &quot;Altri criteri&quot;], &quot;04&quot;: [&quot;Roma · San Lorenzo&quot;, &quot;Cambia&quot;, &quot;Contesto di ricerca modificabile&quot;, &quot;Esplora&quot;, &quot;Salvati&quot;, &quot;Chat&quot;, &quot;Profilo&quot;, &quot;Assistente AI&quot;, &quot;Accesso trasversale, sempre con nome.&quot;], &quot;07&quot;: [&quot;L&quot;, &quot;Luca&quot;, &quot;Visita: 21 settembre 2026 · 19–21&quot;, &quot;Potevamo parlare senza alzare la voce.&quot;, &quot;Contributo e visita dimostrativi · identità visibile&quot;], &quot;08&quot;: [&quot;Assistente AI&quot;, &quot;Simulato&quot;, &quot;Ho mantenuto Roma e budget fino a 20 €. Il rumore ha dati limitati.&quot;, &quot;Catalogo mock · scheda e contributi del luogo&quot;, &quot;Modifica criteri&quot;], &quot;09&quot;: [&quot;Contributo inviato&quot;, &quot;Dopo l’invio esplicito&quot;, &quot;Pochi dati&quot;, &quot;Limite dei dati visibile&quot;, &quot;Invio non riuscito&quot;, &quot;Bozza conservata&quot;, &quot;AI simulata&quot;, &quot;Origine dichiarata&quot;]}, &quot;component_areas&quot;: [{&quot;id&quot;: &quot;01&quot;, &quot;title&quot;: &quot;Palette e ruoli&quot;, &quot;x&quot;: 80, &quot;y&quot;: 356, &quot;width&quot;: 760, &quot;height&quot;: 144}, {&quot;id&quot;: &quot;02&quot;, &quot;title&quot;: &quot;Tipografia e gerarchia&quot;, &quot;x&quot;: 928, &quot;y&quot;: 356, &quot;width&quot;: 428, &quot;height&quot;: 144}, {&quot;id&quot;: &quot;05&quot;, &quot;title&quot;: &quot;Card luogo&quot;, &quot;x&quot;: 80, &quot;y&quot;: 550, &quot;width&quot;: 360, &quot;height&quot;: 550}, {&quot;id&quot;: &quot;06&quot;, &quot;title&quot;: &quot;Atmosfera: intensità, non voto&quot;, &quot;x&quot;: 80, &quot;y&quot;: 1144, &quot;width&quot;: 360, &quot;height&quot;: 452}, {&quot;id&quot;: &quot;03&quot;, &quot;title&quot;: &quot;Azioni, campo e criteri&quot;, &quot;x&quot;: 528, &quot;y&quot;: 550, &quot;width&quot;: 360, &quot;height&quot;: 368}, {&quot;id&quot;: &quot;04&quot;, &quot;title&quot;: &quot;Orientamento e navigazione&quot;, &quot;x&quot;: 528, &quot;y&quot;: 960, &quot;width&quot;: 360, &quot;height&quot;: 372}, {&quot;id&quot;: &quot;07&quot;, &quot;title&quot;: &quot;Contributo di una persona&quot;, &quot;x&quot;: 976, &quot;y&quot;: 550, &quot;width&quot;: 360, &quot;height&quot;: 300}, {&quot;id&quot;: &quot;08&quot;, &quot;title&quot;: &quot;Messaggio dell’assistente&quot;, &quot;x&quot;: 976, &quot;y&quot;: 904, &quot;width&quot;: 360, &quot;height&quot;: 336}, {&quot;id&quot;: &quot;09&quot;, &quot;title&quot;: &quot;Feedback semantico&quot;, &quot;x&quot;: 528, &quot;y&quot;: 1344, &quot;width&quot;: 808, &quot;height&quot;: 292}], &quot;scale&quot;: &quot;mobile components 1 CSS px = 1 SVG unit&quot;, &quot;status&quot;: &quot;static_proposal_no_user_test&quot;}</metadata>
+</svg>

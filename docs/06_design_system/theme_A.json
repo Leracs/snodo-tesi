@@ -1,0 +1,90 @@
+{
+  "variant": "A",
+  "status": "provisional",
+  "headingFont": "Georgia",
+  "headingWeight": 400,
+  "bodyFont": "Trebuchet MS",
+  "bodyFontIntent": "Trebuchet MS",
+  "fontAvailability": {
+    "heading": "local",
+    "body": "local"
+  },
+  "colors": {
+    "background": "#F7F1E8",
+    "surface": "#FFFCF7",
+    "surfaceMuted": "#EEE4D7",
+    "text": "#28221F",
+    "muted": "#64544A",
+    "primary": "#9C432D",
+    "primaryHover": "#843824",
+    "primaryPressed": "#6E2F20",
+    "primarySoft": "#F6DDD0",
+    "secondaryBg": "#FFFCF7",
+    "onSecondary": "#9C432D",
+    "border": "#8A7769",
+    "divider": "#D7C9B9",
+    "focus": "#51366F",
+    "accentDecorative": "#D97A4A",
+    "success": "#285844",
+    "successBg": "#E3F0E8",
+    "warning": "#795000",
+    "warningBg": "#FFF0CB",
+    "danger": "#A0302C",
+    "dangerBg": "#FBE4DF",
+    "info": "#345968",
+    "infoBg": "#E6EFF1",
+    "onPrimary": "#FFFFFF"
+  },
+  "common": {
+    "bodyFont": "Trebuchet MS",
+    "bodySize": 16,
+    "bodyLineHeight": 24,
+    "typeScale": {
+      "caption": 14,
+      "body": 16,
+      "bodyStrong": 16,
+      "titleSmall": 24,
+      "title": 32,
+      "display": 44
+    },
+    "spacing": [
+      4,
+      8,
+      12,
+      16,
+      24,
+      32,
+      40,
+      48,
+      64
+    ],
+    "radius": {
+      "card": 20,
+      "control": 12,
+      "chip": 22,
+      "field": 12,
+      "passiveTag": 8
+    },
+    "stroke": 1.8,
+    "targetMinimumRecommended": 44,
+    "controlHeight": 48,
+    "fieldHeight": 52,
+    "passiveTagHeight": 28,
+    "filterHeight": 44,
+    "iconSize": 24,
+    "navWidth": 360,
+    "navHeight": 80,
+    "navActiveCapsule": {
+      "width": 48,
+      "height": 32
+    },
+    "focusWidth": 3,
+    "focusOffset": 3,
+    "motionDurationMs": 160,
+    "motionReducedMs": 0,
+    "mobileFrame": {
+      "width": 390,
+      "height": 844
+    }
+  }
+}

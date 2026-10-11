@@ -1,0 +1,98 @@
+{
+  "documento": "10_contributi_tesi/Contributi_testuali_per_la_tesi.docx",
+  "stato": "Raccolta di quattro bozze candidate per integrazione nella tesi; non tesi definitiva",
+  "esito_qa": "superato",
+  "pagine": 12,
+  "pagine_ispezionate_visivamente": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "ispezione": "PNG del render definitivo osservate al 100%; nessun clipping, sovrapposizione, pagina vuota o coda isolata rilevato",
+  "formato": "A4",
+  "paragrafi": 119,
+  "tabelle": 1,
+  "figure": 3,
+  "sezioni_principali": [
+    "Introduzione e metodo",
+    "Risultati della ricerca",
+    "Proposta progettuale",
+    "Valutazione prevista"
+  ],
+  "font_corpo": "Arial 11 pt",
+  "intestazioni_e_titolo": "neri senza punteggiatura",
+  "fonti_md": [
+    {
+      "file": "10_contributi_tesi/01_Introduzione_e_metodo.md",
+      "sha256": "77ba5a2ea299cd31e26c7f90cebaf415a558ed496b2b93a29ec9aff327bb1f82"
+    },
+    {
+      "file": "10_contributi_tesi/02_Risultati_della_ricerca.md",
+      "sha256": "085e295924d59fc6069dea043062b0fa7b3672d9ecf04314172b5efec1c607a2"
+    },
+    {
+      "file": "10_contributi_tesi/03_Proposta_progettuale.md",
+      "sha256": "a21cd0e2dd3168d10b7b745fc749c47cd5144504c355fd83c100d464a9bc08ac"
+    },
+    {
+      "file": "10_contributi_tesi/04_Valutazione_prevista.md",
+      "sha256": "0bc74d8b1651b863cdcf1f0f358e8ba0d02f31f88090f558ad934f35f0d6d954"
+    }
+  ],
+  "grafici_incorporati": [
+    "S04.png",
+    "S09.png",
+    "S10.png"
+  ],
+  "correzioni_indipendenti_applicate": [
+    "Reclutamento tramite conoscenze/amici attribuito soltanto alle interviste",
+    "Inventario descritto separando componenti e contenuti dimostrativi dei singoli locali",
+    "Dodici varianti denominate varianti di stato",
+    "Analisi dei risultati formulata al futuro dopo le sessioni"
+  ],
+  "verifiche_contenuto": {
+    "campioni_questionari": "N=50 / N=33; rami del primo questionario 17/33",
+    "interviste": "tre partecipanti unici intervistati nei due round; non tre sessioni totali",
+    "copertura": "Italia iniziale; catalogo dimostrativo",
+    "comfort": "item ambiguo non interpretato come solo/compagnia",
+    "personas": "materiali narrativi conservati come ipotesi non validate",
+    "ai": "comportamenti simulati, nessun modello o backend operativo dichiarato",
+    "valutazione": "futura; nessun voto, test, beneficio o direzione UI selezionata inventato",
+    "conclusioni_e_dichiarazione_ai": "escluse dalla raccolta; motivazione nel registro editoriale"
+  },
+  "qa_render_directory": "workspace/tmp/snodo/render_contributi",
+  "renderer": "render_docx.py del skill documents",
+  "libreoffice": "runtime-locale",
+  "pdf_qa": "temporaneo, non previsto come consegna",
+  "originali": "Fonti originali preservate; naming aggiornato nelle versioni generate su richiesta dell’autore",
+  "limiti": "La verifica editoriale e grafica non equivale ad adozione del testo da parte dello studente, controllo parola per parola delle interviste o validazione UX",
+  "sha256_docx": "d2207e6822ad9fefdf8c41ab4179ec165e0858b740c95dbb9cd728f5be307b58",
+  "aggiornamento_style_tile_B": {
+    "origine": "Proposta visiva dello studente ricevuta 11 ottobre 2026",
+    "paragrafo_word": 108,
+    "altre_118_paragrafi_invariati": true,
+    "pagine": 12,
+    "pagina_modificata": 12,
+    "nessuna_coda_isolata": true
+  },
+  "aggiornamento_nome": {
+    "nome": "SNODO",
+    "stato": "provvisorio, proposto dall’autore",
+    "paragrafo_word": 108,
+    "altre_118_paragrafi_invariati": true,
+    "pagine": 12,
+    "pagina_modificata": 12,
+    "pagine_1_11_pixel_identiche": true,
+    "pagina_12_ispezionata": true
+  },
+  "publication_note": "Copia per consultazione: i controlli e gli hash di origine descrivono gli asset del workspace. I percorsi locali sono stati normalizzati; il manifest di pubblicazione descrive i file distribuiti."
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="720" height="447" preserveAspectRatio="xMinYMin meet" viewBox="0 0 720 447" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="720" height="447"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-447)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="720" height="447" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="28" y="411" style="font-family: Helvetica-Bold; font-size: 23px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,822) scale(1,-1)">Studiare e lavorare a casa sono preferenze diffuse</text>
+			<text x="28" y="380" style="font-family: Helvetica; font-size: 16px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,760) scale(1,-1)">Preferenza dichiarata per studio o lavoro · basi distinte</text>
+			<text x="28" y="24" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,48) scale(1,-1)">due.</text>
+			<text x="28" y="42" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,84) scale(1,-1)">Filtro lavoratori: attività = Lavoro. Escluse da questa serie le 3 risposte Nessuno dei</text>
+			<text x="28" y="60" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,120) scale(1,-1)">Fonte: SONDAGGIO TESI.csv.</text>
+			<rect x="28" y="341" width="13" height="13" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(13%,42%,38%); fill-rule: evenodd;"/>
+			<text x="48" y="341" style="font-family: Helvetica; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,682) scale(1,-1)">Studenti · n = 17</text>
+			<rect x="338" y="341" width="13" height="13" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(39%,47%,53%); fill-rule: evenodd;"/>
+			<text x="358" y="341" style="font-family: Helvetica; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,682) scale(1,-1)">Lavoratori · n = 30</text>
+			<path d="M 295,112 L 295,307 Z" style="stroke: rgb(88%,90%,91%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="284.885" y="89" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,178) scale(1,-1)">0%</text>
+			<path d="M 380,112 L 380,307 Z" style="stroke: rgb(88%,90%,91%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="365.993" y="89" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,178) scale(1,-1)">25%</text>
+			<path d="M 465,112 L 465,307 Z" style="stroke: rgb(88%,90%,91%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="450.993" y="89" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,178) scale(1,-1)">50%</text>
+			<path d="M 550,112 L 550,307 Z" style="stroke: rgb(88%,90%,91%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="535.993" y="89" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,178) scale(1,-1)">75%</text>
+			<path d="M 635,112 L 635,307 Z" style="stroke: rgb(88%,90%,91%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="617.101" y="89" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,178) scale(1,-1)">100%</text>
+			<text x="228.088" y="269.5" style="font-family: Helvetica; font-size: 16px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,539) scale(1,-1)">A casa</text>
+			<g transform="">
+				<g transform="">
+					<rect x="295.0" y="280.80555555555554" width="200.0" height="9.388888888888914" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(13%,42%,38%); fill-rule: evenodd;"/>
+					<g transform=""/>
+				</g>
+				<g transform=""/>
+				<g transform=""/>
+			</g>
+			<text x="504.0" y="280.5" style="font-family: Helvetica; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,561) scale(1,-1)">10 · 58,8%</text>
+			<g transform="">
+				<g transform="">
+					<rect x="295.0" y="258.80555555555554" width="215.33333333333331" height="9.388888888888914" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(39%,47%,53%); fill-rule: evenodd;"/>
+					<g transform=""/>
+				</g>
+				<g transform=""/>
+				<g transform=""/>
+			</g>
+			<text x="519.3333333333333" y="258.5" style="font-family: Helvetica; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,517) scale(1,-1)">19 · 63,3%</text>
+			<text x="240.552" y="204.5" style="font-family: Helvetica; font-size: 16px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,409) scale(1,-1)">Fuori</text>
+			<g transform="">
+				<g transform="">
+					<rect x="295.0" y="215.80555555555554" width="140.0" height="9.388888888888886" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(13%,42%,38%); fill-rule: evenodd;"/>
+					<g transform=""/>
+				</g>
+				<g transform=""/>
+				<g transform=""/>
+			</g>
+			<text x="444.0" y="215.5" style="font-family: Helvetica; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,431) scale(1,-1)">7 · 41,2%</text>
+			<g transform="">
+				<g transform="">
+					<rect x="295.0" y="193.80555555555554" width="68.0" height="9.388888888888886" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(39%,47%,53%); fill-rule: evenodd;"/>
+					<g transform=""/>
+				</g>
+				<g transform=""/>
+				<g transform=""/>
+			</g>
+			<text x="372.0" y="193.5" style="font-family: Helvetica; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,387) scale(1,-1)">6 · 20,0%</text>
+			<text x="196.952" y="139.5" style="font-family: Helvetica; font-size: 16px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,279) scale(1,-1)">Indifferente</text>
+			<g transform="">
+				<g transform="">
+					<g transform=""/>
+				</g>
+				<g transform=""/>
+				<g transform=""/>
+			</g>
+			<text x="304.0" y="150.5" style="font-family: Helvetica; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,301) scale(1,-1)">0 · 0,0%</text>
+			<g transform="">
+				<g transform="">
+					<rect x="295.0" y="128.80555555555554" width="56.66666666666663" height="9.388888888888886" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(39%,47%,53%); fill-rule: evenodd;"/>
+					<g transform=""/>
+				</g>
+				<g transform=""/>
+				<g transform=""/>
+			</g>
+			<text x="360.66666666666663" y="128.5" style="font-family: Helvetica; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,257) scale(1,-1)">5 · 16,7%</text>
+		</g>
+	</g>
+</svg>

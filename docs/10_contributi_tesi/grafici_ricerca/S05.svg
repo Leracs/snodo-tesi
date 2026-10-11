@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="720" height="420" preserveAspectRatio="xMinYMin meet" viewBox="0 0 720 420" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="720" height="420"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-420)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="720" height="420" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="28" y="384" style="font-family: Helvetica-Bold; font-size: 23px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,768) scale(1,-1)">La fiducia cambia secondo le condizioni della domanda</text>
+			<text x="28" y="353" style="font-family: Helvetica; font-size: 16px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,706) scale(1,-1)">N = 50 · risposte Sì · conteggio e percentuale</text>
+			<text x="28" y="24" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,48) scale(1,-1)">Ogni barra è una domanda distinta. Non è un punteggio complessivo di fiducia.</text>
+			<text x="28" y="42" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,84) scale(1,-1)">Fonte: SONDAGGIO TESI.csv.</text>
+			<path d="M 295,94 L 295,312 Z" style="stroke: rgb(88%,90%,91%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="284.885" y="71" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,142) scale(1,-1)">0%</text>
+			<path d="M 380,94 L 380,312 Z" style="stroke: rgb(88%,90%,91%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="365.993" y="71" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,142) scale(1,-1)">25%</text>
+			<path d="M 465,94 L 465,312 Z" style="stroke: rgb(88%,90%,91%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="450.993" y="71" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,142) scale(1,-1)">50%</text>
+			<path d="M 550,94 L 550,312 Z" style="stroke: rgb(88%,90%,91%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="535.993" y="71" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,142) scale(1,-1)">75%</text>
+			<path d="M 635,94 L 635,312 Z" style="stroke: rgb(88%,90%,91%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="617.101" y="71" style="font-family: Helvetica; font-size: 14px;fill: rgb(39%,47%,53%); stroke:none;" transform="translate(0,142) scale(1,-1)">100%</text>
+			<text x="114.26400000000001" y="270.6666666666667" style="font-family: Helvetica; font-size: 16px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,541) scale(1,-1)">Recensioni meno di 10</text>
+			<g transform="">
+				<g transform="">
+					<rect x="295.0" y="265.7356321839081" width="122.39999999999998" height="19.862068965517267" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(13%,42%,38%); fill-rule: evenodd;"/>
+					<g transform=""/>
+				</g>
+				<g transform=""/>
+				<g transform=""/>
+			</g>
+			<text x="426.4" y="270.6666666666667" style="font-family: Helvetica; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,541) scale(1,-1)">18 · 36,0%</text>
+			<text x="114.31199999999998" y="198.0" style="font-family: Helvetica; font-size: 16px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,396) scale(1,-1)">Recensioni molto simili</text>
+			<g transform="">
+				<g transform="">
+					<rect x="295.0" y="193.06896551724137" width="197.19999999999993" height="19.86206896551724" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(13%,42%,38%); fill-rule: evenodd;"/>
+					<g transform=""/>
+				</g>
+				<g transform=""/>
+				<g transform=""/>
+			</g>
+			<text x="501.19999999999993" y="198.0" style="font-family: Helvetica; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,396) scale(1,-1)">29 · 58,0%</text>
+			<text x="70.68" y="134.33333333333331" style="font-family: Helvetica; font-size: 16px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,268) scale(1,-1)">Recensioni vere e non false /</text>
+			<text x="261.88" y="116.33333333333331" style="font-family: Helvetica; font-size: 16px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,232) scale(1,-1)">AI</text>
+			<g transform="">
+				<g transform="">
+					<rect x="295.0" y="120.4022988505747" width="190.39999999999998" height="19.862068965517253" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(13%,42%,38%); fill-rule: evenodd;"/>
+					<g transform=""/>
+				</g>
+				<g transform=""/>
+				<g transform=""/>
+			</g>
+			<text x="494.40000000000003" y="125.33333333333331" style="font-family: Helvetica; font-size: 15px;fill: rgb(8%,18%,20%); stroke:none;" transform="translate(0,250) scale(1,-1)">28 · 56,0%</text>
+		</g>
+	</g>
+</svg>

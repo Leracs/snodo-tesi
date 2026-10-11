@@ -1,0 +1,41 @@
+﻿id,nome,regola
+C01,Contesto geografico,Città/zona riconoscibili; cambio manuale senza GPS; origine del contesto
+C02,Riferimento distanze,Punto esplicito e modificabile; posizione solo autorizzata; non tempo di viaggio
+C03,Campo ricerca,"Input, suggerimenti con città, cancella, submit e ambiguità"
+C04,Criteri attivi,Chips modificabili; vincolo/preferenza; criteri rispettati/incerti
+C05,Mappa e selezione,"Mappa schematica, marker, selezione, alternativa lista e area conservata"
+C06,Card luogo,"Tipo di nome, città/zona, categoria, praticità, fonte, dato assente; stesso ID catalogo"
+C07,Controlli lista,"Conteggio, ordinamento, passaggio mappa/lista"
+C08,Filtri,"Occasione, condizioni, budget, distanza; reset e applicazione esplicita"
+C09,Scheda/pannello,Ridotto/intermedio/espanso; scroll e chiusura; luogo e provenienza conservati
+C10,Informazioni pratiche,"Prezzi, servizi, regole, orari; fonte e assenza del dato"
+C11,Azioni luogo,"Salva, proponi, naviga, recensisci; azioni con etichetta"
+C12,Atmosfera contestuale,"Dimensioni separate; fascia/periodo, scala, legenda, quantità/recenza; riepilogo testuale"
+C13,Galleria e viewer,"Fonte locale/utente, data, griglia, visualizzazione, ritorno"
+C14,Card recensione,"Contesto visita, autore visibile, testo leggibile, risposte e approfondimento"
+C15,Origine/limiti del dato,"Dichiarazione, contributo, riepilogo; aggiornamento, discordanza, dato insufficiente"
+C16,Segnalazione semplice,"Dato da segnalare, motivazione, invio esplicito ed esito dimostrativo"
+C17,Ingresso assistente,Etichetta AI; contesto individuale/gruppo/recensione; ritorno al punto di ingresso
+C18,Conversazione AI,"Richiesta, autori distinti, attesa, chiarimento, correzione e indisponibilità"
+C19,Output ricerca AI,"Criteri e motivi, fonti/assenze, card standard; applicazione esplicita"
+C20,Elenco proposte,"Card proposta, contesto, persone e stato; ripresa/nuova"
+C21,Contesto proposta,"Occasione, città/zona, data/fascia; città non dedotta dal creatore"
+C22,Inviti,"Destinatari scelti, invia, pending/accettato/rifiutato/scaduto; adesione distinta"
+C23,Partecipanti e stato,Invitato/aderente/non disponibile; persona senza risposta visibile
+C24,Vincoli condivisi,Solo dichiarazioni volontarie; obbligatorio/preferenza; conflitto esplicito
+C25,Alternative comparabili,Stesse card e criteri; aggiungi/rimuovi; origine umana/AI
+C26,Commenti nella proposta,Messaggi associati alla decisione; nessun feed generale
+C27,Preferenza alternativa,Interesse per una card; non conferma presenza né accordo
+C28,Conferma decisione,Accetto/non va bene/da valutare; revoca; silenzio non consenso
+C29,Esito e riapertura,Provvisorio/concordato; conferme e attese; modifica richiede riconferma
+C30,Visita e domande,"Luogo, data/fascia, condizioni vs giudizi, non so/non applicabile"
+C31,Bozza/appunti,Testo dell’autore; stato salvato; ritorno/ripresa senza perdita
+C32,AI revisione prima/dopo,Originale separato dalla proposta; modifica/rifiuta/applica; nessun fatto nuovo
+C33,Anteprima/visibilità,Destinatari pubblico/gruppo scelto; identità mostrata; riepilogo e modifica
+C34,Invio contributo,Azione esplicita separata dall’applicazione AI; attesa/successo/errore e retry
+C35,Salvati,Collegamenti a luogo; rimuovi/proponi; vuoto e luogo non disponibile
+C36,Profilo e bozze,"Preferenze personali, contributi, bozze, visibilità e impostazioni essenziali"
+C37,Passaggio Maps,"Destinazione, servizio esterno, annulla, indisponibile; ritorno con contesto"
+C38,Recupero e feedback,"Nessun risultato, errore, retry, modifica esplicita, annullamento"
+C39,Navigazione e ritorno,"Esplora/Salvati/Chat/Profilo, back contestuale; stato precedente conservato"
+C40,Limite dimostrativo,Catalogo/AI/amici simulati dichiarati nel contesto del test; fonti mock distinte da ricerca

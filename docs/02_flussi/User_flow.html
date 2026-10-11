@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="it" class="snodo-gate-locked"><head><meta name="robots" content="noindex,nofollow"><style id="snodo-access-critical">html.snodo-gate-locked body{overflow:hidden!important;background:#F7F1E8!important}html.snodo-gate-locked body>:not(#snodo-access-gate):not(#snodo-access-safety):not(noscript),html.snodo-gate-locked body>:not(#snodo-access-gate):not(#snodo-access-safety):not(noscript) *{visibility:hidden!important;pointer-events:none!important}</style><link rel="stylesheet" href="../accesso/gate.css"><script src="../accesso/gate.js" data-snodo-gate></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tre user flow costruiti · Tesi UX UI</title><link rel="stylesheet" href="../lettura.css?v=20261011-checklist-v1"><script src="../lettura.js?v=20261011-checklist-v1" defer></script></head>
+<body class="document lavoro"><noscript><div id="snodo-access-safety"><strong>SNODO · materiali della tesi</strong><p>Per usare il gate d’ingresso, attiva JavaScript nel browser e ricarica questa pagina.</p></div></noscript><a class="skip-link" href="#contenuto">Vai al contenuto</a>
+<header class="reader-top"><div class="reader-top-inner"><a class="back-link" href="../Materiale_di_lavoro.html"><span aria-hidden="true">←</span> Materiale di lavoro</a><div class="top-actions"><a href="../Indice_consegne.html">Indice dei materiali</a><button type="button" class="print-button" data-print hidden>Stampa</button></div></div></header>
+<main id="contenuto" class="reader-wrap" tabindex="-1"><header class="document-header"><p class="eyebrow">Materiale di lavoro · Flussi e journey</p><h1 id="inizio">Tre user flow costruiti</h1><p class="document-meta">Uso operativo · 11 ottobre 2026 · circa 3 min di lettura</p></header><aside class="classification-banner lavoro" aria-label="Destinazione e stato del materiale"><div><span class="status-label">Uso operativo</span><strong>Proposta operativa</strong></div><p>Specifica o guida per sviluppare il progetto. I passaggi da raccontare nella tesi sono raccolti separatamente.</p><p class="classification-detail"><b>Collocazione:</b> Non da integrare come documento intero. Contiene istruzioni, ipotesi o controlli di costruzione; non è un capitolo pronto per la tesi.</p></aside><div class="reading-layout"><article class="prose"><p>v1.0 — 11 ottobre 2026</p>
+<p>Tre percorsi strutturali con rami di recupero. I diagrammi descrivono il progetto; non riportano azioni osservate né risultati di test. La simulazione di AI, amici e Maps deve essere dichiarata nel contesto delle sessioni.</p>
+<h2 id="f1-scegliere-un-luogo-individualmente">F1 — Scegliere un luogo individualmente</h2>
+<p><strong>Inizio:</strong> Bisogno/occasione e criteri da esplicitare. <strong>Fine:</strong> Luogo scelto e salvato oppure passaggio consapevole a Maps.</p>
+<ol>
+<li>S01: Scegli città/zona italiana. Scelta manuale o posizione autorizzata; origine distanza visibile.</li>
+<li>S02 / S03 / S04 / S10: Cerca per criteri o usa AI. AI facoltativa; città ambigua chiarita prima della ricerca.</li>
+<li>S03 / S02: Confronta lista o mappa. Area, criteri e riferimento delle distanze restano riconoscibili.</li>
+<li>S05: Apri la stessa scheda luogo. Praticità, fonti, atmosfera, media e contributi.</li>
+<li>S06–S09: Approfondisci dato decisivo. Distinzione dichiarazione/contributo/riepilogo; assenza non è garanzia.</li>
+<li>S05 / S19 / S21: Scegli, salva o avvia Maps. Conserva contesto; il tragitto è verificato nel servizio esterno.</li>
+</ol>
+<p><strong>Recuperi:</strong></p>
+<ul>
+<li>Dopo il passo 1: Posizione negata. S01-R → città manuale → S02.</li>
+<li>Dopo il passo 2: Città ambigua o AI indisponibile. S10-C chiarisce; S10-U → ricerca ordinaria S03.</li>
+<li>Dopo il passo 3: Nessun risultato. S03-R → modifica esplicita S04 → S03; nessun vincolo allentato da sola AI.</li>
+<li>Dopo il passo 5: Dato insufficiente/discordante. S09 → fonti/limite → S05; torna a criteri se decisivo.</li>
+<li>Dopo il passo 6: Maps non disponibile. S21 → annulla o servizio alternativo; ritorno alla stessa scheda.</li>
+</ul>
+<div class="section-figures" data-figure-section="F1 — Scegliere un luogo individualmente"><figure class="inline-figure"><header class="figure-header"><p class="figure-type">Proposta progettuale</p><b class="figure-title">F1 — Scelta individuale</b></header><a class="figure-preview" href="F1_User_flow.svg?v=mv3qowbn.p8q" data-figure-viewer data-figure-title="F1 — Scelta individuale" data-figure-caption="Flusso progettato per cercare un luogo individualmente: ricerca manuale, assistente facoltativo e percorsi di recupero. Il diagramma rappresenta il comportamento previsto del prodotto." aria-label="Ingrandisci: F1 — Scelta individuale"><img src="F1_User_flow.svg?v=mv3qowbn.p8q" alt="F1 — Scelta individuale" width="1280" height="1282" loading="lazy" decoding="async"></a><figcaption><p>Flusso progettato per cercare un luogo individualmente: ricerca manuale, assistente facoltativo e percorsi di recupero. Il diagramma rappresenta il comportamento previsto del prodotto.</p><div class="figure-actions"><a href="F1_User_flow.svg?v=mv3qowbn.p8q" data-figure-viewer data-figure-title="F1 — Scelta individuale" data-figure-caption="Flusso progettato per cercare un luogo individualmente: ricerca manuale, assistente facoltativo e percorsi di recupero. Il diagramma rappresenta il comportamento previsto del prodotto.">Ingrandisci</a><a href="F1_User_flow.svg" download>Scarica SVG</a><a href="F1_User_flow.png" download>Scarica PNG</a></div></figcaption></figure>
+</div>
+<h2 id="f2-proporre-e-scegliere-con-amici">F2 — Proporre e scegliere con amici</h2>
+<p><strong>Inizio:</strong> Occasione condivisa con persone note. <strong>Fine:</strong> Esito concordato oppure attesa/decisione aperta leggibile.</p>
+<ol>
+<li>S11 / S12: Definisci proposta e città. Occasione, data/fascia, area condivisa; luogo iniziale facoltativo.</li>
+<li>S12 / S12-I: Invita e distingui adesioni. Invio invito distinto da accettazione/rifiuto del partecipante.</li>
+<li>S13: Condividi criteri volontari. Vincoli e preferenze espliciti; motivazioni personali non richieste.</li>
+<li>S13 / S05: Confronta alternative. AI quando chiamata; stessi luoghi e fonti; compromessi dichiarati.</li>
+<li>S13 / S13-C: Esprimi preferenza, poi conferma. Preferenza per card separata da Accetto/Non va bene/Da valutare.</li>
+<li>S14 / S14-W: Leggi esito umano. H: aderenti confermati e nessun invito pendente per l’accordo completo.</li>
+<li>S05 / S21: Apri scheda e navigatore. Ogni persona verifica il proprio tragitto esternamente.</li>
+</ol>
+<p><strong>Recuperi:</strong></p>
+<ul>
+<li>Dopo il passo 2: Invito rifiutato o scaduto. S12-I: stato distinto, correggi invito o prosegui con aderenti.</li>
+<li>Dopo il passo 3: Vincoli incompatibili. S13-R → chiedi quale vincolo modificare volontariamente; no cambi taciti.</li>
+<li>Dopo il passo 5: Risposta o invito in attesa. S13-C → S14-W: esito provvisorio; nessun voto implicito; Maps resta accessibile.</li>
+<li>Dopo il passo 6: Cambia luogo/città/vincolo. S14 → riapri S13; conferme precedenti da riconfermare.</li>
+</ul>
+<div class="section-figures" data-figure-section="F2 — Proporre e scegliere con amici"><figure class="inline-figure"><header class="figure-header"><p class="figure-type">Proposta progettuale</p><b class="figure-title">F2 — Scelta con amici</b></header><a class="figure-preview" href="F2_User_flow.svg?v=mv3qowbn.y4m" data-figure-viewer data-figure-title="F2 — Scelta con amici" data-figure-caption="Flusso progettato per decidere insieme: invito, adesione, espressione della preferenza e conferma sono passaggi distinti. La coordinazione di un gruppo reale resta da verificare." aria-label="Ingrandisci: F2 — Scelta con amici"><img src="F2_User_flow.svg?v=mv3qowbn.y4m" alt="F2 — Scelta con amici" width="1280" height="1444" loading="lazy" decoding="async"></a><figcaption><p>Flusso progettato per decidere insieme: invito, adesione, espressione della preferenza e conferma sono passaggi distinti. La coordinazione di un gruppo reale resta da verificare.</p><div class="figure-actions"><a href="F2_User_flow.svg?v=mv3qowbn.y4m" data-figure-viewer data-figure-title="F2 — Scelta con amici" data-figure-caption="Flusso progettato per decidere insieme: invito, adesione, espressione della preferenza e conferma sono passaggi distinti. La coordinazione di un gruppo reale resta da verificare.">Ingrandisci</a><a href="F2_User_flow.svg" download>Scarica SVG</a><a href="F2_User_flow.png" download>Scarica PNG</a></div></figcaption></figure>
+</div>
+<h2 id="f3-raccontare-una-visita-con-ai-facoltativa">F3 — Raccontare una visita con AI facoltativa</h2>
+<p><strong>Inizio:</strong> Visita dichiarata o bozza da riprendere. <strong>Fine:</strong> Contributo inviato con destinatari scelti oppure bozza conservata.</p>
+<ol>
+<li>S05 / S20 → S15: Dichiara visita e rispondi. Data/fascia; condizioni e giudizio distinti; non so/non applicabile.</li>
+<li>S16: Scrivi appunti o testo. Percorso manuale completo; bozza conservata.</li>
+<li>S16 / S16-A: Invoca AI se desiderato. Senza AI: S16 → S17. Con AI: originale e proposta separati.</li>
+<li>S16-A: Controlla prima/dopo. Modifica, rifiuta o applica. Applicazione non è invio.</li>
+<li>S17: Anteprima e destinatari. Pubblico o gruppo scelto; identità mostrata; modifica/ritorno.</li>
+<li>S17 → S18: Invia esplicitamente. Esito dimostrativo; nessuna pubblicazione automatica dell’AI.</li>
+</ol>
+<p><strong>Recuperi:</strong></p>
+<ul>
+<li>Dopo il passo 1: Non applicabile / uscita. S15 → risposta non applicabile oppure salva bozza S20.</li>
+<li>Dopo il passo 2: Percorso senza AI. S16 → S17: vai direttamente all’anteprima con il testo dell’autore.</li>
+<li>Dopo il passo 3: AI errata o indisponibile. S16-A rifiuta/modifica → S16 manuale; appunti preservati.</li>
+<li>Dopo il passo 5: Cambio visibilità / ripensamento. S17 → modifica o torna a S16; bozza conservata.</li>
+<li>Dopo il passo 6: Invio fallito. S18-R → controlla stato → retry singolo oppure salva bozza S20.</li>
+</ul>
+<div class="section-figures" data-figure-section="F3 — Raccontare una visita con AI facoltativa"><figure class="inline-figure"><header class="figure-header"><p class="figure-type">Proposta progettuale</p><b class="figure-title">F3 — Contributo dopo una visita</b></header><a class="figure-preview" href="F3_User_flow.svg?v=mv3qowbo.6we" data-figure-viewer data-figure-title="F3 — Contributo dopo una visita" data-figure-caption="Flusso progettato per scrivere una recensione, controllare il suggerimento dell’assistente e inviare il contributo con un’azione esplicita. Nel supporto locale le risposte dell’assistente e l’invio sono simulati." aria-label="Ingrandisci: F3 — Contributo dopo una visita"><img src="F3_User_flow.svg?v=mv3qowbo.6we" alt="F3 — Contributo dopo una visita" width="1280" height="1282" loading="lazy" decoding="async"></a><figcaption><p>Flusso progettato per scrivere una recensione, controllare il suggerimento dell’assistente e inviare il contributo con un’azione esplicita. Nel supporto locale le risposte dell’assistente e l’invio sono simulati.</p><div class="figure-actions"><a href="F3_User_flow.svg?v=mv3qowbo.6we" data-figure-viewer data-figure-title="F3 — Contributo dopo una visita" data-figure-caption="Flusso progettato per scrivere una recensione, controllare il suggerimento dell’assistente e inviare il contributo con un’azione esplicita. Nel supporto locale le risposte dell’assistente e l’invio sono simulati.">Ingrandisci</a><a href="F3_User_flow.svg" download>Scarica SVG</a><a href="F3_User_flow.png" download>Scarica PNG</a></div></figcaption></figure>
+</div>
+<section class="document-end" aria-label="Materiali collegati"><h2>Materiali collegati</h2><ul><li><a href="F1_User_flow.png">Diagramma: scelta individuale</a></li><li><a href="F2_User_flow.png">Diagramma: scelta con amici</a></li><li><a href="F3_User_flow.png">Diagramma: recensione</a></li></ul><p><a href="User_flow.md" download>Scarica il sorgente Markdown</a></p><p><a href="../Materiale_di_lavoro.html">Torna a materiale di lavoro</a></p></section></article><aside class="toc" aria-label="Indice del documento"><details open><summary>In questa pagina</summary><nav aria-label="Sezioni del documento"><ul><li><a href="#f1-scegliere-un-luogo-individualmente">F1 — Scegliere un luogo individualmente</a></li><li><a href="#f2-proporre-e-scegliere-con-amici">F2 — Proporre e scegliere con amici</a></li><li><a href="#f3-raccontare-una-visita-con-ai-facoltativa">F3 — Raccontare una visita con AI facoltativa</a></li></ul></nav></details></aside></div><nav class="next-documents" aria-label="Altri documenti della stessa raccolta"><a href="../01_ricerca/Matrice_evidenze.html"><small>← Documento precedente</small><strong>Matrice delle evidenze e dei requisiti</strong></a><a class="next" href="Journey_comparabili.html"><small>Documento successivo →</small><strong>Journey comparabili: attuale ricostruito e atteso</strong></a></nav></main>
+<footer class="reader-footer">Materiale di lavoro · Proposta operativa. Il sorgente è conservato nel pacchetto.</footer></body></html>

@@ -1,0 +1,297 @@
+{
+  "versione": "v1.0 — 11 ottobre 2026",
+  "statuto": "Struttura H costruita; copertura Italia C; test/Figma mancanti",
+  "aree": {
+    "Esplora": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08"
+    ],
+    "Salvati": [
+      "S19"
+    ],
+    "Chat": [
+      "S11",
+      "S12",
+      "S13",
+      "S14"
+    ],
+    "Profilo": [
+      "S20"
+    ]
+  },
+  "trasversali": {
+    "AI": [
+      "S10",
+      "S13",
+      "S16"
+    ],
+    "Origine dato": [
+      "S09"
+    ],
+    "Contributo": [
+      "S15",
+      "S16",
+      "S17",
+      "S18"
+    ],
+    "Maps esterne": [
+      "S21"
+    ]
+  },
+  "oggetti": [
+    {
+      "id": "O01",
+      "nome": "Luogo",
+      "campi": [
+        "id",
+        "città",
+        "zona",
+        "posizione",
+        "categoria",
+        "informazioni pratiche"
+      ],
+      "regola": "Unico ID da mappa/lista/AI/salvati/gruppo"
+    },
+    {
+      "id": "O02",
+      "nome": "Contesto geografico",
+      "campi": [
+        "città",
+        "zona",
+        "riferimento distanze",
+        "origine manuale/posizione autorizzata"
+      ],
+      "regola": "Ricerca altrove senza GPS; copertura Italia"
+    },
+    {
+      "id": "O03",
+      "nome": "Informazione sul luogo",
+      "campi": [
+        "tipo",
+        "valore o assente",
+        "fonte",
+        "aggiornamento",
+        "contesto temporale"
+      ],
+      "regola": "Dichiarazione/contributo/riepilogo distinti"
+    },
+    {
+      "id": "O04",
+      "nome": "Media",
+      "campi": [
+        "tipo",
+        "origine",
+        "data",
+        "contesto"
+      ],
+      "regola": "Locale/utente etichettati; origine non certifica veridicità"
+    },
+    {
+      "id": "O05",
+      "nome": "Visita dichiarata",
+      "campi": [
+        "luogo_id",
+        "data",
+        "fascia",
+        "occasione facoltativa"
+      ],
+      "regola": "Dichiarata dalla persona; nessun rilevamento obbligatorio"
+    },
+    {
+      "id": "O06",
+      "nome": "Recensione",
+      "campi": [
+        "visita",
+        "risposte",
+        "appunti",
+        "testo applicato",
+        "visibilità",
+        "identità mostrata",
+        "stato"
+      ],
+      "regola": "AI suggerisce; autore applica e invia esplicitamente"
+    },
+    {
+      "id": "O07",
+      "nome": "Indicatore atmosfera",
+      "campi": [
+        "dimensione",
+        "periodo",
+        "scala",
+        "quantità",
+        "recenza",
+        "incertezza"
+      ],
+      "regola": "Condizioni separate; nessun comfort universale/live"
+    },
+    {
+      "id": "O08",
+      "nome": "Criterio",
+      "campi": [
+        "dimensione",
+        "valore",
+        "vincolo/preferenza",
+        "origine",
+        "area di applicazione"
+      ],
+      "regola": "Correggibile; AI non allenta un vincolo da sola"
+    },
+    {
+      "id": "O09",
+      "nome": "Salvataggio",
+      "campi": [
+        "luogo_id",
+        "raccolta facoltativa"
+      ],
+      "regola": "Collegamento; non duplica dati del luogo"
+    },
+    {
+      "id": "O10",
+      "nome": "Conversazione",
+      "campi": [
+        "contesto",
+        "messaggi",
+        "autori",
+        "invocazioni AI"
+      ],
+      "regola": "AI individuale o chat di una proposta; nessun feed"
+    },
+    {
+      "id": "O11",
+      "nome": "Proposta di uscita",
+      "campi": [
+        "città/zona",
+        "occasione",
+        "data/fascia",
+        "alternative",
+        "risposte",
+        "stato"
+      ],
+      "regola": "Decisione umana; cambi importanti richiedono riconferma"
+    },
+    {
+      "id": "O12",
+      "nome": "Partecipazione",
+      "campi": [
+        "invito",
+        "adesione",
+        "vincoli condivisi",
+        "preferenza",
+        "conferma"
+      ],
+      "regola": "Invito/adesione/preferenza/accordo non coincidono"
+    },
+    {
+      "id": "O13",
+      "nome": "Preferenza personale",
+      "campi": [
+        "criterio esplicito",
+        "modifica"
+      ],
+      "regola": "Privata finché non condivisa volontariamente"
+    }
+  ],
+  "relazioni": [
+    {
+      "da": "O01",
+      "a": "O03",
+      "cardinalita": "1:N",
+      "relazione": "ha informazioni"
+    },
+    {
+      "da": "O01",
+      "a": "O04",
+      "cardinalita": "1:N",
+      "relazione": "ha media"
+    },
+    {
+      "da": "O01",
+      "a": "O05",
+      "cardinalita": "1:N",
+      "relazione": "riceve visite dichiarate"
+    },
+    {
+      "da": "O05",
+      "a": "O06",
+      "cardinalita": "1:0..1",
+      "relazione": "sostiene contributo"
+    },
+    {
+      "da": "O06",
+      "a": "O07",
+      "cardinalita": "N:N",
+      "relazione": "può contribuire al riepilogo"
+    },
+    {
+      "da": "O02",
+      "a": "O08",
+      "cardinalita": "1:N",
+      "relazione": "definisce area/riferimento dei criteri"
+    },
+    {
+      "da": "O08",
+      "a": "O01",
+      "cardinalita": "N:N",
+      "relazione": "filtra o descrive compatibilità, anche incerta"
+    },
+    {
+      "da": "O09",
+      "a": "O01",
+      "cardinalita": "N:1",
+      "relazione": "riferisce senza copia"
+    },
+    {
+      "da": "O10",
+      "a": "O11",
+      "cardinalita": "1:0..1",
+      "relazione": "chat associata alla proposta"
+    },
+    {
+      "da": "O11",
+      "a": "O01",
+      "cardinalita": "N:N",
+      "relazione": "confronta alternative"
+    },
+    {
+      "da": "O11",
+      "a": "O12",
+      "cardinalita": "1:N",
+      "relazione": "raccoglie stati delle persone"
+    },
+    {
+      "da": "O12",
+      "a": "O08",
+      "cardinalita": "1:N",
+      "relazione": "condivide criteri volontari"
+    },
+    {
+      "da": "O11",
+      "a": "O02",
+      "cardinalita": "N:1",
+      "relazione": "ha contesto condiviso esplicito"
+    },
+    {
+      "da": "O13",
+      "a": "O08",
+      "cardinalita": "1:1",
+      "relazione": "conserva criterio personale"
+    }
+  ],
+  "regole": [
+    "Italia confermata; demo Roma/Milano reversibile",
+    "Nessuna città implicita dal GPS",
+    "Distanza dal riferimento esplicito, non durata",
+    "Luogo e contesto unici tra mappa/lista/AI/gruppo/salvati",
+    "Preferenze private condivise solo volontariamente",
+    "Invito, adesione, preferenza e accordo distinti; silenzio non consenso; H gruppo completo concordato solo con aderenti confermati e nessun invito pendente",
+    "Inviti declinati visibili: non votano e non bloccano; inviti pendenti non sono voti ma lasciano provvisorio il gruppo completo; Maps accessibile anche da esito provvisorio",
+    "AI recensione: proposta, applicazione, anteprima, invio espliciti",
+    "Mappa sempre visibile non vincolo; stato espanso ammesso a schermata intera"
+  ]
+}

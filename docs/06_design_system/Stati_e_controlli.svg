@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1920" viewBox="0 0 1440 1920" role="img" aria-labelledby="title desc">
+<title id="title">SNODO · stati e controlli · UI 0.3</title>
+<desc id="desc">SNODO, nome provvisorio. Componenti statici di progetto; luoghi, visite e contributi mock. Nessun risultato di test con utenti.</desc>
+<defs><filter id="card-shadow" x="-25%" y="-25%" width="150%" height="160%"><feDropShadow dx="0" dy="5" stdDeviation="9" flood-color="#28221F" flood-opacity="0.075"/></filter></defs>
+<rect x="0" y="0" width="1440" height="1920" rx="0" fill="#F7F1E8"/>
+<text x="80" y="100" font-family="Georgia" font-size="36" font-weight="400" text-anchor="start" fill="#28221F">Gli stessi componenti, nei diversi stati.</text>
+<text x="80" y="143" font-family="Trebuchet MS" font-size="16" font-weight="400" text-anchor="start" fill="#64544A">Specifiche statiche da verificare nel prototipo: nessun test con utenti già svolto.</text>
+<rect x="56" y="180" width="632" height="1652" rx="28" fill="#FFFCF7"/>
+<text x="80" y="238" font-family="Georgia" font-size="28" font-weight="400" text-anchor="start" fill="#28221F">Direzione A</text>
+<text x="80" y="273" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Componenti mobili · controllo 48 px · target raccomandato ≥44 px</text>
+<text x="80" y="346" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Default</text>
+<rect x="256" y="316" width="360" height="48" rx="12" fill="#9C432D"/>
+<g transform="translate(367.5 328.0) scale(1.0)" stroke="#FFFFFF" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="arrow">
+<path d="M5 12h14"/>
+<path d="M14 7l5 5l-5 5"/>
+</g>
+<text x="399.5" y="345.0" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="start" fill="#FFFFFF">Esplora luoghi</text>
+<text x="80" y="410" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Hover</text>
+<rect x="256" y="380" width="360" height="48" rx="12" fill="#843824"/>
+<g transform="translate(367.5 392.0) scale(1.0)" stroke="#FFFFFF" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="arrow">
+<path d="M5 12h14"/>
+<path d="M14 7l5 5l-5 5"/>
+</g>
+<text x="399.5" y="409.0" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="start" fill="#FFFFFF">Esplora luoghi</text>
+<text x="80" y="474" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Premuto</text>
+<rect x="256" y="444" width="360" height="48" rx="12" fill="#6E2F20"/>
+<g transform="translate(367.5 456.0) scale(1.0)" stroke="#FFFFFF" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="arrow">
+<path d="M5 12h14"/>
+<path d="M14 7l5 5l-5 5"/>
+</g>
+<text x="399.5" y="473.0" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="start" fill="#FFFFFF">Esplora luoghi</text>
+<text x="80" y="538" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Focus</text>
+<rect x="251.5" y="503.5" width="369" height="57" rx="16.5" fill="#FFFCF7" stroke="#51366F" stroke-width="3"/>
+<rect x="256" y="508" width="360" height="48" rx="12" fill="#9C432D"/>
+<g transform="translate(367.5 520.0) scale(1.0)" stroke="#FFFFFF" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="arrow">
+<path d="M5 12h14"/>
+<path d="M14 7l5 5l-5 5"/>
+</g>
+<text x="399.5" y="537.0" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="start" fill="#FFFFFF">Esplora luoghi</text>
+<text x="80" y="602" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Caricamento</text>
+<rect x="256" y="572" width="360" height="48" rx="12" fill="#9C432D"/>
+<g transform="translate(377.5 596.0)" stroke="#FFFFFF" stroke-width="1.8" fill="none"><circle r="8" opacity=".3"/><path d="M0-8a8 8 0 0 1 8 8" stroke-linecap="round"/></g>
+<text x="399.5" y="601.0" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="start" fill="#FFFFFF">Esplora luoghi</text>
+<text x="80" y="666" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Disabilitato</text>
+<rect x="256" y="636" width="360" height="48" rx="12" fill="#EEE4D7"/>
+<g transform="translate(367.5 648.0) scale(1.0)" stroke="#64544A" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="arrow">
+<path d="M5 12h14"/>
+<path d="M14 7l5 5l-5 5"/>
+</g>
+<text x="399.5" y="665.0" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="start" fill="#64544A">Esplora luoghi</text>
+<text x="80" y="750" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Gerarchia</text>
+<rect x="256" y="720" width="214" height="48" rx="12" fill="#FFFCF7" stroke="#8A7769" stroke-width="1.5"/>
+<text x="363.0" y="749.0" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="middle" fill="#9C432D">Chiedi all’AI</text>
+<text x="549.0" y="749.0" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="middle" fill="#9C432D">Annulla</text>
+<path d="M80 801L656 801" stroke="#D7C9B9" stroke-width="1" fill="none" stroke-linecap="round"/>
+<text x="80" y="838" font-family="Trebuchet MS" font-size="18" font-weight="700" text-anchor="start" fill="#28221F">Campo: default, focus e errore</text>
+<text x="80" y="921" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Default</text>
+<text x="256" y="877" font-family="Trebuchet MS" font-size="14" font-weight="700" text-anchor="start" fill="#28221F">Cosa cerchi?</text>
+<rect x="256" y="891" width="360" height="52" rx="12" fill="#FFFCF7" stroke="#8A7769" stroke-width="1.5"/>
+<g transform="translate(272 905) scale(1.0)" stroke="#64544A" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="search">
+<path d="M10.5 17.5a7 7 0 1 1 0-14a7 7 0 0 1 0 14"/>
+<path d="M16 16l5 5"/>
+</g>
+<text x="308" y="922" font-family="Trebuchet MS" font-size="16" font-weight="400" text-anchor="start" fill="#28221F">Un aperitivo con amici</text>
+<text x="80" y="1021" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Focus</text>
+<text x="256" y="977" font-family="Trebuchet MS" font-size="14" font-weight="700" text-anchor="start" fill="#28221F">Cosa cerchi?</text>
+<rect x="251.5" y="986.5" width="369" height="61" rx="16.5" fill="#FFFCF7" stroke="#51366F" stroke-width="3"/>
+<rect x="256" y="991" width="360" height="52" rx="12" fill="#FFFCF7" stroke="#8A7769" stroke-width="1.5"/>
+<g transform="translate(272 1005) scale(1.0)" stroke="#64544A" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="search">
+<path d="M10.5 17.5a7 7 0 1 1 0-14a7 7 0 0 1 0 14"/>
+<path d="M16 16l5 5"/>
+</g>
+<text x="308" y="1022" font-family="Trebuchet MS" font-size="16" font-weight="400" text-anchor="start" fill="#28221F">Un aperitivo con amici</text>
+<text x="80" y="1121" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Errore</text>
+<text x="256" y="1077" font-family="Trebuchet MS" font-size="14" font-weight="700" text-anchor="start" fill="#28221F">Città dell’uscita</text>
+<rect x="256" y="1091" width="360" height="52" rx="12" fill="#FFFCF7" stroke="#A0302C" stroke-width="1.5"/>
+<text x="256" y="1168" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#A0302C">Scegli una città per vedere luoghi coerenti.</text>
+<text x="80" y="1224" font-family="Trebuchet MS" font-size="18" font-weight="700" text-anchor="start" fill="#28221F">Filtri e tag: interazione distinta dall’informazione</text>
+<text x="80" y="1287" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Filtri · 44 px</text>
+<rect x="256" y="1260" width="170" height="44" rx="22" fill="#FFFCF7" stroke="#8A7769" stroke-width="1.5"/>
+<text x="341.0" y="1287" font-family="Trebuchet MS" font-size="15" font-weight="400" text-anchor="middle" fill="#28221F">Fino a 20 €</text>
+<rect x="438" y="1260" width="178" height="44" rx="22" fill="#F6DDD0"/>
+<g transform="translate(450 1270) scale(0.8333333333333334)" stroke="#9C432D" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="check">
+<path d="M5 12l4 4l10-10"/>
+</g>
+<text x="539.0" y="1287" font-family="Trebuchet MS" font-size="15" font-weight="700" text-anchor="middle" fill="#9C432D">Fino a 20 €</text>
+<text x="80" y="1359" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Tag · 28 px</text>
+<rect x="256" y="1340" width="92" height="28" rx="8" fill="#EEE4D7"/>
+<text x="302.0" y="1359" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="middle" fill="#28221F">Cortile</text>
+<rect x="356" y="1340" width="104" height="28" rx="8" fill="#EEE4D7"/>
+<text x="408.0" y="1359" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="middle" fill="#28221F">Aperitivo</text>
+<text x="80" y="1420" font-family="Trebuchet MS" font-size="18" font-weight="700" text-anchor="start" fill="#28221F">Informazione assente ≠ risposta negativa</text>
+<rect x="256" y="1444" width="360" height="88" rx="14" fill="#FFF0CB"/>
+<g transform="translate(272 1462) scale(0.8333333333333334)" stroke="#795000" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="warning">
+<path d="M12 3l10 18H2Z"/>
+<path d="M12 9v5"/>
+<path d="M12 17h.01"/>
+</g>
+<text x="304" y="1477" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="start" fill="#795000">Rumore: pochi dati</text>
+<text x="272" y="1503" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#795000">Leggi i contributi o modifica il criterio.</text>
+<text x="80" y="1573" font-family="Trebuchet MS" font-size="18" font-weight="700" text-anchor="start" fill="#28221F">AI indisponibile: il compito può continuare</text>
+<rect x="256" y="1596" width="360" height="92" rx="14" fill="#E6EFF1"/>
+<g transform="translate(272 1612) scale(0.8333333333333334)" stroke="#345968" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="info">
+<path d="M12 22a10 10 0 1 1 0-20a10 10 0 0 1 0 20"/>
+<path d="M12 11v6"/>
+<path d="M12 7h.01"/>
+</g>
+<text x="304" y="1627" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="start" fill="#345968">Assistente AI non disponibile</text>
+<text x="272" y="1653" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#345968">Usa ricerca e filtri. I criteri restano conservati.</text>
+<text x="80" y="1738" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Target a icona</text>
+<rect x="256" y="1712" width="44" height="44" rx="22" fill="#FFFCF7" stroke="#8A7769" stroke-width="1.5"/>
+<g transform="translate(266 1722) scale(1.0)" stroke="#9C432D" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="bookmark">
+<path d="M6 3h12v18l-6-4l-6 4Z"/>
+</g>
+<text x="316" y="1733" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">44 × 44 px · nome accessibile: “Salva luogo”</text>
+<text x="80" y="1802" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Tab focus visibile · Invio/Spazio attiva · Esc chiude pannelli/dialoghi</text>
+<rect x="728" y="180" width="632" height="1652" rx="28" fill="#FFFFFF"/>
+<g transform="translate(752.000 238)" fill="#000000" data-text="Direzione B" data-font="Boldonse" data-size="28" data-weight="400" aria-label="Direzione B"><title>Direzione B</title><path d="M60 1190H381Q504 1190 587 1118Q626 1083 654.5 1029.0Q683 975 696 912Q710 844 710 764V426Q710 343 696.0 277.0Q682 211 654 160Q626 107 587.0 72.5Q548 38 495 19Q444 0 381 0H60ZM295 220H328Q475 220 475 426V764Q475 970 328 970H295Z" transform="translate(0.0000 0) scale(0.02800000 -0.02800000)"/><path d="M50 0V870H275V0ZM38 1061Q38 1104 62 1138Q72 1154 88.5 1166.0Q105 1178 123 1183Q142 1189 163 1189Q183 1189 202.0 1183.5Q221 1178 238 1166Q270 1142 282 1103Q288 1083 288 1061Q288 1006 253 968Q218 930 163 930Q120 930 89 955Q73 967 62.0 982.5Q51 998 44 1020Q38 1039 38 1061Z" transform="translate(21.0000 0) scale(0.02800000 -0.02800000)"/><path d="M50 870H275Q275 859 273.0 850.5Q271 842 266 828Q261 813 260.0 810.0Q259 807 256.5 803.5Q254 800 247 783Q242 772 235 763L247 753Q263 777 278.5 795.0Q294 813 318 830Q358 858 414 866Q440 870 474 870H513L503 655H440Q361 655 319 630Q275 603 275 556V0H50Z" transform="translate(30.0000 0) scale(0.02800000 -0.02800000)"/><path d="M855 438V365H247Q253 335 266.5 309.5Q280 284 297 266Q316 246 337.0 233.0Q358 220 388 213Q401 209 415.5 207.0Q430 205 446 205Q494 205 534 221Q574 237 599 266Q605 273 610.0 281.0Q615 289 619 297H848Q834 235 807.0 189.0Q780 143 747 112Q709 74 661.5 47.0Q614 20 558 5Q531 -2 502.0 -6.0Q473 -10 443 -10Q366 -10 303.5 12.5Q241 35 192 73Q85 155 45 292Q25 360 25 438Q25 513 46.0 582.0Q67 651 105 705Q144 760 196.5 799.0Q249 838 312 859Q376 880 445 880Q512 880 576.0 857.5Q640 835 689 795Q740 753 777.5 699.0Q815 645 835 577Q855 511 855 438ZM251 515H634Q618 568 580 606Q543 643 493 658Q480 661 467.0 663.0Q454 665 440 665Q389 665 342 638Q325 628 306.5 610.0Q288 592 273 565Q259 540 251 515Z" transform="translate(45.0000 0) scale(0.02800000 -0.02800000)"/><path d="M30 0V110L274 660H40V870H560V760L315 210H570V0Z" transform="translate(70.0000 0) scale(0.02800000 -0.02800000)"/><path d="M50 0V870H275V0ZM38 1061Q38 1104 62 1138Q72 1154 88.5 1166.0Q105 1178 123 1183Q142 1189 163 1189Q183 1189 202.0 1183.5Q221 1178 238 1166Q270 1142 282 1103Q288 1083 288 1061Q288 1006 253 968Q218 930 163 930Q120 930 89 955Q73 967 62.0 982.5Q51 998 44 1020Q38 1039 38 1061Z" transform="translate(87.0000 0) scale(0.02800000 -0.02800000)"/><path d="M465 -10Q389 -10 323.0 13.5Q257 37 205 77Q151 117 110.5 171.0Q70 225 47 297Q25 363 25 438Q25 510 47.0 577.0Q69 644 109 699Q151 756 206.5 796.0Q262 836 325 857Q358 868 393.0 874.0Q428 880 465 880Q536 880 603.5 857.0Q671 834 725 795Q778 755 819.5 699.5Q861 644 883 577Q893 544 899.0 509.0Q905 474 905 438Q905 378 886.5 309.0Q868 240 820 173Q780 117 724.0 76.0Q668 35 604 13Q571 2 536.0 -4.0Q501 -10 465 -10ZM466 205Q499 205 532.5 216.0Q566 227 592 249Q625 275 643.5 305.5Q662 336 669 362Q674 379 677.0 397.5Q680 416 680 435Q680 474 669.0 508.5Q658 543 639 572Q622 596 596.0 618.5Q570 641 533 654Q500 665 466 665Q394 665 339 622Q313 602 292.0 572.5Q271 543 261 509Q256 492 253.0 473.0Q250 454 250 435Q250 404 259.0 369.0Q268 334 292 299Q311 271 337.0 250.0Q363 229 398 217Q431 205 466 205Z" transform="translate(96.0000 0) scale(0.02800000 -0.02800000)"/><path d="M50 870H275Q275 866 273.0 853.5Q271 841 268 834Q264 823 260.0 812.0Q256 801 248 786Q245 780 242.0 774.5Q239 769 235 763L247 753Q266 781 283.0 798.5Q300 816 321 833Q340 848 363.0 859.0Q386 870 408 875Q419 877 430.5 878.5Q442 880 454 880Q484 880 513.5 870.5Q543 861 565 842Q609 802 623 730Q626 712 628.0 692.0Q630 672 630 650V0H405V610Q405 622 403.0 628.5Q401 635 395 646Q391 652 383.0 657.0Q375 662 369 663Q359 665 351 665Q343 665 336.0 663.5Q329 662 321 660Q312 658 306.0 654.5Q300 651 290 646Q286 644 282.5 641.5Q279 639 275 636V0H50Z" transform="translate(122.0000 0) scale(0.02800000 -0.02800000)"/><path d="M855 438V365H247Q253 335 266.5 309.5Q280 284 297 266Q316 246 337.0 233.0Q358 220 388 213Q401 209 415.5 207.0Q430 205 446 205Q494 205 534 221Q574 237 599 266Q605 273 610.0 281.0Q615 289 619 297H848Q834 235 807.0 189.0Q780 143 747 112Q709 74 661.5 47.0Q614 20 558 5Q531 -2 502.0 -6.0Q473 -10 443 -10Q366 -10 303.5 12.5Q241 35 192 73Q85 155 45 292Q25 360 25 438Q25 513 46.0 582.0Q67 651 105 705Q144 760 196.5 799.0Q249 838 312 859Q376 880 445 880Q512 880 576.0 857.5Q640 835 689 795Q740 753 777.5 699.0Q815 645 835 577Q855 511 855 438ZM251 515H634Q618 568 580 606Q543 643 493 658Q480 661 467.0 663.0Q454 665 440 665Q389 665 342 638Q325 628 306.5 610.0Q288 592 273 565Q259 540 251 515Z" transform="translate(141.0000 0) scale(0.02800000 -0.02800000)"/><path d="M685 902Q685 781 631.0 719.5Q577 658 457 638V622Q504 616 543.5 601.0Q583 586 614 559Q644 533 665.0 496.0Q686 459 695 418Q705 373 705 318Q705 260 692.5 210.0Q680 160 655 121Q628 80 592.0 53.5Q556 27 513 14Q467 0 413 0H60V1190H404Q455 1190 499.5 1177.5Q544 1165 578 1141Q611 1116 634.5 1083.0Q658 1050 673 1002Q679 979 682.0 954.0Q685 929 685 902ZM344 970H295V723H344Q385 723 411 745Q423 755 431.5 769.0Q440 783 446 804Q448 814 449.0 824.5Q450 835 450 846Q450 892 432 923Q423 937 410.0 948.5Q397 960 381 965Q362 970 344 970ZM295 220H356Q399 220 427 244Q442 256 451.0 273.5Q460 291 465 313Q470 337 470 362Q470 386 464.5 409.5Q459 433 450 450Q429 486 395 497Q377 503 356 503H295Z" transform="translate(173.0000 0) scale(0.02800000 -0.02800000)"/></g>
+<text x="752" y="273" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#4B4B4B">Componenti mobili · controllo 48 px · target raccomandato ≥44 px</text>
+<text x="752" y="346" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#4B4B4B">Default</text>
+<rect x="928" y="316" width="360" height="48" rx="32" fill="#000000"/>
+<g transform="translate(1038.0 328.0) scale(1.0)" stroke="#80EFED" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="arrow">
+<path d="M5 12h14"/>
+<path d="M14 7l5 5l-5 5"/>
+</g>
+<text x="1070.0" y="345.0" font-family="Helvetica Neue" font-size="16" font-weight="700" text-anchor="start" fill="#80EFED">Esplora luoghi</text>
+<text x="752" y="410" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#4B4B4B">Hover</text>
+<rect x="928" y="380" width="360" height="48" rx="32" fill="#252525"/>
+<g transform="translate(1038.0 392.0) scale(1.0)" stroke="#80EFED" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="arrow">
+<path d="M5 12h14"/>
+<path d="M14 7l5 5l-5 5"/>
+</g>
+<text x="1070.0" y="409.0" font-family="Helvetica Neue" font-size="16" font-weight="700" text-anchor="start" fill="#80EFED">Esplora luoghi</text>
+<text x="752" y="474" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#4B4B4B">Premuto</text>
+<rect x="928" y="444" width="360" height="48" rx="32" fill="#111111"/>
+<g transform="translate(1038.0 456.0) scale(1.0)" stroke="#80EFED" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="arrow">
+<path d="M5 12h14"/>
+<path d="M14 7l5 5l-5 5"/>
+</g>
+<text x="1070.0" y="473.0" font-family="Helvetica Neue" font-size="16" font-weight="700" text-anchor="start" fill="#80EFED">Esplora luoghi</text>
+<text x="752" y="538" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#4B4B4B">Focus</text>
+<rect x="923.5" y="503.5" width="369" height="57" rx="36.5" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+<rect x="928" y="508" width="360" height="48" rx="32" fill="#000000"/>
+<g transform="translate(1038.0 520.0) scale(1.0)" stroke="#80EFED" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="arrow">
+<path d="M5 12h14"/>
+<path d="M14 7l5 5l-5 5"/>
+</g>
+<text x="1070.0" y="537.0" font-family="Helvetica Neue" font-size="16" font-weight="700" text-anchor="start" fill="#80EFED">Esplora luoghi</text>
+<text x="752" y="602" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#4B4B4B">Caricamento</text>
+<rect x="928" y="572" width="360" height="48" rx="32" fill="#000000"/>
+<g transform="translate(1048.0 596.0)" stroke="#80EFED" stroke-width="1.8" fill="none"><circle r="8" opacity=".3"/><path d="M0-8a8 8 0 0 1 8 8" stroke-linecap="round"/></g>
+<text x="1070.0" y="601.0" font-family="Helvetica Neue" font-size="16" font-weight="700" text-anchor="start" fill="#80EFED">Esplora luoghi</text>
+<text x="752" y="666" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#4B4B4B">Disabilitato</text>
+<rect x="928" y="636" width="360" height="48" rx="32" fill="#F2F2EE"/>
+<g transform="translate(1038.0 648.0) scale(1.0)" stroke="#4B4B4B" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="arrow">
+<path d="M5 12h14"/>
+<path d="M14 7l5 5l-5 5"/>
+</g>
+<text x="1070.0" y="665.0" font-family="Helvetica Neue" font-size="16" font-weight="700" text-anchor="start" fill="#4B4B4B">Esplora luoghi</text>
+<text x="752" y="750" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#4B4B4B">Gerarchia</text>
+<rect x="928" y="720" width="214" height="48" rx="32" fill="#80EFED" stroke="#000000" stroke-width="1.5"/>
+<text x="1035.0" y="749.0" font-family="Helvetica Neue" font-size="16" font-weight="700" text-anchor="middle" fill="#000000">Chiedi all’AI</text>
+<text x="1221.0" y="749.0" font-family="Helvetica Neue" font-size="16" font-weight="700" text-anchor="middle" fill="#000000">Annulla</text>
+<path d="M752 801L1328 801" stroke="#BDBDB5" stroke-width="1" fill="none" stroke-linecap="round"/>
+<text x="752" y="838" font-family="Helvetica Neue" font-size="18" font-weight="700" text-anchor="start" fill="#000000">Campo: default, focus e errore</text>
+<text x="752" y="921" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#4B4B4B">Default</text>
+<text x="928" y="877" font-family="Helvetica Neue" font-size="14" font-weight="700" text-anchor="start" fill="#000000">Cosa cerchi?</text>
+<rect x="928" y="891" width="360" height="52" rx="18" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<g transform="translate(944 905) scale(1.0)" stroke="#4B4B4B" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="search">
+<path d="M10.5 17.5a7 7 0 1 1 0-14a7 7 0 0 1 0 14"/>
+<path d="M16 16l5 5"/>
+</g>
+<text x="980" y="922" font-family="Helvetica Neue" font-size="16" font-weight="400" text-anchor="start" fill="#000000">Un aperitivo con amici</text>
+<text x="752" y="1021" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#4B4B4B">Focus</text>
+<text x="928" y="977" font-family="Helvetica Neue" font-size="14" font-weight="700" text-anchor="start" fill="#000000">Cosa cerchi?</text>
+<rect x="923.5" y="986.5" width="369" height="61" rx="22.5" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+<rect x="928" y="991" width="360" height="52" rx="18" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<g transform="translate(944 1005) scale(1.0)" stroke="#4B4B4B" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="search">
+<path d="M10.5 17.5a7 7 0 1 1 0-14a7 7 0 0 1 0 14"/>
+<path d="M16 16l5 5"/>
+</g>
+<text x="980" y="1022" font-family="Helvetica Neue" font-size="16" font-weight="400" text-anchor="start" fill="#000000">Un aperitivo con amici</text>
+<text x="752" y="1121" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#4B4B4B">Errore</text>
+<text x="928" y="1077" font-family="Helvetica Neue" font-size="14" font-weight="700" text-anchor="start" fill="#000000">Città dell’uscita</text>
+<rect x="928" y="1091" width="360" height="52" rx="18" fill="#FFFFFF" stroke="#A42335" stroke-width="1.5"/>
+<text x="928" y="1168" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#A42335">Scegli una città per vedere luoghi coerenti.</text>
+<text x="752" y="1224" font-family="Helvetica Neue" font-size="18" font-weight="700" text-anchor="start" fill="#000000">Filtri e tag: interazione distinta dall’informazione</text>
+<text x="752" y="1287" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#4B4B4B">Filtri · 44 px</text>
+<rect x="928" y="1260" width="170" height="44" rx="22" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="1013.0" y="1287" font-family="Helvetica Neue" font-size="15" font-weight="400" text-anchor="middle" fill="#000000">Fino a 20 €</text>
+<rect x="1110" y="1260" width="178" height="44" rx="22" fill="#ADE25D"/>
+<g transform="translate(1122 1270) scale(0.8333333333333334)" stroke="#000000" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="check">
+<path d="M5 12l4 4l10-10"/>
+</g>
+<text x="1211.0" y="1287" font-family="Helvetica Neue" font-size="15" font-weight="700" text-anchor="middle" fill="#000000">Fino a 20 €</text>
+<text x="752" y="1359" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#4B4B4B">Tag · 28 px</text>
+<rect x="928" y="1340" width="92" height="28" rx="14" fill="#ADE25D"/>
+<text x="974.0" y="1359" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="middle" fill="#000000">Cortile</text>
+<rect x="1028" y="1340" width="104" height="28" rx="14" fill="#FCEC52"/>
+<text x="1080.0" y="1359" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="middle" fill="#000000">Aperitivo</text>
+<text x="752" y="1420" font-family="Helvetica Neue" font-size="18" font-weight="700" text-anchor="start" fill="#000000">Informazione assente ≠ risposta negativa</text>
+<rect x="928" y="1444" width="360" height="88" rx="14" fill="#FFF2CC"/>
+<g transform="translate(944 1462) scale(0.8333333333333334)" stroke="#684900" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="warning">
+<path d="M12 3l10 18H2Z"/>
+<path d="M12 9v5"/>
+<path d="M12 17h.01"/>
+</g>
+<text x="976" y="1477" font-family="Helvetica Neue" font-size="16" font-weight="700" text-anchor="start" fill="#684900">Rumore: pochi dati</text>
+<text x="944" y="1503" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#684900">Leggi i contributi o modifica il criterio.</text>
+<text x="752" y="1573" font-family="Helvetica Neue" font-size="18" font-weight="700" text-anchor="start" fill="#000000">AI indisponibile: il compito può continuare</text>
+<rect x="928" y="1596" width="360" height="92" rx="14" fill="#E7F1F7"/>
+<g transform="translate(944 1612) scale(0.8333333333333334)" stroke="#254E68" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="info">
+<path d="M12 22a10 10 0 1 1 0-20a10 10 0 0 1 0 20"/>
+<path d="M12 11v6"/>
+<path d="M12 7h.01"/>
+</g>
+<text x="976" y="1627" font-family="Helvetica Neue" font-size="16" font-weight="700" text-anchor="start" fill="#254E68">Assistente AI non disponibile</text>
+<text x="944" y="1653" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#254E68">Usa ricerca e filtri. I criteri restano conservati.</text>
+<text x="752" y="1738" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#4B4B4B">Target a icona</text>
+<rect x="928" y="1712" width="44" height="44" rx="22" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<g transform="translate(938 1722) scale(1.0)" stroke="#000000" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="bookmark">
+<path d="M6 3h12v18l-6-4l-6 4Z"/>
+</g>
+<text x="988" y="1733" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#4B4B4B">44 × 44 px · nome accessibile: “Salva luogo”</text>
+<text x="752" y="1802" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#4B4B4B">Tab focus visibile · Invio/Spazio attiva · Esc chiude pannelli/dialoghi</text>
+<text x="80" y="1880" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Tavola statica: tastiera, scroll, ingrandimento e lettore di schermo richiedono verifiche nel prototipo.</text>
+<metadata id="ui-source">{&quot;typography_sources&quot;: [{&quot;text&quot;: &quot;Direzione B&quot;, &quot;x&quot;: 752, &quot;baseline&quot;: 238, &quot;size&quot;: 28, &quot;weight&quot;: 400, &quot;font&quot;: &quot;Boldonse&quot;, &quot;svg&quot;: &quot;glyph outlines from actual local font file&quot;}], &quot;logical_product_copy&quot;: {}, &quot;component_areas&quot;: [], &quot;scale&quot;: &quot;mobile components 1 CSS px = 1 SVG unit&quot;, &quot;status&quot;: &quot;static_proposal_no_user_test&quot;}</metadata>
+</svg>

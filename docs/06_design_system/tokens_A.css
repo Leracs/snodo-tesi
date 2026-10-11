@@ -1,0 +1,44 @@
+/* SNODO A: provvisorio, nessuna preferenza utenti acquisita */
+[data-theme="A"] {
+  --background: #F7F1E8;
+  --surface: #FFFCF7;
+  --surfaceMuted: #EEE4D7;
+  --text: #28221F;
+  --muted: #64544A;
+  --primary: #9C432D;
+  --primaryHover: #843824;
+  --primaryPressed: #6E2F20;
+  --primarySoft: #F6DDD0;
+  --secondaryBg: #FFFCF7;
+  --onSecondary: #9C432D;
+  --border: #8A7769;
+  --divider: #D7C9B9;
+  --focus: #51366F;
+  --accentDecorative: #D97A4A;
+  --success: #285844;
+  --successBg: #E3F0E8;
+  --warning: #795000;
+  --warningBg: #FFF0CB;
+  --danger: #A0302C;
+  --dangerBg: #FBE4DF;
+  --info: #345968;
+  --infoBg: #E6EFF1;
+  --onPrimary: #FFFFFF;
+  --font-heading: "Georgia", serif;
+  --font-body: "Trebuchet MS", sans-serif;
+  --heading-weight: 400;
+  --body-size: 16px;
+  --body-line: 24px;
+  --radius-card: 20px;
+  --radius-control: 12px;
+  --radius-field: 12px;
+  --radius-passive-tag: 8px;
+  --passive-tag-height: 28px;
+  --filter-height: 44px;
+  --icon-size: 24px;
+  --icon-stroke: 1.8px;
+  --control-height: 48px;
+  --field-height: 52px;
+  --focus-width: 3px;
+  --focus-offset: 3px;
+}
