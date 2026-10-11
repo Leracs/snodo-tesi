@@ -61,5 +61,28 @@
       "checklist_check_reload_restore": true
     },
     "text_sources_Word_figures_gate_preserved": true
+  },
+  "minimal_gate_update": {
+    "date": "2026-10-11",
+    "status": "PASS",
+    "scope": "Anteprima locale prima della pubblicazione.",
+    "visible_default_UI": [
+      "Password",
+      "Accedi"
+    ],
+    "branding_and_intro_removed": true,
+    "password_and_session_configuration_preserved": true,
+    "accessible_label_and_live_regions_preserved": true,
+    "browser_checks": {
+      "wrong_password_error": true,
+      "correct_password_opens_home": true,
+      "logout_returns_to_minimal_gate": true,
+      "mobile_width": 390,
+      "horizontal_overflow": false
+    },
+    "static_checks": {
+      "html_pages": 38,
+      "gate_script_and_stylesheet_links_validated_per_page": true
+    }
   }
 }
