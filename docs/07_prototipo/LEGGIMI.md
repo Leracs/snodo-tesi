@@ -45,3 +45,19 @@ Budget e rumore sono filtri rapidi. S04 mantiene una bozza fino ad Applica: Annu
 Da Esplora, «Apri mappa» apre una vista dedicata: selezionando un segnaposto cambia l’anteprima in basso. L’anteprima mostra luogo, spesa indicativa o limite del criterio, recensione mock (oppure assenza), salvataggio e «Apri dettaglio». Dalla scheda, Indietro torna alla mappa con lo stesso luogo selezionato. Ricerca, città e filtri restano condivisi con la lista. Lo scenario «Mappa aperta» è disponibile nei controlli esterni; il link diretto è `index.html?screen=S22`.
 
 La mappa e le posizioni restano schematiche; questa vista non introduce cartografia, geolocalizzazione o percorsi reali.
+
+## Fotografie e variante verde acqua
+
+Le otto schede hanno fotografie stock locali, con testo alternativo e crediti Unsplash. Le immagini sono esempi visivi: non ritraggono i luoghi fittizi del catalogo, né provano i servizi o le recensioni. Le fonti sono in [Crediti delle fotografie](media/Crediti_fotografie.html).
+
+Il controllo esterno «Sfondo del dettaglio» permette di confrontare Chiaro e Verde acqua, indipendentemente dalla direzione A/B. Lo sfondo acqua è #80EFED; il testo principale è #102D2B e il secondario #315452. Recensioni e dati mantengono superfici chiare; le foto non hanno testo sovrapposto. Il link diretto accetta `detail=aqua` o `detail=light`. Il controllo riguarda soltanto S05 e conserva luogo, filtri, salvataggi e ritorno alla mappa.
+
+I controlli tecnici di contrasto riguardano colori e interazioni verificati nel browser; non attestano una verifica completa di conformità WCAG con tecnologie assistive.
+
+## Galleria unica e racconti di visita
+
+S05 e S07 usano un unico componente a carosello, con una fotografia alla volta e tag sovrapposti in alto: «Dal locale» per gli scatti del luogo, nome o username per quelli degli utenti. Frecce, tasti direzionali e scorrimento touch permettono di passare tra tutte le foto senza griglie o card. Il contatore indica la posizione; didascalia e crediti restano sotto l’immagine. La scheda del luogo conserva la foto selezionata quando si apre la galleria. Per gli scatti degli utenti, S07 mostra il contesto e il collegamento alla recensione corretta; S08 permette il percorso inverso.
+
+Il catalogo contiene 39 inserimenti fotografici, 17 legati alle recensioni, e 20 racconti mock su otto luoghi. Le immagini stock possono essere riutilizzate tra luoghi diversi: non sono fotografie di luoghi reali del catalogo. L’origine gestore/utente è simulata e resta distinta dall’autore reale Unsplash. Roma · Giardino Piccolo conserva l’assenza di recensioni e foto utenti, per verificare lo stato vuoto. I nuovi racconti non modificano le intensità o la copertura dei grafici.
+
+Link diretto: `index.html?screen=S07&place=luogo-roma-01` (il vecchio parametro `gallery` è ignorato, senza separare le fotografie). I controlli I30–I33 verificano i collegamenti fra foto e racconti, la navigazione tra origini diverse, il ritorno e lo stato vuoto dell’intera galleria; non costituiscono validazione con utenti.

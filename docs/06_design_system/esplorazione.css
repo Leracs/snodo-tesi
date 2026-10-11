@@ -46,3 +46,7 @@
 .sd-detail-image {height:var(--detail-media-height,120px);margin:12px 0 16px;}.sd-detail-image svg {height:var(--detail-media-height,120px);}.sd-detail-top .detail-title {margin:12px 0 4px!important;}.sd-detail-top+.meta {margin:4px 0 12px;}
 
 .sd-place[data-selected="true"] {border-color:var(--primary);}.sd-marker[data-selected="true"] {background:var(--primary);color:var(--onPrimary);border-color:var(--primary);}.sd-save[data-selected="true"] {background:var(--primarySoft);color:var(--primary);border-color:var(--primary);}.sd-pill[data-selected="true"] {background:var(--primarySoft);border-color:var(--primary);}
+
+.sd-photo { display:block; width:100%; height:100%; object-fit:cover; object-position:center; }
+.sd-place-image .sd-photo { width:var(--place-thumbnail-width,76px); height:var(--place-thumbnail-height,84px); }
+@media(max-width:380px){.sd-place-image .sd-photo { width:60px; }}

@@ -96,6 +96,7 @@ function harness(search = '') {
   }
   return {
     run, click,
+    event: (name, event) => listeners.get(name)(event),
     submit: id => listeners.get('submit')({target:{id},preventDefault(){}}),
     get: selector => document.querySelector(selector),
     html: () => appHtml,
@@ -400,6 +401,63 @@ test('I27', 'Applica filtri torna alla mappa aperta senza perdere la selezione v
  assert.equal(h.run('state.screen'),'S22');assert.equal(h.run('state.criteria.city'),'Milano');assert.ok(!h.html().includes('data-id="luogo-roma-02"'));
  h.click('back');assert.equal(h.run('state.screen'),'S02');
  return 'Budget applicato nella vista aperta, selezione conservata finché valida; cambio città aggiorna i segnaposto e non lascia l’editor nello storico.';
+});
+
+test('I28', 'Fotografie locali, crediti e galleria seguono il luogo selezionato', () => {
+ for(const p of catalog.places){assert.ok(p.photo.illustrative);assert.ok(p.photo.alt.includes('foto d’esempio'));assert.ok(p.photo.sourceUrl.startsWith('https://unsplash.com/photos/'));assert.ok(fs.existsSync(path.resolve(base,p.photo.src)));for(const m of p.media)assert.ok(fs.existsSync(path.resolve(base,m.src)));}
+ const h=harness('?screen=S05&place=luogo-roma-01');assert.ok(h.html().includes('cafe-terrazza.jpg'));assert.ok(h.html().includes('Masha / Unsplash'));
+ h.click('gallery');h.click('media-next');assert.ok(h.html().includes('Thamy N. / Unsplash'));assert.ok(h.html().includes('cafe-verde.jpg'));h.click('back');assert.equal(h.run('state.screen'),'S05');assert.ok(h.html().includes('photo-carousel'));
+ return 'Otto copertine distinte e foto locali con alt, crediti originali e natura illustrativa; apertura della seconda foto nel carosello e ritorno alla scheda.';
+});
+test('I29', 'Variante del dettaglio indipendente dal tema e dal luogo', () => {
+ const h=harness('?screen=S05&place=luogo-milano-02&theme=A&detail=aqua');assert.equal(h.run('state.detailSurface'),'aqua');assert.equal(h.run('document.body.dataset.detailSurface'),'aqua');
+ h.click('gallery');h.click('back');assert.equal(h.run('state.selected'),'luogo-milano-02');assert.equal(h.run('state.detailSurface'),'aqua');
+ const light=harness('?screen=S05&place=luogo-milano-02&theme=B&detail=light');assert.equal(light.run('state.detailSurface'),'light');assert.ok(light.html().includes('spazio-galleria.jpg'));
+ const invalid=harness('?detail=invalid');assert.equal(invalid.run('state.detailSurface'),'aqua');
+ return 'Parametri light/aqua validati; cambio vista conserva luogo e variante, senza creare una terza direzione UI.';
+});
+
+test('I30', 'Le foto degli utenti appartengono a recensioni dello stesso luogo', () => {
+ let photos=0,reviewPhotos=0,reviews=0;
+ for(const p of catalog.places){
+  const ids=new Set();for(const m of p.media){assert.ok(!ids.has(m.id));ids.add(m.id);assert.ok(['venue','reviews'].includes(m.origin));assert.ok(m.mock);assert.ok(m.illustrative);assert.ok(fs.existsSync(path.resolve(base,m.src)));photos++;
+   if(m.origin==='reviews'){const r=p.reviews.find(r=>r.id===m.reviewId);assert.ok(r);assert.equal(m.uploadedBy,r.author);assert.equal(m.uploadedAt,r.visited);assert.ok(r.mediaIds.includes(m.id));reviewPhotos++;}
+   else assert.equal(m.reviewId,null);
+  }
+  for(const r of p.reviews){reviews++;assert.ok(r.mock);for(const id of r.mediaIds){const m=p.media.find(m=>m.id===id);assert.ok(m);assert.equal(m.reviewId,r.id);}}
+ }
+ assert.ok(photos>=35);assert.ok(reviewPhotos>=15);assert.ok(reviews>=18);
+ const park=catalog.places.find(p=>p.id==='luogo-milano-04');assert.ok(park.reviews.length);assert.equal(park.atmosphere.values.noise,null);assert.equal(park.atmosphere.noiseContributions,0);
+ return `${photos} fotografie nelle gallerie, ${reviewPhotos} legate ai racconti, ${reviews} recensioni mock; nessuna nuova misura di atmosfera dedotta dai testi.`;
+});
+test('I31', 'Un carosello con tag e navigazione tra locale e utenti', () => {
+ const h=harness('?screen=S05&place=luogo-roma-01');assert.equal((h.html().match(/data-photo-carousel/g)||[]).length,1);assert.ok(!h.html().includes('photo-gallery'));assert.ok(!h.html().includes('detail-photo'));assert.ok(h.html().includes('Dal locale'));assert.ok(h.html().includes('Tutte le foto (6)'));
+ h.click('media-next');assert.equal(h.run('state.mediaSelected'),'media-roma-01-02');h.click('gallery');assert.ok(h.html().includes('2 / 6'));
+ h.click('media-next');assert.ok(!h.html().includes('Leggi questa recensione'));h.click('media-next');assert.equal(h.run('state.mediaSelected'),'media-roma-01-user-01');assert.ok(h.html().includes('La visita di Luca'));assert.ok(h.html().includes('4 / 6'));
+ h.click('media-prev');assert.equal(h.run('state.mediaSelected'),'media-roma-01-03');assert.ok(h.html().includes('Dal locale'));
+ h.click('media',{id:'media-roma-01-user-03'},true);h.click('media-next',{},true);assert.equal(h.run('state.mediaSelected'),'media-roma-01-user-03');
+ h.click('media',{id:'media-roma-01-01'},true);h.click('media-prev',{},true);assert.equal(h.run('state.mediaSelected'),'media-roma-01-01');
+ h.click('media',{id:'media-milano-01-user-01'},true);assert.equal(h.run('state.mediaSelected'),'media-roma-01-01');
+ h.click('back');assert.equal(h.run('state.screen'),'S05');assert.equal(h.run('state.mediaSelected'),'media-roma-01-02');
+ const carousel={isConnected:true},target={closest:()=>carousel};
+ h.event('pointerdown',{target,pointerType:'touch',pointerId:1,clientX:200,clientY:100});h.event('pointerup',{target,pointerId:1,clientX:80,clientY:105});assert.equal(h.run('state.mediaSelected'),'media-roma-01-03');
+ h.event('pointerdown',{target,pointerType:'touch',pointerId:2,clientX:200,clientY:100});h.event('pointerup',{target,pointerId:2,clientX:180,clientY:250});assert.equal(h.run('state.mediaSelected'),'media-roma-01-03');
+ h.event('keydown',{target,key:'ArrowRight',preventDefault(){}});assert.equal(h.run('state.mediaSelected'),'media-roma-01-user-01');
+ assert.equal(h.run("photoOrigin({origin:'reviews',uploadedBy:'Luca',username:'@luca'})"),'@luca');
+ return 'Un componente nella scheda e nella galleria; tag Dal locale/nome, priorità allo username, posizione conservata, passaggio tra origini e limiti agli estremi.';
+});
+test('I32', 'Foto e recensione permettono un percorso di andata e ritorno', () => {
+ const h=harness('?screen=S08&place=luogo-roma-01&detail=aqua');h.click('media',{id:'media-roma-01-user-02'});assert.equal(h.run('state.screen'),'S07');assert.ok(h.html().includes('La visita di Chiara'));
+ h.click('photo-review',{id:'rec-roma-01-02'});assert.equal(h.run('state.screen'),'S08');assert.equal(h.run('state.reviewSelected'),'rec-roma-01-02');assert.ok(h.html().includes('review-highlight'));
+ h.click('back');assert.equal(h.run('state.screen'),'S07');assert.equal(h.run('state.mediaSelected'),'media-roma-01-user-02');assert.ok(h.html().includes('5 / 6'));h.click('back');assert.equal(h.run('state.screen'),'S08');assert.equal(h.run('state.selected'),'luogo-roma-01');assert.equal(h.run('state.detailSurface'),'aqua');
+ return 'Dalla recensione al carosello e ritorno, conservando foto, luogo e variante; Indietro torna direttamente alla schermata precedente.';
+});
+test('I33', 'Assenza di foto utenti e vecchi link non nascondono le immagini del locale', () => {
+ const h=harness('?screen=S07&place=luogo-roma-04&gallery=reviews');assert.ok(h.html().includes('Dal locale'));assert.ok(h.html().includes('1 / 3'));assert.ok(!h.html().includes('Il primo scatto manca ancora'));
+ const milano=harness('?screen=S07&place=luogo-milano-04&gallery=reviews');assert.equal(milano.run('state.criteria.city'),'Milano');assert.ok(milano.html().includes('Dal locale'));milano.click('media-next');milano.click('media-next');milano.click('media-next');assert.ok(milano.html().includes('Francesca'));
+ const empty=h.run('galleryPage({...place(),media:[]})');assert.ok(empty.includes('Il primo scatto manca ancora'));assert.ok(!empty.includes('data-action="media-next"'));
+ const invalid=harness('?screen=S07&place=luogo-roma-01&gallery=invalid');assert.ok(invalid.html().includes('1 / 6'));assert.ok(invalid.html().includes('Dal locale'));invalid.click('media-next');assert.ok(invalid.html().includes('2 / 6'));
+ return 'Vecchi parametri ignorati; senza foto utenti resta il carosello del luogo; stato vuoto solo se non esiste alcuno scatto.';
 });
 
 const sources = ['index.html', 'app.js', 'core.js', 'catalogo.js', 'Catalogo_mock.json', 'build_catalogo.py', 'Verifiche_core.cjs', 'Verifiche_interazioni.cjs', '../06_design_system/esplorazione.js', '../06_design_system/esplorazione.css'].map(file => ({
