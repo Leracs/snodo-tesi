@@ -110,3 +110,47 @@ body[data-theme] .workbench details { border-color:var(--divider); }
   html[data-site-theme='B'] .home-feature { padding:24px 18px; }
   html[data-site-theme='B'] body[data-theme='B'] .workbench { padding:20px; }
 }
+
+/* Navigazione condivisa: link centrali e azioni di sessione separate a destra. */
+.snodo-site-header { position:sticky; top:0; z-index:30; width:100%; background:var(--surface,#fff); color:var(--ink,#000); border-bottom:1px solid var(--line,#BDBDB5); font:14px/1.5 var(--site-font-body); }
+.snodo-site-header,.snodo-site-header * { box-sizing:border-box; }
+.snodo-site-header-inner { display:grid; grid-template-columns:auto 1fr auto; align-items:center; gap:24px; max-width:1280px; margin:auto; padding:12px 28px; }
+.snodo-site-brand { display:inline-flex; align-items:center; min-height:44px; color:inherit; text-decoration:none; font:var(--heading-weight,400) 21px/1.5 var(--site-font-heading); }
+.snodo-site-links { display:flex; justify-content:center; flex-wrap:wrap; gap:4px; }
+.snodo-site-links>a { display:flex; align-items:center; justify-content:center; min-height:44px; padding:10px 12px; border-radius:10px; color:inherit; text-decoration:none; font:14px/1.5 var(--site-font-body); }
+.snodo-site-links>a:hover { background:var(--site-soft); }
+.snodo-site-links>a[aria-current="page"] { color:var(--accent); background:var(--site-soft); font-weight:700; }
+.snodo-site-utilities { display:flex; align-items:center; justify-content:flex-end; gap:12px; }
+.snodo-site-utilities .site-theme-choice { margin:0; }
+.snodo-site-session:empty { display:none; }
+.snodo-site-session:not(:empty) { display:flex; align-items:center; padding-left:12px; border-left:1px solid var(--line); }
+.snodo-site-header a:focus-visible,.snodo-site-header button:focus-visible,.snodo-site-header select:focus-visible { outline:3px solid var(--focus,#51366F); outline-offset:3px; }
+.snodo-document-tools { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:12px; margin-bottom:28px; font:14px/1.5 var(--site-font-body); }
+.snodo-document-tools>div { display:flex; flex-wrap:wrap; gap:8px; }
+.snodo-document-tools .print-button { cursor:pointer; }
+body[data-site-layout="prototype"] { padding-top:112px; }
+body[data-site-layout="prototype"]>.snodo-site-header { position:fixed; inset:0 0 auto; }
+body[data-site-layout="standalone"] { margin:0; padding:0; max-width:none; }
+body[data-site-layout="standalone"]>main { padding:32px 18px; }
+body[data-site-layout="standalone"]>h1,body[data-site-layout="standalone"]>p { max-width:1100px; margin:24px auto; padding-inline:20px; }
+@media(max-width:1000px) {
+  .snodo-site-header-inner { grid-template-columns:1fr auto; gap:8px 16px; padding:10px 18px; }
+  .snodo-site-links { grid-column:1/-1; grid-row:2; justify-content:flex-start; }
+  .snodo-site-utilities { grid-column:2; grid-row:1; }
+  body[data-site-layout="prototype"] { padding-top:162px; }
+}
+@media(max-width:520px) {
+  .snodo-site-header-inner { padding:8px 12px; gap:8px; }
+  .snodo-site-brand { font-size:17px; }
+  .snodo-site-utilities { gap:8px; }
+  .snodo-site-utilities .site-theme-choice>span { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); }
+  .snodo-site-utilities select { width:104px; max-width:104px; font-size:13px; padding-left:8px; }
+  .snodo-site-session:not(:empty) { padding-left:8px; }
+  .snodo-site-links { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); width:100%; }
+  .snodo-site-links>a { justify-content:flex-start; padding:8px 10px; font-size:13px; }
+  body[data-site-layout="prototype"] { padding-top:216px; }
+}
+@media print { .snodo-site-header,.snodo-document-tools { display:none; } body[data-site-layout="prototype"] { padding-top:0; } }
+@media screen { html { scroll-padding-top:84px; } }
+@media screen and (max-width:1000px) { html { scroll-padding-top:128px; } }
+@media screen and (max-width:520px) { html { scroll-padding-top:176px; } }
