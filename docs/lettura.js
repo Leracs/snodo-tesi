@@ -69,18 +69,59 @@ if (search) {
   const rows = [...document.querySelectorAll('[data-document-title]')];
   const groups = [...document.querySelectorAll('.library-group')];
   const count = document.querySelector('[data-document-count]');
+  const type = document.querySelector('[data-document-type-filter]');
+  const area = document.querySelector('[data-document-area-filter]');
+  const reset = document.querySelector('[data-document-reset]');
+  const empty = document.querySelector('[data-document-empty]');
+  const archive = document.querySelector('[data-work-archive]');
+  const jumps = [...document.querySelectorAll('[data-type-jump]')];
   const normalized = text => text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase('it');
-  search.addEventListener('input', () => {
+  let wasFiltered = false;
+  let archiveWasOpen = false;
+  document.querySelector('[data-work-filters]')?.removeAttribute('hidden');
+  function updateCatalog() {
     const terms = normalized(search.value).trim().split(/\s+/).filter(Boolean);
+    const filtered = Boolean(terms.length || type?.value || area?.value);
+    if (filtered && !wasFiltered) archiveWasOpen = Boolean(archive?.open);
     rows.forEach(row => {
       const title = normalized(row.dataset.documentTitle);
-      row.hidden = !terms.every(term => title.includes(term));
+      row.hidden = !terms.every(term => title.includes(term)) || Boolean(type?.value && row.dataset.documentType !== type.value) || Boolean(area?.value && row.dataset.documentArea !== area.value);
     });
-    groups.forEach(group => group.hidden = ![...group.querySelectorAll('[data-document-title]')].some(row => !row.hidden));
+    groups.forEach(group => {
+      const visible = [...group.querySelectorAll('[data-document-title]')].filter(row => !row.hidden).length;
+      group.hidden = !visible;
+      const label = group.querySelector('[data-group-count]');
+      if (label) label.textContent = visible;
+    });
+    jumps.forEach(jump => {
+      const visible = rows.filter(row => !row.hidden && row.dataset.documentType === jump.dataset.typeJump).length;
+      jump.hidden = !visible;
+      jump.querySelector('[data-type-count]').textContent = visible;
+    });
+    if (archive) {
+      if (filtered) archive.open = rows.some(row => !row.hidden && row.dataset.documentType === 'archivio');
+      else if (wasFiltered) archive.open = archiveWasOpen;
+    }
     const visibleCount = rows.filter(row => !row.hidden).length;
-    if (count) count.textContent = visibleCount ? `${visibleCount} document${visibleCount === 1 ? 'o' : 'i'} visualizzat${visibleCount === 1 ? 'o' : 'i'}` : 'Nessun documento trovato. Prova un altro titolo o argomento.';
+    if (count) count.textContent = filtered ? `${visibleCount} di ${rows.length} materiali trovati.` : `${rows.length} materiali catalogati, incluso l’archivio.`;
+    if (empty) empty.hidden = Boolean(visibleCount);
+    if (reset) reset.hidden = !filtered;
+    wasFiltered = filtered;
+  }
+  search.addEventListener('input', updateCatalog);
+  type?.addEventListener('change', updateCatalog);
+  area?.addEventListener('change', updateCatalog);
+  reset?.addEventListener('click', () => {
+    search.value = '';
+    if (type) type.value = '';
+    if (area) area.value = '';
+    updateCatalog();
+    search.focus();
   });
+  document.querySelector('[data-type-jump="archivio"]')?.addEventListener('click', () => { if (archive) archive.open = true; });
+  updateCatalog();
 }
+
 
 /* Le immagini restano link agli asset: senza dialog supportato il browser
    continua ad aprire il file. SVG caricati come immagini, mai come DOM inline. */

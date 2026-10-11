@@ -1,0 +1,442 @@
+{
+  "criterio": "Tipologia d’uso e area del progetto; allegati associati al documento principale.",
+  "tipologie": [
+    {
+      "id": "ricerca",
+      "titolo": "Ricerca e confronti",
+      "uso": "Dai dati e dai riferimenti alle scelte di progetto."
+    },
+    {
+      "id": "specifiche",
+      "titolo": "Specifiche di progetto",
+      "uso": "Struttura, percorsi e comportamento dell’interfaccia."
+    },
+    {
+      "id": "guide",
+      "titolo": "Guide e materiali per Figma",
+      "uso": "Tavole, componenti e istruzioni per costruire il prototipo."
+    },
+    {
+      "id": "test",
+      "titolo": "Protocolli e schede di test",
+      "uso": "Preparare le sessioni e annotare i riscontri."
+    },
+    {
+      "id": "controlli",
+      "titolo": "Controlli tecnici",
+      "uso": "Verifiche di struttura, contrasto e interazioni."
+    },
+    {
+      "id": "registri",
+      "titolo": "Appunti e registri",
+      "uso": "Stato del lavoro, decisioni e revisione editoriale."
+    },
+    {
+      "id": "archivio",
+      "titolo": "Archivio precedente",
+      "uso": "Documento di origine, conservato per il confronto."
+    }
+  ],
+  "aree": {
+    "ricerca": "Ricerca UX",
+    "struttura": "Flussi e architettura",
+    "figma": "Wireframe e Figma",
+    "visivo": "Identità e componenti",
+    "prototipo": "Prototipo e assistente AI",
+    "test": "Test e valutazione",
+    "gestione": "Gestione della tesi"
+  },
+  "materiali": [
+    {
+      "file": "01_ricerca/Matrice_evidenze.md",
+      "html": "01_ricerca/Matrice_evidenze.html",
+      "tipologia": "ricerca",
+      "area_progetto": "ricerca",
+      "titolo_catalogo": "Matrice delle evidenze",
+      "uso": "Collega dati e osservazioni ai requisiti, per motivare le scelte e risalire alla loro origine.",
+      "categoria": "Ricerca e confronti",
+      "risorse": [
+        {
+          "file": "01_ricerca/Matrice_evidenze.csv",
+          "titolo": "Matrice · CSV"
+        }
+      ]
+    },
+    {
+      "file": "11_materiale_di_lavoro/Benchmark_UX_UI_e_integrazioni_SNODO.md",
+      "html": "11_materiale_di_lavoro/Benchmark_UX_UI_e_integrazioni_SNODO.html",
+      "tipologia": "ricerca",
+      "area_progetto": "ricerca",
+      "titolo_catalogo": "Benchmark UX/UI",
+      "uso": "Confronta quattro servizi e raccoglie le proposte da portare in wireframe, style tile e componenti.",
+      "categoria": "Ricerca e confronti",
+      "risorse": []
+    },
+    {
+      "file": "02_flussi/Journey_comparabili.md",
+      "html": "02_flussi/Journey_comparabili.html",
+      "tipologia": "ricerca",
+      "area_progetto": "struttura",
+      "titolo_catalogo": "Journey attuale e atteso",
+      "uso": "Confronta l’esperienza ricostruita e quella proposta, passaggio per passaggio.",
+      "categoria": "Ricerca e confronti",
+      "risorse": [
+        {
+          "file": "02_flussi/Journey_comparabili.csv",
+          "titolo": "Journey · CSV"
+        }
+      ]
+    },
+    {
+      "file": "02_flussi/User_flow.md",
+      "html": "02_flussi/User_flow.html",
+      "tipologia": "specifiche",
+      "area_progetto": "struttura",
+      "titolo_catalogo": "I tre user flow",
+      "uso": "Segui scelta individuale, scelta con amici e recensione, inclusi errori e percorsi di recupero.",
+      "categoria": "Specifiche di progetto",
+      "risorse": []
+    },
+    {
+      "file": "03_architettura/Architettura_generale.md",
+      "html": "03_architettura/Architettura_generale.html",
+      "tipologia": "specifiche",
+      "area_progetto": "struttura",
+      "titolo_catalogo": "Architettura delle informazioni",
+      "uso": "Definisce destinazioni, oggetti informativi e relazioni prima di disegnare le schermate.",
+      "categoria": "Specifiche di progetto",
+      "risorse": [
+        {
+          "file": "03_architettura/Architettura_generale.svg",
+          "titolo": "Mappa · SVG"
+        }
+      ]
+    },
+    {
+      "file": "03_architettura/Inventario_schermate.md",
+      "html": "03_architettura/Inventario_schermate.html",
+      "tipologia": "specifiche",
+      "area_progetto": "struttura",
+      "titolo_catalogo": "Inventario delle 21 schermate",
+      "uso": "Trova per ogni schermata ID, funzione e componenti da realizzare.",
+      "categoria": "Specifiche di progetto",
+      "risorse": [
+        {
+          "file": "03_architettura/Inventario_schermate.csv",
+          "titolo": "Schermate · CSV"
+        }
+      ]
+    },
+    {
+      "file": "03_architettura/Matrice_requisiti.md",
+      "html": "03_architettura/Matrice_requisiti.html",
+      "tipologia": "specifiche",
+      "area_progetto": "struttura",
+      "titolo_catalogo": "Dal requisito alla verifica",
+      "uso": "Rintraccia quali componenti e schermate rispondono a un requisito e come verificarli.",
+      "categoria": "Specifiche di progetto",
+      "risorse": [
+        {
+          "file": "03_architettura/Matrice_requisiti.csv",
+          "titolo": "Requisiti · CSV"
+        }
+      ]
+    },
+    {
+      "file": "06_design_system/Componenti_e_comportamenti.md",
+      "html": "06_design_system/Componenti_e_comportamenti.html",
+      "tipologia": "specifiche",
+      "area_progetto": "visivo",
+      "titolo_catalogo": "Componenti, stati e comportamenti",
+      "uso": "Consulta le regole dei componenti, gli stati disponibili e le risposte alle azioni dell’utente.",
+      "categoria": "Specifiche di progetto",
+      "risorse": []
+    },
+    {
+      "file": "06_design_system/Corrispondenza_componenti_IA_DS.md",
+      "html": "06_design_system/Corrispondenza_componenti_IA_DS.html",
+      "tipologia": "specifiche",
+      "area_progetto": "visivo",
+      "titolo_catalogo": "Dall’architettura ai componenti",
+      "uso": "Controlla la corrispondenza tra gli oggetti dell’architettura e la libreria visiva.",
+      "categoria": "Specifiche di progetto",
+      "risorse": []
+    },
+    {
+      "file": "06_design_system/Atmosfera_affluenza.md",
+      "html": "06_design_system/Atmosfera_affluenza.html",
+      "tipologia": "specifiche",
+      "area_progetto": "visivo",
+      "titolo_catalogo": "Atmosfera e affluenza",
+      "uso": "Definisce come mostrare intensità, periodo, fonte e copertura dei dati nella scheda luogo.",
+      "categoria": "Specifiche di progetto",
+      "risorse": []
+    },
+    {
+      "file": "06_design_system/Esplorazione_e_recensioni.md",
+      "html": "06_design_system/Esplorazione_e_recensioni.html",
+      "tipologia": "specifiche",
+      "area_progetto": "visivo",
+      "titolo_catalogo": "Esplorazione e recensioni",
+      "uso": "Specifica ricerca, mappa, card e contributi, con i componenti integrati nella demo.",
+      "categoria": "Specifiche di progetto",
+      "risorse": []
+    },
+    {
+      "file": "07_prototipo/Specifica_assistente_AI.md",
+      "html": "07_prototipo/Specifica_assistente_AI.html",
+      "tipologia": "specifiche",
+      "area_progetto": "prototipo",
+      "titolo_catalogo": "Assistente AI: regole e scenari",
+      "uso": "Definisce il ruolo dell’assistente nei tre percorsi e distingue suggerimenti, conferme e azioni.",
+      "categoria": "Specifiche di progetto",
+      "risorse": [
+        {
+          "file": "07_prototipo/Scenari_AI.json",
+          "titolo": "Scenari · JSON"
+        }
+      ]
+    },
+    {
+      "file": "04_wireframe/LEGGIMI.md",
+      "html": "04_wireframe/LEGGIMI.html",
+      "tipologia": "guide",
+      "area_progetto": "figma",
+      "titolo_catalogo": "Wireframe: importazione in Figma",
+      "uso": "Usa i 21 frame e le varianti come base. La guida spiega importazione, dimensioni e recuperi.",
+      "categoria": "Guide e materiali per Figma",
+      "risorse": [
+        {
+          "file": "04_wireframe/Manifest_wireframe.csv",
+          "titolo": "Indice dei frame · CSV"
+        }
+      ]
+    },
+    {
+      "file": "05_style_tiles/README.md",
+      "html": "05_style_tiles/README.html",
+      "tipologia": "guide",
+      "area_progetto": "visivo",
+      "titolo_catalogo": "Style tile: Pop e Calda",
+      "uso": "Apri le due tavole, confronta palette e tipografia e prepara l’importazione in Figma.",
+      "categoria": "Guide e materiali per Figma",
+      "risorse": [
+        {
+          "file": "05_style_tiles/Style_tile_B.svg",
+          "titolo": "Pop · SVG"
+        },
+        {
+          "file": "05_style_tiles/Style_tile_A.svg",
+          "titolo": "Calda · SVG"
+        }
+      ]
+    },
+    {
+      "file": "06_design_system/README.md",
+      "html": "06_design_system/README.html",
+      "tipologia": "guide",
+      "area_progetto": "visivo",
+      "titolo_catalogo": "Base del design system",
+      "uso": "Imposta colori, tipografia, token e stati da trasferire nella libreria di progetto.",
+      "categoria": "Guide e materiali per Figma",
+      "risorse": [
+        {
+          "file": "06_design_system/tokens_B.json",
+          "titolo": "Token Pop · JSON"
+        },
+        {
+          "file": "06_design_system/tokens_A.json",
+          "titolo": "Token Calda · JSON"
+        }
+      ]
+    },
+    {
+      "file": "06_design_system/Guida_catalogo.md",
+      "html": "06_design_system/Guida_catalogo.html",
+      "tipologia": "guide",
+      "area_progetto": "visivo",
+      "titolo_catalogo": "Come usare il catalogo dei componenti",
+      "uso": "Trova componenti e varianti, prova le anteprime e scarica gli SVG da usare come base.",
+      "categoria": "Guide e materiali per Figma",
+      "risorse": [
+        {
+          "file": "06_design_system/svg/SNODO-componenti-SVG.zip",
+          "titolo": "Componenti · ZIP"
+        }
+      ]
+    },
+    {
+      "file": "07_prototipo/LEGGIMI.md",
+      "html": "07_prototipo/LEGGIMI.html",
+      "tipologia": "guide",
+      "area_progetto": "prototipo",
+      "titolo_catalogo": "Guida alla demo interattiva",
+      "uso": "Comprendi cosa è simulato, come ripartire e quali materiali servono per il prototipo Figma.",
+      "categoria": "Guide e materiali per Figma",
+      "risorse": []
+    },
+    {
+      "file": "07_prototipo/Assemblaggio_Figma.md",
+      "html": "07_prototipo/Assemblaggio_Figma.html",
+      "tipologia": "guide",
+      "area_progetto": "figma",
+      "titolo_catalogo": "Assemblaggio del prototipo in Figma",
+      "uso": "Collega i frame e controlla ritorni, varianti e scenari prima di usare il file nelle sessioni.",
+      "categoria": "Guide e materiali per Figma",
+      "risorse": [
+        {
+          "file": "07_prototipo/Collegamenti_Figma.csv",
+          "titolo": "Collegamenti · CSV"
+        },
+        {
+          "file": "07_prototipo/Verifica_Figma.csv",
+          "titolo": "Verifica Figma · CSV"
+        }
+      ]
+    },
+    {
+      "file": "05_style_tiles/Protocollo_confronto.md",
+      "html": "05_style_tiles/Protocollo_confronto.html",
+      "tipologia": "test",
+      "area_progetto": "test",
+      "titolo_catalogo": "Confronto delle style tile A/B",
+      "uso": "Prepara un confronto con contenuti equivalenti e registra preferenze e motivazioni.",
+      "categoria": "Protocolli e schede di test",
+      "risorse": [
+        {
+          "file": "05_style_tiles/Risposte_style_tiles.csv",
+          "titolo": "Scheda risposte vuota · CSV"
+        }
+      ]
+    },
+    {
+      "file": "08_test/Protocollo_test_formativo.md",
+      "html": "08_test/Protocollo_test_formativo.html",
+      "tipologia": "test",
+      "area_progetto": "test",
+      "titolo_catalogo": "Test formativo dei tre compiti",
+      "uso": "Usa istruzioni, scenari, recuperi e domande per osservare le persone durante i tre percorsi.",
+      "categoria": "Protocolli e schede di test",
+      "risorse": [
+        {
+          "file": "08_test/Osservazioni_compiti.csv",
+          "titolo": "Scheda osservazioni vuota · CSV"
+        },
+        {
+          "file": "08_test/Registro_problemi.csv",
+          "titolo": "Registro problemi vuoto · CSV"
+        }
+      ]
+    },
+    {
+      "file": "04_wireframe/Verifica_materiali.md",
+      "html": "04_wireframe/Verifica_materiali.html",
+      "tipologia": "controlli",
+      "area_progetto": "figma",
+      "titolo_catalogo": "Verifica strutturale dei wireframe",
+      "uso": "Controlla ID, dimensioni e copertura dei materiali prima dell’importazione.",
+      "categoria": "Controlli tecnici",
+      "risorse": []
+    },
+    {
+      "file": "06_design_system/Contrasti.md",
+      "html": "06_design_system/Contrasti.html",
+      "tipologia": "controlli",
+      "area_progetto": "visivo",
+      "titolo_catalogo": "Contrasti delle due direzioni",
+      "uso": "Consulta le coppie colore verificate e i limiti delle due basi visive.",
+      "categoria": "Controlli tecnici",
+      "risorse": [
+        {
+          "file": "06_design_system/Contrasti.csv",
+          "titolo": "Contrasti · CSV"
+        }
+      ]
+    },
+    {
+      "file": "07_prototipo/Verifica_supporto_locale.md",
+      "html": "07_prototipo/Verifica_supporto_locale.html",
+      "tipologia": "controlli",
+      "area_progetto": "prototipo",
+      "titolo_catalogo": "Verifica delle interazioni della demo",
+      "uso": "Leggi quali percorsi e recuperi sono stati controllati nel supporto HTML.",
+      "categoria": "Controlli tecnici",
+      "risorse": []
+    },
+    {
+      "file": "LEGGIMI.md",
+      "html": "LEGGIMI.html",
+      "tipologia": "registri",
+      "area_progetto": "gestione",
+      "titolo_catalogo": "Orientamento nel pacchetto",
+      "uso": "Riepiloga materiali modificabili, ipotesi iniziali e punti ancora aperti.",
+      "categoria": "Appunti e registri",
+      "risorse": []
+    },
+    {
+      "file": "Revisione_professore.md",
+      "html": "Revisione_professore.html",
+      "tipologia": "registri",
+      "area_progetto": "gestione",
+      "titolo_catalogo": "Valutazione della prima costruzione",
+      "uso": "Rileggi la revisione preparatoria per individuare criticità e priorità di sviluppo.",
+      "categoria": "Appunti e registri",
+      "risorse": []
+    },
+    {
+      "file": "Registro_decisioni.md",
+      "html": "Registro_decisioni.html",
+      "tipologia": "registri",
+      "area_progetto": "gestione",
+      "titolo_catalogo": "Registro delle decisioni",
+      "uso": "Ritrova le scelte di costruzione e le motivazioni da controllare durante lo sviluppo.",
+      "categoria": "Appunti e registri",
+      "risorse": []
+    },
+    {
+      "file": "Stato_consegne.md",
+      "html": "Stato_consegne.html",
+      "tipologia": "registri",
+      "area_progetto": "gestione",
+      "titolo_catalogo": "Stato dei materiali",
+      "uso": "Controlla che cosa è disponibile e quali parti richiedono ancora lavoro.",
+      "categoria": "Appunti e registri",
+      "risorse": []
+    },
+    {
+      "file": "09_tesi/Registro_editoriale.md",
+      "html": "09_tesi/Registro_editoriale.html",
+      "tipologia": "registri",
+      "area_progetto": "gestione",
+      "titolo_catalogo": "Registro della revisione editoriale",
+      "uso": "Rintraccia gli interventi sulle sezioni revisionate e il rapporto con il documento originale.",
+      "categoria": "Appunti e registri",
+      "risorse": []
+    },
+    {
+      "file": "11_materiale_di_lavoro/Separazione_editoriale.md",
+      "html": "11_materiale_di_lavoro/Separazione_editoriale.html",
+      "tipologia": "registri",
+      "area_progetto": "gestione",
+      "titolo_catalogo": "Criteri per integrare i materiali nella tesi",
+      "uso": "Distingue contributi testuali, figure, istruzioni operative e documenti precedenti.",
+      "categoria": "Appunti e registri",
+      "risorse": []
+    },
+    {
+      "file": "09_tesi/Tesi_sezioni_revisionate_e_sviluppo.md",
+      "html": "09_tesi/Tesi_sezioni_revisionate_e_sviluppo.html",
+      "tipologia": "archivio",
+      "area_progetto": "gestione",
+      "titolo_catalogo": "Documento misto precedente",
+      "uso": "Conserva l’origine della revisione. Per integrare i testi usa la raccolta attuale dei contributi.",
+      "categoria": "Archivio precedente",
+      "risorse": [
+        {
+          "file": "09_tesi/Tesi_sezioni_revisionate_e_sviluppo.docx",
+          "titolo": "Archivio · Word"
+        }
+      ]
+    }
+  ]
+}
