@@ -24,3 +24,19 @@ I file non richiedono servizi esterni o un fetch JSON: il catalogo e le anteprim
 ## Verifiche
 
 Le verifiche del catalogo sono registrate in [QA_catalogo.json](QA_catalogo.json). Per il componente condiviso restano disponibili [QA_atmosfera_affluenza.json](QA_atmosfera_affluenza.json) e i controlli di regressione del prototipo. Sono controlli tecnici; non risultati di test con persone.
+
+## Pattern di esplorazione v0.6
+
+[Prova la composizione interattiva](Esplorazione_demo.html): card con recensione, mappa, filtri e CTA nelle stesse direzioni A/B. Questa pagina riusa `esplorazione.js` del prototipo; consente anche testo lungo, recensione assente e requisiti incompatibili. Nel selettore del catalogo i campioni corrispondenti sono illustrativi, con le regole nel registro. [Specifica e Figma](Esplorazione_e_recensioni.md).
+
+## Direzione principale e download SVG
+
+Pop (B) è la scelta principale del progettista per l’intero sito e il prototipo. Calda (A) rimane alternativa nel selettore Stile; la scelta si conserva nel browser tra le pagine. I link espliciti `theme=A` e `theme=B` aprono la variante richiesta. Questa decisione non è attribuita a test con partecipanti.
+
+Ogni scheda ha Scarica SVG. Il playground scarica il componente, la variante e il tema selezionati. La sezione SVG permette di scaricare tutti i file in un archivio o ciascuna variante separatamente, compresa la selezione del giorno. Le geometrie e i testi derivano dal layout HTML a 390 px, senza immagini raster o `foreignObject`; Boldonse è incorporato negli SVG Pop e i testi rimangono modificabili. Si tratta di visuali statici.
+
+`svg-componenti.mjs` rigenera gli SVG dalle misure del browser salvate in `svg/layouts.json`. Dopo modifiche al renderer o ai token, acquisire nuovamente i layout nel browser, verificare Pop/Calda e rigenerare. Non dichiarare compatibilità Figma verificata senza un’importazione reale.
+
+Dopo la rigenerazione eseguire `python3 pacchetto_svg.py` ([script](pacchetto_svg.py)) per validare i file e ricostruire lo ZIP. Il report [QA_pop_svg.json](QA_pop_svg.json) registra i controlli di questa integrazione.
+
+L’archivio include la [licenza OFL di Boldonse](../05_style_tiles/fonts/OFL.txt).

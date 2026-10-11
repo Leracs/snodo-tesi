@@ -6,8 +6,8 @@
 .sd-place svg,.sd-review svg,.sd-quick svg,.sd-dock svg { width:22px; height:22px; flex:none; }
 .sd-place { margin:16px 0; border:1px solid var(--divider); border-radius:var(--radius-card); background:var(--surface); padding:16px; overflow:hidden; }
 .sd-place-top { display:flex; gap:12px; align-items:flex-start; }
-.sd-place-image { width:76px; flex:none; border-radius:14px; overflow:hidden; }
-.sd-place-image .sd-illustration { width:76px; height:84px; display:block; }
+.sd-place-image { width:var(--place-thumbnail-width,76px); flex:none; border-radius:14px; overflow:hidden; }
+.sd-place-image .sd-illustration { width:var(--place-thumbnail-width,76px); height:var(--place-thumbnail-height,84px); display:block; }
 .sd-art-bg { fill:var(--primarySoft); }.sd-art-sun { fill:var(--accentDecorative); }.sd-art-accent { fill:var(--surface); }.sd-art-door { fill:var(--text); }.sd-art-ground { fill:var(--success); }
 [data-theme="B"] .sd-art-bg { fill:var(--accentPink); }[data-theme="B"] .sd-art-sun { fill:var(--accentYellow); }[data-theme="B"] .sd-art-ground { fill:var(--accentGreen); }
 .sd-place-intro { min-width:0; flex:1; }.sd-place .sd-meta { margin:0 0 5px; font-size:13px; line-height:1.5; color:var(--muted); }
@@ -24,7 +24,7 @@
 .sd-review-heading { display:flex; align-items:center; gap:8px; font-size:13px; font-weight:700; }.sd-review-heading svg { width:18px; height:18px; color:var(--primary); }
 .sd-mock { margin-left:auto; font:400 11px/1.5 var(--font-body); border:1px solid var(--border); padding:1px 5px; border-radius:4px; color:var(--muted); }
 .sd-review blockquote { font:400 17px/1.55 var(--font-body); margin:10px 0 14px; letter-spacing:-.01em; }.sd-review blockquote::before { content:'“'; }.sd-review blockquote::after { content:'”'; }
-.sd-excerpt { display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
+.sd-excerpt { display:-webkit-box; -webkit-line-clamp:var(--review-excerpt-lines,3); -webkit-box-orient:vertical; overflow:hidden; }
 .sd-review-person { display:flex; align-items:center; gap:10px; }.sd-avatar { display:grid; place-items:center; width:32px; height:32px; flex:none; background:var(--surface); border:1px solid var(--divider); border-radius:50%; font-size:13px; font-weight:700; }
 .sd-review-person strong { font-size:14px; }.sd-review-person span:not(.sd-avatar) { display:block; font-size:12px; color:var(--muted); line-height:1.6; }.sd-review-empty strong { font-size:15px; }.sd-review-empty p { font-size:14px; margin:8px 0 0; }
 .sd-text-action { display:inline-flex; align-items:center; gap:8px; padding:8px 0; min-height:44px; border:0; background:transparent; color:var(--primary); text-align:left; text-decoration:underline; text-underline-offset:4px; font-size:14px!important; }
@@ -43,4 +43,6 @@
 .sd-filter-rule { margin:16px 0 24px; padding:16px; border:1px solid var(--divider); border-radius:var(--radius-field); background:var(--surface); }.sd-filter-rule p { font-size:14px; margin:8px 0; }.sd-filter-actions { position:sticky; bottom:-24px; background:var(--bg); padding:12px 0 20px; display:grid; gap:8px; }.sd-filter-actions .primary { width:100%; }.sd-filter-actions .row { margin:0; }
 @media(max-width:380px){.sd-place { padding:12px; }.sd-place-top { gap:8px; }.sd-place-image,.sd-place-image .sd-illustration { width:60px; }.sd-save { width:44px; }.sd-place .sd-place-intro h3 { font-size:18px; }[data-theme="B"] .sd-place .sd-place-intro h3 { font-size:14px; }.sd-quick { gap:6px; }.sd-pill { padding:8px 10px; }}
 
-.sd-detail-image {height:120px;margin:12px 0 16px;}.sd-detail-image svg {height:120px;}.sd-detail-top .detail-title {margin:12px 0 4px!important;}.sd-detail-top+.meta {margin:4px 0 12px;}
+.sd-detail-image {height:var(--detail-media-height,120px);margin:12px 0 16px;}.sd-detail-image svg {height:var(--detail-media-height,120px);}.sd-detail-top .detail-title {margin:12px 0 4px!important;}.sd-detail-top+.meta {margin:4px 0 12px;}
+
+.sd-place[data-selected="true"] {border-color:var(--primary);}.sd-marker[data-selected="true"] {background:var(--primary);color:var(--onPrimary);border-color:var(--primary);}.sd-save[data-selected="true"] {background:var(--primarySoft);color:var(--primary);border-color:var(--primary);}.sd-pill[data-selected="true"] {background:var(--primarySoft);border-color:var(--primary);}

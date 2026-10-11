@@ -1,16 +1,16 @@
 /* Il blocco iniziale deve essere duplicato inline nel head di ogni pagina. */
-html.snodo-gate-locked body { overflow: hidden !important; background: #F7F1E8 !important; }
+html.snodo-gate-locked body { overflow: hidden !important; background: var(--paper, #80EFED) !important; }
 html.snodo-gate-locked body > :not(#snodo-access-gate):not(#snodo-access-safety):not(noscript),
 html.snodo-gate-locked body > :not(#snodo-access-gate):not(#snodo-access-safety):not(noscript) * { visibility: hidden !important; pointer-events: none !important; }
 
 #snodo-access-gate {
-  --snodo-access-background: #F7F1E8;
-  --snodo-access-surface: #FFFCF7;
-  --snodo-access-text: #28221F;
-  --snodo-access-muted: #64544A;
-  --snodo-access-primary: #9C432D;
-  --snodo-access-border: #8A7769;
-  --snodo-access-divider: #D7C9B9;
+  --snodo-access-background: var(--paper, #80EFED);
+  --snodo-access-surface: var(--surface, #FFFFFF);
+  --snodo-access-text: var(--ink, #000000);
+  --snodo-access-muted: var(--muted, #4B4B4B);
+  --snodo-access-primary: var(--primary, #000000);
+  --snodo-access-border: var(--border, #000000);
+  --snodo-access-divider: var(--line, #BDBDB5);
   position: fixed;
   inset: 0;
   z-index: 2147483647;
@@ -24,30 +24,30 @@ html.snodo-gate-locked body > :not(#snodo-access-gate):not(#snodo-access-safety)
   overflow: auto;
   background: var(--snodo-access-background);
   color: var(--snodo-access-text);
-  font: 16px/1.5 'Trebuchet MS', sans-serif;
+  font: 16px/1.5 var(--site-font-body, sans-serif);
   -webkit-font-smoothing: antialiased;
 }
-#snodo-access-gate::backdrop { background: #F7F1E8; }
+#snodo-access-gate::backdrop { background: var(--paper, #80EFED); }
 #snodo-access-gate, #snodo-access-gate * { box-sizing: border-box; }
 #snodo-access-gate .snodo-access-layout { min-height: 100%; display: grid; place-items: center; padding: 48px 24px; }
 #snodo-access-gate .snodo-access-panel { width: min(100%, 360px); }
 #snodo-access-gate .snodo-access-visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
 #snodo-access-gate .snodo-access-form { display: flex; flex-direction: column; gap: 14px; }
-#snodo-access-gate .snodo-access-form input { display: block; width: 100%; min-height: 54px; padding: 14px 16px; margin: 0; border: 1px solid var(--snodo-access-border); border-radius: 12px; background: var(--snodo-access-surface); color: var(--snodo-access-text); font: 16px/1.5 'Trebuchet MS', sans-serif; box-shadow: none; }
+#snodo-access-gate .snodo-access-form input { display: block; width: 100%; min-height: 54px; padding: 14px 16px; margin: 0; border: 1px solid var(--snodo-access-border); border-radius: 12px; background: var(--snodo-access-surface); color: var(--snodo-access-text); font: 16px/1.5 var(--site-font-body, sans-serif); box-shadow: none; }
 #snodo-access-gate .snodo-access-form input[aria-invalid="true"] { border: 2px solid #A0302C; padding: 13px 15px; }
 #snodo-access-gate .snodo-access-form input:focus-visible,
 #snodo-access-gate .snodo-access-submit:focus-visible,
 .snodo-access-exit:focus-visible { outline: 3px solid #51366F; outline-offset: 3px; }
 #snodo-access-gate .snodo-access-error:empty { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
-#snodo-access-gate .snodo-access-error { margin: 0; font: 14px/1.5 'Trebuchet MS', sans-serif; color: #A0302C; }
+#snodo-access-gate .snodo-access-error { margin: 0; font: 14px/1.5 var(--site-font-body, sans-serif); color: #A0302C; }
 #snodo-access-gate .snodo-access-error:not(:empty) { margin: 0; padding: 12px 14px; border: 1px solid #A0302C; border-radius: 10px; background: #FBE4DF; }
-#snodo-access-gate .snodo-access-submit { display: flex; justify-content: center; align-items: center; width: 100%; min-height: 54px; padding: 14px 18px; border: 1px solid var(--snodo-access-primary); border-radius: 12px; background: var(--snodo-access-primary); color: #FFF; cursor: pointer; font: bold 16px/1.5 'Trebuchet MS', sans-serif; text-align: center; }
-#snodo-access-gate .snodo-access-submit:hover { background: #843824; border-color: #843824; }
-#snodo-access-gate .snodo-access-submit:disabled { background: #EEE4D7; border-color: #D7C9B9; color: var(--snodo-access-muted); cursor: wait; }
-.snodo-access-exit { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 10px 16px; border: 1px solid #8A7769; border-radius: 12px; background: #FFFCF7; color: #28221F; font: 14px/1.5 'Trebuchet MS', sans-serif; cursor: pointer; white-space: nowrap; }
-.snodo-access-exit:hover { background: #EEE4D7; }
+#snodo-access-gate .snodo-access-submit { display: flex; justify-content: center; align-items: center; width: 100%; min-height: 54px; padding: 14px 18px; border: 1px solid var(--snodo-access-primary); border-radius: 12px; background: var(--snodo-access-primary); color: var(--site-on-primary, #80EFED); cursor: pointer; font: bold 16px/1.5 var(--site-font-body, sans-serif); text-align: center; }
+#snodo-access-gate .snodo-access-submit:hover { background: var(--primaryHover, #252525); border-color: var(--primaryHover, #252525); }
+#snodo-access-gate .snodo-access-submit:disabled { background: var(--site-soft, #E9DDF0); border-color: var(--line, #BDBDB5); color: var(--snodo-access-muted); cursor: wait; }
+.snodo-access-exit { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 10px 16px; border: 1px solid var(--border, #000000); border-radius: 12px; background: var(--surface, #FFFFFF); color: var(--ink, #000000); font: 14px/1.5 var(--site-font-body, sans-serif); cursor: pointer; white-space: nowrap; }
+.snodo-access-exit:hover { background: var(--site-soft, #E9DDF0); }
 .snodo-access-exit-floating { position: fixed; top: 16px; right: 20px; z-index: 10000; }
-#snodo-access-safety { display: block; position: fixed; z-index: 2147483646; inset: 0; padding: 32px 24px; background: #F7F1E8; color: #28221F; font: 16px/1.6 'Trebuchet MS', sans-serif; }
+#snodo-access-safety { display: block; position: fixed; z-index: 2147483646; inset: 0; padding: 32px 24px; background: var(--paper, #80EFED); color: var(--ink, #000000); font: 16px/1.6 var(--site-font-body, sans-serif); }
 @media (max-width: 520px) {
   #snodo-access-gate .snodo-access-layout { padding: 24px; }
   .snodo-access-exit-floating { top: 12px; right: 12px; }

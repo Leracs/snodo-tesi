@@ -14,11 +14,16 @@
   document.getElementById('component-reset').addEventListener('click',()=>{search.value='';group.value='';status.value='';filter();search.focus();});
   const selector=document.getElementById('preview-component'), variant=document.getElementById('preview-variant'), container=document.getElementById('component-preview');
   const themeButtons=[...document.querySelectorAll('[data-library-theme]')];
-  let currentTheme='B';
+  let currentTheme=window.SnodoSiteTheme?.get()||'B';
   const placeId=()=>variant.value==='Dati assenti'?'luogo-roma-04':variant.value==='Fascia assente il lunedì'?'luogo-roma-02':'luogo-roma-01';
+  const svgPath=(id,theme,variant)=>`svg/${id==='pattern'?'DS08-DS19':id}-${theme}-${variant.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')}.svg`;
+  function downloads(){
+    document.getElementById('preview-svg').href=svgPath(selector.value,currentTheme,variant.value);
+    document.querySelectorAll('[data-svg-component]').forEach(link=>{const id=link.dataset.svgComponent;link.href=svgPath(id,currentTheme,window.SnodoCampioni.variants[id][0]);});
+  }
   function theme(value) {
     if(window.SnodoDiscoveryGallery)window.SnodoDiscoveryGallery.theme=value;
-    currentTheme=value;
+    currentTheme=value;downloads();
     document.querySelectorAll('.ds-token-scope').forEach(scope=>{scope.dataset.theme=value;});
     themeButtons.forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.libraryTheme===value)));
     document.getElementById('preview-theme-label').textContent=value==='B'?'B · Pop':'A · Calda';
@@ -55,6 +60,7 @@
   }
   selector.addEventListener('change',()=>choose(selector.value));variant.addEventListener('change',render);
   document.querySelectorAll('[data-show-component]').forEach(link=>link.addEventListener('click',event=>{event.preventDefault();choose(link.dataset.showComponent);document.getElementById('anteprima').scrollIntoView({block:'start'});document.getElementById('preview-title').focus({preventScroll:true});}));
-  themeButtons.forEach(button=>button.addEventListener('click',()=>theme(button.dataset.libraryTheme)));
+  document.addEventListener('snodo-theme-change',event=>theme(event.detail.theme));
+  themeButtons.forEach(button=>button.addEventListener('click',()=>{window.SnodoSiteTheme?.set(button.dataset.libraryTheme);theme(button.dataset.libraryTheme);}));
   choose('pattern');filter();
 })();

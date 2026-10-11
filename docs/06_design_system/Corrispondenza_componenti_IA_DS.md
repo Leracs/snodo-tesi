@@ -1,36 +1,36 @@
 # Corrispondenza tra componenti dell’architettura e design system
 
-Due namespace distinti: **C01–C40** identificano responsabilità/componenti funzionali dell’architettura; **DS01–DS17 e DS19** identificano primitive e composizioni della base visiva. Non sono lo stesso catalogo e non va dedotta una corrispondenza numerica. Una responsabilità IA può usare più elementi DS.
+Due namespace distinti: **C01–C40** identificano responsabilità/componenti funzionali dell’architettura; **DS01–DS22** identificano primitive e composizioni della base visiva. Non sono lo stesso catalogo e non va dedotta una corrispondenza numerica. Una responsabilità IA può usare più elementi DS.
 
-Mappatura v0.1 sul file `03_architettura/Componenti.csv`, 11 ottobre 2026. Descrive come costruire le composizioni; non attesta componenti nativi già istanziati o comportamento testato.
+Mappatura v0.2 sul file `03_architettura/Componenti.csv`, 11 ottobre 2026. Descrive come costruire le composizioni; non attesta componenti nativi già istanziati o comportamento testato.
 
 | Nome dell’architettura | ID DS applicabili | ID IA |
 |---|---|---|
 | Contesto geografico | DS05 | C01 |
 | Riferimento distanze | DS05 | C02 |
 | Campo ricerca | DS02 | C03 |
-| Criteri attivi | DS03 | C04 |
-| Mappa e selezione | DS11, DS06, DS04 | C05 |
-| Card luogo | DS06 | C06 |
-| Controlli lista | DS01, DS03 | C07 |
-| Filtri | DS02, DS03, DS01 | C08 |
-| Scheda/pannello | DS11 | C09 |
+| Criteri attivi | DS03, DS21 | C04 |
+| Mappa e selezione | DS11, DS06, DS04, DS18 | C05 |
+| Card luogo | DS06, DS20 | C06 |
+| Controlli lista | DS01, DS03, DS18, DS21 | C07 |
+| Filtri | DS02, DS03, DS01, DS21 | C08 |
+| Scheda/pannello | DS11, DS22 | C09 |
 | Informazioni pratiche | DS07, DS02 | C10 |
-| Azioni luogo | DS01 | C11 |
+| Azioni luogo | DS01, DS22 | C11 |
 | Atmosfera contestuale | DS08, DS19, DS01, DS16, DS07 | C12 |
 | Galleria e viewer | DS17 | C13 |
-| Card recensione | DS09 | C14 |
+| Card recensione | DS09, DS20 | C14 |
 | Origine/limiti del dato | DS07 | C15 |
 | Segnalazione semplice | DS02, DS01, DS14 | C16 |
 | Ingresso assistente | DS01, DS10 | C17 |
 | Conversazione AI | DS10, DS02, DS01 | C18 |
-| Output ricerca AI | DS10, DS06, DS07 | C19 |
+| Output ricerca AI | DS10, DS06, DS07, DS20 | C19 |
 | Elenco proposte | DS12, DS06 | C20 |
 | Contesto proposta | DS12, DS05, DS02 | C21 |
 | Inviti | DS12, DS01 | C22 |
 | Partecipanti e stato | DS12 | C23 |
 | Vincoli condivisi | DS12, DS03 | C24 |
-| Alternative comparabili | DS12, DS06 | C25 |
+| Alternative comparabili | DS12, DS06, DS20 | C25 |
 | Commenti nella proposta | DS12, DS02 | C26 |
 | Preferenza alternativa | DS12, DS01 | C27 |
 | Conferma decisione | DS12, DS01 | C28 |
@@ -40,7 +40,7 @@ Mappatura v0.1 sul file `03_architettura/Componenti.csv`, 11 ottobre 2026. Descr
 | AI revisione prima/dopo | DS13, DS10 | C32 |
 | Anteprima/visibilità | DS13, DS03 | C33 |
 | Invio contributo | DS13, DS01, DS14 | C34 |
-| Salvati | DS06, DS15, DS01 | C35 |
+| Salvati | DS06, DS15, DS01, DS20 | C35 |
 | Profilo e bozze | DS13, DS02, DS03 | C36 |
 | Passaggio Maps | DS16 | C37 |
 | Recupero e feedback | DS15, DS14 | C38 |

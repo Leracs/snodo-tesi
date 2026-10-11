@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="it" class="snodo-gate-locked"><head><meta name="robots" content="noindex,nofollow"><style id="snodo-access-critical">html.snodo-gate-locked body{overflow:hidden!important;background:#F7F1E8!important}html.snodo-gate-locked body>:not(#snodo-access-gate):not(#snodo-access-safety):not(noscript),html.snodo-gate-locked body>:not(#snodo-access-gate):not(#snodo-access-safety):not(noscript) *{visibility:hidden!important;pointer-events:none!important}</style><link rel="stylesheet" href="../accesso/gate.css?v=20261011-minimal"><script src="../accesso/gate.js?v=20261011-minimal" data-snodo-gate></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Componenti, stati e comportamento — proposta v0.4 · Tesi UX UI</title><link rel="stylesheet" href="../lettura.css?v=20261011-essential-v4"><script src="../lettura.js?v=20261011-essential-v4" defer></script></head>
+<html lang="it" class="snodo-gate-locked"><head><meta name="robots" content="noindex,nofollow"><style id="snodo-access-critical">html.snodo-gate-locked body{overflow:hidden!important;background:#80EFED!important}html.snodo-gate-locked body>:not(#snodo-access-gate):not(#snodo-access-safety):not(noscript),html.snodo-gate-locked body>:not(#snodo-access-gate):not(#snodo-access-safety):not(noscript) *{visibility:hidden!important;pointer-events:none!important}</style><link rel="stylesheet" href="../accesso/gate.css?v=20261011-minimal"><script src="../accesso/gate.js?v=20261011-minimal" data-snodo-gate></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Componenti, stati e comportamento — revisione v0.6 · Tesi UX UI</title><link rel="stylesheet" href="../lettura.css?v=16a9a37ed7fa"><script src="../lettura.js?v=122077ec9eb6" defer></script><link rel="stylesheet" href="../tema-sito.css?v=ac93959cd0ef"><script src="../tema-sito.js?v=5e89b6f89f3f"></script></head>
 <body class="document lavoro"><noscript><div id="snodo-access-safety"><strong>SNODO · materiali della tesi</strong><p>Per usare il gate d’ingresso, attiva JavaScript nel browser e ricarica questa pagina.</p></div></noscript><a class="skip-link" href="#contenuto">Vai al contenuto</a>
-<header class="reader-top"><div class="reader-top-inner"><a class="back-link" href="../Materiale_di_lavoro.html"><span aria-hidden="true">←</span> Materiale di lavoro</a><div class="top-actions" data-snodo-access-actions><a href="index.html">Design system</a><a href="../Indice_consegne.html">Indice dei materiali</a><button type="button" class="print-button" data-print hidden>Stampa</button></div></div></header>
-<main id="contenuto" class="reader-wrap" tabindex="-1"><header class="document-header"><h1 id="inizio">Componenti, stati e comportamento — proposta v0.4</h1><p class="document-meta">Uso operativo · 11 ottobre 2026 · circa 7 min di lettura</p></header><aside class="classification-banner lavoro" aria-label="Destinazione e stato del materiale"><div><span class="status-label">Uso operativo</span><strong>Proposta operativa</strong></div><p>Specifica o guida per sviluppare il progetto. I passaggi da raccontare nella tesi sono raccolti separatamente.</p><p class="classification-detail"><b>Collocazione:</b> Non da integrare come documento intero. Contiene istruzioni, ipotesi o controlli di costruzione; non è un capitolo pronto per la tesi.</p></aside><div class="reading-layout"><article class="prose"><p>Specifiche comuni ad A/B, non componenti Figma già istanziati. Le variazioni visive sono nei token; contenuto e comportamento rimangono comuni. Gli ID S01–S21 provengono dal blueprint. Le transizioni sono requisiti di costruzione/test, non capacità già verificate nello SVG.</p>
-<p class="table-hint" hidden>↔ Scorri la tabella per leggere tutte le colonne.</p><div class="table-wrap" role="region" tabindex="0" aria-label="Tabella 1: Componenti, stati e comportamento — proposta v0.4"><table class="wide-table">
+<header class="reader-top"><div class="reader-top-inner"><a class="back-link" href="../Materiale_di_lavoro.html"><span aria-hidden="true">←</span> Materiale di lavoro</a><div class="top-actions" data-snodo-access-actions><a href="index.html">Design system</a><a href="../Indice_consegne.html">Indice dei materiali</a><button type="button" class="print-button" data-print hidden>Stampa</button></div><label class="site-theme-choice"><span>Stile</span><select data-site-theme-control aria-label="Stile del sito"><option value="B">Pop</option><option value="A">Calda · alternativa</option></select></label></div></header>
+<main id="contenuto" class="reader-wrap" tabindex="-1"><header class="document-header"><h1 id="inizio">Componenti, stati e comportamento — revisione v0.6</h1><p class="document-meta">Uso operativo · 11 ottobre 2026 · circa 8 min di lettura</p></header><aside class="classification-banner lavoro" aria-label="Destinazione e stato del materiale"><div><span class="status-label">Uso operativo</span><strong>Proposta operativa</strong></div><p>Specifica o guida per sviluppare il progetto. I passaggi da raccontare nella tesi sono raccolti separatamente.</p><p class="classification-detail"><b>Collocazione:</b> Non da integrare come documento intero. Contiene istruzioni, ipotesi o controlli di costruzione; non è un capitolo pronto per la tesi.</p></aside><div class="reading-layout"><article class="prose"><p>Specifiche comuni ad A/B, non componenti Figma già istanziati. Le variazioni visive sono nei token; contenuto e comportamento rimangono comuni. Gli ID S01–S21 provengono dal blueprint. Le transizioni sono requisiti di costruzione/test, non capacità già verificate nello SVG.</p>
+<p class="table-hint" hidden>↔ Scorri la tabella per leggere tutte le colonne.</p><div class="table-wrap" role="region" tabindex="0" aria-label="Tabella 1: Componenti, stati e comportamento — revisione v0.6"><table class="wide-table">
 <thead>
 <tr>
 <th scope="col">ID / componente</th>
@@ -50,9 +50,9 @@
 </tr>
 <tr>
 <td>DS06 Card luogo</td>
-<td>ID catalogo; nome/città/zona; prezzo e fonte; media; azione scheda; salva/proponi se pertinente</td>
+<td>Card compatta; illustrazione, città/zona, prezzo, rumore contestuale, DS20 recensione, salva separato, apri scheda; alternativa del gruppo.</td>
 <td>Standard, selezionata, pochi dati, dato non disponibile, errore immagine</td>
-<td>Apre sempre lo stesso oggetto S05 da lista, salvati, AI o gruppo. La Home non contiene l’anteprima di recensione. Prezzo mancante è “non disponibile”, non zero/gratis. Evitare card intera cliccabile con controlli annidati non distinguibili.</td>
+<td>Stesso oggetto luogo in mappa, lista, salvati e gruppo. Almeno una preview di recensione quando disponibile; in assenza, stato esplicito. Salva, recensioni e scheda hanno controlli separati. Prezzo indicativo non è prezzo verificato o in tempo reale.</td>
 <td>S02/S03/S10/S13/S19</td>
 </tr>
 <tr>
@@ -64,7 +64,7 @@
 </tr>
 <tr>
 <td>DS08 Atmosfera</td>
-<td>Luce, rumore e comfort; periodo/fascia, scala, valori, copertura per dimensione, fonti; composizione separata da DS19</td>
+<td>Luce, rumore, comfort; periodo/fascia, scala e copertura per dimensione. Separata da DS19.</td>
 <td>Disponibile, limitato, zero dati, discordante</td>
 <td>Intensità ≠ gradimento. Nessun “indice benessere” unico. Zero dati: nessuna barra riempita/nessun valore zero implicito. Con pochi dati mostra limite e contributi. Valori 1–5 delle tile sono mock predisposti; non sono medie calcolate sui questionari o misure ambientali. Metodo di aggregazione reale ancora da definire.</td>
 <td>S05/S06/S15</td>
@@ -73,7 +73,7 @@
 <td>DS09 Recensione</td>
 <td>Autore/identità visibile, visita, contesto, testo e risposte, fonte</td>
 <td>Breve, estesa, senza testo, segnalata</td>
-<td>Nome e visita dichiarati non garantiscono autenticità. Contributo umano distinto da riepilogo AI. Testo lungo espandibile senza perdere la scheda. Nell’esempio Luca e visita sono mock.</td>
+<td>Nome e visita dichiarati non garantiscono autenticità. Contributo umano distinto da riepilogo AI. Testo lungo espandibile senza perdere la scheda. Nell’esempio Luca e visita sono mock. DS20 rende visibile una testimonianza anche nelle card; nessuna recensione viene inventata per coprire assenze.</td>
 <td>S05/S08/S13/S17/S20</td>
 </tr>
 <tr>
@@ -133,15 +133,43 @@
 <td>S05/S07</td>
 </tr>
 <tr>
+<td>DS18 Mappa, marker e lista equivalente</td>
+<td>Luogo ID stabile; ordinale per città; marker normale/selezionato/salvato/dato assente; stesso contesto e criteri della lista.</td>
+<td>Default, selezionato, salvato, rumore assente, nessun risultato</td>
+<td>La demo usa una mappa schematica senza geolocalizzazione o confini reali. Numero, testo, ? e stato premuto accompagnano il colore. Il cambio mappa/lista conserva selezione, query e criteri. Pan geografico e Cerca in quest’area richiedono SDK e bounds reali, non simulati come risultati live.</td>
+<td>S02/S03</td>
+</tr>
+<tr>
 <td>DS19 Affluenza per fasce</td>
-<td>Tre fasce configurabili, giorno, livello, copertura, provenienza; selettore DS01 + DS16</td>
+<td>Tre fasce configurabili, giorno, livelli, copertura e provenienza; selettore DS01 + DS16.</td>
 <td>Disponibile, limitato, giorno assente, fascia assente, chiuso</td>
-<td>Separata da DS08 e dal gradimento. Livelli e orari testuali, non solo colore; assenza non equivale a Bassa. Confrontare solo fasce disponibili. Pannello con focus sul giorno corrente, Escape e ritorno al pulsante; stesso giorno in S05/S06. Profili mock espliciti, non stime live.</td>
+<td>Separata da luce, rumore e comfort. Assenza e chiusura non equivalgono a Bassa; raccomandazioni solo sui dati disponibili. Dialogo con apertura tastiera, Escape e focus restituito. Profili demo predisposti, non medie calcolate o dati live.</td>
 <td>S05/S06</td>
+</tr>
+<tr>
+<td>DS20 Preview della recensione</td>
+<td>Composizione DS09/DS07; testo fino a tre righe in card e completo in scheda; autore, visita, fascia, compagnia; link recensioni.</td>
+<td>Disponibile, testo lungo, nessuna recensione</td>
+<td>Mostra la prima testimonianza del catalogo mock in ordine esplicito, senza ordinarla per sentiment o creare una media. La recensione resta di una visita; separata da riepiloghi AI e intensità. Niente badge di visita verificata. Il testo completo è leggibile in S08; assenza distinta da giudizio negativo.</td>
+<td>S02/S03/S05/S13/S14/S19</td>
+</tr>
+<tr>
+<td>DS21 Filtri rapidi e regola del criterio</td>
+<td>Budget e rumore rapidi; contatore filtri; requisito/preferenza; editor in bozza, applica/annulla/azzera.</td>
+<td>Non selezionato, selezionato, bozza, applicato, annullato, dati da verificare</td>
+<td>Budget e spazio all’aperto sono requisiti. Rumore necessario esclude dati mancanti e oltre limite; come preferenza li presenta in gruppi separati, mai come corrispondenze. Azzera nell’editor modifica solo la bozza; Annulla conserva la ricerca. Giorno e fascia del dato non sono filtri attivi.</td>
+<td>S02/S03/S04</td>
+</tr>
+<tr>
+<td>DS22 Azione contestuale della scheda</td>
+<td>Una CTA principale persistente sopra la navigazione; individuale/gruppo/incompatibile; label e destinatario espliciti.</td>
+<td>Proponi al gruppo, preferenza nel gruppo, incompatibile, focus</td>
+<td>Da ricerca personale propone il luogo; dal gruppo esprime solo una preferenza, senza confermare amici o accordo. La proposta esistente della stessa città è conservata. Le altre azioni restano nel contenuto come secondarie. Stato incompatibile spiega perché la preferenza non è disponibile.</td>
+<td>S05/S13</td>
 </tr>
 </tbody></table>
 </div>
-<p><a href="Atmosfera_affluenza.html">Specifica e implementazione del pattern Atmosfera/Affluenza</a>. DS08 e DS19 sono implementati nel supporto HTML S05/S06; gli altri stati e le tavole statiche mantengono lo stato di specifica.</p>
+<p><a href="Atmosfera_affluenza.html">Specifica e implementazione del pattern Atmosfera/Affluenza</a>. DS08 e DS19 sono implementati nel supporto HTML S05/S06; DS06/DS10 e DS18/DS20/DS21/DS22 riusano i nuovi renderer HTML. Gli stati non implementati e le tavole statiche restano specifiche.</p>
 <h2 id="regole-comuni-da-applicare-e-verificare">Regole comuni da applicare e verificare</h2>
 <p>Revisione visiva v0.3: icone da 24 px con tratto 1,8 px dentro target raccomandati di almeno 44; pulsanti 48 px e campi 52; tag descrittivi 28 px, senza segni che li facciano sembrare azioni; filtri interattivi 44 px con selezione esplicita. La navigazione usa una capsula circoscritta all’icona attiva. Nel passaggio a Figma mantenere distinte le varianti passive e interattive, invece di derivarle dallo stesso pulsante cambiandone soltanto il testo.</p>
 <p>Usare un oggetto luogo condiviso. Fonti, prezzi, date e copertura devono coincidere in card, scheda, messaggio AI e proposta. Il campione Cortile Uno nelle tile non certifica dati reali. I mock possono cambiare solo aggiornando tutti i loro usi.</p>

@@ -7,6 +7,19 @@
       (!criteria.noise||p.atmosphere.noise===criteria.noise)&&
       (!criteria.outdoor||p.practical.outdoor===true));
   }
+  // Preferenza esplicita: i dati assenti e le alternative fuori preferenza restano separati.
+  function partitionPlaces(places,criteria){
+    const base=filterPlaces(places,{...criteria,noise:''});
+    const matched=[],unknown=[],other=[];
+    for(const p of base){
+      const value=p.atmosphere.values?.noise;
+      const missing=p.atmosphere.noise==null||!Number.isFinite(value)||value<1||value>5||!p.atmosphere.noiseContributions;
+      const limit=criteria.noise==='basso'?2:3;
+      if(!criteria.noise||(!missing&&value<=limit))matched.push(p);
+      else if(criteria.noiseMode==='preferred') (missing?unknown:other).push(p);
+    }
+    return{matched,unknown,other,all:[...matched,...unknown,...other]};
+  }
   function interpretRequest(text,current){
     const t=norm(text),city=t.includes('milano')?'Milano':t.includes('roma')?'Roma':null;
     if(t.includes('amsterdam'))return{state:'fuori_copertura'};
@@ -15,7 +28,7 @@
     if(!/(posto|luogo|caffe|cafe|tranquill|parlare)/.test(t))return{state:'non_predisposto'};
     const budget=/\b(?:entro|fino a|massimo|max)\s*(\d+)\b/.exec(t);
     return{state:'criteri',criteria:{city,query:'',budgetMax:budget?Number(budget[1]):current.budgetMax,
-      noise:/(tranquill|parlare)/.test(t)?'basso':current.noise,outdoor:t.includes('aperto')?true:current.outdoor},request:text};
+      noise:/(tranquill|parlare)/.test(t)?'basso':current.noise,noiseMode:/(tranquill|parlare)/.test(t)?'required':(current.noiseMode||'required'),outdoor:t.includes('aperto')?true:current.outdoor},request:text};
   }
   function groupOutcome(group){
     const pending=group.members.filter(m=>m.invite==='invited');
@@ -44,5 +57,5 @@
       shownName:draft.shownName,visitDate:draft.visitDate,slot:draft.slot,simulated:true};
     submissions.push(submission);return{ok:true,submission};
   }
-  return{norm,filterPlaces,interpretRequest,groupOutcome,resetConfirmations,chooseGroupPlace,updateGroupCriteria,suggestionFor,publishDraft};
+  return{norm,filterPlaces,partitionPlaces,interpretRequest,groupOutcome,resetConfirmations,chooseGroupPlace,updateGroupCriteria,suggestionFor,publishDraft};
 });

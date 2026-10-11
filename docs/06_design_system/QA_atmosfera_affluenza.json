@@ -58,7 +58,8 @@
       "Dati parziali e assenti leggibili, senza barre inventate",
       "Controllo del giorno alto 48 px",
       "Semantica e nomi disponibili nell’albero di accessibilità",
-      "Anteprima del catalogo con scope A/B; tema A conserva titolo Georgia 24 px"
+      "Anteprima del catalogo con scope A/B; tema A conserva titolo Georgia 24 px",
+      "Riconferma S05 Pop a 320 px e catalogo con tema generale Pop/Calda"
     ],
     "limitations": [
       "Non è una sessione VoiceOver né un test con partecipanti.",
@@ -219,8 +220,8 @@
   "assets": {
     "atmosfera-affluenza.js": "903fbe9f3d168f9135e2ff6ef35f241826a76df74bba06b5a22e1db07c10ca52",
     "atmosfera-affluenza.css": "b442faeb9aec0d9b70ff716b17f0bba298204c89c0501ef233995fb0a89a8b28",
-    "tokens_A.css": "bbafde42627b9351bba1b68fe052de15153c9f70fa6630b03eafd94ddda02442",
-    "tokens_B.css": "d239690954d0e17226c936d049aee12bd49e1ae8ec0559398ed16815e804f4c6"
+    "tokens_A.css": "f7f9467711da2b3bdb02baa88f51fc38ffe1b49cef19b20da336e8989cece133",
+    "tokens_B.css": "cada0f36d4a6cc9f5a7dcb3ac280f3e6189bb2a61144575e71e7f611ec990045"
   },
   "publication_note": "Copia per consultazione: i controlli e gli hash di origine descrivono gli asset del workspace. I percorsi locali sono stati normalizzati; il manifest di pubblicazione descrive i file distribuiti."
 }

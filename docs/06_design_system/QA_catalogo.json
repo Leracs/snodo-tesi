@@ -1,7 +1,7 @@
 {
   "date": "2026-10-11",
   "status": "PASS",
-  "scope": "Catalogo visivo e selettore di componenti, varianti e temi",
+  "scope": "Catalogo visivo, Pop principale e download SVG",
   "catalogue": {
     "components": 22,
     "groups": 5,
@@ -33,41 +33,54 @@
       "Stato campo errore: messaggio visibile",
       "Dati assenti: zero barre; fascia assente il lunedì: due barre e una assenza",
       "Cambio giorno: dialogo chiuso e focus restituito al selettore del giorno",
-      "320/390/1280 px: nessun overflow orizzontale del documento; campioni non tagliati a 320/390 px"
+      "320/390/1280 px: nessun overflow orizzontale del documento; campioni non tagliati a 320/390 px",
+      "Pop predefinito; selettore Calda alternativo conservato tra home, tesi e catalogo",
+      "Download SVG coerente con componente, variante e tema: DS01 secondario B/A",
+      "Download reale di un SVG e dello ZIP dal browser",
+      "Sezione download leggibile a 320 px"
     ]
   },
   "regression_tests": {
-    "passed": 32,
+    "passed": 41,
     "failed": 0,
     "data": 7,
     "core": 11,
-    "interactions": 14,
-    "new_cases": [
-      "Anteprima iniziale coerente con giorno e copertura; giorno non valido ignorato"
-    ]
+    "interactions": 23
   },
   "publication": {
     "status": "ready_for_push",
-    "source_branch": "codex/atmosfera-affluenza",
+    "source_branch": "codex/pop-svg",
     "pages_branch": "codex/pubblicazione",
     "pages_directory": "docs",
     "catalogue_path": "06_design_system/index.html"
   },
   "limitations": [
-    "Non sono test con partecipanti né una verifica completa di accessibilità.",
-    "Apertura file:// non verificata: protocollo bloccato dalla policy del browser di verifica.",
-    "La pubblicazione sul ramo Pages non è stata eseguita."
+    "Controlli tecnici, non test con partecipanti né verifica completa di accessibilità.",
+    "SVG statici; importazione Figma non verificata."
   ],
   "assets": {
     "catalogo.css": "528fb642c201c325a733b64399db5f8c82681deaf6040acc2b4ae1708a40ae39",
-    "catalogo-ui.js": "30bc66c93e87ee15c2a7c0f8f34cd72b6b86c96a3622b06792db4b436949fc62",
-    "costruisci_catalogo.mjs": "7d5f8d13839b4728bec5b9dfb2874aa65e65f7b737616102f3e72880901b3308",
+    "catalogo-ui.js": "76f60ad843ed457cf10695896dd9039a86b3eb51a6dbb47f547badec0c505e34",
+    "costruisci_catalogo.mjs": "f0efb8c36a46c42fa9ea871f1a09c0bc606701fb286bdad00a313bf5bb088f6b",
     "campioni-componenti.js": "47a082acd9a87461ec6ab0a3f71c48d4e506501b794d7dd167cc4ea685c0357b",
     "campioni-componenti.css": "9029e503b83284e2d4a191a3c9c456fd3934bd005d93808bc589cecec44b068f",
     "catalogo-componenti.js": "2b1e65d66a483b78a435cf50b34f151542165142bb7aff7c52cf5270e7521ee0",
     "Componenti_e_comportamenti.json": "3f5185ba5324a1f54db45b6005b55c389132606435110ec71b55311d5843d9ea",
-    "esplorazione.js": "293641242f8859eafab5f0060639914b95214cdae667f56eb0ba699cdf8e1d15",
-    "esplorazione.css": "e5dd18e8e2a8c3e2677327fb4c6273a511f0174dfe15f6e0472df8680ccfd7d8"
+    "esplorazione.js": "42d46d5b539eaaf72f1ce53a03e3e28269d03002a98c7c5030277fc4fa4e079e",
+    "esplorazione.css": "148cdde803e912efbeaebc4e4b334b0a56e9e24ab2a069bccf703bf66e40401c",
+    "tema-sito.css": "ac93959cd0ef028e82064bfa063cd5314b1fdca3dd3298e503f4f6512e55e14e",
+    "tema-sito.js": "5e89b6f89f3fe26e6d95fce21a46e39583a26746507971f2af7c35a3b5248b6b"
+  },
+  "svg": {
+    "files": 122,
+    "components": 22,
+    "themes": [
+      "B",
+      "A"
+    ],
+    "manifest": "SVG_manifest.json",
+    "archive": "svg/SNODO-componenti-SVG.zip",
+    "validation": "XML, hash SHA256, testi vettoriali, assenza di image/foreignObject"
   },
   "publication_note": "Copia per consultazione: i controlli e gli hash di origine descrivono gli asset del workspace. I percorsi locali sono stati normalizzati; il manifest di pubblicazione descrive i file distribuiti."
 }

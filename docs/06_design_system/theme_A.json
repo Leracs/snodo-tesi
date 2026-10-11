@@ -90,5 +90,16 @@
       "width": 390,
       "height": 844
     }
+  },
+  "geometry": {
+    "discovery": {
+      "place_thumbnail_width": 76,
+      "place_thumbnail_height": 84,
+      "place_card_padding": 16,
+      "review_padding": 14,
+      "map_marker_target": 44,
+      "detail_media_height": 120,
+      "place_action_height": 48
+    }
   }
 }
