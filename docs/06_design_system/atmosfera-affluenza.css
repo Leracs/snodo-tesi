@@ -1,0 +1,63 @@
+/* Componenti riutilizzabili DS08 / DS19. Colori e font derivano dai token A/B. */
+.snodo-context { container-type: inline-size; font: 400 16px/24px var(--font-body); color: var(--text); background: var(--surface); border-radius: var(--radius-card); overflow: hidden; margin: 24px 0; }
+.snodo-context * { box-sizing: border-box; }
+.snodo-context svg { display: block; width: 24px; height: 24px; flex: 0 0 24px; }
+.snodo-context .snodo-context-atmosphere { background: var(--atmosphereBg); padding: 16px; }
+.snodo-context .snodo-context-attendance { padding: 16px; }
+.snodo-context h2 { font: var(--heading-weight) 24px/1.4 var(--font-heading); color: var(--text); margin: 0; letter-spacing: 0; }
+body[data-theme="B"] .snodo-context h2 { font-size: 18px; line-height: 1.65; }
+.snodo-context-atmosphere > h2 { display: flex; align-items: center; gap: 8px; }
+.snodo-context-atmosphere > h2::before { content: ''; height: 24px; width: 4px; border-radius: 4px; background: var(--dataAccent); flex: 0 0 4px; }
+.snodo-context dl { margin: 8px 0 0; }
+.snodo-context-metric { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 6px 0; flex-wrap: wrap; }
+.snodo-context dt { display: flex; gap: 12px; align-items: center; font-weight: 600; }
+.snodo-context-icon { width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; background: var(--atmosphereIconBg); border-radius: 12px; flex: 0 0 36px; }
+.snodo-context-description { display: block; font-size: 14px; line-height: 20px; font-weight: 400; color: var(--muted); }
+.snodo-context dd { margin: 0 0 0 auto; display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }
+.snodo-context-rating { font-size: 16px; font-weight: 600; color: var(--dataAccent); font-variant-numeric: tabular-nums; }
+.snodo-context-rating small { color: var(--muted); font-size: 14px; font-weight: 400; }
+.snodo-context-dots { display: flex; gap: 4px; }
+.snodo-context-dots i { width: 8px; height: 4px; border-radius: 4px; background: var(--muted); }
+.snodo-context-dots .filled { background: var(--dataAccent); }
+.snodo-context-unavailable { font-size: 14px; color: var(--muted); }
+.snodo-context-heading { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+.snodo-context button { font: 400 16px/24px var(--font-body); min-height: var(--control-height); cursor: pointer; color: var(--text); }
+.snodo-context .snodo-context-day { display: flex; align-items: center; justify-content: center; gap: 4px; padding: 8px 12px; border: 0; border-radius: var(--radius-control); color: var(--dataAccent); background: var(--dataAccentSoft); font-size: 14px; line-height: 20px; }
+.snodo-context-day svg { width: 20px; height: 20px; flex-basis: 20px; }
+.snodo-context-day svg:last-child { width: 16px; height: 16px; flex-basis: 16px; }
+.snodo-context button:focus-visible { outline: var(--focus-width) solid var(--focus); outline-offset: var(--focus-offset); }
+.snodo-context .snodo-context-subtitle { font-size: 14px; line-height: 20px; color: var(--muted); margin: 8px 0 16px; }
+.snodo-context-bands { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,4.2rem),1fr)); gap: 12px; }
+.snodo-context-band { min-width: 0; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px; font-size: 14px; line-height: 20px; }
+.snodo-context-period { min-height: 20px; display: flex; align-items: flex-end; justify-content: center; color: var(--muted); }
+.snodo-context-mark { width: 48px; max-width: 100%; height: 48px; display: flex; align-items: flex-end; border-radius: 8px; background: var(--dataAccentSoft); overflow: hidden; margin: 4px 0; }
+.snodo-context-mark > span { width: 100%; background: var(--dataAccent); transition: height 160ms ease; }
+.snodo-context-no-mark { width: 48px; height: 48px; margin: 4px 0; display: flex; align-items: center; justify-content: center; color: var(--muted); }
+.snodo-context-time { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.snodo-context-level { font-weight: 600; }
+.snodo-context .snodo-context-best { display: flex; align-items: center; gap: 8px; background: var(--atmosphereBg); border-radius: 12px; padding: 12px; margin: 16px 0 0; font-size: 14px; line-height: 20px; }
+.snodo-context .snodo-context-best svg { width: 20px; height: 20px; flex-basis: 20px; }
+.snodo-context .snodo-context-caption { font-size: 14px; line-height: 20px; color: var(--muted); margin: 12px 0 0; }
+.snodo-context .snodo-context-missing { font-size: 16px; line-height: 24px; margin: 16px 0 0; }
+.snodo-context-status:empty { display: none; }
+.snodo-context .snodo-context-status { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.snodo-context-dialog { position: fixed; inset: auto 0 0; margin: 0 auto; width: min(100%,390px); max-height: 90%; overflow: auto; border: 0; padding: 16px; border-radius: var(--radius-card) var(--radius-card) 0 0; background: var(--surface); color: var(--text); }
+.snodo-context-dialog::backdrop { background: rgb(0 0 0 / .4); }
+.snodo-context-dialog > header { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 12px; }
+.snodo-context .snodo-context-close { width: 48px; flex: 0 0 48px; display: flex; align-items: center; justify-content: center; border: 0; border-radius: var(--radius-control); background: var(--dataAccentSoft); color: var(--dataAccent); padding: 0; }
+.snodo-context-days { display: grid; gap: 4px; }
+.snodo-context-days button { display: flex; align-items: center; justify-content: space-between; gap: 12px; width: 100%; border: 0; border-radius: var(--radius-field); padding: 12px; background: var(--surface); }
+.snodo-context-days button svg { visibility: hidden; }
+.snodo-context-days button[aria-pressed="true"] { color: var(--dataAccent); background: var(--dataAccentSoft); font-weight: 600; }
+.snodo-context-days button[aria-pressed="true"] svg { visibility: visible; }
+@media (prefers-reduced-motion: reduce) { .snodo-context-mark > span { transition: none; } }
+
+/* In un pannello stretto le tre fasce diventano righe complete, evitando 2+1. */
+@container (max-width: 270px) {
+  .snodo-context-bands { grid-template-columns: 1fr; gap: 12px; }
+  .snodo-context-band { display: grid; grid-template-columns: minmax(0,1fr) 36px minmax(52px,.7fr); grid-template-rows: auto auto; column-gap: 8px; row-gap: 0; text-align: left; }
+  .snodo-context-period { grid-column: 1; grid-row: 1; justify-content: flex-start; min-height: 0; }
+  .snodo-context-time { grid-column: 1; grid-row: 2; }
+  .snodo-context-mark, .snodo-context-no-mark { grid-column: 2; grid-row: 1 / 3; width: 36px; height: 36px; margin: 0; }
+  .snodo-context-level { grid-column: 3; grid-row: 1 / 3; padding-left: 4px; }
+}

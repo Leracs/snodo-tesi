@@ -38,7 +38,11 @@
     "dangerBg": "#FDE8EB",
     "info": "#254E68",
     "infoBg": "#E7F1F7",
-    "onPrimary": "#80EFED"
+    "onPrimary": "#80EFED",
+    "atmosphereBg": "#E4FAF6",
+    "atmosphereIconBg": "#ADEDE6",
+    "dataAccent": "#713799",
+    "dataAccentSoft": "#E9DDF0"
   },
   "common": {
     "bodyFont": "Helvetica Neue",

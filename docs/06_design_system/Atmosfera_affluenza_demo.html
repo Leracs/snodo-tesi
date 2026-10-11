@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="it" class="snodo-gate-locked">
+<head><meta name="robots" content="noindex,nofollow"><style id="snodo-access-critical">html.snodo-gate-locked body{overflow:hidden!important;background:#F7F1E8!important}html.snodo-gate-locked body>:not(#snodo-access-gate):not(#snodo-access-safety):not(noscript),html.snodo-gate-locked body>:not(#snodo-access-gate):not(#snodo-access-safety):not(noscript) *{visibility:hidden!important;pointer-events:none!important}</style><link rel="stylesheet" href="../accesso/gate.css?v=20261011-minimal"><script src="../accesso/gate.js?v=20261011-minimal" data-snodo-gate></script>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SNODO · Atmosfera e affluenza</title>
+  <link rel="stylesheet" href="tokens_A.css?v=bbafde42627b"><link rel="stylesheet" href="tokens_B.css?v=d239690954d0"><link rel="stylesheet" href="atmosfera-affluenza.css?v=f01282829905">
+  <script src="../07_prototipo/catalogo.js?v=341909daa157" defer></script><script src="atmosfera-affluenza.js?v=662cf167cef5" defer></script>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:var(--background);color:var(--text);font:16px/24px var(--font-body);padding:24px 16px}main{max-width:760px;margin:auto}h1{font:400 24px/1.6 var(--font-heading);margin:0 0 16px}a{color:var(--text);text-underline-offset:3px}.demo-controls{display:flex;gap:16px;flex-wrap:wrap;margin:20px 0 24px}.demo-controls label{display:flex;flex-direction:column;gap:8px;flex:1;min-width:min(100%,220px)}.demo-controls select{font:16px/24px var(--font-body);min-height:52px;background:var(--surface);color:var(--text);border:1px solid var(--border);border-radius:var(--radius-field);padding:12px;max-width:100%}.demo-controls select:focus-visible,a:focus-visible{outline:3px solid var(--focus);outline-offset:3px}#component{max-width:390px;margin:auto}.demo-note{font-size:14px;line-height:20px;max-width:600px}.snodo-context{margin:0}
+  </style>
+</head>
+<body data-theme="B"><noscript><div id="snodo-access-safety"><strong>SNODO · materiali della tesi</strong><p>Per usare il gate d’ingresso, attiva JavaScript nel browser e ricarica questa pagina.</p></div></noscript>
+  <main>
+    <p><a href="README.html">← Design system SNODO</a></p>
+    <h1>Atmosfera e affluenza</h1>
+    <p class="demo-note">Pattern DS08 + DS19. Tre fasce configurabili e condizioni separate. Tutti i valori sono esempi predisposti; Forma DJR Text usa il fallback Helvetica Neue.</p>
+    <div class="demo-controls">
+      <label>Direzione visiva<select id="demo-theme"><option value="B">B · Pop pastello</option><option value="A">A · Calda editoriale</option></select></label>
+      <label>Stato del componente<select id="demo-place"><option value="luogo-roma-01">Cortile Uno · Dati limitati</option><option value="luogo-roma-02">Spazio Lume · Fascia assente il lunedì</option><option value="luogo-roma-04">Giardino Piccolo · Dati assenti</option></select></label>
+    </div>
+    <div id="component"></div>
+    <p class="demo-note"><a href="Atmosfera_affluenza.html">Leggi la specifica del pattern</a> · <a href="../07_prototipo/index.html">Apri il prototipo</a></p>
+  </main>
+  <script>
+    window.addEventListener('DOMContentLoaded',()=>{
+      const container=document.getElementById('component');
+      const select=document.getElementById('demo-place');
+      function render(){const place=window.SNODO_CATALOG.places.find(place=>place.id===select.value);container.innerHTML=window.SnodoAtmosfera.render(place);window.SnodoAtmosfera.mount(container,place);}
+      document.getElementById('demo-theme').addEventListener('change',event=>{document.body.dataset.theme=event.target.value;});
+      select.addEventListener('change',render);render();
+    });
+  </script>
+</body>
+</html>

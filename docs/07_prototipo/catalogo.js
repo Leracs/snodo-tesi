@@ -55,12 +55,180 @@ window.SNODO_CATALOG = {
         "values": {
           "noise": 2,
           "light": 3,
-          "crowding": 2
+          "crowding": 2,
+          "comfort": 4
         },
         "metricCoverage": {
           "noise": 2,
           "light": 3,
-          "crowding": 3
+          "crowding": 3,
+          "comfort": 3
+        },
+        "attendance": {
+          "bands": [
+            {
+              "id": "pomeriggio",
+              "label": "Pomeriggio",
+              "start": "16:00",
+              "end": "18:00"
+            },
+            {
+              "id": "sera",
+              "label": "Sera",
+              "start": "18:00",
+              "end": "21:00"
+            },
+            {
+              "id": "tarda-sera",
+              "label": "Tarda sera",
+              "start": "21:00",
+              "end": "23:00"
+            }
+          ],
+          "days": [
+            {
+              "day": 0,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 1
+                },
+                {
+                  "band": "sera",
+                  "value": 4,
+                  "contributions": 1
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 3,
+                  "contributions": 1
+                }
+              ]
+            },
+            {
+              "day": 1,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 1
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 1
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 2,
+                  "contributions": 1
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 1
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 1
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 2,
+                  "contributions": 1
+                }
+              ]
+            },
+            {
+              "day": 3,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 1
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 1
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 2,
+                  "contributions": 1
+                }
+              ]
+            },
+            {
+              "day": 4,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 1
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 1
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 2,
+                  "contributions": 1
+                }
+              ]
+            },
+            {
+              "day": 5,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 1
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 1
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 2,
+                  "contributions": 1
+                }
+              ]
+            },
+            {
+              "day": 6,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 1
+                },
+                {
+                  "band": "sera",
+                  "value": 4,
+                  "contributions": 1
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 3,
+                  "contributions": 1
+                }
+              ]
+            }
+          ],
+          "source": "Profili mock predisposti; non calcolati dai contributi",
+          "method": "Intensità illustrative 1–5 per giorno e fascia; non misure live né medie reali"
         },
         "lastContribution": "2026-10-01",
         "source": "Contributi mock",
@@ -142,12 +310,180 @@ window.SNODO_CATALOG = {
         "values": {
           "noise": 3,
           "light": 3,
-          "crowding": 2
+          "crowding": 2,
+          "comfort": 4
         },
         "metricCoverage": {
           "noise": 6,
           "light": 6,
-          "crowding": 6
+          "crowding": 6,
+          "comfort": 6
+        },
+        "attendance": {
+          "bands": [
+            {
+              "id": "pomeriggio",
+              "label": "Pomeriggio",
+              "start": "16:00",
+              "end": "18:00"
+            },
+            {
+              "id": "sera",
+              "label": "Sera",
+              "start": "18:00",
+              "end": "21:00"
+            },
+            {
+              "id": "tarda-sera",
+              "label": "Tarda sera",
+              "start": "21:00",
+              "end": "23:00"
+            }
+          ],
+          "days": [
+            {
+              "day": 0,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 2
+                },
+                {
+                  "band": "sera",
+                  "value": 4,
+                  "contributions": 2
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 3,
+                  "contributions": 2
+                }
+              ]
+            },
+            {
+              "day": 1,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 2
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 2
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": null,
+                  "contributions": 0
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 2
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 2
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 2,
+                  "contributions": 2
+                }
+              ]
+            },
+            {
+              "day": 3,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 2
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 2
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 2,
+                  "contributions": 2
+                }
+              ]
+            },
+            {
+              "day": 4,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 2
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 2
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 2,
+                  "contributions": 2
+                }
+              ]
+            },
+            {
+              "day": 5,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 2
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 2
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 2,
+                  "contributions": 2
+                }
+              ]
+            },
+            {
+              "day": 6,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 2
+                },
+                {
+                  "band": "sera",
+                  "value": 4,
+                  "contributions": 2
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 3,
+                  "contributions": 2
+                }
+              ]
+            }
+          ],
+          "source": "Profili mock predisposti; non calcolati dai contributi",
+          "method": "Intensità illustrative 1–5 per giorno e fascia; non misure live né medie reali"
         },
         "lastContribution": "2026-10-01",
         "source": "Contributi mock",
@@ -229,12 +565,180 @@ window.SNODO_CATALOG = {
         "values": {
           "noise": 4,
           "light": 3,
-          "crowding": 2
+          "crowding": 2,
+          "comfort": 4
         },
         "metricCoverage": {
           "noise": 5,
           "light": 5,
-          "crowding": 5
+          "crowding": 5,
+          "comfort": 5
+        },
+        "attendance": {
+          "bands": [
+            {
+              "id": "pomeriggio",
+              "label": "Pomeriggio",
+              "start": "16:00",
+              "end": "18:00"
+            },
+            {
+              "id": "sera",
+              "label": "Sera",
+              "start": "18:00",
+              "end": "21:00"
+            },
+            {
+              "id": "tarda-sera",
+              "label": "Tarda sera",
+              "start": "21:00",
+              "end": "23:00"
+            }
+          ],
+          "days": [
+            {
+              "day": 0,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 1
+                },
+                {
+                  "band": "sera",
+                  "value": 4,
+                  "contributions": 1
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 3,
+                  "contributions": 1
+                }
+              ]
+            },
+            {
+              "day": 1,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 1
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 1
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 2,
+                  "contributions": 1
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 1
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 1
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 2,
+                  "contributions": 1
+                }
+              ]
+            },
+            {
+              "day": 3,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 1
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 1
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 2,
+                  "contributions": 1
+                }
+              ]
+            },
+            {
+              "day": 4,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 1
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 1
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 2,
+                  "contributions": 1
+                }
+              ]
+            },
+            {
+              "day": 5,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 1
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 1
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 2,
+                  "contributions": 1
+                }
+              ]
+            },
+            {
+              "day": 6,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 1
+                },
+                {
+                  "band": "sera",
+                  "value": 4,
+                  "contributions": 1
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 3,
+                  "contributions": 1
+                }
+              ]
+            }
+          ],
+          "source": "Profili mock predisposti; non calcolati dai contributi",
+          "method": "Intensità illustrative 1–5 per giorno e fascia; non misure live né medie reali"
         },
         "lastContribution": "2026-10-01",
         "source": "Contributi mock",
@@ -316,12 +820,180 @@ window.SNODO_CATALOG = {
         "values": {
           "noise": null,
           "light": null,
-          "crowding": null
+          "crowding": null,
+          "comfort": null
         },
         "metricCoverage": {
           "noise": 0,
           "light": 0,
-          "crowding": 0
+          "crowding": 0,
+          "comfort": 0
+        },
+        "attendance": {
+          "bands": [
+            {
+              "id": "pomeriggio",
+              "label": "Pomeriggio",
+              "start": "16:00",
+              "end": "18:00"
+            },
+            {
+              "id": "sera",
+              "label": "Sera",
+              "start": "18:00",
+              "end": "21:00"
+            },
+            {
+              "id": "tarda-sera",
+              "label": "Tarda sera",
+              "start": "21:00",
+              "end": "23:00"
+            }
+          ],
+          "days": [
+            {
+              "day": 0,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": null,
+                  "contributions": 0
+                },
+                {
+                  "band": "sera",
+                  "value": null,
+                  "contributions": 0
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": null,
+                  "contributions": 0
+                }
+              ]
+            },
+            {
+              "day": 1,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": null,
+                  "contributions": 0
+                },
+                {
+                  "band": "sera",
+                  "value": null,
+                  "contributions": 0
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": null,
+                  "contributions": 0
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": null,
+                  "contributions": 0
+                },
+                {
+                  "band": "sera",
+                  "value": null,
+                  "contributions": 0
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": null,
+                  "contributions": 0
+                }
+              ]
+            },
+            {
+              "day": 3,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": null,
+                  "contributions": 0
+                },
+                {
+                  "band": "sera",
+                  "value": null,
+                  "contributions": 0
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": null,
+                  "contributions": 0
+                }
+              ]
+            },
+            {
+              "day": 4,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": null,
+                  "contributions": 0
+                },
+                {
+                  "band": "sera",
+                  "value": null,
+                  "contributions": 0
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": null,
+                  "contributions": 0
+                }
+              ]
+            },
+            {
+              "day": 5,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": null,
+                  "contributions": 0
+                },
+                {
+                  "band": "sera",
+                  "value": null,
+                  "contributions": 0
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": null,
+                  "contributions": 0
+                }
+              ]
+            },
+            {
+              "day": 6,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": null,
+                  "contributions": 0
+                },
+                {
+                  "band": "sera",
+                  "value": null,
+                  "contributions": 0
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": null,
+                  "contributions": 0
+                }
+              ]
+            }
+          ],
+          "source": "Profili mock predisposti; non calcolati dai contributi",
+          "method": "Intensità illustrative 1–5 per giorno e fascia; non misure live né medie reali"
         },
         "lastContribution": null,
         "source": "Contributi mock",
@@ -393,12 +1065,180 @@ window.SNODO_CATALOG = {
         "values": {
           "noise": 2,
           "light": 3,
-          "crowding": 2
+          "crowding": 2,
+          "comfort": 4
         },
         "metricCoverage": {
           "noise": 4,
           "light": 4,
-          "crowding": 4
+          "crowding": 4,
+          "comfort": 4
+        },
+        "attendance": {
+          "bands": [
+            {
+              "id": "pomeriggio",
+              "label": "Pomeriggio",
+              "start": "16:00",
+              "end": "18:00"
+            },
+            {
+              "id": "sera",
+              "label": "Sera",
+              "start": "18:00",
+              "end": "21:00"
+            },
+            {
+              "id": "tarda-sera",
+              "label": "Tarda sera",
+              "start": "21:00",
+              "end": "23:00"
+            }
+          ],
+          "days": [
+            {
+              "day": 0,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 1
+                },
+                {
+                  "band": "sera",
+                  "value": 4,
+                  "contributions": 1
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 3,
+                  "contributions": 1
+                }
+              ]
+            },
+            {
+              "day": 1,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 1
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 1
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 2,
+                  "contributions": 1
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 1
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 1
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 2,
+                  "contributions": 1
+                }
+              ]
+            },
+            {
+              "day": 3,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 1
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 1
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 2,
+                  "contributions": 1
+                }
+              ]
+            },
+            {
+              "day": 4,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 1
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 1
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 2,
+                  "contributions": 1
+                }
+              ]
+            },
+            {
+              "day": 5,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 1
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 1
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 2,
+                  "contributions": 1
+                }
+              ]
+            },
+            {
+              "day": 6,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 1
+                },
+                {
+                  "band": "sera",
+                  "value": 4,
+                  "contributions": 1
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 3,
+                  "contributions": 1
+                }
+              ]
+            }
+          ],
+          "source": "Profili mock predisposti; non calcolati dai contributi",
+          "method": "Intensità illustrative 1–5 per giorno e fascia; non misure live né medie reali"
         },
         "lastContribution": "2026-10-01",
         "source": "Contributi mock",
@@ -480,12 +1320,180 @@ window.SNODO_CATALOG = {
         "values": {
           "noise": 3,
           "light": 3,
-          "crowding": 2
+          "crowding": 2,
+          "comfort": 4
         },
         "metricCoverage": {
           "noise": 7,
           "light": 7,
-          "crowding": 7
+          "crowding": 7,
+          "comfort": 7
+        },
+        "attendance": {
+          "bands": [
+            {
+              "id": "pomeriggio",
+              "label": "Pomeriggio",
+              "start": "16:00",
+              "end": "18:00"
+            },
+            {
+              "id": "sera",
+              "label": "Sera",
+              "start": "18:00",
+              "end": "21:00"
+            },
+            {
+              "id": "tarda-sera",
+              "label": "Tarda sera",
+              "start": "21:00",
+              "end": "23:00"
+            }
+          ],
+          "days": [
+            {
+              "day": 0,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 2
+                },
+                {
+                  "band": "sera",
+                  "value": 4,
+                  "contributions": 2
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 3,
+                  "contributions": 2
+                }
+              ]
+            },
+            {
+              "day": 1,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 2
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 2
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": null,
+                  "contributions": 0
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 2
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 2
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 2,
+                  "contributions": 2
+                }
+              ]
+            },
+            {
+              "day": 3,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 2
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 2
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 2,
+                  "contributions": 2
+                }
+              ]
+            },
+            {
+              "day": 4,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 2
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 2
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 2,
+                  "contributions": 2
+                }
+              ]
+            },
+            {
+              "day": 5,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 2
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 2
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 2,
+                  "contributions": 2
+                }
+              ]
+            },
+            {
+              "day": 6,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 2
+                },
+                {
+                  "band": "sera",
+                  "value": 4,
+                  "contributions": 2
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 3,
+                  "contributions": 2
+                }
+              ]
+            }
+          ],
+          "source": "Profili mock predisposti; non calcolati dai contributi",
+          "method": "Intensità illustrative 1–5 per giorno e fascia; non misure live né medie reali"
         },
         "lastContribution": "2026-10-01",
         "source": "Contributi mock",
@@ -567,12 +1575,180 @@ window.SNODO_CATALOG = {
         "values": {
           "noise": 4,
           "light": 3,
-          "crowding": 2
+          "crowding": 2,
+          "comfort": 4
         },
         "metricCoverage": {
           "noise": 8,
           "light": 8,
-          "crowding": 8
+          "crowding": 8,
+          "comfort": 8
+        },
+        "attendance": {
+          "bands": [
+            {
+              "id": "pomeriggio",
+              "label": "Pomeriggio",
+              "start": "16:00",
+              "end": "18:00"
+            },
+            {
+              "id": "sera",
+              "label": "Sera",
+              "start": "18:00",
+              "end": "21:00"
+            },
+            {
+              "id": "tarda-sera",
+              "label": "Tarda sera",
+              "start": "21:00",
+              "end": "23:00"
+            }
+          ],
+          "days": [
+            {
+              "day": 0,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 2
+                },
+                {
+                  "band": "sera",
+                  "value": 4,
+                  "contributions": 2
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 3,
+                  "contributions": 2
+                }
+              ]
+            },
+            {
+              "day": 1,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 2
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 2
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 2,
+                  "contributions": 2
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 2
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 2
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 2,
+                  "contributions": 2
+                }
+              ]
+            },
+            {
+              "day": 3,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 2
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 2
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 2,
+                  "contributions": 2
+                }
+              ]
+            },
+            {
+              "day": 4,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 2
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 2
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 2,
+                  "contributions": 2
+                }
+              ]
+            },
+            {
+              "day": 5,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 2
+                },
+                {
+                  "band": "sera",
+                  "value": 3,
+                  "contributions": 2
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 2,
+                  "contributions": 2
+                }
+              ]
+            },
+            {
+              "day": 6,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": 2,
+                  "contributions": 2
+                },
+                {
+                  "band": "sera",
+                  "value": 4,
+                  "contributions": 2
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": 3,
+                  "contributions": 2
+                }
+              ]
+            }
+          ],
+          "source": "Profili mock predisposti; non calcolati dai contributi",
+          "method": "Intensità illustrative 1–5 per giorno e fascia; non misure live né medie reali"
         },
         "lastContribution": "2026-10-01",
         "source": "Contributi mock",
@@ -654,12 +1830,180 @@ window.SNODO_CATALOG = {
         "values": {
           "noise": null,
           "light": null,
-          "crowding": null
+          "crowding": null,
+          "comfort": null
         },
         "metricCoverage": {
           "noise": 0,
           "light": 0,
-          "crowding": 0
+          "crowding": 0,
+          "comfort": 0
+        },
+        "attendance": {
+          "bands": [
+            {
+              "id": "pomeriggio",
+              "label": "Pomeriggio",
+              "start": "16:00",
+              "end": "18:00"
+            },
+            {
+              "id": "sera",
+              "label": "Sera",
+              "start": "18:00",
+              "end": "21:00"
+            },
+            {
+              "id": "tarda-sera",
+              "label": "Tarda sera",
+              "start": "21:00",
+              "end": "23:00"
+            }
+          ],
+          "days": [
+            {
+              "day": 0,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": null,
+                  "contributions": 0
+                },
+                {
+                  "band": "sera",
+                  "value": null,
+                  "contributions": 0
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": null,
+                  "contributions": 0
+                }
+              ]
+            },
+            {
+              "day": 1,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": null,
+                  "contributions": 0
+                },
+                {
+                  "band": "sera",
+                  "value": null,
+                  "contributions": 0
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": null,
+                  "contributions": 0
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": null,
+                  "contributions": 0
+                },
+                {
+                  "band": "sera",
+                  "value": null,
+                  "contributions": 0
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": null,
+                  "contributions": 0
+                }
+              ]
+            },
+            {
+              "day": 3,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": null,
+                  "contributions": 0
+                },
+                {
+                  "band": "sera",
+                  "value": null,
+                  "contributions": 0
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": null,
+                  "contributions": 0
+                }
+              ]
+            },
+            {
+              "day": 4,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": null,
+                  "contributions": 0
+                },
+                {
+                  "band": "sera",
+                  "value": null,
+                  "contributions": 0
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": null,
+                  "contributions": 0
+                }
+              ]
+            },
+            {
+              "day": 5,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": null,
+                  "contributions": 0
+                },
+                {
+                  "band": "sera",
+                  "value": null,
+                  "contributions": 0
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": null,
+                  "contributions": 0
+                }
+              ]
+            },
+            {
+              "day": 6,
+              "values": [
+                {
+                  "band": "pomeriggio",
+                  "value": null,
+                  "contributions": 0
+                },
+                {
+                  "band": "sera",
+                  "value": null,
+                  "contributions": 0
+                },
+                {
+                  "band": "tarda-sera",
+                  "value": null,
+                  "contributions": 0
+                }
+              ]
+            }
+          ],
+          "source": "Profili mock predisposti; non calcolati dai contributi",
+          "method": "Intensità illustrative 1–5 per giorno e fascia; non misure live né medie reali"
         },
         "lastContribution": null,
         "source": "Contributi mock",

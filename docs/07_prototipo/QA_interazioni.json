@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T14:18:53.434Z",
+  "generatedAt": "2026-10-11T14:42:35.461Z",
   "type": "technical_code_harness_with_minimal_fake_DOM",
   "executed": true,
   "finiteRun": true,
@@ -21,11 +21,11 @@
   "sources": [
     {
       "file": "index.html",
-      "sha256": "e7b401f494b09c6cdebc81a1a8ae0d8fcc947ed673adc2354f6d14b3cf0118ad"
+      "sha256": "d0d84c02a96d7e51c644d7d6a179001bf064a21ce668c001a1ab6c59319df9ef"
     },
     {
       "file": "app.js",
-      "sha256": "c94c60085c966a22e13a4491b58592e98bfb37c88e135d580781fca19c4f5fbd"
+      "sha256": "f75de02752999c7dcd7dbf0c4ce85a447e1faceba1169bebb54d61c93b4475f5"
     },
     {
       "file": "core.js",
@@ -33,15 +33,15 @@
     },
     {
       "file": "catalogo.js",
-      "sha256": "835b6ed2e29b3c68b8c7e0557e7208b419ef2c64682ab0f4a0cd49a637a1704a"
+      "sha256": "341909daa157d0c2e3772f903b3301c07062f32454268e77519b0c5b6042bc1c"
     },
     {
       "file": "Catalogo_mock.json",
-      "sha256": "b09f4a22e6a95866c0bd498d84a2904458aa8e4743be6c858dba16c7f2c79800"
+      "sha256": "2ab3ce45b372c45d0f93f81f056102ba6974119fa3402a608af2fe8517a0cf95"
     },
     {
       "file": "build_catalogo.py",
-      "sha256": "6abe9c96e48112d6631e78a9ea233f0d74b6ad8375dda815fef9c69a2084227e"
+      "sha256": "c3695044722f87e48a03eb5900cd4e166150dce724bc4fcbc10659d79861e9d6"
     },
     {
       "file": "Verifiche_core.cjs",
@@ -49,7 +49,7 @@
     },
     {
       "file": "Verifiche_interazioni.cjs",
-      "sha256": "0da2dd13a27cb88fc4f02faa9678f7a80abfb4164793ab3b97945f675f08ac9b"
+      "sha256": "dc46e9ca3f0f59e49f36078a7f54ee39286db99bf6d756c25bef6e43c45948b6"
     }
   ],
   "results": [

@@ -1,6 +1,6 @@
 # Corrispondenza tra componenti dell’architettura e design system
 
-Due namespace distinti: **C01–C40** identificano responsabilità/componenti funzionali dell’architettura; **DS01–DS17** identificano primitive e composizioni della base visiva. Non sono lo stesso catalogo e non va dedotta una corrispondenza numerica. Una responsabilità IA può usare più elementi DS.
+Due namespace distinti: **C01–C40** identificano responsabilità/componenti funzionali dell’architettura; **DS01–DS17 e DS19** identificano primitive e composizioni della base visiva. Non sono lo stesso catalogo e non va dedotta una corrispondenza numerica. Una responsabilità IA può usare più elementi DS.
 
 Mappatura v0.1 sul file `03_architettura/Componenti.csv`, 11 ottobre 2026. Descrive come costruire le composizioni; non attesta componenti nativi già istanziati o comportamento testato.
 
@@ -17,7 +17,7 @@ Mappatura v0.1 sul file `03_architettura/Componenti.csv`, 11 ottobre 2026. Descr
 | Scheda/pannello | DS11 | C09 |
 | Informazioni pratiche | DS07, DS02 | C10 |
 | Azioni luogo | DS01 | C11 |
-| Atmosfera contestuale | DS08 | C12 |
+| Atmosfera contestuale | DS08, DS19, DS01, DS16, DS07 | C12 |
 | Galleria e viewer | DS17 | C13 |
 | Card recensione | DS09 | C14 |
 | Origine/limiti del dato | DS07 | C15 |
@@ -50,3 +50,5 @@ Mappatura v0.1 sul file `03_architettura/Componenti.csv`, 11 ottobre 2026. Descr
 La mappa schematica e i controlli lista richiedono una composizione di scheda/selezione, card, pulsanti e criteri: la base non include un SDK di mappe. Profilo/Salvati e inviti non sono disegnati come nuovi primitivi; riusano componenti e regole e devono essere costruiti nei rispettivi frame S01–S21. Il limite dimostrativo attraversa i componenti: nel prototipo resta esplicito anche fuori dall’interfaccia simulata.
 
 I dettagli dei nomi DS e delle transizioni sono in [Componenti_e_comportamenti.md](https://leracs.github.io/snodo-tesi/06_design_system/Componenti_e_comportamenti.md).
+
+DS08 presenta le condizioni del luogo; DS19 presenta l’affluenza per fasce. La distinzione mantiene C12 come responsabilità funzionale e compone il selettore del giorno con DS01/DS16. [Pattern integrato](Atmosfera_affluenza.md).

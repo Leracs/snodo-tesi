@@ -39,6 +39,10 @@
   --icon-stroke: 1.8px;
   --control-height: 48px;
   --field-height: 52px;
+  --atmosphereBg: #EEE4D7;
+  --atmosphereIconBg: #F6DDD0;
+  --dataAccent: #9C432D;
+  --dataAccentSoft: #F6DDD0;
   --focus-width: 3px;
   --focus-offset: 3px;
 }

@@ -76,7 +76,7 @@ function harness() {
     addEventListener: (name, listener) => listeners.set(name, listener)
   };
   const context = {
-    window: { SNODO_CATALOG: JSON.parse(JSON.stringify(catalog)), SnodoCore: core },
+    window: { SNODO_CATALOG: JSON.parse(JSON.stringify(catalog)), SnodoCore: core, SnodoAtmosfera: require('../06_design_system/atmosfera-affluenza.js') },
     document,
     sessionStorage: { getItem: key => storage.get(key) || null, setItem: (key, value) => storage.set(key, value) },
     setTimeout: () => 0, clearTimeout() {}, console

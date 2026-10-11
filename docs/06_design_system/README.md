@@ -1,6 +1,6 @@
 # Base di design system provvisoria
 
-SNODO, v0.3 — 11 ottobre 2026. Questa revisione affina proporzioni, gerarchie e dettagli dei componenti nelle due direzioni A/B; **nessuna UI definitiva è selezionata**. Non esiste in questa cartella una libreria Figma nativa già costruita o verificata.
+SNODO, v0.4 — 11 ottobre 2026. Questa revisione affina proporzioni, gerarchie e dettagli dei componenti nelle due direzioni A/B; **nessuna UI definitiva è selezionata**. Non esiste in questa cartella una libreria Figma nativa già costruita o verificata.
 
 Materiali:
 
@@ -8,7 +8,7 @@ Materiali:
 - `theme_A.json` / `theme_B.json`: valori piatti e misure delle due direzioni per il prototipo locale.
 - `tokens_A.css` / `tokens_B.css`: variabili CSS selezionate da `data-theme="A"` o `"B"`.
 - [Componenti_e_comportamenti.md](https://leracs.github.io/snodo-tesi/06_design_system/Componenti_e_comportamenti.md) e JSON: stati, proprietà e transizioni proposte.
-- [Corrispondenza_componenti_IA_DS.md](https://leracs.github.io/snodo-tesi/06_design_system/Corrispondenza_componenti_IA_DS.md) e JSON: mappatura compositiva tra DS01–DS17 e i componenti funzionali C01–C40 dell’architettura. I due namespace non sono intercambiabili.
+- [Corrispondenza_componenti_IA_DS.md](https://leracs.github.io/snodo-tesi/06_design_system/Corrispondenza_componenti_IA_DS.md) e JSON: mappatura compositiva dei componenti visivi (DS01–DS17, DS19) rispetto ai componenti funzionali C01–C40 dell’architettura. I due namespace non sono intercambiabili.
 - [Stati_e_controlli.svg](https://leracs.github.io/snodo-tesi/06_design_system/Stati_e_controlli.svg) e PNG: campioni statici di default/hover/premuto/focus/loading/disabled, campi, tag e recuperi. I comportamenti annotati sono specifiche, non interazioni del file SVG.
 - [Contrasti.csv](https://leracs.github.io/snodo-tesi/06_design_system/Contrasti.csv) e [Markdown](https://leracs.github.io/snodo-tesi/06_design_system/Contrasti.md): calcoli sRGB, coppie effettive, criteri e limiti.
 - [Controlli_build.json](https://leracs.github.io/snodo-tesi/06_design_system/Controlli_build.json): comparabilità delle tile, larghezze e contrasti; nessun feedback umano.
@@ -24,6 +24,10 @@ La direzione A mantiene crema e terracotta. B riprende la tavola proposta dallo 
 I colori semanticamente funzionali hanno ruoli condivisi. Successo, limite dei dati, errore e informazione sono sempre accompagnati da testo; una scelta selezionata presenta anche un segno vettoriale. Divider e accenti decorativi non sono l’unica indicazione di un controllo o stato. Non usare opacity sui testi della base: cambia il contrasto e richiede un nuovo calcolo.
 
 La superficie calma non deve nascondere gerarchia, dato mancante o azione. Il sistema privilegia informazioni pratiche prima della decisione, provenienza distinguibile, controlli correggibili e una testimonianza separata dal riepilogo AI. Nessun tag o indicatore certifica sicurezza, accoglienza o affidabilità universali.
+
+## Atmosfera e affluenza: pattern integrato
+
+La revisione v0.4 separa DS08 (luce, rumore, comfort) da DS19 (affluenza in tre fasce e giorno selezionabile). [Specifica e stati](Atmosfera_affluenza.md) · [Dimostrazione interattiva A/B](Atmosfera_affluenza_demo.html) · [Verifiche tecniche](QA_atmosfera_affluenza.json). La stessa implementazione è presente nella scheda S05 e nel dettaglio S06. Sono aggiunti quattro ruoli di colore accessibili; i font del progetto restano invariati. Il pattern è integrato in HTML; le tavole statiche e Figma non risultano migrate.
 
 ## Passaggio alla libreria definitiva
 

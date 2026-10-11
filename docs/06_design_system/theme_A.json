@@ -33,7 +33,11 @@
     "dangerBg": "#FBE4DF",
     "info": "#345968",
     "infoBg": "#E6EFF1",
-    "onPrimary": "#FFFFFF"
+    "onPrimary": "#FFFFFF",
+    "atmosphereBg": "#EEE4D7",
+    "atmosphereIconBg": "#F6DDD0",
+    "dataAccent": "#9C432D",
+    "dataAccentSoft": "#F6DDD0"
   },
   "common": {
     "bodyFont": "Trebuchet MS",
