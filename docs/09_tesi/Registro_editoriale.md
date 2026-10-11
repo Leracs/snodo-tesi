@@ -14,7 +14,7 @@ Versione del 11 ottobre 2026. Il PDF originale è conservato e non è stato modi
 | 4 Ideate | pp.25–27; blueprint e brief | Sviluppo attuale assistito. Alternative/ragioni senza Round Robin finto. No badge di garanzia, comfort universale o affollamento live. Tre ruoli AI e controlli specificati. |
 | 5 Prototype | p.28; immagine wireframe; blueprint | Nuovo testo strutturale. 21 schermate, tre flussi, oggetti, ritorni, geografia e recupero. Tile non selezionate; DS provvisorio; asset non equivalenti a Figma nativo verificato. |
 | 6 Valutazione | Brief e blueprint | Nuovo metodo futuro. Tre persone già coinvolte; prove senza esiti, simulazione gruppo dichiarata. |
-| 7 Conclusioni provvisorie | Indice pp.1/30 e piano editoriale | Nuovo testo di stato. Costi soltanto stime da costruire, impatto potenziale; uso AI descritto senza falsa verifica personale o conformità AANT. |
+| 7 Conclusioni provvisorie | Indice pp.1/30 e piano editoriale | Nuovo testo di stato. Costi soltanto stime da costruire, impatto potenziale; uso AI descritto senza falsa verifica personale o conformità alle indicazioni ricevute. |
 
 ## Voce e criteri editoriali
 

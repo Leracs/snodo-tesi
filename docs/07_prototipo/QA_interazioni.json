@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T13:26:05.643Z",
+  "generatedAt": "2026-10-11T14:18:53.434Z",
   "type": "technical_code_harness_with_minimal_fake_DOM",
   "executed": true,
   "finiteRun": true,
@@ -21,11 +21,11 @@
   "sources": [
     {
       "file": "index.html",
-      "sha256": "e7cd243b734af3022360d647551b99fbe34a7a595e0402e3c8199a8879f644e5"
+      "sha256": "e7b401f494b09c6cdebc81a1a8ae0d8fcc947ed673adc2354f6d14b3cf0118ad"
     },
     {
       "file": "app.js",
-      "sha256": "36d4976167eac23a39c1b38bbba2e4cae84a4c77ab27de3ed35c4a031483f92b"
+      "sha256": "c94c60085c966a22e13a4491b58592e98bfb37c88e135d580781fca19c4f5fbd"
     },
     {
       "file": "core.js",
@@ -126,28 +126,5 @@
       "evidence": "Il recupero mantiene il contributo e le scelte; il retry duplicato non crea un altro invio."
     }
   ],
-  "presentationSources": [
-    {
-      "file": "app.css",
-      "sha256": "0731de0a4bd378d65d4e0e3ce07f2d144fe6d2785fb243537fe71878b9708134"
-    },
-    {
-      "file": "../06_design_system/tokens_A.css",
-      "sha256": "c3e95f3c3073bbf7ebb86fca711236f5157adbaa09292e452cd5122652dc156d"
-    },
-    {
-      "file": "../06_design_system/tokens_B.css",
-      "sha256": "85e63114c794fd6489a6d5fbe4a051c099c7c538b3a019073186220efe369fcd"
-    },
-    {
-      "file": "../05_style_tiles/Media_cortile_A.svg",
-      "sha256": "3093f91a2521f622decec6dae54f8a8572997c6c72e69909cd0a0d382aa0744c"
-    },
-    {
-      "file": "../05_style_tiles/Media_cortile_B.svg",
-      "sha256": "41a02984b66b356cf6c68a034d62634d6f3d9088349c726bc0e03e7de866197a"
-    }
-  ],
-  "presentationScope": "Modifica del solo markup della funzione card e dei CSS: media dimostrativi, gerarchia nome/prezzo, metadati e componenti. Dati, handler, routing e chiave di sessione invariati. Gli hash presentationSources tracciano i file visivi; questo harness non ne verifica layout o pixel.",
   "publication_note": "Copia per consultazione: i controlli e gli hash di origine descrivono gli asset del workspace. I percorsi locali sono stati normalizzati; il manifest di pubblicazione descrive i file distribuiti."
 }

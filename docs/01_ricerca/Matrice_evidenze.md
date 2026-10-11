@@ -538,7 +538,7 @@ I requisiti R01–R17 e le schermate S01–S21 rimandano al blueprint. Le voci m
 
 ### E045 M
 
-**Fonte:** materiali/Brief_progetto_confermato.md e Prompt_operativo_tesi_UX_UI.md. **Riferimento:** Disposizioni ufficiali AANT.
+**Fonte:** materiali/Brief_progetto_confermato.md e Prompt_operativo_tesi_UX_UI.md. **Riferimento:** Disposizioni ufficiali dell’accademia.
 
 **Elemento:** AI consentita con dichiarazione secondo autore; testo ufficiale non fornito. **Misura/base:** Conferma sull’uso, non conformità accertata.
 

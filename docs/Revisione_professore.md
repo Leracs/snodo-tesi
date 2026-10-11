@@ -1,6 +1,6 @@
 # Valutazione della prima costruzione
 
-11 ottobre 2026. Revisione del progetto nella funzione di tutor richiesta dall'autore; non è una valutazione ufficiale AANT.
+11 ottobre 2026. Revisione del progetto nella funzione di tutor richiesta dall'autore; non è una valutazione ufficiale.
 
 La prima consegna rende verificabile il passaggio dalla ricerca all'interfaccia. La struttura copre scelta individuale, decisione con amici e contributo dopo la visita, mantenendo un solo oggetto luogo. Il perimetro iniziale italiano è separato dalle due città usate nel catalogo dimostrativo. Le due direzioni UI sono confrontabili, con gli stessi contenuti e componenti.
 
