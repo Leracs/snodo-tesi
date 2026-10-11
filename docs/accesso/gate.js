@@ -194,7 +194,7 @@
       button.type = 'button';
       button.textContent = 'Esci';
       button.setAttribute('aria-label', 'Esci dai materiali SNODO');
-      const host = document.querySelector('[data-snodo-access-actions]');
+      const host = document.querySelector('.snodo-site-session[data-snodo-access-actions]');
       if (!host) button.classList.add('snodo-access-exit-floating');
       (host || document.body).appendChild(button);
       button.addEventListener('click', () => {
