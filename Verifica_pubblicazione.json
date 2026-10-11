@@ -38,5 +38,28 @@
   ],
   "raw_originals_excluded": true,
   "original_workspace_unchanged": true,
-  "repository_public_chosen_by_user": true
+  "repository_public_chosen_by_user": true,
+  "navigation_v2_update": {
+    "date": "2026-10-11",
+    "status": "PASS",
+    "scope": "Verifiche locali dell’esportazione prima del push; verifica online riportata separatamente.",
+    "static_export": {
+      "html_pages": 38,
+      "local_references_checked": 1340,
+      "all_HTML_gated": true
+    },
+    "home": "Un ingresso primario alla tesi, checklist e materiale di lavoro separati.",
+    "thesis_hub": "Quattro testi prima delle figure; revisioni non duplicate.",
+    "checklist": "Pagina dedicata:21azioni/6fasi,identificatori e salvataggio personali preservati.",
+    "browser_checks": {
+      "widths": [
+        1265,
+        390
+      ],
+      "horizontal_overflow": false,
+      "reader_49_notes_and_clean_view": true,
+      "checklist_check_reload_restore": true
+    },
+    "text_sources_Word_figures_gate_preserved": true
+  }
 }

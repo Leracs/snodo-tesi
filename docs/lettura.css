@@ -280,3 +280,153 @@ body[data-review-view="clean"] .figure-revision-note{display:none}
 @media(max-width:780px){.revision-panel,.revision-archive{padding:20px}.revision-panel h2{font-size:24px}.editorial-change{padding-left:12px}.revision-links{grid-template-columns:1fr}.revision-controls button{flex-grow:1}.change-note{padding:10px 12px}}
 @media(max-width:600px){body[data-review-view] .reader-top-inner{flex-wrap:wrap;gap:0}body[data-review-view] .top-actions{width:100%;justify-content:flex-start;padding-bottom:8px}body[data-review-view] .toc{top:160px}body[data-review-view] .editorial-change{scroll-margin-top:165px}}
 @media print{.revision-panel,.revision-archive,.revision-hub{display:none}.editorial-change{border-left-width:1pt;break-inside:auto}.change-note{break-inside:avoid}.original-excerpt{break-inside:avoid}.original-comparison summary{display:none}.editorial-change ins{background:#e8f1e8;color:#1e4a2b}.editorial-change del{background:#f8e6e2;color:#7c302c}}
+
+/* Portale: lettura, azioni e costruzione hanno ingressi distinti. */
+.portal .reader-top-inner{max-width:1180px;padding-block:9px}
+.portal-brand{color:var(--ink);letter-spacing:-.04em;font-size:21px;gap:14px}
+.portal-brand .brand-caption{font-size:12px;letter-spacing:0;font-weight:normal;color:var(--muted)}
+.portal .top-actions{gap:7px}
+.portal .top-actions>a{display:inline-flex;align-items:center;min-height:44px;padding:7px 14px;text-decoration:none;border-radius:6px;color:var(--muted)}
+.portal .top-actions>a:hover{background:#eee5d9;color:var(--ink)}
+.portal .top-actions>a[aria-current="page"]{background:#e9e8dd;color:#36463b;font-weight:bold}
+.portal-wrap{max-width:1180px;padding-top:40px}
+.portal .document-header{margin-bottom:28px}
+.portal .document-header .eyebrow{margin-bottom:12px}
+.portal .document-header h1{font-size:48px;margin-bottom:12px}
+.portal .portal-lead{font-size:18px;line-height:1.55;margin:0;max-width:64ch}
+.home-paths{display:grid;grid-template-columns:1.4fr 1fr;gap:24px}
+.home-primary{padding:34px 38px;background:#e9ece2;border:1px solid #c8cebe;border-radius:12px}
+.home-primary .eyebrow{font-size:10px;color:#465746;margin-bottom:18px}
+.home-primary h2{font:38px/1.15 Georgia,serif;letter-spacing:-.025em;margin:0 0 15px;color:#2f4035}
+.home-primary>p:not(.eyebrow){font-size:16px;line-height:1.6;margin:0 0 22px;max-width:46ch}
+.portal-button{display:inline-flex;align-items:center;justify-content:space-between;gap:28px;min-height:48px;padding:11px 18px;border:1px solid #36463b;border-radius:6px;background:#36463b;color:white;font-size:14px;font-weight:bold;line-height:1.4;text-decoration:none}
+.portal-button:hover{background:#25342b;text-decoration:none}
+.portal-button span{font-size:20px;font-weight:normal}
+.portal-button-secondary{background:var(--surface);color:var(--ink);border-color:#9a8878}
+.portal-button-secondary:hover{background:#eee5d9}
+.home-primary .home-primary-note{font-size:12px!important;color:#465746;margin:18px 0 0!important;max-width:49ch!important;line-height:1.6}
+.home-secondary{display:flex;flex-direction:column;gap:20px}
+.home-route{display:block;flex:1;padding:23px 28px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink);text-decoration:none}
+.home-route:hover{border-color:#9a8878;background:#fffdf9}
+.route-label{display:block;font-size:10px;font-weight:bold;letter-spacing:.1em;color:var(--muted);margin-bottom:11px}
+.home-route h2{font:25px/1.25 Georgia,serif;letter-spacing:-.02em;display:flex;justify-content:space-between;gap:14px;margin:0 0 9px}
+.home-route h2 span{color:var(--accent)}
+.home-route p{font-size:14px;line-height:1.6;color:var(--muted);margin:0;max-width:40ch}
+.home-demo{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:23px 0 0;margin:27px 0 0;border-top:1px solid var(--line);font-size:14px}
+.home-demo strong{font-size:15px;font-weight:normal}
+.home-demo p{margin:3px 0 0;font-size:12px;color:var(--muted)}
+.home-demo>a{min-height:44px;display:inline-flex;align-items:center;gap:12px;text-decoration:none}
+.thesis-download{display:flex;justify-content:space-between;align-items:center;gap:24px;margin:0 0 20px}
+.thesis-download>p{margin:0;font-size:14px;color:var(--muted)}
+.tesi .portal-jumps{margin:0 0 28px;padding:0;border-bottom:1px solid var(--line);border-top:0;gap:30px}
+.tesi .portal-jumps a{text-decoration:none;color:var(--muted)}
+.tesi .portal-jumps a:hover{color:var(--accent)}
+.hub-section{scroll-margin-top:90px}
+.tesi .hub-section{margin:0 0 44px}
+.hub-section-heading{display:flex;align-items:baseline;justify-content:space-between;gap:20px;margin:0 0 10px}
+.hub-section-heading h2{font:27px/1.3 Georgia,serif;letter-spacing:-.02em;margin:0}
+.hub-section-heading>span{font-size:10px;letter-spacing:.1em;color:var(--muted);white-space:nowrap}
+.tesi .hub-section>p{font-size:13px;margin:0 0 20px;line-height:1.6;max-width:90ch}
+#revisioni{scroll-margin-top:115px}
+.thesis-reading-list{list-style:none;padding:0;margin:0;border-top:1px solid var(--line)}
+.thesis-reading-row{display:flex;align-items:flex-start;gap:22px;padding:19px 0;border-bottom:1px solid var(--line)}
+.reading-number{font:23px/1.3 Georgia,serif;color:#8b7563;min-width:33px;padding-top:18px}
+.reading-summary{flex:1;min-width:0}
+.reading-placement{font-size:10px;letter-spacing:.04em;color:var(--muted);margin:0 0 5px;line-height:1.5}
+.reading-summary h3{font:24px/1.25 Georgia,serif;letter-spacing:-.02em;margin:0}
+.reading-summary h3 a{color:var(--ink);text-decoration:none}
+.reading-summary h3 a:hover{color:var(--accent);text-decoration:underline}
+.reading-summary h3 a span{font:18px/1 sans-serif;color:var(--accent);margin-left:8px}
+.reading-description{font-size:13px;line-height:1.6;color:var(--muted);margin:7px 0 0}
+.thesis-reading-row>.status-label{flex:0 0 auto;margin-top:20px;background:transparent;border-color:#c3c9bd;font-size:10px;padding:4px 8px;font-weight:normal}
+.integration-note{font-size:12px;line-height:1.6;color:var(--muted);margin-top:5px}
+.integration-note summary{cursor:pointer;min-height:32px;display:list-item;padding:6px 0;width:fit-content;color:var(--muted)}
+.integration-note p{max-width:70ch;margin:6px 0 10px!important;font-size:13px!important;line-height:1.6!important}
+.figure-collection-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.figure-collection-card{padding:24px;background:var(--surface);border:1px solid var(--line);border-radius:8px}
+.figure-collection-card .eyebrow{font-size:10px;margin-bottom:10px}
+.figure-collection-card h3{font:25px/1.25 Georgia,serif;margin:0 0 12px;letter-spacing:-.02em}
+.figure-collection-card h3 a{color:var(--ink);text-decoration:none}
+.figure-collection-card h3 a:hover{color:var(--accent);text-decoration:underline}
+.figure-collection-card h3 a span{color:var(--accent);font:18px/1 sans-serif}
+.figure-collection-card>p:not(.eyebrow){font-size:14px;line-height:1.65;margin:0 0 14px;color:var(--muted)}
+.figure-collection-status{display:block;font-size:11px;color:#36463b;font-weight:bold}
+.next-step-panel{display:flex;align-items:center;justify-content:space-between;gap:30px;padding:25px 28px;border:1px solid #c8cebe;border-radius:8px;background:#e9ece2;scroll-margin-top:90px}
+.next-step-panel .eyebrow{font-size:10px;margin-bottom:10px}
+.next-step-panel h2{font:25px/1.25 Georgia,serif;letter-spacing:-.02em;margin:0 0 8px}
+.next-step-panel p:not(.eyebrow){font-size:13px;line-height:1.6;margin:0;max-width:60ch;color:var(--muted)}
+.next-step-panel>a{flex:0 0 auto}
+.hub-completion-note{margin:18px 0 0;color:var(--muted);font-size:13px}
+.hub-completion-note summary{cursor:pointer;min-height:44px;padding:10px 0}
+.hub-completion-note p{margin:4px 0 12px;max-width:88ch;line-height:1.7}
+.checklist-page .thesis-checklist{background:transparent;padding:0;border:0;border-radius:0;margin-bottom:25px}
+.checklist-page .checklist-header .eyebrow{display:none}
+.checklist-page .checklist-header h2{font-size:24px;margin-bottom:10px}
+.checklist-page .checklist-header>p:last-child{font-size:14px;color:var(--muted);margin-bottom:20px}
+.checklist-page .checklist-start{font-size:14px;background:#e9ece2;border-left-color:#52685c;padding:16px 20px;border-radius:0 6px 6px 0}
+.checklist-page .checklist-tools{margin-top:24px}
+.checklist-return{display:inline-flex;align-items:center;min-height:44px;font-size:14px}
+@media(max-width:900px){.home-primary{padding:28px}.home-primary h2{font-size:34px}.home-route{padding:23px}.home-route h2{font-size:23px}.portal-brand .brand-caption{display:none}}
+@media(max-width:780px){.portal .reader-top-inner{flex-wrap:wrap;gap:0;padding:7px 18px}.portal-brand{min-height:37px;font-size:20px}.portal .top-actions{width:100%;gap:3px;justify-content:flex-start;flex-wrap:wrap;font-size:12px}.portal .top-actions>a{display:inline-flex;padding:5px 12px}.portal-wrap{padding-top:28px}.portal .document-header h1{font-size:36px}.portal .portal-lead{font-size:16px}.home-paths,.figure-collection-grid{grid-template-columns:1fr}.home-paths{gap:18px}.home-primary h2{font-size:34px}.home-secondary{gap:14px}.home-route{padding:22px 24px}.home-route h2{font-size:25px}.home-demo,.thesis-download,.next-step-panel{flex-direction:column;align-items:flex-start;gap:12px}.home-demo{margin-top:23px}.thesis-download{margin-bottom:16px}.thesis-download .portal-button{font-size:13px}.tesi .portal-jumps{gap:22px;margin-bottom:24px}.hub-section-heading{align-items:flex-start;flex-direction:column;gap:6px}.hub-section-heading h2{font-size:25px}.thesis-reading-row{gap:14px;flex-wrap:wrap;padding:18px 0}.reading-number{min-width:25px;font-size:20px;padding-top:19px}.reading-summary{flex-basis:calc(100% - 40px)}.reading-summary h3{font-size:22px}.thesis-reading-row>.status-label{margin:0 0 0 39px}.reading-description{font-size:13px}.figure-collection-card{padding:22px}.next-step-panel{padding:22px}.hub-section,#checklist{scroll-margin-top:145px}#revisioni{scroll-margin-top:155px}.portal .reader-footer{font-size:11px}.portal .top-actions .snodo-access-exit{margin-left:auto}}
+@media print{.home-demo,.thesis-download,.next-step-panel,.hub-completion-note{display:none}.home-paths{display:block}.home-primary,.home-route{background:white;margin-bottom:15pt}.thesis-reading-row,.figure-collection-card{break-inside:avoid}.integration-note{display:none}.thesis-reading-row{padding:12pt 0}.portal .document-header h1{font-size:28pt}.checklist-page .thesis-checklist{padding:0}}
+/* Rifinitura dei quattro contributi testuali. Integrare dopo le regole del reader.
+   I testi candidati, le revisioni inline e i confronti rimangono invariati. */
+.reader-contribution .document-header { margin-bottom: 24px; }
+.reader-contribution .document-header .eyebrow { margin-bottom: 12px; font-size: 11px; }
+.reader-contribution .document-header h1 { margin-bottom: 14px; }
+.reader-contribution .document-summary { max-width: 72ch; margin: 14px 0 0; font-size: 16px; line-height: 1.6; color: var(--ink); }
+.reader-contribution .contribution-context { display: flex; align-items: baseline; flex-wrap: wrap; gap: 8px 14px; margin-top: 14px; }
+.reader-contribution .contribution-context .status-label { flex: 0 0 auto; font-size: 12px; padding: 3px 8px; }
+.reader-contribution .contribution-context > p { flex: 1 1 34ch; max-width: 78ch; margin: 0; font-size: 13px; line-height: 1.6; color: var(--muted); }
+
+/* I comandi precedono il testo; la guida estesa è chiusa all'apertura. */
+.reader-contribution .revision-toolbar { padding: 12px 0 4px; margin: 0 0 28px; border: 0; border-block: 1px solid var(--line); border-radius: 0; background: transparent; }
+.reader-contribution .revision-toolbar-main { display: flex; align-items: center; flex-wrap: wrap; justify-content: space-between; gap: 8px 18px; }
+.reader-contribution .revision-toolbar .revision-caption { margin: 0; font-size: 13px; line-height: 1.5; color: var(--muted); }
+.reader-contribution .revision-caption strong { color: var(--ink); }
+.reader-contribution .revision-controls { margin: 0; gap: 8px; }
+.reader-contribution .revision-controls button { padding: 9px 13px; min-height: 44px; }
+.reader-contribution .revision-help { margin-top: 4px; }
+.reader-contribution .revision-help > summary { display: list-item; width: fit-content; min-height: 44px; padding: 10px 0; font-size: 13px; line-height: 1.6; color: var(--accent); cursor: pointer; }
+.reader-contribution .revision-help-body { max-width: 78ch; padding: 0 0 10px; }
+.reader-contribution .revision-help-body > p { margin: 10px 0 14px; font-size: 14px; line-height: 1.65; }
+.reader-contribution .revision-help .revision-counts { margin: 14px 0; }
+.reader-contribution .revision-toolbar .reader-live-state { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+
+/* La nota resta visibile, ma il testo candidato ha il maggior peso visivo. */
+.reader-contribution .editorial-change { padding-left: 16px; margin: 22px 0 30px; }
+.reader-contribution .editorial-change .change-note { padding: 0 0 10px; margin-bottom: 12px; border-bottom: 1px solid var(--line); border-radius: 0; background: transparent; color: var(--muted); }
+.reader-contribution .change-heading { gap: 5px 10px; }
+.reader-contribution .change-heading strong { color: var(--ink); font-size: 13px; line-height: 1.55; }
+.reader-contribution .change-id { font-size: 11px; }
+.reader-contribution .change-kind { font-size: 10px; }
+.reader-contribution .prose .change-note p { margin: 6px 0 0; font-size: 13px; line-height: 1.55; }
+.reader-contribution .original-comparison { padding-top: 0; }
+.reader-contribution .original-comparison summary { font-size: 13px; }
+/* La modalità pulita conserva l'impaginazione del testo senza note o rientri. */
+.reader-contribution[data-review-view="clean"] .editorial-change { padding: 0; margin: 0; border: 0; }
+
+@media (max-width: 780px) {
+  .reader-contribution .document-header { margin-bottom: 20px; }
+  .reader-contribution .contribution-context { gap: 8px; }
+  .reader-contribution .contribution-context > p { flex-basis: 100%; }
+  .reader-contribution .revision-toolbar-main { align-items: flex-start; gap: 10px; }
+  .reader-contribution .revision-controls { width: 100%; }
+  .reader-contribution .revision-controls button { flex: 1 1 auto; }
+  .reader-contribution .editorial-change { padding-left: 12px; }
+}
+@media print {
+  .reader-contribution .document-summary,
+  .reader-contribution .contribution-context,
+  .reader-contribution .revision-toolbar { display: none !important; }
+  .reader-contribution .editorial-change .change-note { border-bottom: 0; }
+}
+
+/* Download affiancato all’introduzione, per raggiungere subito le sezioni. */
+.portal .thesis-hub-header{display:flex;align-items:center;justify-content:space-between;gap:32px;max-width:none;margin-bottom:18px}
+.thesis-hub-header>div{flex:1;min-width:0}
+.thesis-hub-header>.portal-button{flex:0 0 auto}
+.portal .thesis-hub-header h1{font-size:42px}
+.portal .thesis-hub-header .portal-lead{font-size:16px}
+.thesis-draft-note{font-size:12px;color:var(--muted);margin:9px 0 0}
+@media(max-width:780px){.portal .thesis-hub-header{align-items:flex-start;flex-direction:column;gap:18px;margin-bottom:18px}.portal .thesis-hub-header h1{font-size:34px}.thesis-hub-header>.portal-button{font-size:13px}.integration-note summary{min-height:44px}}
