@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-11T15:42:55.494Z",
+  "generatedAt": "2026-10-11T16:08:41.442Z",
   "type": "technical_code_harness_with_minimal_fake_DOM",
   "executed": true,
   "finiteRun": true,
-  "passed": 27,
+  "passed": 33,
   "failed": 0,
   "status": "PASS",
   "scope": "Integrità dei dati e handler delle interazioni; regressioni delle correzioni segnalate.",
@@ -21,11 +21,11 @@
   "sources": [
     {
       "file": "index.html",
-      "sha256": "061775cff111850d305b5d31a54b4163a72913a60187ecd6e1b24414a51b4b5d"
+      "sha256": "9c2e5205c6ce0ed0f7d688d4a656546a58220cbc53c5a65fcc2b8baa0d9facdb"
     },
     {
       "file": "app.js",
-      "sha256": "585d5bee874750fd277354f0fefee50edd67dbb913d4104f865ab22232743202"
+      "sha256": "a63a21561f7e2daf9b54c34b38be4c2372f918e949b9341646dad6bd23b3eb29"
     },
     {
       "file": "core.js",
@@ -33,15 +33,15 @@
     },
     {
       "file": "catalogo.js",
-      "sha256": "341909daa157d0c2e3772f903b3301c07062f32454268e77519b0c5b6042bc1c"
+      "sha256": "1c171924207b4cf7c1a0b23c70f58833e26d6ec0f1cf8091a53d87568cabfaf3"
     },
     {
       "file": "Catalogo_mock.json",
-      "sha256": "2ab3ce45b372c45d0f93f81f056102ba6974119fa3402a608af2fe8517a0cf95"
+      "sha256": "8865392c1b9dd117defa7e50c47c1e05bc1b6025c67bda1d35c0943da74461c7"
     },
     {
       "file": "build_catalogo.py",
-      "sha256": "c3695044722f87e48a03eb5900cd4e166150dce724bc4fcbc10659d79861e9d6"
+      "sha256": "1a3a2b59dd52096fe4a3376c7575a1dccea5361f390c2bc7c7a35a4136f363a1"
     },
     {
       "file": "Verifiche_core.cjs",
@@ -49,15 +49,15 @@
     },
     {
       "file": "Verifiche_interazioni.cjs",
-      "sha256": "9904500ef56870b874f5ce4d4dd76ed6387d5c068e0e394bc1979855c8b9f63f"
+      "sha256": "c899df4d61dda235d6db5f733afd8d782f629ac489fd1755ded2a041c96d09e7"
     },
     {
       "file": "../06_design_system/esplorazione.js",
-      "sha256": "42d46d5b539eaaf72f1ce53a03e3e28269d03002a98c7c5030277fc4fa4e079e"
+      "sha256": "92765dfc7b53dffc8481b7796b95578b44715fb78af4b1d502ccc011561b09bc"
     },
     {
       "file": "../06_design_system/esplorazione.css",
-      "sha256": "148cdde803e912efbeaebc4e4b334b0a56e9e24ab2a069bccf703bf66e40401c"
+      "sha256": "32f252131210337516f9d88a043f0cd9aefce0c38c8ae1cd97548c763560cd45"
     }
   ],
   "results": [
@@ -222,7 +222,42 @@
       "name": "Applica filtri torna alla mappa aperta senza perdere la selezione valida",
       "status": "PASS",
       "evidence": "Budget applicato nella vista aperta, selezione conservata finché valida; cambio città aggiorna i segnaposto e non lascia l’editor nello storico."
+    },
+    {
+      "id": "I28",
+      "name": "Fotografie locali, crediti e galleria seguono il luogo selezionato",
+      "status": "PASS",
+      "evidence": "Otto copertine distinte e foto locali con alt, crediti originali e natura illustrativa; apertura e chiusura della seconda foto della galleria."
+    },
+    {
+      "id": "I29",
+      "name": "Variante del dettaglio indipendente dal tema e dal luogo",
+      "status": "PASS",
+      "evidence": "Parametri light/aqua validati; cambio vista conserva luogo e variante, senza creare una terza direzione UI."
+    },
+    {
+      "id": "I30",
+      "name": "Le foto degli utenti appartengono a recensioni dello stesso luogo",
+      "status": "PASS",
+      "evidence": "39 fotografie nelle gallerie, 17 legate ai racconti, 20 recensioni mock; nessuna nuova misura di atmosfera dedotta dai testi."
+    },
+    {
+      "id": "I31",
+      "name": "Galleria unica con tag e navigazione tra locale e utenti",
+      "status": "PASS",
+      "evidence": "Un’unica raccolta con tag Dal locale/nome, priorità allo username, passaggio tra origini e limiti agli estremi; ID di altro luogo rifiutato."
+    },
+    {
+      "id": "I32",
+      "name": "Foto e recensione permettono un percorso di andata e ritorno",
+      "status": "PASS",
+      "evidence": "Dalla recensione allo scatto e ritorno, conservando foto, luogo e variante; chiusura dello scatto nella raccolta completa."
+    },
+    {
+      "id": "I33",
+      "name": "Assenza di foto utenti e vecchi link non nascondono le immagini del locale",
+      "status": "PASS",
+      "evidence": "Vecchi parametri ignorati; senza foto utenti resta la galleria del luogo; stato vuoto solo se non esiste alcuno scatto."
     }
-  ],
-  "publication_note": "Copia per consultazione: i controlli e gli hash di origine descrivono gli asset del workspace. I percorsi locali sono stati normalizzati; il manifest di pubblicazione descrive i file distribuiti."
+  ]
 }

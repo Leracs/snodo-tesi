@@ -4,8 +4,8 @@
   "gate_type": "client_side_only_bypassable",
   "source_preserved": true,
   "checks": {
-    "html_pages": 44,
-    "local_references_checked": 1866,
+    "html_pages": 45,
+    "local_references_checked": 1893,
     "all_HTML_gated": true,
     "absolute_local_HTML_paths": 0
   },
@@ -817,13 +817,13 @@
     },
     {
       "path": "docs/06_design_system/esplorazione.css",
-      "sha256": "148cdde803e912efbeaebc4e4b334b0a56e9e24ab2a069bccf703bf66e40401c",
-      "bytes": 10990
+      "sha256": "32f252131210337516f9d88a043f0cd9aefce0c38c8ae1cd97548c763560cd45",
+      "bytes": 11268
     },
     {
       "path": "docs/06_design_system/esplorazione.js",
-      "sha256": "42d46d5b539eaaf72f1ce53a03e3e28269d03002a98c7c5030277fc4fa4e079e",
-      "bytes": 7183
+      "sha256": "92765dfc7b53dffc8481b7796b95578b44715fb78af4b1d502ccc011561b09bc",
+      "bytes": 7435
     },
     {
       "path": "docs/06_design_system/index.html",
@@ -834,11 +834,6 @@
       "path": "docs/06_design_system/pacchetto_svg.py",
       "sha256": "021a5ab207e9d8f9d710fe712e99925256c624bab19340eddfe7eeae3ddfa5b6",
       "bytes": 2065
-    },
-    {
-      "path": "docs/06_design_system/svg-componenti.mjs",
-      "sha256": "6781f8914b25c97a492b056588e0f32b82d6a8272b8235d76da84a4704d7e62e",
-      "bytes": 5142
     },
     {
       "path": "docs/06_design_system/svg/DS01-A-caricamento.svg",
@@ -1461,6 +1456,11 @@
       "bytes": 779310
     },
     {
+      "path": "docs/06_design_system/svg-componenti.mjs",
+      "sha256": "6781f8914b25c97a492b056588e0f32b82d6a8272b8235d76da84a4704d7e62e",
+      "bytes": 5142
+    },
+    {
       "path": "docs/06_design_system/theme_A.json",
       "sha256": "81a7c3f165ed368099b1f6171c0d37b617832c946fb8361f0d46d5faac8b2c11",
       "bytes": 2252
@@ -1512,8 +1512,8 @@
     },
     {
       "path": "docs/07_prototipo/Catalogo_mock.json",
-      "sha256": "2ab3ce45b372c45d0f93f81f056102ba6974119fa3402a608af2fe8517a0cf95",
-      "bytes": 54086
+      "sha256": "8865392c1b9dd117defa7e50c47c1e05bc1b6025c67bda1d35c0943da74461c7",
+      "bytes": 99966
     },
     {
       "path": "docs/07_prototipo/Collegamenti_Figma.csv",
@@ -1522,18 +1522,23 @@
     },
     {
       "path": "docs/07_prototipo/LEGGIMI.html",
-      "sha256": "aa911441ad56fa68e46d6131f9fc376354e558e64d6649dc17af61f35901c1c2",
-      "bytes": 12559
+      "sha256": "ee9a859ec34e5ee6ec1e20662f1854827c2593c3410a5b6087e427a51ed1f598",
+      "bytes": 15015
     },
     {
       "path": "docs/07_prototipo/LEGGIMI.md",
-      "sha256": "377823ba6755b46fb46320c69e3d98cb7cc5297e6e6a916f1731d295c8dce072",
-      "bytes": 5641
+      "sha256": "08670c608d9f513869824f18b022f31f7caa8c03adf9c77fdae39c56bba3f965",
+      "bytes": 8045
+    },
+    {
+      "path": "docs/07_prototipo/QA_galleria_unica.json",
+      "sha256": "c071e6b6be9509e3ee97aa8f1498301e1e71c690c7a10ceeb61794a504ab2fa3",
+      "bytes": 1055
     },
     {
       "path": "docs/07_prototipo/QA_interazioni.json",
-      "sha256": "80db29862a8ad811d220cbb49819c504b1fb4ad93f83ff2e13ef2053d7bc978b",
-      "bytes": 9084
+      "sha256": "f4b65af15888ff26923f0f7baf8bf59ed8fd6d2ca597ed2130b9314333b1261c",
+      "bytes": 10568
     },
     {
       "path": "docs/07_prototipo/Scenari_AI.json",
@@ -1572,28 +1577,28 @@
     },
     {
       "path": "docs/07_prototipo/Verifiche_interazioni.cjs",
-      "sha256": "9904500ef56870b874f5ce4d4dd76ed6387d5c068e0e394bc1979855c8b9f63f",
-      "bytes": 25840
+      "sha256": "c899df4d61dda235d6db5f733afd8d782f629ac489fd1755ded2a041c96d09e7",
+      "bytes": 32719
     },
     {
       "path": "docs/07_prototipo/app.css",
-      "sha256": "b2771e49de375f9ea4e57976c62169076e434e27c7f8b7bfb19762c1b99a3c18",
-      "bytes": 28931
+      "sha256": "1e7e97ff412738e2fdc3e224f39edf814c7822f677b5d3dec6bc826eb97cecb3",
+      "bytes": 34631
     },
     {
       "path": "docs/07_prototipo/app.js",
-      "sha256": "585d5bee874750fd277354f0fefee50edd67dbb913d4104f865ab22232743202",
-      "bytes": 45897
+      "sha256": "a63a21561f7e2daf9b54c34b38be4c2372f918e949b9341646dad6bd23b3eb29",
+      "bytes": 51472
     },
     {
       "path": "docs/07_prototipo/build_catalogo.py",
-      "sha256": "c3695044722f87e48a03eb5900cd4e166150dce724bc4fcbc10659d79861e9d6",
-      "bytes": 6759
+      "sha256": "1a3a2b59dd52096fe4a3376c7575a1dccea5361f390c2bc7c7a35a4136f363a1",
+      "bytes": 11689
     },
     {
       "path": "docs/07_prototipo/catalogo.js",
-      "sha256": "341909daa157d0c2e3772f903b3301c07062f32454268e77519b0c5b6042bc1c",
-      "bytes": 54111
+      "sha256": "1c171924207b4cf7c1a0b23c70f58833e26d6ec0f1cf8091a53d87568cabfaf3",
+      "bytes": 99991
     },
     {
       "path": "docs/07_prototipo/core.js",
@@ -1602,13 +1607,93 @@
     },
     {
       "path": "docs/07_prototipo/index.html",
-      "sha256": "5827c7b03a3e63abaecd085085110a73955d46a0507562bb3be3cdf4c8f8081c",
-      "bytes": 4741
+      "sha256": "9c2e5205c6ce0ed0f7d688d4a656546a58220cbc53c5a65fcc2b8baa0d9facdb",
+      "bytes": 4927
+    },
+    {
+      "path": "docs/07_prototipo/media/Crediti_fotografie.html",
+      "sha256": "2b1dac14eb09bcd93637c1d8bb03de834e906b7f0819f6645d6f788a2d2f9231",
+      "bytes": 7077
+    },
+    {
+      "path": "docs/07_prototipo/media/Fotografie.json",
+      "sha256": "60cf93a3810dbac9cf4522ef183ab9f706e2e816efcc42e1abb311bc00d064db",
+      "bytes": 9429
+    },
+    {
+      "path": "docs/07_prototipo/media/cafe-luci.jpg",
+      "sha256": "91f9ac038dd57adb7d2406f246e9fe112983ff1d8f9e8006c71235c8c795923e",
+      "bytes": 633906
+    },
+    {
+      "path": "docs/07_prototipo/media/cafe-patio.jpg",
+      "sha256": "1885416a619d8bdc52bab7371211ac4208ecefa5272f0df970b1d55f5b8c5404",
+      "bytes": 405924
+    },
+    {
+      "path": "docs/07_prototipo/media/cafe-sala.jpg",
+      "sha256": "775bd3448b2331652615b6575b589362fc1836a7ce1757ed3880707f3385e368",
+      "bytes": 474226
     },
     {
       "path": "docs/07_prototipo/media/cafe-terrazza.jpg",
       "sha256": "fd24af53c17c002eefc7b93fa1878631af089447bba3a8b61764349e8a218a19",
       "bytes": 428772
+    },
+    {
+      "path": "docs/07_prototipo/media/cafe-verde.jpg",
+      "sha256": "7470f61216201184b9a5e20bffbd4f770c9f0a213238957c71bc4db316d3f7a3",
+      "bytes": 321377
+    },
+    {
+      "path": "docs/07_prototipo/media/caffe-due-tazze.jpg",
+      "sha256": "3d07531d3007fd4b2b63a67e8bd9e0b31be2d376145a088b0f2b887cec9f7c75",
+      "bytes": 150897
+    },
+    {
+      "path": "docs/07_prototipo/media/caffe-tazza.jpg",
+      "sha256": "c2c3f8f9ed146e62fc92732a2df32322a5733f1c85ba7d6981b69dd65ddab5bd",
+      "bytes": 324836
+    },
+    {
+      "path": "docs/07_prototipo/media/galleria-persone.jpg",
+      "sha256": "6db61153f8d78753322e70b86cabeef14efd6ffe74ceedcbd672dd9c58ac1a7a",
+      "bytes": 338183
+    },
+    {
+      "path": "docs/07_prototipo/media/galleria-visita.jpg",
+      "sha256": "0eb46a1267d0ea9b1f42a49dc469a91c9af9b6087e1c992af126421b326979d3",
+      "bytes": 180018
+    },
+    {
+      "path": "docs/07_prototipo/media/giardino-panchina.jpg",
+      "sha256": "fa4ca029b252e7dbf2cd475287ed452ddf43342682d17021986e4cc56abd7b93",
+      "bytes": 708770
+    },
+    {
+      "path": "docs/07_prototipo/media/giardino-sole.jpg",
+      "sha256": "6a6670dd575e235ffab642b653eacaf5f7c9e0712cb1731faf650748697e25c3",
+      "bytes": 1029877
+    },
+    {
+      "path": "docs/07_prototipo/media/parco-passeggiata.jpg",
+      "sha256": "91f8b2395b185546a8e1c2c97607845aaa8d9292c504bc5d73d177cff988fa62",
+      "bytes": 378041
+    },
+    {
+      "path": "docs/07_prototipo/media/parco-viale.jpg",
+      "sha256": "43dd5f3e3f95ce858d9e4f37f95a9525b748c9c0efdbb994b8c4dd3e406af773",
+      "bytes": 460928
+    },
+    {
+      "path": "docs/07_prototipo/media/spazio-galleria.jpg",
+      "sha256": "ef7f7be40dd2963e9427a538d37457b02977926bd26ac233f72c1684ff70e5c9",
+      "bytes": 377079
+    },
+    {
+      "path": "docs/07_prototipo/media/spazio-legno.jpg",
+      "sha256": "eb29ae7f65cd80c699c098367a699dc5360e4a2d1a7e8c38cd93016b82b139c7",
+      "bytes": 193761
     },
     {
       "path": "docs/08_test/Osservazioni_compiti.csv",

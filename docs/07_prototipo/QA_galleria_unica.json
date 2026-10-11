@@ -1,0 +1,29 @@
+{
+  "status": "local_browser_and_code_verified",
+  "venue_tag": "Dal locale",
+  "user_tag": "username, altrimenti nome",
+  "gallery": "unica, senza filtri per origine",
+  "interaction_harness_passed": 33,
+  "core_checks_passed": 11,
+  "browser_checks": {
+    "all_six_photos_in_one_gallery": true,
+    "all_images_loaded": true,
+    "same_tag_style_for_all_sources": true,
+    "next_crosses_venue_to_user": true,
+    "count_4_of_6_after_crossing": true,
+    "review_link_preserved": true,
+    "mobile_width": 390,
+    "horizontal_overflow": false,
+    "themes": [
+      "A",
+      "B"
+    ]
+  },
+  "source_hashes": {
+    "app.js": "a63a21561f7e2daf9b54c34b38be4c2372f918e949b9341646dad6bd23b3eb29",
+    "app.css": "1e7e97ff412738e2fdc3e224f39edf814c7822f677b5d3dec6bc826eb97cecb3",
+    "catalogo.js": "1c171924207b4cf7c1a0b23c70f58833e26d6ec0f1cf8091a53d87568cabfaf3",
+    "index.html": "9c2e5205c6ce0ed0f7d688d4a656546a58220cbc53c5a65fcc2b8baa0d9facdb"
+  },
+  "photo_and_user_attribution": "simulata; fotografie stock con crediti originali preservati"
+}
