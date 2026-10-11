@@ -4,8 +4,8 @@
   "gate_type": "client_side_only_bypassable",
   "source_preserved": true,
   "checks": {
-    "html_pages": 45,
-    "local_references_checked": 1795,
+    "html_pages": 44,
+    "local_references_checked": 1722,
     "all_HTML_gated": true,
     "absolute_local_HTML_paths": 0
   },
@@ -827,8 +827,8 @@
     },
     {
       "path": "docs/06_design_system/index.html",
-      "sha256": "af713ac6d144f951f42fd7d57ece4122ac5ee348cd8e8097396267c9ff50a56a",
-      "bytes": 63590
+      "sha256": "2592440981f0581db071431b6eea36125a5a4255f83964250aafa357271a0ce4",
+      "bytes": 63375
     },
     {
       "path": "docs/06_design_system/pacchetto_svg.py",
@@ -1961,19 +1961,14 @@
       "bytes": 393
     },
     {
-      "path": "docs/Checklist_tesi.html",
-      "sha256": "a6fa64f3e876fa2b521a32841df6eaa92b038fe68d57e7aca650a7945ab8537a",
-      "bytes": 29883
-    },
-    {
       "path": "docs/Contributi_tesi.html",
-      "sha256": "647289237bd7b1641dbe8b36caabf4c4c11af8812711b683b735caec8505af7e",
-      "bytes": 7477
+      "sha256": "593e1c4dc839c62164ff1f4cda6803fb74b5f0c3f80dc5fe554426e9464ba7b7",
+      "bytes": 7091
     },
     {
       "path": "docs/Indice_consegne.html",
-      "sha256": "c42154a5be720b054f08ef5e8ba0ce507b07a6df35be00a95b93e3175c35c8c2",
-      "bytes": 3810
+      "sha256": "6f22bdafd27c8e296cc100afae719b5e0b863c13eba8f8a22854887392bed908",
+      "bytes": 3602
     },
     {
       "path": "docs/LEGGIMI.html",
@@ -1987,8 +1982,8 @@
     },
     {
       "path": "docs/Materiale_di_lavoro.html",
-      "sha256": "7bf5bd6422bd747661cef454e282abad746060525acf087809ad56fa43952c28",
-      "bytes": 13350
+      "sha256": "75f8a4a7cef7c80825cfc30d4aea9a4ea283d23822d1c9fa8e2db1b6219cdac5",
+      "bytes": 13021
     },
     {
       "path": "docs/Registro_decisioni.html",
@@ -2032,8 +2027,8 @@
     },
     {
       "path": "docs/index.html",
-      "sha256": "c42154a5be720b054f08ef5e8ba0ce507b07a6df35be00a95b93e3175c35c8c2",
-      "bytes": 3810
+      "sha256": "6f22bdafd27c8e296cc100afae719b5e0b863c13eba8f8a22854887392bed908",
+      "bytes": 3602
     },
     {
       "path": "docs/lettura.css",
@@ -2042,8 +2037,8 @@
     },
     {
       "path": "docs/lettura.js",
-      "sha256": "122077ec9eb6580289e74dfa54db093749d1d115042f06e5b79ece68c7cbfc1d",
-      "bytes": 13706
+      "sha256": "28ee87c5d558a4c6fe2042718bd04528275f45c1e50a3e6a9f2b85a961761aa2",
+      "bytes": 9756
     },
     {
       "path": "docs/robots.txt",
