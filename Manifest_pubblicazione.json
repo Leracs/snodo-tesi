@@ -5,7 +5,7 @@
   "source_preserved": true,
   "checks": {
     "html_pages": 44,
-    "local_references_checked": 1846,
+    "local_references_checked": 1866,
     "all_HTML_gated": true,
     "absolute_local_HTML_paths": 0
   },
@@ -1861,6 +1861,16 @@
       "bytes": 33264
     },
     {
+      "path": "docs/11_materiale_di_lavoro/Indice_materiali_di_lavoro.csv",
+      "sha256": "5eb49dd53e35b5cd2f82e8ace768cade434ec3749d05f4062ad763225a4be733",
+      "bytes": 8144
+    },
+    {
+      "path": "docs/11_materiale_di_lavoro/Indice_materiali_di_lavoro.json",
+      "sha256": "aa0a3c0ab674b214da0a2bf8b0559828d5fc9207a0f6c3042de5be5d69093ac4",
+      "bytes": 16044
+    },
+    {
       "path": "docs/11_materiale_di_lavoro/QA_Contributi_tesi.json",
       "sha256": "336453977e173438c4c0835a5a7827a53a6da16b5e61d43400307997b69cfa1d",
       "bytes": 3901
@@ -1987,8 +1997,8 @@
     },
     {
       "path": "docs/Materiale_di_lavoro.html",
-      "sha256": "950c0edb35ad31ba7148b375699b4d4528b151fa83339aecbda10fdac566c651",
-      "bytes": 13171
+      "sha256": "d2ad70a7aa3e0937a34eac47b28d84000859130ba5761252e6dfb62123a3ea0a",
+      "bytes": 30226
     },
     {
       "path": "docs/Registro_decisioni.html",
@@ -2037,13 +2047,13 @@
     },
     {
       "path": "docs/lettura.css",
-      "sha256": "16a9a37ed7fa80fa97a1d9ae82c78012c5376481e6ab12ae3da089c4730236ea",
-      "bytes": 47892
+      "sha256": "af7382866f66a7ce79b178b3a0b5cf44932e5445c44f850dda54f2f0eb459d1b",
+      "bytes": 55180
     },
     {
       "path": "docs/lettura.js",
-      "sha256": "28ee87c5d558a4c6fe2042718bd04528275f45c1e50a3e6a9f2b85a961761aa2",
-      "bytes": 9756
+      "sha256": "9e087a244adec6179dea725386c26f22a439fe0455a6ea0d786ded0e3e4e368b",
+      "bytes": 11710
     },
     {
       "path": "docs/navigazione-sito.mjs",
