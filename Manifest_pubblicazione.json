@@ -5,7 +5,7 @@
   "source_preserved": true,
   "checks": {
     "html_pages": 51,
-    "local_references_checked": 2023,
+    "local_references_checked": 2025,
     "all_HTML_gated": true,
     "absolute_local_HTML_paths": 0
   },
@@ -2637,8 +2637,8 @@
     },
     {
       "path": "docs/Indice_consegne.html",
-      "sha256": "4979d6a7596f8b76ff09421c5a0ffc3c6f1d4e5ae1f4f40b9fd4ccbdb226d43d",
-      "bytes": 4105
+      "sha256": "071ef0561a0cf751f65c44d3465721769183320db6957852a68e0932eac7a0e3",
+      "bytes": 4322
     },
     {
       "path": "docs/LEGGIMI.html",
@@ -2697,8 +2697,8 @@
     },
     {
       "path": "docs/index.html",
-      "sha256": "4979d6a7596f8b76ff09421c5a0ffc3c6f1d4e5ae1f4f40b9fd4ccbdb226d43d",
-      "bytes": 4105
+      "sha256": "071ef0561a0cf751f65c44d3465721769183320db6957852a68e0932eac7a0e3",
+      "bytes": 4322
     },
     {
       "path": "docs/lettura.css",
