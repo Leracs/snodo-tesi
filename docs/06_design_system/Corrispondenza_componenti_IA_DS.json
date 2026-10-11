@@ -1,0 +1,369 @@
+{
+  "version": "0.1",
+  "status": "provisional",
+  "source_IA": "03_architettura/Componenti.csv",
+  "mapping": [
+    {
+      "nome_IA": "Contesto geografico",
+      "id_IA": "C01",
+      "id_DS": [
+        "DS05"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Riferimento distanze",
+      "id_IA": "C02",
+      "id_DS": [
+        "DS05"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Campo ricerca",
+      "id_IA": "C03",
+      "id_DS": [
+        "DS02"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Criteri attivi",
+      "id_IA": "C04",
+      "id_DS": [
+        "DS03"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Mappa e selezione",
+      "id_IA": "C05",
+      "id_DS": [
+        "DS11",
+        "DS06",
+        "DS04"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Card luogo",
+      "id_IA": "C06",
+      "id_DS": [
+        "DS06"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Controlli lista",
+      "id_IA": "C07",
+      "id_DS": [
+        "DS01",
+        "DS03"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Filtri",
+      "id_IA": "C08",
+      "id_DS": [
+        "DS02",
+        "DS03",
+        "DS01"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Scheda/pannello",
+      "id_IA": "C09",
+      "id_DS": [
+        "DS11"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Informazioni pratiche",
+      "id_IA": "C10",
+      "id_DS": [
+        "DS07",
+        "DS02"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Azioni luogo",
+      "id_IA": "C11",
+      "id_DS": [
+        "DS01"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Atmosfera contestuale",
+      "id_IA": "C12",
+      "id_DS": [
+        "DS08",
+        "DS19",
+        "DS01",
+        "DS16",
+        "DS07"
+      ],
+      "tipo": "composizione_HTML_implementata_S05_S06_non_Figma"
+    },
+    {
+      "nome_IA": "Galleria e viewer",
+      "id_IA": "C13",
+      "id_DS": [
+        "DS17"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Card recensione",
+      "id_IA": "C14",
+      "id_DS": [
+        "DS09"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Origine/limiti del dato",
+      "id_IA": "C15",
+      "id_DS": [
+        "DS07"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Segnalazione semplice",
+      "id_IA": "C16",
+      "id_DS": [
+        "DS02",
+        "DS01",
+        "DS14"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Ingresso assistente",
+      "id_IA": "C17",
+      "id_DS": [
+        "DS01",
+        "DS10"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Conversazione AI",
+      "id_IA": "C18",
+      "id_DS": [
+        "DS10",
+        "DS02",
+        "DS01"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Output ricerca AI",
+      "id_IA": "C19",
+      "id_DS": [
+        "DS10",
+        "DS06",
+        "DS07"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Elenco proposte",
+      "id_IA": "C20",
+      "id_DS": [
+        "DS12",
+        "DS06"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Contesto proposta",
+      "id_IA": "C21",
+      "id_DS": [
+        "DS12",
+        "DS05",
+        "DS02"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Inviti",
+      "id_IA": "C22",
+      "id_DS": [
+        "DS12",
+        "DS01"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Partecipanti e stato",
+      "id_IA": "C23",
+      "id_DS": [
+        "DS12"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Vincoli condivisi",
+      "id_IA": "C24",
+      "id_DS": [
+        "DS12",
+        "DS03"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Alternative comparabili",
+      "id_IA": "C25",
+      "id_DS": [
+        "DS12",
+        "DS06"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Commenti nella proposta",
+      "id_IA": "C26",
+      "id_DS": [
+        "DS12",
+        "DS02"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Preferenza alternativa",
+      "id_IA": "C27",
+      "id_DS": [
+        "DS12",
+        "DS01"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Conferma decisione",
+      "id_IA": "C28",
+      "id_DS": [
+        "DS12",
+        "DS01"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Esito e riapertura",
+      "id_IA": "C29",
+      "id_DS": [
+        "DS12",
+        "DS14"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Visita e domande",
+      "id_IA": "C30",
+      "id_DS": [
+        "DS13",
+        "DS02",
+        "DS03"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Bozza/appunti",
+      "id_IA": "C31",
+      "id_DS": [
+        "DS13",
+        "DS02"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "AI revisione prima/dopo",
+      "id_IA": "C32",
+      "id_DS": [
+        "DS13",
+        "DS10"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Anteprima/visibilità",
+      "id_IA": "C33",
+      "id_DS": [
+        "DS13",
+        "DS03"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Invio contributo",
+      "id_IA": "C34",
+      "id_DS": [
+        "DS13",
+        "DS01",
+        "DS14"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Salvati",
+      "id_IA": "C35",
+      "id_DS": [
+        "DS06",
+        "DS15",
+        "DS01"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Profilo e bozze",
+      "id_IA": "C36",
+      "id_DS": [
+        "DS13",
+        "DS02",
+        "DS03"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Passaggio Maps",
+      "id_IA": "C37",
+      "id_DS": [
+        "DS16"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Recupero e feedback",
+      "id_IA": "C38",
+      "id_DS": [
+        "DS15",
+        "DS14"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Navigazione e ritorno",
+      "id_IA": "C39",
+      "id_DS": [
+        "DS04",
+        "DS11"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    },
+    {
+      "nome_IA": "Limite dimostrativo",
+      "id_IA": "C40",
+      "id_DS": [
+        "DS07",
+        "DS10",
+        "DS14"
+      ],
+      "tipo": "composizione_specificata_non_istanziata"
+    }
+  ]
+}

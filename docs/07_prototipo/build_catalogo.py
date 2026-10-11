@@ -25,8 +25,18 @@ for city,number,name,zone,low,high,noise,count,outdoor,accessible,distance in sp
                       'period':'settembre 2026','slot':'18:00–21:00','visits':count,'contributions':count,
                       'noiseContributions':2 if city=='roma' and number=='01' else count,
                       'scale':{'min':1,'max':5,'lowLabel':'Intensità bassa','highLabel':'Intensità alta'},
-                      'values':{'noise':{'basso':2,'medio':3,'alto':4}.get(noise),'light':3 if count else None,'crowding':2 if count else None},
-                      'metricCoverage':{'noise':2 if city=='roma' and number=='01' else count,'light':count,'crowding':count},
+                      'values':{'noise':{'basso':2,'medio':3,'alto':4}.get(noise),'light':3 if count else None,'crowding':2 if count else None,'comfort':4 if count else None},
+                      'metricCoverage':{'noise':2 if city=='roma' and number=='01' else count,'light':count,'crowding':count,'comfort':count},
+                      'attendance':{'bands':[
+                          {'id':'pomeriggio','label':'Pomeriggio','start':'16:00','end':'18:00'},
+                          {'id':'sera','label':'Sera','start':'18:00','end':'21:00'},
+                          {'id':'tarda-sera','label':'Tarda sera','start':'21:00','end':'23:00'}],
+                          'days':[{'day':day,'values':[
+                              {'band':band,'value':(value if count and not (number=='02' and day==1 and band=='tarda-sera') else None),
+                               'contributions':(max(1,count//3) if count and not (number=='02' and day==1 and band=='tarda-sera') else 0)}
+                              for band,value in zip(['pomeriggio','sera','tarda-sera'],([2,4,3] if day in [0,6] else [2,3,2]))]} for day in range(7)],
+                          'source':'Profili mock predisposti; non calcolati dai contributi',
+                          'method':'Intensità illustrative 1–5 per giorno e fascia; non misure live né medie reali'},
                       'lastContribution':'2026-10-01' if count else None,'source':'Contributi mock','sufficient':False,
                       'valueMethod':'Valori illustrativi predisposti, non medie realmente calcolate; metodo futuro da definire'},
         'reviews':[] if count==0 else [{'id':f'rec-{city}-{number}-01','author':'Luca','visited':'2026-09-21' if city=='roma' and number=='01' else '2026-09-28',

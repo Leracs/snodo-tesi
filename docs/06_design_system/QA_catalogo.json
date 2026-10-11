@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-11",
+  "status": "PASS",
+  "scope": "Catalogo visivo e selettore di componenti, varianti e temi",
+  "catalogue": {
+    "components": 22,
+    "groups": 5,
+    "interactive_patterns": [
+      "DS08",
+      "DS19"
+    ],
+    "source": "Componenti_e_comportamenti.json",
+    "duplicate_ids": 0,
+    "visual_samples": 22
+  },
+  "browser": {
+    "status": "PASS",
+    "browser": "Codex in-app browser",
+    "transport": "HTTP localhost",
+    "viewports": [
+      320,
+      390,
+      1280
+    ],
+    "checks": [
+      "22 schede con un campione visivo; tutti i componenti selezionabili nel playground",
+      "Cambio componente aggiorna nome, descrizione, campione e varianti pertinenti",
+      "Atmosfera e affluenza visibili separatamente oppure in composizione",
+      "Link dalla scheda seleziona DS19 e restituisce il focus al titolo, senza azzerare la ricerca",
+      "Ricerca affluenza: solo DS19, conteggio 1/22",
+      "Ricerca senza risultati e azzera filtri: stato vuoto e catalogo completo",
+      "Temi A/B applicati ai 22 campioni e al playground",
+      "Stato campo errore: messaggio visibile",
+      "Dati assenti: zero barre; fascia assente il lunedì: due barre e una assenza",
+      "Cambio giorno: dialogo chiuso e focus restituito al selettore del giorno",
+      "320/390/1280 px: nessun overflow orizzontale del documento; campioni non tagliati a 320/390 px"
+    ]
+  },
+  "regression_tests": {
+    "passed": 32,
+    "failed": 0,
+    "data": 7,
+    "core": 11,
+    "interactions": 14,
+    "new_cases": [
+      "Anteprima iniziale coerente con giorno e copertura; giorno non valido ignorato"
+    ]
+  },
+  "publication": {
+    "status": "ready_for_push",
+    "source_branch": "codex/atmosfera-affluenza",
+    "pages_branch": "codex/pubblicazione",
+    "pages_directory": "docs",
+    "catalogue_path": "06_design_system/index.html"
+  },
+  "limitations": [
+    "Non sono test con partecipanti né una verifica completa di accessibilità.",
+    "Apertura file:// non verificata: protocollo bloccato dalla policy del browser di verifica.",
+    "La pubblicazione sul ramo Pages non è stata eseguita."
+  ],
+  "assets": {
+    "catalogo.css": "528fb642c201c325a733b64399db5f8c82681deaf6040acc2b4ae1708a40ae39",
+    "catalogo-ui.js": "30bc66c93e87ee15c2a7c0f8f34cd72b6b86c96a3622b06792db4b436949fc62",
+    "costruisci_catalogo.mjs": "7d5f8d13839b4728bec5b9dfb2874aa65e65f7b737616102f3e72880901b3308",
+    "campioni-componenti.js": "47a082acd9a87461ec6ab0a3f71c48d4e506501b794d7dd167cc4ea685c0357b",
+    "campioni-componenti.css": "9029e503b83284e2d4a191a3c9c456fd3934bd005d93808bc589cecec44b068f",
+    "catalogo-componenti.js": "2b1e65d66a483b78a435cf50b34f151542165142bb7aff7c52cf5270e7521ee0",
+    "Componenti_e_comportamenti.json": "3f5185ba5324a1f54db45b6005b55c389132606435110ec71b55311d5843d9ea",
+    "esplorazione.js": "293641242f8859eafab5f0060639914b95214cdae667f56eb0ba699cdf8e1d15",
+    "esplorazione.css": "e5dd18e8e2a8c3e2677327fb4c6273a511f0174dfe15f6e0472df8680ccfd7d8"
+  },
+  "publication_note": "Copia per consultazione: i controlli e gli hash di origine descrivono gli asset del workspace. I percorsi locali sono stati normalizzati; il manifest di pubblicazione descrive i file distribuiti."
+}

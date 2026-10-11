@@ -21,7 +21,7 @@ body[data-theme] {
 * { box-sizing: border-box; }
 body {
   margin: 0; display: flex; justify-content: center; align-items: flex-start;
-  gap: 64px; padding: 48px 28px; background: #E8E5DF; color: var(--text);
+  gap: 64px; padding: 88px 28px 48px; background: #E8E5DF; color: var(--text);
   font: 16px/1.5 var(--body); -webkit-font-smoothing: antialiased;
 }
 button, input, select, textarea { font: inherit; color: inherit; }
@@ -34,6 +34,17 @@ textarea:focus-visible, select:focus-visible, summary:focus-visible {
 }
 a { color: var(--primary); text-underline-offset: 3px; }
 svg { display: block; max-width: 100%; }
+.site-nav {
+  position: fixed; inset: 0 0 auto; z-index: 20; display: flex; align-items: center;
+  min-height: 60px; padding: 8px 28px; background: #E8E5DF;
+  border-bottom: 1px solid #C6BDB2; font-family: 'Trebuchet MS', sans-serif;
+}
+.site-nav a {
+  display: inline-flex; align-items: center; gap: 10px; min-height: 44px;
+  padding: 8px 12px; border-radius: 10px; color: #28221F;
+  font-size: 14px; font-weight: bold; text-decoration: none;
+}
+.site-nav a:hover { background: #F8F6F1; }
 .nav-icon { width: 24px; height: 24px; flex: 0 0 24px; stroke-width: 1.8; }
 /* La cornice di lavoro resta distinta dall'interfaccia mobile. */
 .workbench { width: 320px; padding-top: 22px; font-family: 'Trebuchet MS', sans-serif; }
@@ -282,7 +293,8 @@ body[data-theme="B"] #nav .active { color: var(--text); }
 body[data-theme="B"] #nav .active::before { background: var(--pop-green); }
 body[data-theme="B"] #toast { background: var(--primary); color: var(--onPrimary); }
 @media (max-width: 800px) {
-  body { gap: 22px; padding: 18px 12px; flex-direction: column; align-items: center; }
+  body { gap: 22px; padding: 78px 12px 18px; flex-direction: column; align-items: center; }
+  .site-nav { padding: 8px 12px; }
   .workbench { width: min(390px, 100%); padding: 0; }
   .workbench > p { margin: 8px 0; }
   .workbench h1 { font-size: 28px; margin: 6px 0; }
@@ -305,3 +317,6 @@ body[data-theme="B"] #toast { background: var(--primary); color: var(--onPrimary
 @media (prefers-reduced-motion: reduce) {
   #app { scroll-behavior: auto; }
 }
+
+/* Accesso alla libreria nella cornice di lavoro, anche su mobile. */
+.workbench a.design-system-link { display: inline-flex; align-items: center; min-height: 44px; font-weight: bold; }

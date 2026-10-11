@@ -1,0 +1,226 @@
+{
+  "date": "2026-10-11",
+  "status": "PASS",
+  "type": "data_and_rendering_invariants",
+  "passed": 7,
+  "tests": [
+    {
+      "name": "Ogni luogo conserva tre fasce compatibili con apertura 16–23",
+      "status": "PASS"
+    },
+    {
+      "name": "Zero contributi non produce valori, riempimenti o raccomandazioni",
+      "status": "PASS"
+    },
+    {
+      "name": "Copertura parziale esclude la fascia assente dal confronto",
+      "status": "PASS"
+    },
+    {
+      "name": "Giorno assente non usa il profilo di un altro giorno",
+      "status": "PASS"
+    },
+    {
+      "name": "Fascia chiusa è distinta da dato assente e da affluenza bassa",
+      "status": "PASS"
+    },
+    {
+      "name": "Valori fuori scala e copertura zero non vengono mostrati",
+      "status": "PASS"
+    },
+    {
+      "name": "Anteprima del lunedì coerente; giorno non valido mantiene il profilo predefinito",
+      "status": "PASS"
+    }
+  ],
+  "limitations": [
+    "Non verifica browser, layout, tastiera o lettore di schermo.",
+    "Non è un test con partecipanti."
+  ],
+  "browser": {
+    "status": "PASS",
+    "browser": "Codex in-app browser",
+    "viewports": [
+      320,
+      390
+    ],
+    "themes": [
+      "A",
+      "B"
+    ],
+    "checks": [
+      "DS08 sopra DS19, tre fasce presenti",
+      "A 320 px, S05: tre righe complete senza overflow o testo tagliato",
+      "B 390 px, S06: tre fasce affiancate",
+      "Selezione giorno, aggiornamento dei livelli e ritorno focus",
+      "Escape chiude e restituisce focus",
+      "Giorno conservato nel passaggio S05/S06",
+      "Dati parziali e assenti leggibili, senza barre inventate",
+      "Controllo del giorno alto 48 px",
+      "Semantica e nomi disponibili nell’albero di accessibilità",
+      "Anteprima del catalogo con scope A/B; tema A conserva titolo Georgia 24 px"
+    ],
+    "limitations": [
+      "Non è una sessione VoiceOver né un test con partecipanti.",
+      "Ingrandimento del testo al 200% non verificato."
+    ],
+    "catalogue_day_check": "Anteprima parziale iniziale del lunedì: due barre e una fascia assente, ritorno del focus dopo scelta giorno verificato."
+  },
+  "contrasts": {
+    "status": "PASS",
+    "method": "sRGB relative luminance contrast",
+    "pairs": [
+      {
+        "theme": "A",
+        "foreground": "text",
+        "background": "atmosphereBg",
+        "ratio": 12.48,
+        "minimum": 4.5,
+        "status": "PASS"
+      },
+      {
+        "theme": "A",
+        "foreground": "text",
+        "background": "atmosphereIconBg",
+        "ratio": 12.08,
+        "minimum": 4.5,
+        "status": "PASS"
+      },
+      {
+        "theme": "A",
+        "foreground": "muted",
+        "background": "atmosphereBg",
+        "ratio": 5.75,
+        "minimum": 4.5,
+        "status": "PASS"
+      },
+      {
+        "theme": "A",
+        "foreground": "muted",
+        "background": "surface",
+        "ratio": 7.05,
+        "minimum": 4.5,
+        "status": "PASS"
+      },
+      {
+        "theme": "A",
+        "foreground": "dataAccent",
+        "background": "atmosphereBg",
+        "ratio": 5.14,
+        "minimum": 4.5,
+        "status": "PASS"
+      },
+      {
+        "theme": "A",
+        "foreground": "dataAccent",
+        "background": "dataAccentSoft",
+        "ratio": 4.97,
+        "minimum": 4.5,
+        "status": "PASS"
+      },
+      {
+        "theme": "A",
+        "foreground": "dataAccent",
+        "background": "surface",
+        "ratio": 6.31,
+        "minimum": 4.5,
+        "status": "PASS"
+      },
+      {
+        "theme": "A",
+        "foreground": "focus",
+        "background": "surface",
+        "ratio": 9.74,
+        "minimum": 3,
+        "status": "PASS"
+      },
+      {
+        "theme": "A",
+        "foreground": "focus",
+        "background": "atmosphereBg",
+        "ratio": 7.93,
+        "minimum": 3,
+        "status": "PASS"
+      },
+      {
+        "theme": "B",
+        "foreground": "text",
+        "background": "atmosphereBg",
+        "ratio": 19.3,
+        "minimum": 4.5,
+        "status": "PASS"
+      },
+      {
+        "theme": "B",
+        "foreground": "text",
+        "background": "atmosphereIconBg",
+        "ratio": 16.03,
+        "minimum": 4.5,
+        "status": "PASS"
+      },
+      {
+        "theme": "B",
+        "foreground": "muted",
+        "background": "atmosphereBg",
+        "ratio": 8.02,
+        "minimum": 4.5,
+        "status": "PASS"
+      },
+      {
+        "theme": "B",
+        "foreground": "muted",
+        "background": "surface",
+        "ratio": 8.72,
+        "minimum": 4.5,
+        "status": "PASS"
+      },
+      {
+        "theme": "B",
+        "foreground": "dataAccent",
+        "background": "atmosphereBg",
+        "ratio": 7.13,
+        "minimum": 4.5,
+        "status": "PASS"
+      },
+      {
+        "theme": "B",
+        "foreground": "dataAccent",
+        "background": "dataAccentSoft",
+        "ratio": 5.93,
+        "minimum": 4.5,
+        "status": "PASS"
+      },
+      {
+        "theme": "B",
+        "foreground": "dataAccent",
+        "background": "surface",
+        "ratio": 7.75,
+        "minimum": 4.5,
+        "status": "PASS"
+      },
+      {
+        "theme": "B",
+        "foreground": "focus",
+        "background": "surface",
+        "ratio": 21.0,
+        "minimum": 3,
+        "status": "PASS"
+      },
+      {
+        "theme": "B",
+        "foreground": "focus",
+        "background": "atmosphereBg",
+        "ratio": 19.3,
+        "minimum": 3,
+        "status": "PASS"
+      }
+    ]
+  },
+  "assets": {
+    "atmosfera-affluenza.js": "903fbe9f3d168f9135e2ff6ef35f241826a76df74bba06b5a22e1db07c10ca52",
+    "atmosfera-affluenza.css": "b442faeb9aec0d9b70ff716b17f0bba298204c89c0501ef233995fb0a89a8b28",
+    "tokens_A.css": "bbafde42627b9351bba1b68fe052de15153c9f70fa6630b03eafd94ddda02442",
+    "tokens_B.css": "d239690954d0e17226c936d049aee12bd49e1ae8ec0559398ed16815e804f4c6"
+  },
+  "publication_note": "Copia per consultazione: i controlli e gli hash di origine descrivono gli asset del workspace. I percorsi locali sono stati normalizzati; il manifest di pubblicazione descrive i file distribuiti."
+}

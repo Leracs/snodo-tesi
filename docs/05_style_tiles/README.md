@@ -24,6 +24,10 @@ Campione condiviso:
 
 **Tutti questi elementi sono mock**, inclusi luogo, prezzo, visita, identità, date e copertura. L’illustrazione del cortile è una costruzione vettoriale dimostrativa, non una fotografia del locale. I numeri non derivano dai questionari della tesi. Le quantità dei questionari e la ricerca restano separati e reali. Roma è il contesto del campione; il prodotto iniziale riguarda tutta Italia e non richiede posizione GPS per cercare in un’altra città.
 
+## Integrazioni dal benchmark
+
+Il [confronto UX/UI](../11_materiale_di_lavoro/Benchmark_UX_UI_e_integrazioni_SNODO.md#4-integrazione-visiva-a-b-senza-clonare-i-competitor) propone ricerca e card più compatte, marker riconoscibili e limiti dei dati vicini al contenuto. La [nuova tavola A/B](../11_materiale_di_lavoro/Benchmark_UX_UI_e_integrazioni_SNODO.md#5-tavole-di-proposta) conserva palette, tipografia e contenuti confrontabili; è una proposta aggiuntiva di lavoro. Le due tile v0.3 restano disponibili per confrontare le revisioni e preparare le sessioni reali.
+
 ## Elementi di immagine per il prototipo
 
 Le illustrazioni del cortile sono disponibili anche come asset separati, **360 × 200 px**, nelle due direzioni. Servono a mantenere coerenti le card del prototipo e quelle delle style tile. I file SVG sono la sorgente vettoriale; i PNG sono le anteprime. L’immagine rappresenta un locale fittizio e non proviene da una visita, da un gestore o da un utente.

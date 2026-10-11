@@ -115,6 +115,22 @@
     "onPrimary": {
       "$type": "color",
       "$value": "#80EFED"
+    },
+    "atmosphereBg": {
+      "$type": "color",
+      "$value": "#E4FAF6"
+    },
+    "atmosphereIconBg": {
+      "$type": "color",
+      "$value": "#ADEDE6"
+    },
+    "dataAccent": {
+      "$type": "color",
+      "$value": "#713799"
+    },
+    "dataAccentSoft": {
+      "$type": "color",
+      "$value": "#E9DDF0"
     }
   },
   "font": {

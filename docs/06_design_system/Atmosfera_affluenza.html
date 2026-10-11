@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="it" class="snodo-gate-locked"><head><meta name="robots" content="noindex,nofollow"><style id="snodo-access-critical">html.snodo-gate-locked body{overflow:hidden!important;background:#F7F1E8!important}html.snodo-gate-locked body>:not(#snodo-access-gate):not(#snodo-access-safety):not(noscript),html.snodo-gate-locked body>:not(#snodo-access-gate):not(#snodo-access-safety):not(noscript) *{visibility:hidden!important;pointer-events:none!important}</style><link rel="stylesheet" href="../accesso/gate.css?v=20261011-minimal"><script src="../accesso/gate.js?v=20261011-minimal" data-snodo-gate></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Atmosfera e affluenza — pattern SNODO · Tesi UX UI</title><link rel="stylesheet" href="../lettura.css?v=20261011-essential-v4"><script src="../lettura.js?v=20261011-essential-v4" defer></script></head>
+<body class="document lavoro"><noscript><div id="snodo-access-safety"><strong>SNODO · materiali della tesi</strong><p>Per usare il gate d’ingresso, attiva JavaScript nel browser e ricarica questa pagina.</p></div></noscript><a class="skip-link" href="#contenuto">Vai al contenuto</a>
+<header class="reader-top"><div class="reader-top-inner"><a class="back-link" href="../Materiale_di_lavoro.html"><span aria-hidden="true">←</span> Materiale di lavoro</a><div class="top-actions" data-snodo-access-actions><a href="index.html">Design system</a><a href="../Indice_consegne.html">Indice dei materiali</a><button type="button" class="print-button" data-print hidden>Stampa</button></div></div></header>
+<main id="contenuto" class="reader-wrap" tabindex="-1"><header class="document-header"><h1 id="inizio">Atmosfera e affluenza — pattern SNODO</h1><p class="document-meta">Uso operativo · 11 ottobre 2026 · circa 5 min di lettura</p></header><aside class="classification-banner lavoro" aria-label="Destinazione e stato del materiale"><div><span class="status-label">Uso operativo</span><strong>Proposta operativa</strong></div><p>Specifica o guida per sviluppare il progetto. I passaggi da raccontare nella tesi sono raccolti separatamente.</p><p class="classification-detail"><b>Collocazione:</b> Non da integrare come documento intero. Contiene istruzioni, ipotesi o controlli di costruzione; non è un capitolo pronto per la tesi.</p></aside><div class="reading-layout"><article class="prose"><p>Revisione v0.4, 11 ottobre 2026. Pattern approvato dal committente per l’integrazione nel progetto; la scelta generale della direzione A/B resta aperta. Questa approvazione di progetto non è un risultato di ricerca con utenti.</p>
+<p><a href="Atmosfera_affluenza_demo.html">Apri la dimostrazione interattiva</a>. La stessa implementazione è utilizzata nella scheda del luogo S05 e nel dettaglio S06 del <a href="../07_prototipo/index.html">supporto interattivo</a>.</p>
+<p>DS19 è assegnato all’affluenza per evitare collisioni con le proposte di componenti del benchmark.</p>
+<h2 id="due-componenti-distinti">Due componenti distinti</h2>
+<p><strong>DS08 Atmosfera</strong> presenta luce, rumore e comfort: icona, nome della dimensione, descrizione testuale, intensità da 1 a 5 e periodo/fascia dei contributi. Le tre righe mantengono la stessa struttura. Il rumore alto non è un voto positivo; il comfort resta una percezione soggettiva. Non calcolare un punteggio complessivo o un indice di benessere.</p>
+<p><strong>DS19 Affluenza per fasce</strong> si trova sotto l’atmosfera, su una superficie di lettura separata. Presenta esattamente <strong>tre fasce</strong>, con nome, intervallo e livello Bassa/Media/Alta. La versione a quattro fasce è esclusa. Gli intervalli sono configurabili per luogo e devono essere coerenti con gli orari di apertura. Il catalogo demo dichiara 16–23: gli esempi usano Pomeriggio 16–18, Sera 18–21 e Tarda sera 21–23. Non attribuire dati a fasce esterne all’orario dichiarato.</p>
+<p>La parte superiore usa la superficie calma derivata dal turchese della direzione B, icone leggibili e punteggi allineati. Le barre usano un viola più scuro del viola decorativo. Il sistema conserva Boldonse e il corpo Forma DJR Text con fallback Helvetica Neue della B; non importa Anton dall’esplorazione iniziale. La direzione A applica la stessa struttura con i propri font e colori.</p>
+<h2 id="selettore-del-giorno">Selettore del giorno</h2>
+<p>Un pulsante arrotondato con calendario, nome completo del giorno e freccia apre un pannello dal basso realizzato con <code>dialog</code>. È una composizione di DS01 e DS16, non una nuova navigazione dell’app.</p>
+<ul>
+<li>Apertura con clic, Invio o Spazio; focus sul giorno selezionato.</li>
+<li>Sette pulsanti con nomi completi, segno di spunta e stato <code>aria-pressed</code>.</li>
+<li>Selezione: aggiorna solo l’affluenza, chiude il pannello e restituisce il focus al pulsante.</li>
+<li>Escape, chiusura esplicita e clic sullo sfondo chiudono senza cambiare il giorno.</li>
+<li>Il giorno rimane associato al luogo nel passaggio S05/S06. Riparti azzera le selezioni della demo.</li>
+<li>Pannello con altezza limitata e scorrimento, per non rendere irraggiungibili i giorni con testo ingrandito.</li>
+</ul>
+<h2 id="dati-e-assenze">Dati e assenze</h2>
+<p><code>atmosphere.values</code> e <code>metricCoverage</code> descrivono le tre condizioni. Il sotto-oggetto distinto <code>atmosphere.attendance</code> contiene definizioni delle fasce, profili per giorno, valori, quantità dei contributi e provenienza. Il selettore non modifica luce, rumore o comfort e non ricalcola la loro scala.</p>
+<p>I valori del catalogo sono esempi predisposti. Il nuovo comfort e i profili giornalieri non provengono dai questionari, non sono misure ambientali e non sono medie calcolate. Prima del prodotto reale definire raccolta, aggregazione, copertura minima e recenza. Nel frattempo non descrivere questa implementazione come stima live.</p>
+<ul>
+<li>Valore mancante, invalido o zero contributi: testo esplicito e nessuna barra riempita. Non convertire in zero o Bassa.</li>
+<li>Fascia chiusa: etichetta Chiuso, distinta da Dato assente.</li>
+<li>Giorno privo di un profilo: tutte le fasce sono assenti; non usare il profilo di un altro giorno.</li>
+<li>Dati parziali: restano visibili tutte le fasce. La raccomandazione confronta solo quelle disponibili e dichiara il confronto limitato.</li>
+<li>Per dimensioni mancanti, non mostrare punteggi o segmenti vuoti che suggeriscano un’intensità bassa.</li>
+<li>Periodo, fascia di riferimento, natura dimostrativa e limite del confronto restano visibili; la provenienza completa è documentata nel catalogo e nella pagina del pattern; DS07 apre gli approfondimenti.</li>
+</ul>
+<h2 id="token-aggiunti">Token aggiunti</h2>
+<p class="table-hint" hidden>↔ Scorri la tabella per leggere tutte le colonne.</p><div class="table-wrap" role="region" tabindex="0" aria-label="Tabella 1: Token aggiunti"><table>
+<thead>
+<tr>
+<th scope="col">Ruolo</th>
+<th scope="col">Direzione A</th>
+<th scope="col">Direzione B</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>atmosphereBg</code></td>
+<td><code>#EEE4D7</code></td>
+<td><code>#E4FAF6</code></td>
+</tr>
+<tr>
+<td><code>atmosphereIconBg</code></td>
+<td><code>#F6DDD0</code></td>
+<td><code>#ADEDE6</code></td>
+</tr>
+<tr>
+<td><code>dataAccent</code></td>
+<td><code>#9C432D</code></td>
+<td><code>#713799</code></td>
+</tr>
+<tr>
+<td><code>dataAccentSoft</code></td>
+<td><code>#F6DDD0</code></td>
+<td><code>#E9DDF0</code></td>
+</tr>
+</tbody></table>
+</div>
+<p>I colori originali della palette B restano disponibili come accenti del brand. <code>dataAccent</code> è il ruolo del viola per grafici e testo funzionale: non utilizzare automaticamente <code>accentPurple</code> come colore di testo. I nuovi ruoli sono presenti nei token CSS/JSON e nei due <code>theme</code> JSON.</p>
+<h2 id="accessibilita-e-limiti-delle-verifiche">Accessibilità e limiti delle verifiche</h2>
+<p>Corpo 16/24, metadati 14/20, controlli alti 48 px, focus con spessore e distanza di 3 px. La forma, le altezze e il testo rendono comprensibili i livelli anche senza colore. Le icone e i segni quantitativi duplicati sono decorativi per il lettore di schermo; l’elenco annuncia fascia, livello e contributi.</p>
+<p>Le barre usano una scala comune 1–5 anche se il livello visibile è qualitativo. Nessuna area minima artificiale viene attribuita a un dato assente. Sotto 270 px di larghezza del componente, le tre fasce diventano tre righe complete con nome, orario, barra e livello: evitare una disposizione 2+1. I titoli e le descrizioni possono andare a capo.</p>
+<p>Le verifiche sono registrate in <a href="QA_atmosfera_affluenza.json">QA_atmosfera_affluenza.json</a>. Distinguere controlli dei dati, contrasti e browser da test con persone o verifica completa di conformità. Questa integrazione non crea componenti nativi Figma né aggiorna le vecchie tavole SVG come se fossero già migrate.</p>
+<h2 id="file-riutilizzabili">File riutilizzabili</h2>
+<ul>
+<li><a href="atmosfera-affluenza.css">atmosfera-affluenza.css</a>: geometria e comportamento visivo, con token A/B.</li>
+<li><a href="atmosfera-affluenza.js">atmosfera-affluenza.js</a>: rendering, stati dei dati, selezione del giorno e dialogo.</li>
+<li><a href="Verifiche_atmosfera.cjs">Verifiche_atmosfera.cjs</a>: controlli di assenze e copertura.</li>
+</ul>
+<p>Caricare prima i token, poi CSS e JavaScript del pattern. Inserire <code>SnodoAtmosfera.render(place)</code> nel contenitore e chiamare <code>SnodoAtmosfera.mount(container, place)</code> dopo il rendering. La demo e il prototipo riusano questi file; non hanno una copia separata del componente.</p>
+<section class="document-end" aria-label="Materiali collegati"><p><a href="Atmosfera_affluenza.md" download>Scarica il sorgente Markdown</a></p><p><a href="../Materiale_di_lavoro.html">Torna a materiale di lavoro</a></p></section></article><aside class="toc" aria-label="Indice del documento"><details open><summary>In questa pagina</summary><nav aria-label="Sezioni del documento"><ul><li><a href="#due-componenti-distinti">Due componenti distinti</a></li><li><a href="#selettore-del-giorno">Selettore del giorno</a></li><li><a href="#dati-e-assenze">Dati e assenze</a></li><li><a href="#token-aggiunti">Token aggiunti</a></li><li><a href="#accessibilita-e-limiti-delle-verifiche">Accessibilità e limiti delle verifiche</a></li><li><a href="#file-riutilizzabili">File riutilizzabili</a></li></ul></nav></details></aside></div><nav class="next-documents" aria-label="Altri documenti della stessa raccolta"><a href="Contrasti.html"><small>← Documento precedente</small><strong>Contrasti delle due basi provvisorie</strong></a><a class="next" href="Guida_catalogo.html"><small>Documento successivo →</small><strong>Catalogo del design system SNODO</strong></a></nav></main>
+</body></html>

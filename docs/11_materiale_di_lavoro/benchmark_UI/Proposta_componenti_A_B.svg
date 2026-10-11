@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1740" viewBox="0 0 1440 1740" role="img" aria-labelledby="title desc">
+<title id="title">SNODO — proposta di componenti A/B dopo il benchmark</title>
+<desc id="desc">SNODO, nome provvisorio. Componenti statici di progetto; luoghi, visite e contributi mock. Nessun risultato di test con utenti.</desc>
+<defs><filter id="card-shadow" x="-25%" y="-25%" width="150%" height="160%"><feDropShadow dx="0" dy="5" stdDeviation="9" flood-color="#28221F" flood-opacity="0.075"/></filter></defs>
+<rect x="0" y="0" width="1440" height="1740" rx="0" fill="#FFFFFF"/>
+<text x="48" y="66" font-family="Helvetica Neue" font-size="32" font-weight="700" text-anchor="start" fill="#28221F">SNODO / Integrazioni proposte</text>
+<text x="48" y="105" font-family="Helvetica Neue" font-size="18" font-weight="400" text-anchor="start" fill="#64544A">Stessi compiti e contenuti nelle due direzioni. Ricerca più compatta, card confrontabili e stati leggibili.</text>
+<rect x="48" y="168" width="648" height="1432" rx="32" fill="#F7F1E8"/>
+<text x="80" y="230" font-family="Georgia" font-size="28" font-weight="400" text-anchor="start" fill="#28221F">Direzione A</text>
+<text x="80" y="266" font-family="Trebuchet MS" font-size="16" font-weight="400" text-anchor="start" fill="#64544A">Crema / editoriale</text>
+<rect x="80" y="286" width="100" height="20" rx="10" fill="#9C432D" stroke="#D7C9B9" stroke-width="1"/>
+<rect x="192" y="286" width="100" height="20" rx="10" fill="#F6DDD0" stroke="#D7C9B9" stroke-width="1"/>
+<rect x="304" y="286" width="100" height="20" rx="10" fill="#F7F1E8" stroke="#D7C9B9" stroke-width="1"/>
+<rect x="416" y="286" width="100" height="20" rx="10" fill="#28221F" stroke="#D7C9B9" stroke-width="1"/>
+<rect x="528" y="286" width="100" height="20" rx="10" fill="#FFFCF7" stroke="#D7C9B9" stroke-width="1"/>
+<g id="component-A-search" data-component-title="Ricerca e filtri rapidi">
+<rect x="201" y="334" width="390" height="208" rx="24" fill="#FFFCF7"/>
+<text x="217" y="368" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="start" fill="#28221F">Roma · San Lorenzo</text>
+<text x="524.0" y="369.0" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="middle" fill="#9C432D">Cambia</text>
+<text x="217" y="396" font-family="Trebuchet MS" font-size="14" font-weight="700" text-anchor="start" fill="#28221F">Cosa cerchi?</text>
+<rect x="217" y="410" width="358" height="52" rx="12" fill="#FFFCF7" stroke="#8A7769" stroke-width="1.5"/>
+<g transform="translate(233 424) scale(1.0)" stroke="#64544A" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="search">
+<path d="M10.5 17.5a7 7 0 1 1 0-14a7 7 0 0 1 0 14"/>
+<path d="M16 16l5 5"/>
+</g>
+<text x="269" y="441" font-family="Trebuchet MS" font-size="16" font-weight="400" text-anchor="start" fill="#28221F">Un aperitivo con amici</text>
+<rect x="217" y="478" width="114" height="44" rx="22" fill="#F6DDD0"/>
+<g transform="translate(229 488) scale(0.8333333333333334)" stroke="#9C432D" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="check">
+<path d="M5 12l4 4l10-10"/>
+</g>
+<text x="286.0" y="505" font-family="Trebuchet MS" font-size="15" font-weight="700" text-anchor="middle" fill="#9C432D">≤20 €</text>
+<rect x="339" y="478" width="138" height="44" rx="22" fill="#F6DDD0"/>
+<g transform="translate(351 488) scale(0.8333333333333334)" stroke="#9C432D" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="check">
+<path d="M5 12l4 4l10-10"/>
+</g>
+<text x="420.0" y="505" font-family="Trebuchet MS" font-size="15" font-weight="700" text-anchor="middle" fill="#9C432D">Rumore ≤2</text>
+<rect x="485" y="478" width="90" height="44" rx="22" fill="#FFFCF7" stroke="#8A7769" stroke-width="1.5"/>
+<text x="530.0" y="505" font-family="Trebuchet MS" font-size="15" font-weight="400" text-anchor="middle" fill="#28221F">Filtri · 2</text>
+</g>
+<text x="201" y="571" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="start" fill="#28221F">DS06 · card di lista compatta</text>
+<g id="component-A-card" data-component-title="Card di lista proposta">
+<rect x="217" y="590" width="358" height="256" rx="20" fill="#FFFCF7" stroke="#D7C9B9" stroke-width="1"/>
+<rect x="233" y="606" width="104" height="112" rx="14" fill="#EBD6C8"/>
+<rect x="243" y="632" width="84" height="72" rx="4" fill="#FFFCF7"/>
+<path d="M266.28 704V661a18.72 18.72 0 0 1 37.44 0V704Z" fill="#28221F"/>
+<circle cx="313" cy="624" r="8" fill="#D97A4A"/>
+<rect x="233" y="704" width="104" height="14" rx="6" fill="#6B7752"/>
+<text x="353" y="634" font-family="Georgia" font-size="20" font-weight="400" text-anchor="start" fill="#28221F">Cortile Uno</text>
+<text x="353" y="660" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Roma · San Lorenzo</text>
+<text x="353" y="698" font-family="Trebuchet MS" font-size="20" font-weight="700" text-anchor="start" fill="#28221F">12–18 €</text>
+<text x="353" y="721" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">indicativi a persona</text>
+<rect x="515" y="602" width="44" height="44" rx="22" fill="#FFFCF7"/>
+<g transform="translate(525 612) scale(1.0)" stroke="#28221F" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="bookmark">
+<path d="M6 3h12v18l-6-4l-6 4Z"/>
+</g>
+<text x="233" y="756" font-family="Trebuchet MS" font-size="16" font-weight="400" text-anchor="start" fill="#28221F">Rumore 2/5 · visite 18–21</text>
+<text x="233" y="782" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">2 contributi mock · dati limitati</text>
+<path d="M233 798L559 798" stroke="#D7C9B9" stroke-width="1" fill="none" stroke-linecap="round"/>
+<text x="233" y="827" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="start" fill="#9C432D">Apri scheda</text>
+<g transform="translate(531 810) scale(1.0)" stroke="#9C432D" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="arrow">
+<path d="M5 12h14"/>
+<path d="M14 7l5 5l-5 5"/>
+</g>
+</g>
+<text x="201" y="898" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="start" fill="#28221F">DS-MAP · mappa e marker proposti</text>
+<g id="component-A-markers" data-component-title="Stati del marker proposti">
+<rect x="201" y="918" width="390" height="132" rx="24" fill="#FFFCF7"/>
+<rect x="244" y="943" width="44" height="44" rx="22" fill="#FFFCF7" stroke="#8A7769" stroke-width="1.5"/>
+<text x="266" y="971" font-family="Trebuchet MS" font-size="18" font-weight="700" text-anchor="middle" fill="#28221F">2</text>
+<text x="266" y="1021" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="middle" fill="#64544A">Disponibile</text>
+<rect x="374" y="943" width="44" height="44" rx="22" fill="#FFFCF7" stroke="#8A7769" stroke-width="1.5"/>
+<rect x="370" y="939" width="52" height="52" rx="26" fill="#FFFCF7" stroke="#51366F" stroke-width="3"/>
+<circle cx="396" cy="965" r="20" fill="#9C432D"/>
+<text x="396" y="971" font-family="Trebuchet MS" font-size="18" font-weight="700" text-anchor="middle" fill="#FFFFFF">1</text>
+<text x="396" y="1021" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="middle" fill="#64544A">Selezionato</text>
+<rect x="504" y="943" width="44" height="44" rx="22" fill="#FFFCF7" stroke="#8A7769" stroke-width="1.5"/>
+<text x="524" y="972" font-family="Trebuchet MS" font-size="18" font-weight="700" text-anchor="middle" fill="#28221F">3</text>
+<circle cx="538" cy="953" r="10" fill="#FFFCF7" stroke="#8A7769" stroke-width="1"/>
+<g transform="translate(531 946) scale(0.5833333333333334)" stroke="#28221F" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="bookmark">
+<path d="M6 3h12v18l-6-4l-6 4Z"/>
+</g>
+<text x="526" y="1021" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="middle" fill="#64544A">Salvato</text>
+</g>
+<g id="component-A-source" data-component-title="Copertura e dato assente">
+<rect x="201" y="1088" width="390" height="132" rx="24" fill="#FFFCF7"/>
+<text x="217" y="1120" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="start" fill="#28221F">DS07 / DS08 · provenienza</text>
+<text x="217" y="1147" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Visite 18–21 · 2 contributi mock</text>
+<path d="M217 1164L575 1164" stroke="#D7C9B9" stroke-width="1" fill="none" stroke-linecap="round"/>
+<g transform="translate(217 1180) scale(0.8333333333333334)" stroke="#64544A" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="info">
+<path d="M12 22a10 10 0 1 1 0-20a10 10 0 0 1 0 20"/>
+<path d="M12 11v6"/>
+<path d="M12 7h.01"/>
+</g>
+<text x="249" y="1197" font-family="Trebuchet MS" font-size="16" font-weight="400" text-anchor="start" fill="#28221F">Luce: dato non disponibile</text>
+</g>
+<g id="component-A-ai" data-component-title="AI nel contesto della ricerca">
+<rect x="201" y="1258" width="390" height="236" rx="24" fill="#FFFCF7"/>
+<g transform="translate(217 1276) scale(1.0)" stroke="#28221F" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="sparkle">
+<path d="M12 2l2.7 7.3L22 12l-7.3 2.7L12 22l-2.7-7.3L2 12l7.3-2.7Z"/>
+</g>
+<text x="249" y="1295" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="start" fill="#28221F">Assistente AI · demo</text>
+<text x="217" y="1334" font-family="Trebuchet MS" font-size="16" font-weight="400" text-anchor="start" fill="#28221F">Ho mantenuto Roma e il budget di 20 €. Per il</text>
+<text x="217" y="1358" font-family="Trebuchet MS" font-size="16" font-weight="400" text-anchor="start" fill="#28221F">rumore ci sono pochi dati.</text>
+<text x="217" y="1398" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Catalogo mock · criteri modificabili</text>
+<rect x="217" y="1424" width="358" height="48" rx="12" fill="#9C432D"/>
+<g transform="translate(326.5078125 1436.0) scale(1.0)" stroke="#FFFFFF" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="arrow">
+<path d="M5 12h14"/>
+<path d="M14 7l5 5l-5 5"/>
+</g>
+<text x="358.5078125" y="1453.0" font-family="Trebuchet MS" font-size="16" font-weight="700" text-anchor="start" fill="#FFFFFF">Vedi i 3 luoghi</text>
+</g>
+<text x="80" y="1534" font-family="Trebuchet MS" font-size="14" font-weight="400" text-anchor="start" fill="#64544A">Georgia + Trebuchet MS</text>
+<rect x="744" y="168" width="648" height="1432" rx="32" fill="#80EFED"/>
+<g transform="translate(776.000 230)" fill="#000000" data-text="Direzione B" data-font="Boldonse" data-size="28" data-weight="400" aria-label="Direzione B"><title>Direzione B</title><path d="M60 1190H381Q504 1190 587 1118Q626 1083 654.5 1029.0Q683 975 696 912Q710 844 710 764V426Q710 343 696.0 277.0Q682 211 654 160Q626 107 587.0 72.5Q548 38 495 19Q444 0 381 0H60ZM295 220H328Q475 220 475 426V764Q475 970 328 970H295Z" transform="translate(0.0000 0) scale(0.02800000 -0.02800000)"/><path d="M50 0V870H275V0ZM38 1061Q38 1104 62 1138Q72 1154 88.5 1166.0Q105 1178 123 1183Q142 1189 163 1189Q183 1189 202.0 1183.5Q221 1178 238 1166Q270 1142 282 1103Q288 1083 288 1061Q288 1006 253 968Q218 930 163 930Q120 930 89 955Q73 967 62.0 982.5Q51 998 44 1020Q38 1039 38 1061Z" transform="translate(21.0000 0) scale(0.02800000 -0.02800000)"/><path d="M50 870H275Q275 859 273.0 850.5Q271 842 266 828Q261 813 260.0 810.0Q259 807 256.5 803.5Q254 800 247 783Q242 772 235 763L247 753Q263 777 278.5 795.0Q294 813 318 830Q358 858 414 866Q440 870 474 870H513L503 655H440Q361 655 319 630Q275 603 275 556V0H50Z" transform="translate(30.0000 0) scale(0.02800000 -0.02800000)"/><path d="M855 438V365H247Q253 335 266.5 309.5Q280 284 297 266Q316 246 337.0 233.0Q358 220 388 213Q401 209 415.5 207.0Q430 205 446 205Q494 205 534 221Q574 237 599 266Q605 273 610.0 281.0Q615 289 619 297H848Q834 235 807.0 189.0Q780 143 747 112Q709 74 661.5 47.0Q614 20 558 5Q531 -2 502.0 -6.0Q473 -10 443 -10Q366 -10 303.5 12.5Q241 35 192 73Q85 155 45 292Q25 360 25 438Q25 513 46.0 582.0Q67 651 105 705Q144 760 196.5 799.0Q249 838 312 859Q376 880 445 880Q512 880 576.0 857.5Q640 835 689 795Q740 753 777.5 699.0Q815 645 835 577Q855 511 855 438ZM251 515H634Q618 568 580 606Q543 643 493 658Q480 661 467.0 663.0Q454 665 440 665Q389 665 342 638Q325 628 306.5 610.0Q288 592 273 565Q259 540 251 515Z" transform="translate(45.0000 0) scale(0.02800000 -0.02800000)"/><path d="M30 0V110L274 660H40V870H560V760L315 210H570V0Z" transform="translate(70.0000 0) scale(0.02800000 -0.02800000)"/><path d="M50 0V870H275V0ZM38 1061Q38 1104 62 1138Q72 1154 88.5 1166.0Q105 1178 123 1183Q142 1189 163 1189Q183 1189 202.0 1183.5Q221 1178 238 1166Q270 1142 282 1103Q288 1083 288 1061Q288 1006 253 968Q218 930 163 930Q120 930 89 955Q73 967 62.0 982.5Q51 998 44 1020Q38 1039 38 1061Z" transform="translate(87.0000 0) scale(0.02800000 -0.02800000)"/><path d="M465 -10Q389 -10 323.0 13.5Q257 37 205 77Q151 117 110.5 171.0Q70 225 47 297Q25 363 25 438Q25 510 47.0 577.0Q69 644 109 699Q151 756 206.5 796.0Q262 836 325 857Q358 868 393.0 874.0Q428 880 465 880Q536 880 603.5 857.0Q671 834 725 795Q778 755 819.5 699.5Q861 644 883 577Q893 544 899.0 509.0Q905 474 905 438Q905 378 886.5 309.0Q868 240 820 173Q780 117 724.0 76.0Q668 35 604 13Q571 2 536.0 -4.0Q501 -10 465 -10ZM466 205Q499 205 532.5 216.0Q566 227 592 249Q625 275 643.5 305.5Q662 336 669 362Q674 379 677.0 397.5Q680 416 680 435Q680 474 669.0 508.5Q658 543 639 572Q622 596 596.0 618.5Q570 641 533 654Q500 665 466 665Q394 665 339 622Q313 602 292.0 572.5Q271 543 261 509Q256 492 253.0 473.0Q250 454 250 435Q250 404 259.0 369.0Q268 334 292 299Q311 271 337.0 250.0Q363 229 398 217Q431 205 466 205Z" transform="translate(96.0000 0) scale(0.02800000 -0.02800000)"/><path d="M50 870H275Q275 866 273.0 853.5Q271 841 268 834Q264 823 260.0 812.0Q256 801 248 786Q245 780 242.0 774.5Q239 769 235 763L247 753Q266 781 283.0 798.5Q300 816 321 833Q340 848 363.0 859.0Q386 870 408 875Q419 877 430.5 878.5Q442 880 454 880Q484 880 513.5 870.5Q543 861 565 842Q609 802 623 730Q626 712 628.0 692.0Q630 672 630 650V0H405V610Q405 622 403.0 628.5Q401 635 395 646Q391 652 383.0 657.0Q375 662 369 663Q359 665 351 665Q343 665 336.0 663.5Q329 662 321 660Q312 658 306.0 654.5Q300 651 290 646Q286 644 282.5 641.5Q279 639 275 636V0H50Z" transform="translate(122.0000 0) scale(0.02800000 -0.02800000)"/><path d="M855 438V365H247Q253 335 266.5 309.5Q280 284 297 266Q316 246 337.0 233.0Q358 220 388 213Q401 209 415.5 207.0Q430 205 446 205Q494 205 534 221Q574 237 599 266Q605 273 610.0 281.0Q615 289 619 297H848Q834 235 807.0 189.0Q780 143 747 112Q709 74 661.5 47.0Q614 20 558 5Q531 -2 502.0 -6.0Q473 -10 443 -10Q366 -10 303.5 12.5Q241 35 192 73Q85 155 45 292Q25 360 25 438Q25 513 46.0 582.0Q67 651 105 705Q144 760 196.5 799.0Q249 838 312 859Q376 880 445 880Q512 880 576.0 857.5Q640 835 689 795Q740 753 777.5 699.0Q815 645 835 577Q855 511 855 438ZM251 515H634Q618 568 580 606Q543 643 493 658Q480 661 467.0 663.0Q454 665 440 665Q389 665 342 638Q325 628 306.5 610.0Q288 592 273 565Q259 540 251 515Z" transform="translate(141.0000 0) scale(0.02800000 -0.02800000)"/><path d="M685 902Q685 781 631.0 719.5Q577 658 457 638V622Q504 616 543.5 601.0Q583 586 614 559Q644 533 665.0 496.0Q686 459 695 418Q705 373 705 318Q705 260 692.5 210.0Q680 160 655 121Q628 80 592.0 53.5Q556 27 513 14Q467 0 413 0H60V1190H404Q455 1190 499.5 1177.5Q544 1165 578 1141Q611 1116 634.5 1083.0Q658 1050 673 1002Q679 979 682.0 954.0Q685 929 685 902ZM344 970H295V723H344Q385 723 411 745Q423 755 431.5 769.0Q440 783 446 804Q448 814 449.0 824.5Q450 835 450 846Q450 892 432 923Q423 937 410.0 948.5Q397 960 381 965Q362 970 344 970ZM295 220H356Q399 220 427 244Q442 256 451.0 273.5Q460 291 465 313Q470 337 470 362Q470 386 464.5 409.5Q459 433 450 450Q429 486 395 497Q377 503 356 503H295Z" transform="translate(173.0000 0) scale(0.02800000 -0.02800000)"/></g>
+<text x="776" y="266" font-family="Helvetica Neue" font-size="16" font-weight="400" text-anchor="start" fill="#4B4B4B">Pop / pastello</text>
+<rect x="776" y="286" width="100" height="20" rx="10" fill="#FD87BA" stroke="#BDBDB5" stroke-width="1"/>
+<rect x="888" y="286" width="100" height="20" rx="10" fill="#ADE25D" stroke="#BDBDB5" stroke-width="1"/>
+<rect x="1000" y="286" width="100" height="20" rx="10" fill="#9E6CDA" stroke="#BDBDB5" stroke-width="1"/>
+<rect x="1112" y="286" width="100" height="20" rx="10" fill="#FCEC52" stroke="#BDBDB5" stroke-width="1"/>
+<rect x="1224" y="286" width="100" height="20" rx="10" fill="#80EFED" stroke="#BDBDB5" stroke-width="1"/>
+<g id="component-B-search" data-component-title="Ricerca e filtri rapidi">
+<rect x="897" y="334" width="390" height="208" rx="24" fill="#FFFFFF"/>
+<text x="913" y="368" font-family="Helvetica Neue" font-size="16" font-weight="700" text-anchor="start" fill="#000000">Roma · San Lorenzo</text>
+<text x="1220.0" y="369.0" font-family="Helvetica Neue" font-size="16" font-weight="700" text-anchor="middle" fill="#000000">Cambia</text>
+<text x="913" y="396" font-family="Helvetica Neue" font-size="14" font-weight="700" text-anchor="start" fill="#000000">Cosa cerchi?</text>
+<rect x="913" y="410" width="358" height="52" rx="18" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<g transform="translate(929 424) scale(1.0)" stroke="#4B4B4B" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="search">
+<path d="M10.5 17.5a7 7 0 1 1 0-14a7 7 0 0 1 0 14"/>
+<path d="M16 16l5 5"/>
+</g>
+<text x="965" y="441" font-family="Helvetica Neue" font-size="16" font-weight="400" text-anchor="start" fill="#000000">Un aperitivo con amici</text>
+<rect x="913" y="478" width="114" height="44" rx="22" fill="#ADE25D"/>
+<g transform="translate(925 488) scale(0.8333333333333334)" stroke="#000000" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="check">
+<path d="M5 12l4 4l10-10"/>
+</g>
+<text x="982.0" y="505" font-family="Helvetica Neue" font-size="15" font-weight="700" text-anchor="middle" fill="#000000">≤20 €</text>
+<rect x="1035" y="478" width="138" height="44" rx="22" fill="#ADE25D"/>
+<g transform="translate(1047 488) scale(0.8333333333333334)" stroke="#000000" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="check">
+<path d="M5 12l4 4l10-10"/>
+</g>
+<text x="1116.0" y="505" font-family="Helvetica Neue" font-size="15" font-weight="700" text-anchor="middle" fill="#000000">Rumore ≤2</text>
+<rect x="1181" y="478" width="90" height="44" rx="22" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="1226.0" y="505" font-family="Helvetica Neue" font-size="15" font-weight="400" text-anchor="middle" fill="#000000">Filtri · 2</text>
+</g>
+<text x="897" y="571" font-family="Helvetica Neue" font-size="16" font-weight="700" text-anchor="start" fill="#000000">DS06 · card di lista compatta</text>
+<g id="component-B-card" data-component-title="Card di lista proposta">
+<rect x="913" y="590" width="358" height="256" rx="32" fill="#FFFFFF" stroke="#BDBDB5" stroke-width="1"/>
+<rect x="929" y="606" width="104" height="112" rx="14" fill="#FD87BA"/>
+<rect x="939" y="632" width="84" height="72" rx="4" fill="#FFFFFF"/>
+<path d="M962.28 704V661a18.72 18.72 0 0 1 37.44 0V704Z" fill="#000000"/>
+<circle cx="1009" cy="624" r="8" fill="#FCEC52"/>
+<rect x="929" y="704" width="104" height="14" rx="6" fill="#ADE25D"/>
+<g transform="translate(1049.000 634)" fill="#000000" data-text="Cortile Uno" data-font="Boldonse" data-size="16" data-weight="400" aria-label="Cortile Uno"><title>Cortile Uno</title><path d="M265 593Q265 532 280.5 475.0Q296 418 329 367Q358 322 401.5 288.0Q445 254 497 238Q551 220 610 220Q707 220 781 265Q854 310 893 389Q902 408 909.0 429.5Q916 451 921 474H1161Q1153 387 1121.5 316.0Q1090 245 1041 186Q938 62 779 14Q699 -10 612 -10Q525 -10 436.5 17.0Q348 44 265 106Q192 160 139.0 237.5Q86 315 59 403Q45 448 37.5 496.0Q30 544 30 595Q30 699 59.5 789.5Q89 880 140 954Q197 1035 273.0 1089.5Q349 1144 425 1170Q469 1184 516.0 1192.0Q563 1200 612 1200Q784 1200 924 1109Q991 1065 1042.0 1003.5Q1093 942 1123 872Q1153 800 1161 716H921Q913 761 892.5 801.5Q872 842 845 872Q817 902 781.0 924.5Q745 947 702 959Q657 970 610 970Q546 970 493.0 950.5Q440 931 402 902Q315 833 282 718Q273 689 269.0 657.5Q265 626 265 593Z" transform="translate(0.0000 0) scale(0.01600000 -0.01600000)"/><path d="M465 -10Q389 -10 323.0 13.5Q257 37 205 77Q151 117 110.5 171.0Q70 225 47 297Q25 363 25 438Q25 510 47.0 577.0Q69 644 109 699Q151 756 206.5 796.0Q262 836 325 857Q358 868 393.0 874.0Q428 880 465 880Q536 880 603.5 857.0Q671 834 725 795Q778 755 819.5 699.5Q861 644 883 577Q893 544 899.0 509.0Q905 474 905 438Q905 378 886.5 309.0Q868 240 820 173Q780 117 724.0 76.0Q668 35 604 13Q571 2 536.0 -4.0Q501 -10 465 -10ZM466 205Q499 205 532.5 216.0Q566 227 592 249Q625 275 643.5 305.5Q662 336 669 362Q674 379 677.0 397.5Q680 416 680 435Q680 474 669.0 508.5Q658 543 639 572Q622 596 596.0 618.5Q570 641 533 654Q500 665 466 665Q394 665 339 622Q313 602 292.0 572.5Q271 543 261 509Q256 492 253.0 473.0Q250 454 250 435Q250 404 259.0 369.0Q268 334 292 299Q311 271 337.0 250.0Q363 229 398 217Q431 205 466 205Z" transform="translate(19.0000 0) scale(0.01600000 -0.01600000)"/><path d="M50 870H275Q275 859 273.0 850.5Q271 842 266 828Q261 813 260.0 810.0Q259 807 256.5 803.5Q254 800 247 783Q242 772 235 763L247 753Q263 777 278.5 795.0Q294 813 318 830Q358 858 414 866Q440 870 474 870H513L503 655H440Q361 655 319 630Q275 603 275 556V0H50Z" transform="translate(34.0000 0) scale(0.01600000 -0.01600000)"/><path d="M315 1080V1022Q315 911 226 866V850Q270 870 321 870H480V660H315V245Q315 215 345 215H480L490 0H290Q250 0 218.0 8.0Q186 16 162 32Q138 46 122.0 71.0Q106 96 98 126Q90 158 90 198V660H10V870H90V1080Z" transform="translate(42.0000 0) scale(0.01600000 -0.01600000)"/><path d="M50 0V870H275V0ZM38 1061Q38 1104 62 1138Q72 1154 88.5 1166.0Q105 1178 123 1183Q142 1189 163 1189Q183 1189 202.0 1183.5Q221 1178 238 1166Q270 1142 282 1103Q288 1083 288 1061Q288 1006 253 968Q218 930 163 930Q120 930 89 955Q73 967 62.0 982.5Q51 998 44 1020Q38 1039 38 1061Z" transform="translate(50.0000 0) scale(0.01600000 -0.01600000)"/><path d="M275 0H50V1200H275Z" transform="translate(55.0000 0) scale(0.01600000 -0.01600000)"/><path d="M855 438V365H247Q253 335 266.5 309.5Q280 284 297 266Q316 246 337.0 233.0Q358 220 388 213Q401 209 415.5 207.0Q430 205 446 205Q494 205 534 221Q574 237 599 266Q605 273 610.0 281.0Q615 289 619 297H848Q834 235 807.0 189.0Q780 143 747 112Q709 74 661.5 47.0Q614 20 558 5Q531 -2 502.0 -6.0Q473 -10 443 -10Q366 -10 303.5 12.5Q241 35 192 73Q85 155 45 292Q25 360 25 438Q25 513 46.0 582.0Q67 651 105 705Q144 760 196.5 799.0Q249 838 312 859Q376 880 445 880Q512 880 576.0 857.5Q640 835 689 795Q740 753 777.5 699.0Q815 645 835 577Q855 511 855 438ZM251 515H634Q618 568 580 606Q543 643 493 658Q480 661 467.0 663.0Q454 665 440 665Q389 665 342 638Q325 628 306.5 610.0Q288 592 273 565Q259 540 251 515Z" transform="translate(60.0000 0) scale(0.01600000 -0.01600000)"/><path d="M50 294V1190H285V294Q285 268 301 249Q307 240 316.5 233.5Q326 227 339 224Q351 220 363 220Q395 220 417.5 239.5Q440 259 440 294V1190H675V294Q675 182 621 108Q593 70 556.0 44.5Q519 19 469 4Q421 -10 363 -10Q302 -10 254.5 4.5Q207 19 170 44Q92 97 64 192Q50 239 50 294Z" transform="translate(78.0000 0) scale(0.01600000 -0.01600000)"/><path d="M50 870H275Q275 866 273.0 853.5Q271 841 268 834Q264 823 260.0 812.0Q256 801 248 786Q245 780 242.0 774.5Q239 769 235 763L247 753Q266 781 283.0 798.5Q300 816 321 833Q340 848 363.0 859.0Q386 870 408 875Q419 877 430.5 878.5Q442 880 454 880Q484 880 513.5 870.5Q543 861 565 842Q609 802 623 730Q626 712 628.0 692.0Q630 672 630 650V0H405V610Q405 622 403.0 628.5Q401 635 395 646Q391 652 383.0 657.0Q375 662 369 663Q359 665 351 665Q343 665 336.0 663.5Q329 662 321 660Q312 658 306.0 654.5Q300 651 290 646Q286 644 282.5 641.5Q279 639 275 636V0H50Z" transform="translate(90.0000 0) scale(0.01600000 -0.01600000)"/><path d="M465 -10Q389 -10 323.0 13.5Q257 37 205 77Q151 117 110.5 171.0Q70 225 47 297Q25 363 25 438Q25 510 47.0 577.0Q69 644 109 699Q151 756 206.5 796.0Q262 836 325 857Q358 868 393.0 874.0Q428 880 465 880Q536 880 603.5 857.0Q671 834 725 795Q778 755 819.5 699.5Q861 644 883 577Q893 544 899.0 509.0Q905 474 905 438Q905 378 886.5 309.0Q868 240 820 173Q780 117 724.0 76.0Q668 35 604 13Q571 2 536.0 -4.0Q501 -10 465 -10ZM466 205Q499 205 532.5 216.0Q566 227 592 249Q625 275 643.5 305.5Q662 336 669 362Q674 379 677.0 397.5Q680 416 680 435Q680 474 669.0 508.5Q658 543 639 572Q622 596 596.0 618.5Q570 641 533 654Q500 665 466 665Q394 665 339 622Q313 602 292.0 572.5Q271 543 261 509Q256 492 253.0 473.0Q250 454 250 435Q250 404 259.0 369.0Q268 334 292 299Q311 271 337.0 250.0Q363 229 398 217Q431 205 466 205Z" transform="translate(101.0000 0) scale(0.01600000 -0.01600000)"/></g>
+<text x="1049" y="660" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#4B4B4B">Roma · San Lorenzo</text>
+<text x="1049" y="698" font-family="Helvetica Neue" font-size="20" font-weight="700" text-anchor="start" fill="#000000">12–18 €</text>
+<text x="1049" y="721" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#4B4B4B">indicativi a persona</text>
+<rect x="1211" y="602" width="44" height="44" rx="22" fill="#FFFFFF"/>
+<g transform="translate(1221 612) scale(1.0)" stroke="#000000" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="bookmark">
+<path d="M6 3h12v18l-6-4l-6 4Z"/>
+</g>
+<text x="929" y="756" font-family="Helvetica Neue" font-size="16" font-weight="400" text-anchor="start" fill="#000000">Rumore 2/5 · visite 18–21</text>
+<text x="929" y="782" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#4B4B4B">2 contributi mock · dati limitati</text>
+<path d="M929 798L1255 798" stroke="#BDBDB5" stroke-width="1" fill="none" stroke-linecap="round"/>
+<text x="929" y="827" font-family="Helvetica Neue" font-size="16" font-weight="700" text-anchor="start" fill="#000000">Apri scheda</text>
+<g transform="translate(1227 810) scale(1.0)" stroke="#000000" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="arrow">
+<path d="M5 12h14"/>
+<path d="M14 7l5 5l-5 5"/>
+</g>
+</g>
+<text x="897" y="898" font-family="Helvetica Neue" font-size="16" font-weight="700" text-anchor="start" fill="#000000">DS-MAP · mappa e marker proposti</text>
+<g id="component-B-markers" data-component-title="Stati del marker proposti">
+<rect x="897" y="918" width="390" height="132" rx="24" fill="#FFFFFF"/>
+<rect x="940" y="943" width="44" height="44" rx="22" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="962" y="971" font-family="Helvetica Neue" font-size="18" font-weight="700" text-anchor="middle" fill="#000000">2</text>
+<text x="962" y="1021" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="middle" fill="#4B4B4B">Disponibile</text>
+<rect x="1070" y="943" width="44" height="44" rx="22" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<rect x="1066" y="939" width="52" height="52" rx="26" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+<circle cx="1092" cy="965" r="20" fill="#000000"/>
+<text x="1092" y="971" font-family="Helvetica Neue" font-size="18" font-weight="700" text-anchor="middle" fill="#80EFED">1</text>
+<text x="1092" y="1021" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="middle" fill="#4B4B4B">Selezionato</text>
+<rect x="1200" y="943" width="44" height="44" rx="22" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="1220" y="972" font-family="Helvetica Neue" font-size="18" font-weight="700" text-anchor="middle" fill="#000000">3</text>
+<circle cx="1234" cy="953" r="10" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<g transform="translate(1227 946) scale(0.5833333333333334)" stroke="#000000" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="bookmark">
+<path d="M6 3h12v18l-6-4l-6 4Z"/>
+</g>
+<text x="1222" y="1021" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="middle" fill="#4B4B4B">Salvato</text>
+</g>
+<g id="component-B-source" data-component-title="Copertura e dato assente">
+<rect x="897" y="1088" width="390" height="132" rx="24" fill="#FFFFFF"/>
+<text x="913" y="1120" font-family="Helvetica Neue" font-size="16" font-weight="700" text-anchor="start" fill="#000000">DS07 / DS08 · provenienza</text>
+<text x="913" y="1147" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#4B4B4B">Visite 18–21 · 2 contributi mock</text>
+<path d="M913 1164L1271 1164" stroke="#BDBDB5" stroke-width="1" fill="none" stroke-linecap="round"/>
+<g transform="translate(913 1180) scale(0.8333333333333334)" stroke="#4B4B4B" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="info">
+<path d="M12 22a10 10 0 1 1 0-20a10 10 0 0 1 0 20"/>
+<path d="M12 11v6"/>
+<path d="M12 7h.01"/>
+</g>
+<text x="945" y="1197" font-family="Helvetica Neue" font-size="16" font-weight="400" text-anchor="start" fill="#000000">Luce: dato non disponibile</text>
+</g>
+<g id="component-B-ai" data-component-title="AI nel contesto della ricerca">
+<rect x="897" y="1258" width="390" height="236" rx="24" fill="#FFFFFF"/>
+<g transform="translate(913 1276) scale(1.0)" stroke="#000000" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="sparkle">
+<path d="M12 2l2.7 7.3L22 12l-7.3 2.7L12 22l-2.7-7.3L2 12l7.3-2.7Z"/>
+</g>
+<text x="945" y="1295" font-family="Helvetica Neue" font-size="16" font-weight="700" text-anchor="start" fill="#000000">Assistente AI · demo</text>
+<text x="913" y="1334" font-family="Helvetica Neue" font-size="16" font-weight="400" text-anchor="start" fill="#000000">Ho mantenuto Roma e il budget di 20 €. Per il</text>
+<text x="913" y="1358" font-family="Helvetica Neue" font-size="16" font-weight="400" text-anchor="start" fill="#000000">rumore ci sono pochi dati.</text>
+<text x="913" y="1398" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#4B4B4B">Catalogo mock · criteri modificabili</text>
+<rect x="913" y="1424" width="358" height="48" rx="32" fill="#000000"/>
+<g transform="translate(1024.0078125 1436.0) scale(1.0)" stroke="#80EFED" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="arrow">
+<path d="M5 12h14"/>
+<path d="M14 7l5 5l-5 5"/>
+</g>
+<text x="1056.0078125" y="1453.0" font-family="Helvetica Neue" font-size="16" font-weight="700" text-anchor="start" fill="#80EFED">Vedi i 3 luoghi</text>
+</g>
+<text x="776" y="1534" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#4B4B4B">Boldonse per i titoli. Corpo: Helvetica Neue; Forma DJR Text resta il font previsto.</text>
+<text x="48" y="1650" font-family="Helvetica Neue" font-size="16" font-weight="400" text-anchor="start" fill="#64544A">Tavola di lavoro: varianti da costruire e provare in Figma. Luoghi, prezzi, immagini, visite e valori sono dimostrativi.</text>
+<text x="48" y="1706" font-family="Helvetica Neue" font-size="16" font-weight="400" text-anchor="start" fill="#64544A">Le attuali tile v0.3 e la libreria DS01–DS17 restano la base di confronto; DS-MAP è una proposta.</text>
+<metadata id="ui-source">{&quot;typography_sources&quot;: [{&quot;text&quot;: &quot;Direzione B&quot;, &quot;x&quot;: 776, &quot;baseline&quot;: 230, &quot;size&quot;: 28, &quot;weight&quot;: 400, &quot;font&quot;: &quot;Boldonse&quot;, &quot;svg&quot;: &quot;glyph outlines from actual local font file&quot;}, {&quot;text&quot;: &quot;Cortile Uno&quot;, &quot;x&quot;: 1049, &quot;baseline&quot;: 634, &quot;size&quot;: 16, &quot;weight&quot;: 400, &quot;font&quot;: &quot;Boldonse&quot;, &quot;svg&quot;: &quot;glyph outlines from actual local font file&quot;}], &quot;logical_product_copy&quot;: {&quot;A-search&quot;: [&quot;Roma · San Lorenzo&quot;, &quot;Cambia&quot;, &quot;Cosa cerchi?&quot;, &quot;Un aperitivo con amici&quot;, &quot;≤20 €&quot;, &quot;Rumore ≤2&quot;, &quot;Filtri · 2&quot;], &quot;A-card&quot;: [&quot;Cortile Uno&quot;, &quot;Roma · San Lorenzo&quot;, &quot;12–18 €&quot;, &quot;indicativi a persona&quot;, &quot;Rumore 2/5 · visite 18–21&quot;, &quot;2 contributi mock · dati limitati&quot;, &quot;Apri scheda&quot;], &quot;A-markers&quot;: [&quot;2&quot;, &quot;Disponibile&quot;, &quot;1&quot;, &quot;Selezionato&quot;, &quot;3&quot;, &quot;Salvato&quot;], &quot;A-source&quot;: [&quot;DS07 / DS08 · provenienza&quot;, &quot;Visite 18–21 · 2 contributi mock&quot;, &quot;Luce: dato non disponibile&quot;], &quot;A-ai&quot;: [&quot;Assistente AI · demo&quot;, &quot;Ho mantenuto Roma e il budget di 20 €. Per il rumore ci sono pochi dati.&quot;, &quot;Catalogo mock · criteri modificabili&quot;, &quot;Vedi i 3 luoghi&quot;], &quot;B-search&quot;: [&quot;Roma · San Lorenzo&quot;, &quot;Cambia&quot;, &quot;Cosa cerchi?&quot;, &quot;Un aperitivo con amici&quot;, &quot;≤20 €&quot;, &quot;Rumore ≤2&quot;, &quot;Filtri · 2&quot;], &quot;B-card&quot;: [&quot;Cortile Uno&quot;, &quot;Roma · San Lorenzo&quot;, &quot;12–18 €&quot;, &quot;indicativi a persona&quot;, &quot;Rumore 2/5 · visite 18–21&quot;, &quot;2 contributi mock · dati limitati&quot;, &quot;Apri scheda&quot;], &quot;B-markers&quot;: [&quot;2&quot;, &quot;Disponibile&quot;, &quot;1&quot;, &quot;Selezionato&quot;, &quot;3&quot;, &quot;Salvato&quot;], &quot;B-source&quot;: [&quot;DS07 / DS08 · provenienza&quot;, &quot;Visite 18–21 · 2 contributi mock&quot;, &quot;Luce: dato non disponibile&quot;], &quot;B-ai&quot;: [&quot;Assistente AI · demo&quot;, &quot;Ho mantenuto Roma e il budget di 20 €. Per il rumore ci sono pochi dati.&quot;, &quot;Catalogo mock · criteri modificabili&quot;, &quot;Vedi i 3 luoghi&quot;]}, &quot;component_areas&quot;: [{&quot;id&quot;: &quot;A-search&quot;, &quot;title&quot;: &quot;Ricerca e filtri rapidi&quot;, &quot;x&quot;: 201, &quot;y&quot;: 334, &quot;width&quot;: 390, &quot;height&quot;: 208}, {&quot;id&quot;: &quot;A-card&quot;, &quot;title&quot;: &quot;Card di lista proposta&quot;, &quot;x&quot;: 217, &quot;y&quot;: 590, &quot;width&quot;: 358, &quot;height&quot;: 256}, {&quot;id&quot;: &quot;A-markers&quot;, &quot;title&quot;: &quot;Stati del marker proposti&quot;, &quot;x&quot;: 201, &quot;y&quot;: 918, &quot;width&quot;: 390, &quot;height&quot;: 132}, {&quot;id&quot;: &quot;A-source&quot;, &quot;title&quot;: &quot;Copertura e dato assente&quot;, &quot;x&quot;: 201, &quot;y&quot;: 1088, &quot;width&quot;: 390, &quot;height&quot;: 132}, {&quot;id&quot;: &quot;A-ai&quot;, &quot;title&quot;: &quot;AI nel contesto della ricerca&quot;, &quot;x&quot;: 201, &quot;y&quot;: 1258, &quot;width&quot;: 390, &quot;height&quot;: 236}, {&quot;id&quot;: &quot;B-search&quot;, &quot;title&quot;: &quot;Ricerca e filtri rapidi&quot;, &quot;x&quot;: 897, &quot;y&quot;: 334, &quot;width&quot;: 390, &quot;height&quot;: 208}, {&quot;id&quot;: &quot;B-card&quot;, &quot;title&quot;: &quot;Card di lista proposta&quot;, &quot;x&quot;: 913, &quot;y&quot;: 590, &quot;width&quot;: 358, &quot;height&quot;: 256}, {&quot;id&quot;: &quot;B-markers&quot;, &quot;title&quot;: &quot;Stati del marker proposti&quot;, &quot;x&quot;: 897, &quot;y&quot;: 918, &quot;width&quot;: 390, &quot;height&quot;: 132}, {&quot;id&quot;: &quot;B-source&quot;, &quot;title&quot;: &quot;Copertura e dato assente&quot;, &quot;x&quot;: 897, &quot;y&quot;: 1088, &quot;width&quot;: 390, &quot;height&quot;: 132}, {&quot;id&quot;: &quot;B-ai&quot;, &quot;title&quot;: &quot;AI nel contesto della ricerca&quot;, &quot;x&quot;: 897, &quot;y&quot;: 1258, &quot;width&quot;: 390, &quot;height&quot;: 236}], &quot;scale&quot;: &quot;mobile components 1 CSS px = 1 SVG unit&quot;, &quot;status&quot;: &quot;static_proposal_no_user_test&quot;}</metadata>
+</svg>
