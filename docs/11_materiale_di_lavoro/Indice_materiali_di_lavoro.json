@@ -217,8 +217,8 @@
       "html": "05_style_tiles/README.html",
       "tipologia": "guide",
       "area_progetto": "visivo",
-      "titolo_catalogo": "Style tile: Pop e Calda",
-      "uso": "Apri le due tavole, confronta palette e tipografia e prepara l’importazione in Figma.",
+      "titolo_catalogo": "Style tile: Pop e Calda con Mali 600",
+      "uso": "Pop principale e Calda con Mali SemiBold 600: tavole correnti, font e file per Figma.",
       "categoria": "Guide e materiali per Figma",
       "risorse": [
         {
@@ -227,7 +227,7 @@
         },
         {
           "file": "05_style_tiles/Style_tile_A.svg",
-          "titolo": "Calda · SVG"
+          "titolo": "Calda · Mali 600 · SVG"
         }
       ]
     },
@@ -237,7 +237,7 @@
       "tipologia": "guide",
       "area_progetto": "visivo",
       "titolo_catalogo": "Base del design system",
-      "uso": "Imposta colori, tipografia, token e stati da trasferire nella libreria di progetto.",
+      "uso": "Usa i token correnti: Pop con Boldonse e Calda con Mali 600; componenti, stati e SVG.",
       "categoria": "Guide e materiali per Figma",
       "risorse": [
         {
@@ -246,7 +246,7 @@
         },
         {
           "file": "06_design_system/tokens_A.json",
-          "titolo": "Token Calda · JSON"
+          "titolo": "Token Calda · Mali 600 · JSON"
         }
       ]
     },

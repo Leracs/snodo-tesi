@@ -162,3 +162,6 @@ html[data-site-theme='A'] .ds-demo .sd-place h3{font-weight:600;letter-spacing:0
 html[data-site-theme='A'] body[data-theme='A'] .workbench{padding:24px;background:var(--surface);border:1px solid var(--divider);border-radius:22px}
 html[data-site-theme='A'] body[data-theme='A'] .workbench h1{margin-top:0;font-weight:600;letter-spacing:0}
 @media(max-width:780px){html[data-site-theme='A'] body[data-theme='A'] .workbench{padding:18px}}
+
+/* Titoli del catalogo di lavoro e della libreria nella variante Calda. */
+html[data-site-theme="A"] :is(.work-catalog-heading h2,.work-document h4,.ds-card>h3,.ds-foundation h3){font-family:var(--site-font-heading);font-weight:600;line-height:1.35;letter-spacing:0}

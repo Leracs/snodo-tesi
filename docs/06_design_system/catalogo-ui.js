@@ -16,7 +16,7 @@
   const themeButtons=[...document.querySelectorAll('[data-library-theme]')];
   let currentTheme=window.SnodoSiteTheme?.get()||'B';
   const placeId=()=>variant.value==='Dati assenti'?'luogo-roma-04':variant.value==='Fascia assente il lunedì'?'luogo-roma-02':'luogo-roma-01';
-  const svgPath=(id,theme,variant)=>`svg/${id==='pattern'?'DS08-DS19':id}-${theme}-${variant.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')}.svg`;
+  const svgPath=(id,theme,variant)=>`svg/${id==='pattern'?'DS08-DS19':id}-${theme}-${variant.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')}.svg?v=mali600-r2`;
   function downloads(){
     document.getElementById('preview-svg').href=svgPath(selector.value,currentTheme,variant.value);
     document.querySelectorAll('[data-svg-component]').forEach(link=>{const id=link.dataset.svgComponent;link.href=svgPath(id,currentTheme,window.SnodoCampioni.variants[id][0]);});

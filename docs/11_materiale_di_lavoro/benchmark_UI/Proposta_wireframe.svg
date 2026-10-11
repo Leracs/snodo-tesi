@@ -12,7 +12,7 @@
 <text x="56" y="269" font-family="Helvetica Neue" font-size="16" font-weight="700" text-anchor="start" fill="#151515">Roma · San Lorenzo</text>
 <text x="363.0" y="270.0" font-family="Helvetica Neue" font-size="16" font-weight="700" text-anchor="middle" fill="#151515">Cambia</text>
 <text x="56" y="288" font-family="Helvetica Neue" font-size="14" font-weight="700" text-anchor="start" fill="#151515">Cosa cerchi?</text>
-<rect x="56" y="302" width="358" height="52" rx="12" fill="#FFFFFF" stroke="#777777" stroke-width="1.5"/>
+<rect x="56" y="302" width="358" height="52" rx="14" fill="#FFFFFF" stroke="#777777" stroke-width="1.5"/>
 <g transform="translate(72 316) scale(1.0)" stroke="#4B4B4B" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="search">
 <path d="M10.5 17.5a7 7 0 1 1 0-14a7 7 0 0 1 0 14"/>
 <path d="M16 16l5 5"/>
@@ -56,12 +56,12 @@
 <path d="M6 3h12v18l-6-4l-6 4Z"/>
 </g>
 <text x="72" y="712" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#4B4B4B">? = dato da verificare</text>
-<rect x="117" y="732" width="236" height="44" rx="12" fill="#FFFFFF" stroke="#777777" stroke-width="1.5"/>
+<rect x="117" y="732" width="236" height="44" rx="14" fill="#FFFFFF" stroke="#777777" stroke-width="1.5"/>
 <text x="235.0" y="759.0" font-family="Helvetica Neue" font-size="16" font-weight="700" text-anchor="middle" fill="#151515">Cerca in questa zona</text>
 <rect x="56" y="808" width="358" height="130" rx="16" fill="#FFFFFF" stroke="#D0D0D0" stroke-width="1.5"/>
 <text x="72" y="840" font-family="Helvetica Neue" font-size="18" font-weight="700" text-anchor="start" fill="#151515">1 · Cortile Uno</text>
 <text x="72" y="870" font-family="Helvetica Neue" font-size="16" font-weight="400" text-anchor="start" fill="#151515">12–18 € · rumore: dati limitati</text>
-<rect x="72" y="886" width="326" height="44" rx="12" fill="#151515"/>
+<rect x="72" y="886" width="326" height="44" rx="14" fill="#151515"/>
 <text x="235.0" y="913.0" font-family="Helvetica Neue" font-size="16" font-weight="700" text-anchor="middle" fill="#FFFFFF">Apri scheda</text>
 <rect x="55" y="956" width="360" height="80" rx="24" fill="#FFFFFF" filter="url(#card-shadow)"/>
 <rect x="76" y="966" width="48" height="32" rx="16" fill="#E8E8E8"/>
@@ -91,7 +91,7 @@
 <text x="478" y="269" font-family="Helvetica Neue" font-size="16" font-weight="700" text-anchor="start" fill="#151515">Roma · San Lorenzo</text>
 <text x="785.0" y="270.0" font-family="Helvetica Neue" font-size="16" font-weight="700" text-anchor="middle" fill="#151515">Cambia</text>
 <text x="478" y="288" font-family="Helvetica Neue" font-size="14" font-weight="700" text-anchor="start" fill="#151515">Cosa cerchi?</text>
-<rect x="478" y="302" width="358" height="52" rx="12" fill="#FFFFFF" stroke="#777777" stroke-width="1.5"/>
+<rect x="478" y="302" width="358" height="52" rx="14" fill="#FFFFFF" stroke="#777777" stroke-width="1.5"/>
 <g transform="translate(494 316) scale(1.0)" stroke="#4B4B4B" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="search">
 <path d="M10.5 17.5a7 7 0 1 1 0-14a7 7 0 0 1 0 14"/>
 <path d="M16 16l5 5"/>
@@ -214,10 +214,10 @@
 <text x="916" y="746" font-family="Helvetica Neue" font-size="16" font-weight="400" text-anchor="start" fill="#151515">Dato assente: il luogo resta distinto da quelli</text>
 <text x="916" y="770" font-family="Helvetica Neue" font-size="16" font-weight="400" text-anchor="start" fill="#151515">che soddisfano il criterio.</text>
 <path d="M900 844L1258 844" stroke="#D0D0D0" stroke-width="1" fill="none" stroke-linecap="round"/>
-<rect x="900" y="864" width="175" height="48" rx="12" fill="#FFFFFF" stroke="#777777" stroke-width="1.5"/>
+<rect x="900" y="864" width="175" height="48" rx="14" fill="#FFFFFF" stroke="#777777" stroke-width="1.5"/>
 <text x="987.5" y="893.0" font-family="Helvetica Neue" font-size="16" font-weight="700" text-anchor="middle" fill="#151515">Annulla</text>
 <text x="1170.5" y="893.0" font-family="Helvetica Neue" font-size="16" font-weight="700" text-anchor="middle" fill="#151515">Azzera</text>
-<rect x="900" y="928" width="358" height="48" rx="12" fill="#151515"/>
+<rect x="900" y="928" width="358" height="48" rx="14" fill="#151515"/>
 <g transform="translate(1004.0 940.0) scale(1.0)" stroke="#FFFFFF" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="check">
 <path d="M5 12l4 4l10-10"/>
 </g>
@@ -252,20 +252,20 @@
 <rect x="1468" y="666" width="66" height="8" rx="4" fill="#E8E8E8"/>
 <rect x="1541" y="666" width="66" height="8" rx="4" fill="#E8E8E8"/>
 <rect x="1614" y="666" width="66" height="8" rx="4" fill="#E8E8E8"/>
-<text x="1322" y="707" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#4B4B4B">2 contributi mock · dati limitati</text>
+<text x="1322" y="707" font-family="Helvetica Neue" font-size="14" font-weight="400" text-anchor="start" fill="#4B4B4B">Luca · visita con amici · mock</text>
 <text x="1322" y="749" font-family="Helvetica Neue" font-size="16" font-weight="400" text-anchor="start" fill="#151515">Luce: dato non disponibile</text>
 <g transform="translate(1407.5 782.0) scale(1.0)" stroke="#151515" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="arrow">
 <path d="M5 12h14"/>
 <path d="M14 7l5 5l-5 5"/>
 </g>
 <text x="1439.5" y="799.0" font-family="Helvetica Neue" font-size="16" font-weight="700" text-anchor="start" fill="#151515">Dettagli e recensioni</text>
-<rect x="1322" y="828" width="358" height="44" rx="12" fill="#FFFFFF" stroke="#777777" stroke-width="1.5"/>
+<rect x="1322" y="828" width="358" height="44" rx="14" fill="#FFFFFF" stroke="#777777" stroke-width="1.5"/>
 <g transform="translate(1444.5 838.0) scale(1.0)" stroke="#151515" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="pin">
 <path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/>
 <path d="M12 12.5a2.5 2.5 0 1 1 0-5a2.5 2.5 0 0 1 0 5"/>
 </g>
 <text x="1476.5" y="855.0" font-family="Helvetica Neue" font-size="16" font-weight="700" text-anchor="start" fill="#151515">Indicazioni</text>
-<rect x="1322" y="896" width="358" height="48" rx="12" fill="#151515"/>
+<rect x="1322" y="896" width="358" height="48" rx="14" fill="#151515"/>
 <g transform="translate(1417.0 908.0) scale(1.0)" stroke="#FFFFFF" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" data-icon="chat">
 <path d="M5 4h14a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-8l-5 3v-3H5a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3Z"/>
 </g>
@@ -293,5 +293,5 @@
 </g>
 <text x="40" y="1080" font-family="Helvetica Neue" font-size="16" font-weight="400" text-anchor="start" fill="#4B4B4B">Mappa e lista condividono criteri e ID. “Salva”, “proponi” e “conferma” restano azioni distinte. Scroll, ritorni e stati da collegare in Figma.</text>
 <text x="40" y="1136" font-family="Helvetica Neue" font-size="16" font-weight="400" text-anchor="start" fill="#4B4B4B">Proposte statiche aggiuntive: la baseline di 21 schermate e 12 varianti non è stata sostituita.</text>
-<metadata id="ui-source">{&quot;typography_sources&quot;: [], &quot;logical_product_copy&quot;: {&quot;S02&quot;: [&quot;Esplora&quot;, &quot;Roma · San Lorenzo&quot;, &quot;Cambia&quot;, &quot;Cosa cerchi?&quot;, &quot;Aperitivo con amici&quot;, &quot;≤20 €&quot;, &quot;Rumore ≤2&quot;, &quot;Filtri · 2&quot;, &quot;Mappa&quot;, &quot;Lista&quot;, &quot;3 luoghi · 1 da verificare · demo&quot;, &quot;Mappa schematica&quot;, &quot;2?&quot;, &quot;1&quot;, &quot;3&quot;, &quot;? = dato da verificare&quot;, &quot;Cerca in questa zona&quot;, &quot;1 · Cortile Uno&quot;, &quot;12–18 € · rumore: dati limitati&quot;, &quot;Apri scheda&quot;, &quot;Esplora&quot;, &quot;Salvati&quot;, &quot;Chat&quot;, &quot;Profilo&quot;], &quot;S03&quot;: [&quot;Esplora&quot;, &quot;Roma · San Lorenzo&quot;, &quot;Cambia&quot;, &quot;Cosa cerchi?&quot;, &quot;Aperitivo con amici&quot;, &quot;≤20 €&quot;, &quot;Rumore ≤2&quot;, &quot;Filtri · 2&quot;, &quot;Mappa&quot;, &quot;Lista&quot;, &quot;3 luoghi · 1 da verificare · demo&quot;, &quot;1 · Cortile Uno&quot;, &quot;Roma · San Lorenzo&quot;, &quot;12–18 € · indicativi&quot;, &quot;Rumore 2/5 · 2 contributi mock&quot;, &quot;Visite 18–21 · dati mock limitati&quot;, &quot;Apri scheda&quot;, &quot;Da verificare · rumore non noto&quot;, &quot;2 · Sala Due&quot;, &quot;Roma · San Lorenzo&quot;, &quot;10–16 € · indicativi&quot;, &quot;Rumore: dato non disponibile&quot;, &quot;Visite 18–21 · dati mock limitati&quot;, &quot;Apri scheda&quot;, &quot;Esplora&quot;, &quot;Salvati&quot;, &quot;Chat&quot;, &quot;Profilo&quot;], &quot;S04&quot;: [&quot;Filtri&quot;, &quot;Roma · modifiche non applicate&quot;, &quot;Budget massimo a persona&quot;, &quot;10 €&quot;, &quot;20 €&quot;, &quot;30 €&quot;, &quot;Rumore&quot;, &quot;Fino a 2/5&quot;, &quot;Indifferente&quot;, &quot;Intensità riferita alle visite disponibili. Non è una valutazione del locale.&quot;, &quot;Preferenza&quot;, &quot;Necessario&quot;, &quot;Contesto dei dati&quot;, &quot;Visite 18–21 · non è un filtro&quot;, &quot;Dato assente: il luogo resta distinto da quelli che soddisfano il criterio.&quot;, &quot;Annulla&quot;, &quot;Azzera&quot;, &quot;Applica 2 criteri&quot;], &quot;S05&quot;: [&quot;Cortile Uno&quot;, &quot;Roma · San Lorenzo&quot;, &quot;Da chat “Venerdì” · dati demo&quot;, &quot;Immagini del luogo&quot;, &quot;12–18 € indicativi a persona&quot;, &quot;Gestore mock · 01/10/2026&quot;, &quot;Atmosfera&quot;, &quot;Visite 18–21 · settembre 2026&quot;, &quot;Rumore&quot;, &quot;2/5&quot;, &quot;2 contributi mock · dati limitati&quot;, &quot;Luce: dato non disponibile&quot;, &quot;Dettagli e recensioni&quot;, &quot;Indicazioni&quot;, &quot;Proponi al gruppo&quot;, &quot;Esplora&quot;, &quot;Salvati&quot;, &quot;Chat&quot;, &quot;Profilo&quot;]}, &quot;component_areas&quot;: [{&quot;id&quot;: &quot;S02&quot;, &quot;title&quot;: &quot;Mappa e selezione&quot;, &quot;x&quot;: 40, &quot;y&quot;: 192, &quot;width&quot;: 390, &quot;height&quot;: 844}, {&quot;id&quot;: &quot;S03&quot;, &quot;title&quot;: &quot;Lista confrontabile&quot;, &quot;x&quot;: 462, &quot;y&quot;: 192, &quot;width&quot;: 390, &quot;height&quot;: 844}, {&quot;id&quot;: &quot;S04&quot;, &quot;title&quot;: &quot;Criteri da applicare&quot;, &quot;x&quot;: 884, &quot;y&quot;: 192, &quot;width&quot;: 390, &quot;height&quot;: 844}, {&quot;id&quot;: &quot;S05&quot;, &quot;title&quot;: &quot;Scheda · contesto gruppo&quot;, &quot;x&quot;: 1306, &quot;y&quot;: 192, &quot;width&quot;: 390, &quot;height&quot;: 844}], &quot;scale&quot;: &quot;mobile components 1 CSS px = 1 SVG unit&quot;, &quot;status&quot;: &quot;static_proposal_no_user_test&quot;}</metadata>
+<metadata id="ui-source">{&quot;typography_sources&quot;: [], &quot;logical_product_copy&quot;: {&quot;S02&quot;: [&quot;Esplora&quot;, &quot;Roma · San Lorenzo&quot;, &quot;Cambia&quot;, &quot;Cosa cerchi?&quot;, &quot;Aperitivo con amici&quot;, &quot;≤20 €&quot;, &quot;Rumore ≤2&quot;, &quot;Filtri · 2&quot;, &quot;Mappa&quot;, &quot;Lista&quot;, &quot;3 luoghi · 1 da verificare · demo&quot;, &quot;Mappa schematica&quot;, &quot;2?&quot;, &quot;1&quot;, &quot;3&quot;, &quot;? = dato da verificare&quot;, &quot;Cerca in questa zona&quot;, &quot;1 · Cortile Uno&quot;, &quot;12–18 € · rumore: dati limitati&quot;, &quot;Apri scheda&quot;, &quot;Esplora&quot;, &quot;Salvati&quot;, &quot;Chat&quot;, &quot;Profilo&quot;], &quot;S03&quot;: [&quot;Esplora&quot;, &quot;Roma · San Lorenzo&quot;, &quot;Cambia&quot;, &quot;Cosa cerchi?&quot;, &quot;Aperitivo con amici&quot;, &quot;≤20 €&quot;, &quot;Rumore ≤2&quot;, &quot;Filtri · 2&quot;, &quot;Mappa&quot;, &quot;Lista&quot;, &quot;3 luoghi · 1 da verificare · demo&quot;, &quot;1 · Cortile Uno&quot;, &quot;Roma · San Lorenzo&quot;, &quot;12–18 € · indicativi&quot;, &quot;Rumore 2/5 · 2 contributi mock&quot;, &quot;Visite 18–21 · dati mock limitati&quot;, &quot;Apri scheda&quot;, &quot;Da verificare · rumore non noto&quot;, &quot;2 · Sala Due&quot;, &quot;Roma · San Lorenzo&quot;, &quot;10–16 € · indicativi&quot;, &quot;Rumore: dato non disponibile&quot;, &quot;Visite 18–21 · dati mock limitati&quot;, &quot;Apri scheda&quot;, &quot;Esplora&quot;, &quot;Salvati&quot;, &quot;Chat&quot;, &quot;Profilo&quot;], &quot;S04&quot;: [&quot;Filtri&quot;, &quot;Roma · modifiche non applicate&quot;, &quot;Budget massimo a persona&quot;, &quot;10 €&quot;, &quot;20 €&quot;, &quot;30 €&quot;, &quot;Rumore&quot;, &quot;Fino a 2/5&quot;, &quot;Indifferente&quot;, &quot;Intensità riferita alle visite disponibili. Non è una valutazione del locale.&quot;, &quot;Preferenza&quot;, &quot;Necessario&quot;, &quot;Contesto dei dati&quot;, &quot;Visite 18–21 · non è un filtro&quot;, &quot;Dato assente: il luogo resta distinto da quelli che soddisfano il criterio.&quot;, &quot;Annulla&quot;, &quot;Azzera&quot;, &quot;Applica 2 criteri&quot;], &quot;S05&quot;: [&quot;Cortile Uno&quot;, &quot;Roma · San Lorenzo&quot;, &quot;Da chat “Venerdì” · dati demo&quot;, &quot;Immagini del luogo&quot;, &quot;12–18 € indicativi a persona&quot;, &quot;Gestore mock · 01/10/2026&quot;, &quot;Atmosfera&quot;, &quot;Visite 18–21 · settembre 2026&quot;, &quot;Rumore&quot;, &quot;2/5&quot;, &quot;Luca · visita con amici · mock&quot;, &quot;Luce: dato non disponibile&quot;, &quot;Dettagli e recensioni&quot;, &quot;Indicazioni&quot;, &quot;Proponi al gruppo&quot;, &quot;Esplora&quot;, &quot;Salvati&quot;, &quot;Chat&quot;, &quot;Profilo&quot;]}, &quot;component_areas&quot;: [{&quot;id&quot;: &quot;S02&quot;, &quot;title&quot;: &quot;Mappa e selezione&quot;, &quot;x&quot;: 40, &quot;y&quot;: 192, &quot;width&quot;: 390, &quot;height&quot;: 844}, {&quot;id&quot;: &quot;S03&quot;, &quot;title&quot;: &quot;Lista confrontabile&quot;, &quot;x&quot;: 462, &quot;y&quot;: 192, &quot;width&quot;: 390, &quot;height&quot;: 844}, {&quot;id&quot;: &quot;S04&quot;, &quot;title&quot;: &quot;Criteri da applicare&quot;, &quot;x&quot;: 884, &quot;y&quot;: 192, &quot;width&quot;: 390, &quot;height&quot;: 844}, {&quot;id&quot;: &quot;S05&quot;, &quot;title&quot;: &quot;Scheda · contesto gruppo&quot;, &quot;x&quot;: 1306, &quot;y&quot;: 192, &quot;width&quot;: 390, &quot;height&quot;: 844}], &quot;scale&quot;: &quot;mobile components 1 CSS px = 1 SVG unit&quot;, &quot;status&quot;: &quot;static_proposal_no_user_test&quot;}</metadata>
 </svg>

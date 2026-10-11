@@ -2,6 +2,8 @@
 
 Protocollo versione 0.1, tavole correnti v0.3. **Da eseguire:** non contiene osservazioni, voti o preferenze già raccolti. Coinvolgere le tre persone già intervistate. Il confronto serve a orientare la UI, non a misurare la rappresentatività delle preferenze né a validare l’usabilità dell’app. Registrare v0.3 come versione delle tavole effettivamente mostrate, se si usano questi asset.
 
+Le direzioni correnti sono Pop (B), principale, e Calda (A) con Mali SemiBold 600. Le tavole complete hanno composizioni e dimensioni diverse: per una sessione comparabile ricostruire gli stessi campioni alla stessa scala e con gli stessi contenuti. Registrare la versione degli stimoli prima del test; non usare le esplorazioni tipografiche in archivio come tile correnti.
+
 ## Preparazione
 
 Usare lo stesso schermo, luminosità, ingrandimento e modalità di presentazione per A e B. Mostrare i pannelli separati alla stessa dimensione; consentire lo stesso tempo iniziale e la stessa possibilità di scorrere. I nomi delle direzioni sono A/B. Non descrivere una come “più accogliente”, “professionale” o favorita dal progettista.

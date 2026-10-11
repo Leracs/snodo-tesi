@@ -1,9 +1,9 @@
 # Benchmark UX/UI e integrazioni per SNODO
 
-**Aggiornamento di implementazione, 11 ottobre 2026.** La revisione v0.6 integra nel supporto HTML card con recensione, filtri in bozza, mappa/lista coerenti, distinzione necessario/preferenza e CTA contestuale. DS-MAP è ora DS18; DS20/DS21/DS22 sono aggiunti al catalogo. [Regole e stato](../06_design_system/Esplorazione_e_recensioni.md). Le tavole qui sotto documentano la proposta precedente; le anteprime aggiornate sono nel [design system](../06_design_system/index.html#esplorazione). Figma, pan geografico e ricerca reale nell’area restano da costruire.
+**Aggiornamento di implementazione, 11 ottobre 2026.** La revisione v0.6 integra nel supporto HTML card con recensione, filtri in bozza, mappa/lista coerenti, distinzione necessario/preferenza e CTA contestuale. DS18 è ora DS18; DS20/DS21/DS22 sono aggiunti al catalogo. [Regole e stato](../06_design_system/Esplorazione_e_recensioni.md). Le tavole qui sotto documentano la proposta precedente; le anteprime aggiornate sono nel [design system](../06_design_system/index.html#esplorazione). Figma, pan geografico e ricerca reale nell’area restano da costruire.
 
 
-Questo è **materiale di lavoro**, destinato a orientare la prossima costruzione in Figma. Non è un nuovo capitolo candidato alla tesi, non modifica le specifiche attuali e non descrive interventi già implementati. L’analisi parte dalle 21 schermate S01–S21 e dalla base v0.3 con componenti DS01–DS17; **DS-MAP è una nuova proposta**, con etichetta temporanea: assegnare il numero definitivo quando viene adottata, senza occupare la numerazione delle integrazioni già in corso.
+Questo è **materiale di lavoro**, destinato a orientare la prossima costruzione in Figma. Non è un nuovo capitolo candidato alla tesi, non modifica le specifiche attuali e non descrive interventi già implementati. L’analisi parte dalle 21 schermate S01–S21 e dalla base v0.3 con componenti DS01–DS17; **DS18 è una nuova proposta**, con etichetta temporanea: assegnare il numero definitivo quando viene adottata, senza occupare la numerazione delle integrazioni già in corso.
 
 Il confronto riguarda TheFork, Google Maps, Tripadvisor e Airbnb Experiences. Le fonti ufficiali documentano funzioni, contenuti e regole; non dimostrano una maggiore usabilità o conversione. Le ricerche desktop pubbliche dei quattro prodotti sono state osservate l’11 ottobre 2026: Roma per TheFork e Tripadvisor, luoghi a Roma per Google Maps, esperienze a Roma per Airbnb. Sono state esaminate gerarchia, card, filtri, azioni e rapporto con la mappa; le funzionalità ulteriori sono descritte dalle fonti ufficiali citate. Non è stata eseguita un'analisi sistematica delle app native: versione, account, mercato e dispositivo possono cambiare l'interfaccia. Le proposte per SNODO sono inferenze progettuali, da verificare con compiti concreti.
 
@@ -84,9 +84,9 @@ La sequenza proposta per il contenuto è: identità e posizione del luogo; galle
 
 **S15–S17 / DS10/13.** S15 raccoglie visita dichiarata e condizioni, con opzione non applicabile o dato non noto. S16 mantiene la scrittura manuale e offre un ingresso esplicito all'aiuto AI. Originale e suggerimento sono due contenuti separati: l'originale resta recuperabile; “Applica”, “Modifica” e “Rifiuta” non hanno lo stesso effetto. Un suggerimento che aggiunge fatti non presenti è un errore da correggere, non un miglioramento stilistico. S17 mostra testo effettivo, identità e visibilità prima dell'invio. Uscita ed errore conservano la bozza. L'esito della demo è locale e simulato: non certifica pubblicazione né moderazione. La regola editoriale di SNODO va dichiarata e testata; non viene ricavata per analogia dalle policy degli altri prodotti.
 
-## 3. DS-MAP — Mappa, marker e accesso equivalente alla lista
+## 3. DS18 — Mappa, marker e accesso equivalente alla lista
 
-**Stato: componente proposto, non presente nella base v0.3 esaminata.** DS-MAP è un nome di lavoro, non un nuovo ID numerico del catalogo. Compone DS02 ricerca, DS03 criteri, DS05 contesto, DS06 card, DS11 pannello e DS15 recupero. Sostiene la responsabilità IA C05 e il collegamento con C06; non sostituisce questi ID né crea nuove schermate. Prima di adottarlo occorre aggiornare la corrispondenza IA/DS e le varianti Figma, senza dedurre corrispondenze numeriche.
+**Stato: componente proposto, non presente nella base v0.3 esaminata.** DS18 è un nome di lavoro, non un nuovo ID numerico del catalogo. Compone DS02 ricerca, DS03 criteri, DS05 contesto, DS06 card, DS11 pannello e DS15 recupero. Sostiene la responsabilità IA C05 e il collegamento con C06; non sostituisce questi ID né crea nuove schermate. Prima di adottarlo occorre aggiornare la corrispondenza IA/DS e le varianti Figma, senza dedurre corrispondenze numeriche.
 
 | Aspetto | Specifica proposta | Criterio di verifica |
 |---|---|---|
@@ -126,7 +126,7 @@ Separare lo stato di selezione dal focus: il marker selezionato mostra il luogo 
 
 A e B devono avere **stessi contenuti, struttura, densità, stati e azioni**. Il benchmark orienta gerarchia e comportamento; non autorizza a copiare marchi, icone proprietarie o schermate riconoscibili.
 
-- **A — direzione editoriale:** crema e terracotta, titoli Georgia, corpo Trebuchet MS nell'anteprima corrente. Enfasi affidata a proporzioni, spazi e contrasti tipografici; la terracotta evidenzia azioni e selezione senza colorare ogni dato.
+- **A — Calda, alternativa:** crema #F6EDE0, verde scuro #022E21 e prugna #33173A; titoli Mali SemiBold 600, corpo lineare previsto Forma DJR Text con fallback Helvetica Neue. Spazi, card morbide e segni leggeri accompagnano la lettura; il prugna evidenzia l’azione principale.
 - **B — direzione pop dal moodboard dell'utente:** conservare rosa `#FD87BA`, verde `#ADE25D`, viola `#9E6CDA`, giallo `#FCEC52` e turchese `#80EFED`, titoli Boldonse e corpo previsto Forma DJR Text. Forma DJR Text non è disponibile localmente: l'anteprima usa Helvetica Neue, con sostituzione dichiarata. Boldonse è disponibile come font locale. Eventuali sostituzioni ulteriori vanno annotate.
 
 In B distribuire gli accenti in poche aree, lasciando al testo nero, alle superfici e alle forme il compito principale di orientare. Non assegnare cinque colori a cinque livelli di affidabilità. Stati success/error/warning mantengono testo e simbolo oltre al colore. Il turchese del pulsante primario va sul nero come previsto dal tema corrente, non come testo piccolo sul bianco.
@@ -137,11 +137,11 @@ Le due direzioni mantengono corpo 16/24, metadati 14/20, controlli 48 e campi 52
 
 ![Proposta dei componenti A/B di SNODO](benchmark_UI/Proposta_componenti_A_B.svg)
 
-*Figura di lavoro — proposta, non baseline implementata. Confronto A/B a contenuti comuni: DS06 card compatta, DS03 filtri rapidi, DS07/08 provenienza e dato assente, DS10 assistente e nuova proposta DS-MAP marker. Cortile Uno, prezzi, contributi, immagini e risposte AI sono mock; non evidenze della ricerca né feedback degli utenti.*
+*Figura di lavoro — proposta, non baseline implementata. Confronto A/B a contenuti comuni: DS06 card compatta, DS03 filtri rapidi, DS07/08 provenienza e dato assente, DS10 assistente e nuova proposta DS18 marker. Cortile Uno, prezzi, contributi, immagini e risposte AI sono mock; non evidenze della ricerca né feedback degli utenti.*
 
 ![Proposta del wireframe integrato di SNODO](benchmark_UI/Proposta_wireframe.svg)
 
-*Figura di lavoro — proposta di gerarchia e transizioni per S02 mappa, S03 lista, S04 filtri e S05 dettaglio. DS-MAP mostra una mappa schematica con marker dimostrativi e alternativa lista; non cartografia reale né geolocalizzazione. La tavola non sostituisce i wireframe correnti e non dimostra interazioni Figma già costruite.*
+*Figura di lavoro — proposta di gerarchia e transizioni per S02 mappa, S03 lista, S04 filtri e S05 dettaglio. DS18 mostra una mappa schematica con marker dimostrativi e alternativa lista; non cartografia reale né geolocalizzazione. La tavola non sostituisce i wireframe correnti e non dimostra interazioni Figma già costruite.*
 
 Le tavole sono disponibili in SVG e PNG: il confronto dei componenti misura 1440 × 1740; la proposta dei wireframe 1736 × 1160, con quattro frame 390 × 844. A/B hanno gli stessi cinque campioni e gli stessi contenuti di prodotto. Le PNG sono rasterizzate dagli SVG. [Controlli delle tavole](benchmark_UI/Controlli_proposte.json): nessun testo oltre i limiti misurati e nessun contrasto insufficiente fra le coppie di testo/icone registrate. Questi calcoli non costituiscono un test con persone o una verifica generale di accessibilità.
 
@@ -151,24 +151,24 @@ Sono varianti aggiuntive di lavoro; restano disponibili le tile v0.3, i 33 frame
 
 | Intervento proposto | Schermate | Componenti | Come provarlo e che cosa osservare |
 |---|---|---|---|
-| Contesto condiviso fra mappa e lista | S01–S05, S10 | DS02/03/05/06/11; nuova DS-MAP | Cercare a Roma con budget, passare alla lista, aprire e tornare. Controllare stesso ID, criteri e selezione; poi cambiare città manualmente. |
+| Contesto condiviso fra mappa e lista | S01–S05, S10 | DS02/03/05/06/11; nuova DS18 | Cercare a Roma con budget, passare alla lista, aprire e tornare. Controllare stesso ID, criteri e selezione; poi cambiare città manualmente. |
 | Card compatta e confronto | S02/S03/S19 | DS06/07 | Confrontare due opzioni, una con prezzo o rumore assente. Chiedere quali dati sostengono la scelta; annotare informazioni fraintese e aperture necessarie. |
 | Due filtri rapidi + tutti i filtri | S02–S04 | DS02/03/01/15 | Modificare la bozza, annullare, applicare e azzerare. Controllare se la persona distingue criteri correnti e modifica non applicata; nessun effetto silenzioso. |
-| Selezione marker/lista e Cerca qui | S02/S03/S05 | nuova DS-MAP; DS05/06/11 | Selezionare da entrambe le viste, spostare l'area e tornare dal dettaglio. Verificare riconoscimento dell'area attiva e del momento in cui la ricerca cambia. |
-| Errore mappa e accesso equivalente | S02/S03 | nuova DS-MAP; DS14/15 | Simulare mappa indisponibile e posizione negata. Completare dalla lista; su implementazione, ripetere con tastiera e controllare focus/annunci. |
+| Selezione marker/lista e Cerca qui | S02/S03/S05 | nuova DS18; DS05/06/11 | Selezionare da entrambe le viste, spostare l'area e tornare dal dettaglio. Verificare riconoscimento dell'area attiva e del momento in cui la ricerca cambia. |
+| Errore mappa e accesso equivalente | S02/S03 | nuova DS18; DS14/15 | Simulare mappa indisponibile e posizione negata. Completare dalla lista; su implementazione, ripetere con tastiera e controllare focus/annunci. |
 | Una CTA primaria in S05 | S05/S12/S13/S19/S21 | DS01/06/11/12/16 | Aprire lo stesso luogo da ricerca individuale e gruppo. Chiedere cosa farà l'azione prima di attivarla; verificare che proposta, salvataggio e indicazioni siano distinti. |
 | Atmosfera contestuale | S05/S06/S09/S15 | DS07/08 | Mostrare pochi dati, zero dati e periodi diversi. Chiedere cosa può dire la persona del rumore e della prossima visita; osservare se interpreta intensità come giudizio o dato storico come live. |
 | Media e testimonianze con fonte | S05/S07/S08/S09 | DS07/09/17 | Distinguere illustrazione, foto e recensione dichiarata. Verificare se fonte/data vengono capite senza trasformarle in garanzia di autenticità o sicurezza. |
 | Salva/proponi/preferenza/conferma | S11–S14 | DS01/06/12/14 | Dare una preferenza lasciando un invito in attesa, poi cambiare un vincolo. Verificare che il gruppo non venga letto come concordato e che siano richieste nuove conferme. |
 | Originale/suggerimento/anteprima | S15–S18/S20 | DS02/10/13/14/15 | Scrivere manualmente, chiedere AI, rifiutare/applicare, correggere e scegliere visibilità. Simulare indisponibilità/errore invio e uscita. Controllare fatti aggiunti, bozza recuperata e testo realmente inviato. |
-| Stessa architettura per A/B | S02–S05/S16 | DS01–DS17 e proposta DS-MAP, token A/B | Stessi testi e compiti, ordine alternato registrato. Raccogliere ragioni, prima attenzione e limiti di lettura; non chiamare un voto una prova di usabilità. |
+| Stessa architettura per A/B | S02–S05/S16 | DS01–DS17 e proposta DS18, token A/B | Stessi testi e compiti, ordine alternato registrato. Raccogliere ragioni, prima attenzione e limiti di lettura; non chiamare un voto una prova di usabilità. |
 
 Queste prove sono previste, non svolte. Errori intenzionali sono scenari del prototipo, non risultati dei partecipanti. Registrare versione e condizioni effettive; lasciare vuoti gli esiti fino alla sessione.
 
 ## 7. Priorità e sequenza di costruzione
 
 1. **P0 — fissare il contratto di ricerca e le transizioni.** Disegnare città/area, testo, criteri applicati/bozza e selezione ID; specificare Applica, Annulla, Azzera, cambio città e ritorno da scheda. Criterio di chiusura: ogni transizione ha un effetto esplicito e nessun valore cambia per azione estranea.
-2. **P0 — costruire DS06 e la proposta DS-MAP in Figma.** Card compatta/estesa, marker default/selezionato/salvato, lista equivalente, Cerca qui, errore e zero risultati. Criterio: lo stesso luogo e gli stessi dati attraversano S02/S03/S05, con stati distinguibili anche senza colore. Aggiornare inventari e crosswalk solo se DS-MAP viene adottato.
+2. **P0 — costruire DS06 e la proposta DS18 in Figma.** Card compatta/estesa, marker default/selezionato/salvato, lista equivalente, Cerca qui, errore e zero risultati. Criterio: lo stesso luogo e gli stessi dati attraversano S02/S03/S05, con stati distinguibili anche senza colore. Aggiornare inventari e crosswalk solo se DS18 viene adottato.
 3. **P0 — rifare la gerarchia di S04/S05 sui compiti.** Due filtri rapidi e tutti i filtri; una CTA primaria per contesto; atmosfera con periodo/copertura e limite. Criterio: nessuna stelletta ambientale, dato assente letto come zero, CTA che sembri prenotare o fonte che prometta sicurezza.
 4. **P1 — comporre i tre flussi navigabili.** Scelta individuale, proposta con amici, recensione guidata. Includere rifiuto AI, invito pendente, criterio incompatibile e recupero della bozza. Criterio: preferenza e conferma restano diverse; originale e suggerimento restano recuperabili; nessuna pubblicazione esterna viene promessa.
 5. **P1 — applicare A/B a struttura identica.** Creare varianti/token, controllare gerarchia, testi lunghi, ridimensionamento, target e contrasti delle coppie usate. Dichiarare il font effettivo. Criterio: stesso contenuto e comportamento; nessuna direzione viene dichiarata vincitrice prima del feedback. Il materiale attuale è SVG/PNG importabile e prototipo locale, non un file Figma nativo già completato.

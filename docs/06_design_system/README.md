@@ -1,8 +1,8 @@
-# Base di design system provvisoria
+# Design system: Pop e Calda con Mali 600
 
-SNODO, v0.6 — 11 ottobre 2026. Questa revisione affina proporzioni, gerarchie e dettagli dei componenti nelle due direzioni A/B; **Pop (B) rimane la direzione principale scelta dal progettista; Calda (A) è aggiornata con Mali SemiBold 600**. Non esiste in questa cartella una libreria Figma nativa già costruita o verificata.
+SNODO, v0.7 — 11 ottobre 2026. Questa revisione affina proporzioni, gerarchie e dettagli dei componenti nelle due direzioni A/B; **Pop (B) rimane la direzione principale scelta dal progettista; Calda (A) è aggiornata con Mali SemiBold 600**. Non esiste in questa cartella una libreria Figma nativa già costruita o verificata.
 
-[Apri il catalogo del design system](index.html): componenti, filtri, anteprime A/B e collegamenti al prototipo. [Guida per estendere il catalogo](Guida_catalogo.md).
+[Apri il catalogo del design system](index.html): componenti, filtri, anteprime A/B e collegamenti al prototipo. [Guida per estendere il catalogo](Guida_catalogo.html). [Style tile correnti](../05_style_tiles/README.html).
 
 Materiali:
 
@@ -13,11 +13,11 @@ Materiali:
 - [Corrispondenza_componenti_IA_DS.md](https://leracs.github.io/snodo-tesi/06_design_system/Corrispondenza_componenti_IA_DS.md) e [JSON](Corrispondenza_componenti_IA_DS.json): mappatura compositiva dei componenti visivi (DS01–DS22) rispetto ai componenti funzionali C01–C40 dell’architettura. I due namespace non sono intercambiabili.
 - [Stati_e_controlli.svg](https://leracs.github.io/snodo-tesi/06_design_system/Stati_e_controlli.svg) e PNG: campioni statici di default/hover/premuto/focus/loading/disabled, campi, tag e recuperi. I comportamenti annotati sono specifiche, non interazioni del file SVG.
 - [Contrasti.csv](https://leracs.github.io/snodo-tesi/06_design_system/Contrasti.csv) e [Markdown](https://leracs.github.io/snodo-tesi/06_design_system/Contrasti.md): calcoli sRGB, coppie effettive, criteri e limiti.
-- [Controlli_build.json](https://leracs.github.io/snodo-tesi/06_design_system/Controlli_build.json): comparabilità delle tile, larghezze e contrasti; nessun feedback umano.
+- [QA_Calda_Mali.json](QA_Calda_Mali.json): aggiornamento corrente di font, palette, geometrie e controlli. [Controlli_build.json](Controlli_build.json) documenta la costruzione precedente e rimane un registro storico.
 
 Tipografia: A usa Mali SemiBold 600 per i titoli e prevede Forma DJR Text per il corpo, con anteprima Helvetica Neue; B usa Boldonse per i titoli e prevede Forma DJR Text per il corpo. Forma DJR Text non è disponibile localmente: l’anteprima B usa Helvetica Neue e dichiara la sostituzione. Boldonse è fornito in [Boldonse-Regular.ttf](https://leracs.github.io/snodo-tesi/05_style_tiles/fonts/Boldonse-Regular.ttf), con [OFL.txt](https://leracs.github.io/snodo-tesi/05_style_tiles/fonts/OFL.txt), dal [repository ufficiale Google Fonts](https://github.com/google/fonts/tree/main/ofl/boldonse). Corpo 16/24 px, metadati 14/20 px. I metadati non sono l’unica sede di un limite che influisce sulla decisione: messaggi di errore, dati assenti e azioni vanno mantenuti visibili anche nel contenuto principale.
 
-Le dimensioni sono ipotesi reversibili. Restano comuni il frame mobile 390 × 844, il margine 16, la scala di spazi 4/8/12/16/24/32/40/48/64, l’altezza del pulsante 48 e del campo 52. Nelle tavole i campioni di prodotto hanno larghezza 360 px. A usa raggi di 20 px per le card e 12 px per pulsanti e campi; B usa 32 px per le card e i pulsanti, 18 px per i campi. I tag descrittivi sono alti 28 px, con raggio A 8 / B 14; i filtri interattivi hanno altezza 44 e raggio 22. Le icone sono disegnate su griglia 24 con tratto 1,8 px; mantenere target raccomandato 44 × 44 anche se l’icona è più piccola. Le quattro destinazioni restano Esplora/Salvati/Chat/Profilo; l’AI ha un’etichetta esplicita e accessi contestuali, senza una quinta destinazione nascosta dietro un simbolo.
+Le dimensioni sono ipotesi reversibili. Restano comuni il frame mobile 390 × 844, il margine 16, la scala di spazi 4/8/12/16/24/32/40/48/64, l’altezza del pulsante 48 e del campo 52. Le misure per gli SVG dei componenti provengono dal layout HTML a 390 px; le style tile restano tavole di direzione, con proprie proporzioni. A usa raggi di 22 px per le card e 14 px per pulsanti e campi; B usa 32 px per le card e i pulsanti, 18 px per i campi. I tag descrittivi sono alti 28 px, con raggio A 10 / B 14; i filtri interattivi hanno altezza 44 e raggio A 14 / B 22. Le icone sono disegnate su griglia 24 con tratto 1,8 px; mantenere target raccomandato 44 × 44 anche se l’icona è più piccola. Le quattro destinazioni restano Esplora/Salvati/Chat/Profilo; l’AI ha un’etichetta esplicita e accessi contestuali, senza una quinta destinazione nascosta dietro un simbolo.
 
 La tavola degli stati misura 1440 × 1920 px. Mostra controlli con padding, allineamento delle icone, focus coerente con la forma del componente, indicatore di caricamento e recuperi espliciti. Le annotazioni tecniche sono esterne ai campioni. La card luogo separa media orizzontale, tag passivi, prezzo, provenienza e azioni; recensione e messaggio AI restano componenti distinti. Le superfici non hanno tutte lo stesso peso: il colore guida l’attenzione su azioni e selezioni, mentre la lettura del contenuto conserva spazio e contrasto.
 
@@ -27,15 +27,21 @@ I colori semanticamente funzionali hanno ruoli condivisi. Successo, limite dei d
 
 La superficie calma non deve nascondere gerarchia, dato mancante o azione. Il sistema privilegia informazioni pratiche prima della decisione, provenienza distinguibile, controlli correggibili e una testimonianza separata dal riepilogo AI. Nessun tag o indicatore certifica sicurezza, accoglienza o affidabilità universali.
 
+## Campioni degli stati correnti
+
+![Stati e controlli nelle due direzioni](Stati_e_controlli.svg)
+
+La tavola usa Mali 600 e i colori Calda aggiornati, accanto a Pop. Per le varianti dei singoli componenti usare il catalogo e i suoi download.
+
 ## Atmosfera e affluenza: pattern integrato
 
-La revisione v0.4 separa DS08 (luce, rumore, comfort) da DS19 (affluenza in tre fasce e giorno selezionabile). [Specifica e stati](Atmosfera_affluenza.md) · [Dimostrazione interattiva A/B](Atmosfera_affluenza_demo.html) · [Verifiche tecniche](QA_atmosfera_affluenza.json). La stessa implementazione è presente nella scheda S05 e nel dettaglio S06. Sono aggiunti quattro ruoli di colore accessibili; i font del progetto restano invariati. Il pattern è integrato in HTML; le tavole statiche e Figma non risultano migrate.
+La revisione v0.4 separa DS08 (luce, rumore, comfort) da DS19 (affluenza in tre fasce e giorno selezionabile). [Specifica e stati](Atmosfera_affluenza.md) · [Dimostrazione interattiva A/B](Atmosfera_affluenza_demo.html) · [Verifiche tecniche](QA_atmosfera_affluenza.json). La stessa implementazione è presente nella scheda S05 e nel dettaglio S06. Il pattern usa i token correnti: Pop con Boldonse; Calda con Mali 600, crema, verde scuro e prugna. Gli SVG del catalogo sono aggiornati; la costruzione di componenti nativi Figma resta da eseguire.
 
 ## Esplorazione e recensioni: integrazione v0.6
 
 [Pattern e componenti nuovi](Esplorazione_e_recensioni.md) · [Anteprime interattive A/B](Esplorazione_demo.html). DS18 sostituisce il nome temporaneo DS-MAP. DS20 porta una testimonianza nelle card DS06; DS21 gestisce filtri rapidi e distinzione necessario/preferenza; DS22 rende persistente l’azione contestuale della scheda. DS10 mostra il riepilogo dei criteri interpretati prima dell’applicazione.
 
-I renderer `esplorazione.js` / `esplorazione.css` sono condivisi dal catalogo e dal prototipo. Il [benchmark](../11_materiale_di_lavoro/Benchmark_UX_UI_e_integrazioni_SNODO.md) resta la motivazione delle proposte. La libreria HTML è aggiornata; tile statiche, 33 tavole baseline e Figma richiedono un passaggio successivo esplicito.
+I renderer `esplorazione.js` / `esplorazione.css` sono condivisi dal catalogo e dal prototipo. Il [benchmark](../11_materiale_di_lavoro/Benchmark_UX_UI_e_integrazioni_SNODO.md) resta la motivazione delle proposte. La libreria HTML, la tile Calda con Mali e gli SVG dei componenti sono aggiornati. La tile Pop conserva la propria tavola di direzione; i 33 wireframe di base e la costruzione nativa Figma restano materiali da sviluppare separatamente.
 
 ## Passaggio alla libreria definitiva
 
