@@ -4,15 +4,15 @@
 
 ## Registro e anteprime
 
-`Componenti_e_comportamenti.json` è il registro delle componenti: ID, nome, proprietà, stati, comportamento e schermate. Il catalogo contiene DS01–DS17 e DS19. La proposta di mappa del benchmark conserva il proprio identificativo DS-MAP e non viene presentata come una componente adottata.
+`Componenti_e_comportamenti.json` è il registro delle componenti: ID, nome, proprietà, stati, comportamento e schermate. Il catalogo contiene DS01–DS22. DS18 è l’evoluzione della proposta di mappa precedentemente chiamata DS-MAP.
 
-DS08 Atmosfera e DS19 Affluenza condividono `atmosfera-affluenza.js` e CSS con S05 e S06. Gli altri componenti hanno una scheda di specifica, senza fingere un’anteprima già implementata. L’anteprima del catalogo permette di cambiare direzione A/B e stato dei dati. Il giorno modifica solo l’affluenza.
+DS08 Atmosfera e DS19 Affluenza condividono `atmosfera-affluenza.js` e CSS con S05 e S06. Tutte le 22 schede mostrano un campione visivo. Il playground superiore permette di scegliere il componente, la variante o lo stato e la direzione A/B. Atmosfera e Affluenza si possono mostrare separatamente o insieme; il giorno modifica solo l’affluenza. Per DS19 sono disponibili dati limitati, fascia assente il lunedì e dati assenti. Gli altri campioni sono illustrativi: le azioni rappresentate non sono attive e non attestano un’implementazione completa nel prototipo.
 
 ## Aggiungere una componente
 
 1. Aggiungere un ID unico e una descrizione nel registro JSON e nella specifica Markdown. Registrare gli stati, le schermate e i vincoli di utilizzo.
 2. Aggiornare la corrispondenza IA/DS e assegnare una categoria in `costruisci_catalogo.mjs`. Non riusare un ID di una proposta già esistente.
-3. Se esiste un’implementazione riutilizzabile, collegarla all’anteprima e al prototipo. Aggiornare la disponibilità solo dopo aver verificato il funzionamento.
+3. Aggiungere il campione e le varianti in `campioni-componenti.js`, usando i token e gli stili di `campioni-componenti.css`. Il generatore verifica che ogni ID abbia un campione. Se esiste un’implementazione riutilizzabile, collegarla all’anteprima e al prototipo. Aggiornare la disponibilità solo dopo aver verificato il funzionamento.
 4. Rigenerare con `node 06_design_system/costruisci_catalogo.mjs`, poi controllare ricerca, filtri, nomi accessibili, stati assenti e larghezze mobile.
 
 ## Prototipo e pubblicazione

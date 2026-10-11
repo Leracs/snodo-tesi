@@ -1,8 +1,8 @@
 {
   "title": "SNODO — base DS A/B",
-  "version": "0.5",
+  "version": "0.6",
   "date": "2026-10-11",
-  "status": "provisional_no_selected_direction",
+  "status": "provisional_shared_HTML_patterns_not_native_Figma",
   "namespace": "DS01–DS17 e DS19, distinta da C01–C40 dell’architettura",
   "artifact_type": "component_specification_not_native_component_library",
   "common_rules": {
@@ -36,7 +36,8 @@
     ],
     "mock_does_not_prove_authenticity_or_safety": true,
     "explicit_confirmation_required": true,
-    "silence_is_not_consent": true
+    "silence_is_not_consent": true,
+    "review_preview_on_place_cards": true
   },
   "components": [
     {
@@ -236,7 +237,7 @@
     {
       "id": "DS06",
       "name": "Card luogo",
-      "properties_and_variants": "ID catalogo; nome/città/zona; prezzo e fonte; media; azione scheda; salva/proponi se pertinente",
+      "properties_and_variants": "Card compatta; illustrazione, città/zona, prezzo, rumore contestuale, DS20 recensione, salva separato, apri scheda; alternativa del gruppo.",
       "required_states": [
         "Standard",
         "selezionata",
@@ -244,9 +245,9 @@
         "dato non disponibile",
         "errore immagine"
       ],
-      "behavior_and_constraints": "Apre sempre lo stesso oggetto S05 da lista, salvati, AI o gruppo. La Home non contiene l’anteprima di recensione. Prezzo mancante è “non disponibile”, non zero/gratis. Evitare card intera cliccabile con controlli annidati non distinguibili.",
+      "behavior_and_constraints": "Stesso oggetto luogo in mappa, lista, salvati e gruppo. Almeno una preview di recensione quando disponibile; in assenza, stato esplicito. Salva, recensioni e scheda hanno controlli separati. Prezzo indicativo non è prezzo verificato o in tempo reale.",
       "screens": "S02/S03/S10/S13/S19",
-      "implementation_status": "specified_not_native_figma",
+      "implementation_status": "shared_HTML_in_prototype_and_catalogue_not_native_Figma",
       "user_validation_status": "not_tested",
       "transitions": [
         {
@@ -359,7 +360,7 @@
         "senza testo",
         "segnalata"
       ],
-      "behavior_and_constraints": "Nome e visita dichiarati non garantiscono autenticità. Contributo umano distinto da riepilogo AI. Testo lungo espandibile senza perdere la scheda. Nell’esempio Luca e visita sono mock.",
+      "behavior_and_constraints": "Nome e visita dichiarati non garantiscono autenticità. Contributo umano distinto da riepilogo AI. Testo lungo espandibile senza perdere la scheda. Nell’esempio Luca e visita sono mock. DS20 rende visibile una testimonianza anche nelle card; nessuna recensione viene inventata per coprire assenze.",
       "screens": "S05/S08/S13/S17/S20",
       "implementation_status": "specified_not_native_figma",
       "user_validation_status": "not_tested",
@@ -398,7 +399,7 @@
       ],
       "behavior_and_constraints": "Intervento esplicito. Una correzione si riflette nei criteri; non allenta vincoli o cambia città di nascosto. Non conferma gli amici. Revisione produce suggerimento separato, applicabile/rifiutabile; non pubblica. Indisponibilità lascia ricerca e scrittura manuali. Nel prototipo etichetta simulazione.",
       "screens": "S10/S13/S16",
-      "implementation_status": "specified_not_native_figma",
+      "implementation_status": "shared_HTML_search_summary_not_native_Figma",
       "user_validation_status": "not_tested",
       "transitions": [
         {
@@ -800,6 +801,25 @@
       "transition_note": "Chiavi degli stati proposti per le transizioni; le etichette italiane degli stati necessari sono descrittive, non un’automazione già implementata."
     },
     {
+      "id": "DS18",
+      "name": "Mappa, marker e lista equivalente",
+      "properties_and_variants": "Luogo ID stabile; ordinale per città; marker normale/selezionato/salvato/dato assente; stesso contesto e criteri della lista.",
+      "required_states": [
+        "Default",
+        "selezionato",
+        "salvato",
+        "rumore assente",
+        "nessun risultato"
+      ],
+      "behavior_and_constraints": "La demo usa una mappa schematica senza geolocalizzazione o confini reali. Numero, testo, ? e stato premuto accompagnano il colore. Il cambio mappa/lista conserva selezione, query e criteri. Pan geografico e Cerca in quest’area richiedono SDK e bounds reali, non simulati come risultati live.",
+      "screens": "S02/S03",
+      "implementation_status": "shared_HTML_in_prototype_and_catalogue_not_native_Figma",
+      "user_validation_status": "not_tested",
+      "transitions": [],
+      "transition_state_keys": [],
+      "transition_note": "HTML integrato; il registro non attesta varianti native Figma o tutte le transizioni."
+    },
+    {
       "id": "DS19",
       "name": "Affluenza per fasce",
       "properties_and_variants": "Tre fasce configurabili, giorno, livelli, copertura e provenienza; selettore DS01 + DS16.",
@@ -819,6 +839,61 @@
         "atmosfera-affluenza.css",
         "atmosfera-affluenza.js"
       ]
+    },
+    {
+      "id": "DS20",
+      "name": "Preview della recensione",
+      "properties_and_variants": "Composizione DS09/DS07; testo fino a tre righe in card e completo in scheda; autore, visita, fascia, compagnia; link recensioni.",
+      "required_states": [
+        "Disponibile",
+        "testo lungo",
+        "nessuna recensione"
+      ],
+      "behavior_and_constraints": "Mostra la prima testimonianza del catalogo mock in ordine esplicito, senza ordinarla per sentiment o creare una media. La recensione resta di una visita; separata da riepiloghi AI e intensità. Niente badge di visita verificata. Il testo completo è leggibile in S08; assenza distinta da giudizio negativo.",
+      "screens": "S02/S03/S05/S13/S14/S19",
+      "implementation_status": "shared_HTML_in_prototype_and_catalogue_not_native_Figma",
+      "user_validation_status": "not_tested",
+      "transitions": [],
+      "transition_state_keys": [],
+      "transition_note": "HTML integrato; il registro non attesta varianti native Figma o tutte le transizioni."
+    },
+    {
+      "id": "DS21",
+      "name": "Filtri rapidi e regola del criterio",
+      "properties_and_variants": "Budget e rumore rapidi; contatore filtri; requisito/preferenza; editor in bozza, applica/annulla/azzera.",
+      "required_states": [
+        "Non selezionato",
+        "selezionato",
+        "bozza",
+        "applicato",
+        "annullato",
+        "dati da verificare"
+      ],
+      "behavior_and_constraints": "Budget e spazio all’aperto sono requisiti. Rumore necessario esclude dati mancanti e oltre limite; come preferenza li presenta in gruppi separati, mai come corrispondenze. Azzera nell’editor modifica solo la bozza; Annulla conserva la ricerca. Giorno e fascia del dato non sono filtri attivi.",
+      "screens": "S02/S03/S04",
+      "implementation_status": "shared_HTML_in_prototype_and_catalogue_not_native_Figma",
+      "user_validation_status": "not_tested",
+      "transitions": [],
+      "transition_state_keys": [],
+      "transition_note": "HTML integrato; il registro non attesta varianti native Figma o tutte le transizioni."
+    },
+    {
+      "id": "DS22",
+      "name": "Azione contestuale della scheda",
+      "properties_and_variants": "Una CTA principale persistente sopra la navigazione; individuale/gruppo/incompatibile; label e destinatario espliciti.",
+      "required_states": [
+        "Proponi al gruppo",
+        "preferenza nel gruppo",
+        "incompatibile",
+        "focus"
+      ],
+      "behavior_and_constraints": "Da ricerca personale propone il luogo; dal gruppo esprime solo una preferenza, senza confermare amici o accordo. La proposta esistente della stessa città è conservata. Le altre azioni restano nel contenuto come secondarie. Stato incompatibile spiega perché la preferenza non è disponibile.",
+      "screens": "S05/S13",
+      "implementation_status": "shared_HTML_in_prototype_and_catalogue_not_native_Figma",
+      "user_validation_status": "not_tested",
+      "transitions": [],
+      "transition_state_keys": [],
+      "transition_note": "HTML integrato; il registro non attesta varianti native Figma o tutte le transizioni."
     }
   ],
   "verification": {

@@ -18,4 +18,6 @@ Percorsi dopo la pubblicazione:
 
 La raccolta include anche i materiali di benchmark già presenti nel workspace e collegati dalla documentazione. Gli originali locali sono conservati. L’export mantiene il gate esistente su tutte le pagine HTML; il manifest registra file e hash distribuiti.
 
-Controlli tecnici: 31 regressioni PASS, ricerca e filtri del catalogo, temi A/B, stati dei dati, collegamenti diretti al prototipo e layout a 320/390/1280 px. I dettagli sono nei report `docs/06_design_system/QA_catalogo.json`, `QA_atmosfera_affluenza.json` e `docs/07_prototipo/QA_interazioni.json`. Non sono test con partecipanti.
+Il catalogo mostra 22 campioni visivi; il playground permette di scegliere componente, variante e tema. Atmosfera/Affluenza mantengono i controlli interattivi condivisi; gli altri campioni illustrano le specifiche.
+
+Controlli tecnici: 32 regressioni PASS, ricerca e filtri del catalogo, temi A/B, stati dei dati, collegamenti diretti al prototipo e layout a 320/390/1280 px. I dettagli sono nei report `docs/06_design_system/QA_catalogo.json`, `QA_atmosfera_affluenza.json` e `docs/07_prototipo/QA_interazioni.json`. Non sono test con partecipanti.

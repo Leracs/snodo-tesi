@@ -5,7 +5,7 @@
   "source_preserved": true,
   "checks": {
     "html_pages": 43,
-    "local_references_checked": 1515,
+    "local_references_checked": 1507,
     "all_HTML_gated": true,
     "absolute_local_HTML_paths": 0
   },
@@ -632,7 +632,7 @@
     },
     {
       "path": "docs/06_design_system/Atmosfera_affluenza_demo.html",
-      "sha256": "0d98f8617845436f17a4ff38fb7942dc3271853c3e0e5d186829afa5ad588323",
+      "sha256": "e2b9abeb0db60fea47669e4e020eae7be8fd9dd54533e511ae0cbf731d24e65b",
       "bytes": 3820
     },
     {
@@ -642,8 +642,8 @@
     },
     {
       "path": "docs/06_design_system/Componenti_e_comportamenti.json",
-      "sha256": "9edbb758c07aaaac8f162ea26d43935ec9aa41dea42c829cadaa7c9f5e5034eb",
-      "bytes": 30348
+      "sha256": "3f5185ba5324a1f54db45b6005b55c389132606435110ec71b55311d5843d9ea",
+      "bytes": 34846
     },
     {
       "path": "docs/06_design_system/Componenti_e_comportamenti.md",
@@ -687,23 +687,23 @@
     },
     {
       "path": "docs/06_design_system/Guida_catalogo.html",
-      "sha256": "92619a4d93488832759e9ddbfd5946c5569d628bb2a26e5f99f2b7e1e7def44d",
-      "bytes": 6534
+      "sha256": "bda9de98bc804c95a2e10b962bee0b3b23827c8db13eb3a64c9aaccc02908ff5",
+      "bytes": 7084
     },
     {
       "path": "docs/06_design_system/Guida_catalogo.md",
-      "sha256": "ae4e0c72f6105b8886492db57f37d841960d201d9c89408467148502a090f0b6",
-      "bytes": 2518
+      "sha256": "52a8f02149bea6867fd0d48fa6592c8f56c01514393d90ff9ce1f29d35f4d878",
+      "bytes": 2899
     },
     {
       "path": "docs/06_design_system/QA_atmosfera_affluenza.json",
-      "sha256": "2555a2eebc9578c7073583c2d407ee56cf3647cc63c5fedaac88a0b9b0c53036",
-      "bytes": 5873
+      "sha256": "7f01a5ea319c54626f4672bbfb0dc0bd25a101c8983520644b20c249b05da6ce",
+      "bytes": 6121
     },
     {
       "path": "docs/06_design_system/QA_catalogo.json",
-      "sha256": "2d0fff9ca9853422522b61a15223ef355be08905676ccff907ad8a1c6918358b",
-      "bytes": 2634
+      "sha256": "4f7e28d109d1c42d87b0959de3a51d30dd5ca44a9621a163cd14c35013699d3a",
+      "bytes": 3240
     },
     {
       "path": "docs/06_design_system/README.html",
@@ -727,8 +727,8 @@
     },
     {
       "path": "docs/06_design_system/Verifiche_atmosfera.cjs",
-      "sha256": "e5934a5db6bfd0ac4dc2a06f0a3f2c03930b510c683af8f053ba22fa6b364def",
-      "bytes": 3246
+      "sha256": "441e4882b8ab340de3b838ca0d8807399f8e9e9a662b1abb5f1c4c655207adbb",
+      "bytes": 3742
     },
     {
       "path": "docs/06_design_system/atmosfera-affluenza.css",
@@ -737,8 +737,23 @@
     },
     {
       "path": "docs/06_design_system/atmosfera-affluenza.js",
-      "sha256": "662cf167cef55bbab3f0562eaf255943e3b0a5c864ed68f4ebefebe1d7124581",
-      "bytes": 10383
+      "sha256": "903fbe9f3d168f9135e2ff6ef35f241826a76df74bba06b5a22e1db07c10ca52",
+      "bytes": 10511
+    },
+    {
+      "path": "docs/06_design_system/campioni-componenti.css",
+      "sha256": "9029e503b83284e2d4a191a3c9c456fd3934bd005d93808bc589cecec44b068f",
+      "bytes": 7562
+    },
+    {
+      "path": "docs/06_design_system/campioni-componenti.js",
+      "sha256": "47a082acd9a87461ec6ab0a3f71c48d4e506501b794d7dd167cc4ea685c0357b",
+      "bytes": 10852
+    },
+    {
+      "path": "docs/06_design_system/catalogo-componenti.js",
+      "sha256": "2b1e65d66a483b78a435cf50b34f151542165142bb7aff7c52cf5270e7521ee0",
+      "bytes": 25888
     },
     {
       "path": "docs/06_design_system/catalogo-token.js",
@@ -747,23 +762,33 @@
     },
     {
       "path": "docs/06_design_system/catalogo-ui.js",
-      "sha256": "3b69c78f91c7a009a983569e320d94d8ab01960fa795a8e5b5330f762a44abfb",
-      "bytes": 3165
+      "sha256": "30bc66c93e87ee15c2a7c0f8f34cd72b6b86c96a3622b06792db4b436949fc62",
+      "bytes": 5403
     },
     {
       "path": "docs/06_design_system/catalogo.css",
-      "sha256": "e2b24d3b2095780bb279b098227362b002c42eaf3721be1a3075b36cda76e925",
-      "bytes": 5744
+      "sha256": "528fb642c201c325a733b64399db5f8c82681deaf6040acc2b4ae1708a40ae39",
+      "bytes": 8455
     },
     {
       "path": "docs/06_design_system/costruisci_catalogo.mjs",
-      "sha256": "cf536401e95ec0c26e10f6ae101db6c7a79e55fe417f94f976a408ffa4d50dc4",
-      "bytes": 9873
+      "sha256": "7d5f8d13839b4728bec5b9dfb2874aa65e65f7b737616102f3e72880901b3308",
+      "bytes": 11524
+    },
+    {
+      "path": "docs/06_design_system/esplorazione.css",
+      "sha256": "e5dd18e8e2a8c3e2677327fb4c6273a511f0174dfe15f6e0472df8680ccfd7d8",
+      "bytes": 10441
+    },
+    {
+      "path": "docs/06_design_system/esplorazione.js",
+      "sha256": "293641242f8859eafab5f0060639914b95214cdae667f56eb0ba699cdf8e1d15",
+      "bytes": 7134
     },
     {
       "path": "docs/06_design_system/index.html",
-      "sha256": "7776124c7a9a805f9634403a4aa49064ce2b35362854f2ef1ede9d20ae89bf86",
-      "bytes": 25989
+      "sha256": "50d717e22958ddd459619f0181d09413a5d48d194d1217faeb861b09ce8b1aad",
+      "bytes": 48481
     },
     {
       "path": "docs/06_design_system/theme_A.json",

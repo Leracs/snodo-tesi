@@ -57,8 +57,8 @@
 
   const attendanceCaption = view => view.attendance.source?.includes('mock') ? (view.available.length ? 'Dati dimostrativi · confronto tra fasce con dati.' : 'Dati dimostrativi · copertura assente.') : `${view.attendance.source || 'Profilo non disponibile'}.`;
 
-  function render(place) {
-    const day = selection.get(place.id) ?? 0;
+  function render(place, options = {}) {
+    const day = Number.isInteger(options.initialDay) && options.initialDay >= 0 && options.initialDay <= 6 ? options.initialDay : selection.get(place.id) ?? 0;
     const view = getView(place, day);
     const id = 'snodo-context-' + String(place.id).replace(/[^a-zA-Z0-9_-]/g, '-');
     return `<div class="snodo-context" data-place-context="${escape(place.id)}">

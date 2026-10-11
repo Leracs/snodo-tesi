@@ -2,7 +2,7 @@
   "date": "2026-10-11",
   "status": "PASS",
   "type": "data_and_rendering_invariants",
-  "passed": 6,
+  "passed": 7,
   "tests": [
     {
       "name": "Ogni luogo conserva tre fasce compatibili con apertura 16–23",
@@ -27,10 +27,14 @@
     {
       "name": "Valori fuori scala e copertura zero non vengono mostrati",
       "status": "PASS"
+    },
+    {
+      "name": "Anteprima del lunedì coerente; giorno non valido mantiene il profilo predefinito",
+      "status": "PASS"
     }
   ],
   "limitations": [
-    "Controlli tecnici dei dati, contrasti e browser; non una certificazione completa di accessibilità.",
+    "Non verifica browser, layout, tastiera o lettore di schermo.",
     "Non è un test con partecipanti."
   ],
   "browser": {
@@ -59,7 +63,8 @@
     "limitations": [
       "Non è una sessione VoiceOver né un test con partecipanti.",
       "Ingrandimento del testo al 200% non verificato."
-    ]
+    ],
+    "catalogue_day_check": "Anteprima parziale iniziale del lunedì: due barre e una fascia assente, ritorno del focus dopo scelta giorno verificato."
   },
   "contrasts": {
     "status": "PASS",
@@ -212,7 +217,7 @@
     ]
   },
   "assets": {
-    "atmosfera-affluenza.js": "662cf167cef55bbab3f0562eaf255943e3b0a5c864ed68f4ebefebe1d7124581",
+    "atmosfera-affluenza.js": "903fbe9f3d168f9135e2ff6ef35f241826a76df74bba06b5a22e1db07c10ca52",
     "atmosfera-affluenza.css": "b442faeb9aec0d9b70ff716b17f0bba298204c89c0501ef233995fb0a89a8b28",
     "tokens_A.css": "bbafde42627b9351bba1b68fe052de15153c9f70fa6630b03eafd94ddda02442",
     "tokens_B.css": "d239690954d0e17226c936d049aee12bd49e1ae8ec0559398ed16815e804f4c6"

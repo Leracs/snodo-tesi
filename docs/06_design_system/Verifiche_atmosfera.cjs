@@ -49,6 +49,14 @@ check('Valori fuori scala e copertura zero non vengono mostrati', () => {
   const view = component.getView(place,0);
   assert.equal(view.metrics[0].value,null);assert.equal(view.metrics[1].value,null);assert.equal(view.metrics[2].value,null);assert.equal(view.bands[0].value,null);
 });
+check('Anteprima del lunedì coerente; giorno non valido mantiene il profilo predefinito', () => {
+  const place = catalog.places.find(p => p.id === 'luogo-roma-02');
+  const monday = component.render(place, {initialDay: 1});
+  assert.ok(monday.includes('Lunedì. Cambia giorno.'));
+  assert.equal((monday.match(/class="snodo-context-mark"/g) || []).length, 2);
+  assert.ok(monday.includes('Dato assente'));
+  assert.equal(component.render(place, {initialDay: 99}), component.render(place));
+});
 const report={date:'2026-10-11',status:'PASS',type:'data_and_rendering_invariants',passed:tests.length,tests,limitations:['Non verifica browser, layout, tastiera o lettore di schermo.','Non è un test con partecipanti.'],browser:{status:'pending'},contrasts:{status:'pending'}};
 fs.writeFileSync(path.join(__dirname,'QA_atmosfera_affluenza.json'),JSON.stringify(report,null,2)+'\n');
 console.log(`${tests.length} verifiche di dati e assenze PASS.`);
