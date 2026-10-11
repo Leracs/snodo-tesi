@@ -87,8 +87,8 @@
     },
     {
       "path": "docs/03_architettura/Architettura_generale.html",
-      "sha256": "4cb2b6772e37b924f624b6ca193eea43a4e8c68297c1b9ad2c666964b472eb51",
-      "bytes": 12263
+      "sha256": "0a77076d9a8b3ef2d7e52f3b9fc21a8739958d56a1866bb0e3e9541461f6d867",
+      "bytes": 40747
     },
     {
       "path": "docs/03_architettura/Architettura_generale.md",
@@ -149,6 +149,111 @@
       "path": "docs/03_architettura/Matrice_requisiti.md",
       "sha256": "ac09de26d993b252ff6f25e4396b140aad3c179b489f9aaa7503116b398f7e21",
       "bytes": 6751
+    },
+    {
+      "path": "docs/03_architettura/dossier-ia.css",
+      "sha256": "09cf3305e4ea5e42f8b634ccd4e4b10d2a49210fd864d0a24cd6697cae092d48",
+      "bytes": 1240
+    },
+    {
+      "path": "docs/03_architettura/dossier-ia/Architettura_informazioni_SNODO.docx",
+      "sha256": "23b461151c3a64bc638e02db89a6b261c95e543b5a48236a24d81ed3f66ceff3",
+      "bytes": 675991
+    },
+    {
+      "path": "docs/03_architettura/dossier-ia/Architettura_informazioni_SNODO.pdf",
+      "sha256": "2d589e271a17873200fa2474483f96a0cc8ef06ad5c298598393239b1e42b563",
+      "bytes": 90759
+    },
+    {
+      "path": "docs/03_architettura/dossier-ia/Dossier_IA_SNODO.md",
+      "sha256": "7be9dde342893d54b23af1543da7cb8a259a8cb81961adcec081ae7f6c47afc4",
+      "bytes": 25784
+    },
+    {
+      "path": "docs/03_architettura/dossier-ia/LEGGIMI.txt",
+      "sha256": "c0f8d2d21775db7d7cf5f608eecdaa2c8863d01118a33fecc7666740ab86f14e",
+      "bytes": 351
+    },
+    {
+      "path": "docs/03_architettura/dossier-ia/Modello_IA_SNODO.json",
+      "sha256": "0552bdca5938ea20ab7fd48459cf688f6b6d7c550d65df02e309f53f7c3f46aa",
+      "bytes": 30410
+    },
+    {
+      "path": "docs/03_architettura/dossier-ia/Pacchetto_architettura_SNODO.zip",
+      "sha256": "ba327582903dc3c51988723334beac9675798728bcbd412c48a13ef792fdd22c",
+      "bytes": 782927
+    },
+    {
+      "path": "docs/03_architettura/dossier-ia/tabelle/T01_Aree.csv",
+      "sha256": "d3a3f5823211d5e434639683ae8f3a3e4b2563259abe715ffec5e98b996c724c",
+      "bytes": 873
+    },
+    {
+      "path": "docs/03_architettura/dossier-ia/tabelle/T02_Trasversali.csv",
+      "sha256": "53a05ebd5b13f519d3655a49df7976286152b48668245e787751edb7baa17fd1",
+      "bytes": 1165
+    },
+    {
+      "path": "docs/03_architettura/dossier-ia/tabelle/T03_Oggetti.csv",
+      "sha256": "448f8df9db149925e0cc14a983d492144e64bb180e4b51cd8a67565c99d6d249",
+      "bytes": 1828
+    },
+    {
+      "path": "docs/03_architettura/dossier-ia/tabelle/T04_Relazioni.csv",
+      "sha256": "a7412ba9908d8ae0db435afb0ef05f385a39722946e1c37580b14d5a373845bc",
+      "bytes": 1116
+    },
+    {
+      "path": "docs/03_architettura/dossier-ia/tabelle/T05_Criteri.csv",
+      "sha256": "2c7800ce9e4fd712bcd731800f0fd0042b809ab98efc565325b42dbf42ec8c01",
+      "bytes": 2220
+    },
+    {
+      "path": "docs/03_architettura/dossier-ia/tabelle/T06_Etichette.csv",
+      "sha256": "2648c8ae0c0208a4dbe0ef9d04729a1217b74cf887f9630b37f10d5058d7a086",
+      "bytes": 1516
+    },
+    {
+      "path": "docs/03_architettura/dossier-ia/tabelle/T07_Provenienza.csv",
+      "sha256": "5e3804b4c8d56f6bfcb1868f6f873fdd77325ecc88976043e2fc29ff9dfed25b",
+      "bytes": 1360
+    },
+    {
+      "path": "docs/03_architettura/dossier-ia/tabelle/T08_Stati.csv",
+      "sha256": "f9ae64b4ba96aaf1e4807b9d335b115da4678c1a7ba1a6aa72f061d484946bc1",
+      "bytes": 1592
+    },
+    {
+      "path": "docs/03_architettura/dossier-ia/tabelle/T09_Schermate.csv",
+      "sha256": "f3fe33f963cfc63369c992580ded1b9d929e223bcabfb01067ba9fc0f14e6d6f",
+      "bytes": 1217
+    },
+    {
+      "path": "docs/03_architettura/dossier-ia/tabelle/T10_Regole.csv",
+      "sha256": "146fc164d40f34fd0887c6141ff4e1a584bc27195d620afa3857615490deb1ba",
+      "bytes": 1687
+    },
+    {
+      "path": "docs/03_architettura/dossier-ia/tabelle/T11_Verifica.csv",
+      "sha256": "f4544b17cda829d89e83b4c33f9414dc0d05f0065db76fdebf4e18274d2fa404",
+      "bytes": 1024
+    },
+    {
+      "path": "docs/03_architettura/dossier-ia/tavole/01_Aree_e_contenuti.svg",
+      "sha256": "ffefc87bf0a8908dc0c17643c2b20a511f220a257c532fc2c7f8addbb856d746",
+      "bytes": 8312
+    },
+    {
+      "path": "docs/03_architettura/dossier-ia/tavole/02_Oggetti_e_relazioni.svg",
+      "sha256": "80c34cc2cdcb9ba654e99e68b5f3891174f6d8638dd054162f90fe048f18bb82",
+      "bytes": 8748
+    },
+    {
+      "path": "docs/03_architettura/dossier-ia/tavole/03_Classificazione_e_criteri.svg",
+      "sha256": "2ee4237cf23041fe7900191fd77c51d3ff42d219b43739f9a9d8d3b968743c5c",
+      "bytes": 8221
     },
     {
       "path": "docs/04_wireframe/LEGGIMI.html",
@@ -2087,8 +2192,8 @@
     },
     {
       "path": "docs/Materiale_di_lavoro.html",
-      "sha256": "b97737f34bb9350c23e04c6047253b9a72cf45a92df8af0eeac1af82de6b55b3",
-      "bytes": 30226
+      "sha256": "13e80d8fd5c961371acbc626158f60ab579564abccfab507db3dec143042703b",
+      "bytes": 30403
     },
     {
       "path": "docs/Registro_decisioni.html",
@@ -2165,5 +2270,14 @@
       "sha256": "5e89b6f89f3fe26e6d95fce21a46e39583a26746507971f2af7c35a3b5248b6b",
       "bytes": 1287
     }
-  ]
+  ],
+  "architecture_dossier": {
+    "versione": "1.0",
+    "data": "2026-10-11",
+    "tavole": 3,
+    "tabelle": 11,
+    "schermate": 21,
+    "word_download": "docs/03_architettura/dossier-ia/Architettura_informazioni_SNODO.docx",
+    "page": "docs/03_architettura/Architettura_generale.html"
+  }
 }

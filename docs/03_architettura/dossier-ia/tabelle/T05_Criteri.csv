@@ -1,0 +1,12 @@
+﻿Dimensione,Informazioni o valori,Dove si applica,Regola / stato della definizione
+Geografia,"Città/comune, zona, posizione e origine del contesto.",Esplora; assistente; proposta.,Copertura Italia confermata. Scelta manuale ammessa; confini e dizionario delle zone da definire.
+Categoria / attività,Tipo di luogo o attività proposta.,Catalogo; ricerca; confronto.,Vocabolario controllato da definire e verificare. Nessun elenco di categorie è approvato da questa tavola.
+Occasione,Contesto d’uso dichiarato dalla persona o dal gruppo.,Filtri; assistente; proposta.,È un criterio della richiesta; non implica una qualità universale del luogo. Etichette da verificare.
+Budget,Limite o preferenza di spesa.,Ricerca; scheda; proposta.,"Unità, fasce e cosa comprende il prezzo da definire; dato mancante distinto dal rispetto del budget."
+Distanza,Distanza dal riferimento esplicito scelto.,Risultati; scheda; confronto.,Riferimento visibile. Non trasformare distanza in durata o ottimizzazione dei tragitti.
+Servizi / dati pratici,"Orari, disponibilità e caratteristiche documentate.",Scheda; filtri ove supportati.,Valori e fonti tracciabili; un servizio non documentato resta non verificato. Vocabolario da definire.
+Atmosfera,"Luce, rumore, comfort: intensità 1-5 e contesto dei contributi.",S05/S06; criteri pertinenti.,Pattern v0.4: comfort soggettivo; intensità non equivale a gradimento; periodo e limiti visibili.
+Affluenza,"Giorno; tre fasce con nome, intervallo e livello Bassa/Media/Alta.",S05/S06; approfondimento.,Intervalli coerenti con l’apertura; selezione del giorno modifica solo l’affluenza. Filtro specifico non definito.
+Forza del criterio,Vincolo obbligatorio oppure preferenza.,Filtri; assistente; proposta.,Criterio correggibile; l’AI non allenta un vincolo senza una scelta esplicita della persona.
+Ambito del criterio,"Personale, ricerca corrente o condiviso nella proposta.",Profilo; ricerca; gruppo.,Le preferenze private diventano condivise solo per scelta della persona.
+Contenuti personali,Salvataggi; raccolta facoltativa; bozze e contributi.,Salvati; Profilo.,Luoghi collegati senza duplicazione. Raccolte e gestione dei contributi da dettagliare nei flussi.

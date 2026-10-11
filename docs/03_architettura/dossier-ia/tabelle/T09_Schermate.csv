@@ -1,0 +1,22 @@
+﻿ID,Schermata esistente,Area / percorso,Ruolo informativo,Flusso
+S01,Avvio/città e zona,Esplora,Contesto / avvio,F1
+S02,Esplora mappa,Esplora,Vista risultati,F1
+S03,Ricerca/lista,Esplora,Vista risultati,F1
+S04,Filtri,Esplora,Strumento / pannello,"F1, F2"
+S05,Scheda su mappa,Esplora,Contenuto condiviso,"F1, F2, F3"
+S06,Atmosfera,Esplora,Approfondimento,F1
+S07,Galleria/viewer,Esplora,Approfondimento / viewer,F1
+S08,Recensioni/dettaglio,Esplora,Approfondimento,F1
+S09,Origine/nota sul dato,Trasversale,Approfondimento trasversale,"F1, F2"
+S10,Assistente individuale,AI trasversale,Supporto trasversale,F1
+S11,Chat/proposte,Chat,Destinazione / elenco,F2
+S12,Crea proposta/invita,Chat,Creazione / inviti,F2
+S13,Proposta di gruppo,Chat,Contenuto proposta,F2
+S14,Esito condiviso,Chat,Stato / riepilogo,F2
+S15,Recensione guidata,Contributo,Creazione contributo,F3
+S16,Testo/aiuto AI,Contributo,Composizione / aiuto,F3
+S17,Anteprima/visibilità,Contributo,Controllo / anteprima,F3
+S18,Esito contributo,Contributo,Esito invio,F3
+S19,Salvati,Salvati,Destinazione / elenco,"F1, F2"
+S20,Profilo/bozze,Profilo,Destinazione / gestione,F3
+S21,Uscita e ritorno Maps,Trasversale,Passaggio esterno,"F1, F2"

@@ -1,0 +1,7 @@
+﻿Tipo,Metadati da mantenere,Come leggerlo,Cosa non inferire
+Informazione dichiarata dal luogo,Origine; aggiornamento disponibile; campo a cui si riferisce.,Dichiarazione attribuita al locale.,La fonte non è una certificazione automatica di accuratezza.
+Contributo di una persona,Autore/identità mostrata; visita dichiarata; data/fascia; testo e visibilità.,Esperienza situata e giudizio personale.,Una testimonianza non descrive ogni visita o ogni persona.
+Media,Origine locale/utente; data e contesto quando disponibili.,Immagine con provenienza riconoscibile.,Una foto non garantisce le condizioni attuali del luogo.
+Riepilogo di atmosfera o affluenza,"Dimensione; periodo/giorno/fascia; quantità, recenza, copertura e incertezza.",Sintesi distinta dai contributi individuali; demo esplicita nel prototipo.,"Nessuna misura live, comfort universale o aggregazione reale già dimostrata."
+Risultato o suggerimento AI,"Criteri utilizzati; luoghi del catalogo; corrispondenze, fonti e dati mancanti.",Trasformazione o suggerimento che si può correggere.,L’AI non è una fonte indipendente e non conferma per conto delle persone.
+Dato assente / discordante,Campo interessato; motivo disponibile; fonti discordanti; limiti.,"Assenza o incertezza esplicita, con accesso al dettaglio pertinente.","Non equivale a zero, Bassa o criterio soddisfatto."

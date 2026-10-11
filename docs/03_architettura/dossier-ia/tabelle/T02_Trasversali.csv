@@ -1,0 +1,7 @@
+﻿Elemento,Ruolo nell’architettura,Regola di continuità,Riferimenti
+Città e zona,Contesto geografico della ricerca e della proposta.,Scelta manuale disponibile; il GPS è facoltativo; una proposta ha un contesto condiviso esplicito.,O02; S01-S04/S10/S12-S14
+Ricerca e filtri,Accesso ai luoghi per criteri espliciti.,"Distinguere vincoli e preferenze; conservare i criteri tra mappa, lista e assistente.",O08; S02-S04/S10
+Assistente AI,"Supporto alla ricerca, alla proposta di gruppo e alla scrittura.",Rimanda agli stessi luoghi; usa i criteri visibili/condivisi; propone testo senza applicarlo o inviarlo da solo.,S10/S13/S16
+Origine del dato,Approfondimento della provenienza e dei limiti.,"Accessibile dal dato pertinente; ritorno al luogo, alla ricerca o alla proposta di origine.",S09; C15
+Scrivi una recensione,Percorso di creazione di un contributo legato al luogo.,"Visita dichiarata, bozza, eventuale aiuto AI, anteprima e invio esplicito; bozze in Profilo.",S15-S18; O05/O06
+Apri Maps,Uscita verso un servizio esterno di navigazione.,Conservare il contesto al ritorno; percorso disponibile anche da esito di gruppo provvisorio.,S21 da S05/S14

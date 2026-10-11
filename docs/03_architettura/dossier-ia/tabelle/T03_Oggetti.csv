@@ -1,0 +1,14 @@
+﻿ID,Oggetto,Informazioni essenziali,Regola di organizzazione
+O01,Luogo,id; città; zona; posizione; categoria; informazioni pratiche,Unico ID da mappa/lista/AI/salvati/gruppo
+O02,Contesto geografico,città; zona; riferimento distanze; origine manuale/posizione autorizzata,Ricerca altrove senza GPS; copertura Italia
+O03,Informazione sul luogo,tipo; valore o assente; fonte; aggiornamento; contesto temporale,Dichiarazione/contributo/riepilogo distinti
+O04,Media,tipo; origine; data; contesto,Locale/utente etichettati; origine non certifica veridicità
+O05,Visita dichiarata,luogo_id; data; fascia; occasione facoltativa,Dichiarata dalla persona; nessun rilevamento obbligatorio
+O06,Recensione,visita; risposte; appunti; testo applicato; visibilità; identità mostrata; stato,AI suggerisce; autore applica e invia esplicitamente
+O07,Indicatore atmosfera,"Dimensione, periodo, intensità, contributi, recenza e incertezza; affluenza: giorno e tre fasce con intervalli e livelli.","Atmosfera (luce, rumore, comfort) distinta dall’affluenza; valori demo, assenze esplicite; nessun indice unico o dato live."
+O08,Criterio,dimensione; valore; vincolo/preferenza; origine; area di applicazione,Correggibile; AI non allenta un vincolo da sola
+O09,Salvataggio,luogo_id; raccolta facoltativa,Collegamento; non duplica dati del luogo
+O10,Conversazione,contesto; messaggi; autori; invocazioni AI,AI individuale o chat di una proposta; nessun feed
+O11,Proposta di uscita,città/zona; occasione; data/fascia; alternative; risposte; stato,Decisione umana; cambi importanti richiedono riconferma
+O12,Partecipazione,invito; adesione; vincoli condivisi; preferenza; conferma,Invito/adesione/preferenza/accordo non coincidono
+O13,Preferenza personale,criterio esplicito; modifica,Privata finché non condivisa volontariamente

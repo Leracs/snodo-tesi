@@ -1,0 +1,15 @@
+﻿Origine,Relazione,Destinazione,Cardinalità
+O01 · Luogo,ha informazioni,O03 · Informazione sul luogo,1:N
+O01 · Luogo,ha media,O04 · Media,1:N
+O01 · Luogo,riceve visite dichiarate,O05 · Visita dichiarata,1:N
+O05 · Visita dichiarata,sostiene contributo,O06 · Recensione,1:0..1
+O06 · Recensione,Può alimentare un riepilogo; metodo di aggregazione ancora da definire.,O07 · Indicatore atmosfera,N:N
+O02 · Contesto geografico,definisce area/riferimento dei criteri,O08 · Criterio,1:N
+O08 · Criterio,"filtra o descrive compatibilità, anche incerta",O01 · Luogo,N:N
+O09 · Salvataggio,riferisce senza copia,O01 · Luogo,N:1
+O10 · Conversazione,chat associata alla proposta,O11 · Proposta di uscita,1:0..1
+O11 · Proposta di uscita,confronta alternative,O01 · Luogo,N:N
+O11 · Proposta di uscita,raccoglie stati delle persone,O12 · Partecipazione,1:N
+O12 · Partecipazione,condivide criteri volontari,O08 · Criterio,1:N
+O11 · Proposta di uscita,ha contesto condiviso esplicito,O02 · Contesto geografico,N:1
+O13 · Preferenza personale,conserva criterio personale,O08 · Criterio,1:1

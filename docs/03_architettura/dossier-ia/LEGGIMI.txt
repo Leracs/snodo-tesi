@@ -1,0 +1,6 @@
+Architettura delle informazioni di SNODO
+
+Il Word contiene testo e tabelle modificabili. Il PDF è pronto per la lettura e la stampa.
+Le tre tavole SVG includono le legende e possono essere importate in Figma.
+Le undici tabelle CSV sono modificabili in Excel.
+Struttura, nomenclatura e condizioni di accordo restano ipotesi progettuali da verificare.

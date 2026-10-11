@@ -1,0 +1,10 @@
+﻿Ambito,Stati / condizioni,Presentazione e conseguenza,Riferimenti
+Ricerca,Risultati / nessun risultato / errore.,Nessun risultato: modificare esplicitamente i criteri. Errore: recupero senza cancellare contesto.,S02-S04/S10
+Dato sul luogo,Disponibile / parziale / assente / vecchio / discordante.,"Mostrare copertura, contesto e limiti; la qualità del dato non coincide con il giudizio sul luogo.",S05/S06/S09
+Affluenza,Livello disponibile / dato assente / fascia chiusa.,"Bassa, Media, Alta solo per dato disponibile. Chiuso è distinto da Dato assente.",S05/S06; DS19
+Invito,Pendente / accettato / declinato / errato o scaduto.,"Invito pendente non è un voto; declinato resta visibile, non vota e non blocca.",S12/S13
+Risposta del partecipante,Adesione / preferenza / conferma / contestazione.,Aderire non conferma una scelta; preferire un’alternativa non equivale a confermare l’accordo.,S13/S14
+Esito della proposta,Provvisorio / concordato / contestato.,Concordato nel modello di lavoro: aderenti confermati e nessun invito pendente; il silenzio non è consenso.,S14
+Modifica della proposta,"Cambio rilevante di luogo, contesto o criteri.",Riaprire la decisione e richiedere riconferma; conservare il contesto leggibile.,S13/S14
+Recensione,Bozza / suggerimento AI / testo applicato / anteprima / invio / esito.,Suggerimento separato fino all’applicazione; visibilità e identità controllate prima dell’invio esplicito.,S15-S18/S20
+Invio del contributo,Attesa / successo / fallimento.,Feedback distinguibile; conservare bozza; recupero senza doppio invio.,S17/S18
