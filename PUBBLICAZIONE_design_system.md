@@ -1,23 +1,14 @@
 # Pubblicare il design system SNODO
 
-Il pacchetto statico è in `docs`. La libreria è `docs/06_design_system/index.html`; la navigazione del sito, la Home e Materiale di lavoro la collegano. Le anteprime di Atmosfera/Affluenza e S05/S06 riusano gli stessi file.
+Il pacchetto statico è in `docs`. GitHub Pages pubblica `docs` dal ramo `codex/pubblicazione`; il solo push di un ramo di lavoro non aggiorna il sito. Gli originali sono in `materiali/costruzione`, fuori da questo checkout.
 
-Le modifiche sono preparate sul ramo `codex/atmosfera-affluenza`. Per aggiornare la pull request già aperta:
+Pop (B) è la direzione principale di sito, catalogo e prototipo. Calda (A) rimane alternativa nel selettore Stile; la scelta si conserva tra le pagine. I link con `theme=A` o `theme=B` aprono la variante richiesta.
 
-```sh
-git push origin codex/atmosfera-affluenza
-```
+Il catalogo contiene 22 componenti e 122 SVG: tutti gli stati in Pop e Calda, la composizione Atmosfera/Affluenza e il selettore del giorno. Ogni scheda e il playground hanno il download del componente; la sezione `#download-svg` offre lo ZIP e l’elenco completo. Gli SVG usano forme, icone e testi vettoriali modificabili, con Boldonse incorporato sotto OFL. Sono visuali statici; importazione Figma non verificata.
 
-Dopo la revisione, unire la PR al ramo `codex/pubblicazione`. GitHub Pages è già configurato per pubblicare `docs` da quel ramo; il push del solo ramo di lavoro non aggiorna il sito pubblico.
-
-Percorsi dopo la pubblicazione:
-
-- Libreria: https://leracs.github.io/snodo-tesi/06_design_system/index.html
+- Libreria e download: https://leracs.github.io/snodo-tesi/06_design_system/index.html#download-svg
 - Scheda del luogo: https://leracs.github.io/snodo-tesi/07_prototipo/index.html?screen=S05&place=luogo-roma-01&theme=B
-- Dettaglio: https://leracs.github.io/snodo-tesi/07_prototipo/index.html?screen=S06&place=luogo-roma-01&theme=B
 
-La raccolta include anche i materiali di benchmark già presenti nel workspace e collegati dalla documentazione. Gli originali locali sono conservati. L’export mantiene il gate esistente su tutte le pagine HTML; il manifest registra file e hash distribuiti.
+Per rigenerare gli SVG: acquisire i layout aggiornati in `svg/layouts.json`, eseguire `node docs/06_design_system/svg-componenti.mjs` e `python3 docs/06_design_system/pacchetto_svg.py`. La guida è `docs/06_design_system/Guida_catalogo.md`.
 
-Il catalogo mostra 22 campioni visivi; il playground permette di scegliere componente, variante e tema. Atmosfera/Affluenza mantengono i controlli interattivi condivisi; gli altri campioni illustrano le specifiche.
-
-Controlli tecnici: 32 regressioni PASS, ricerca e filtri del catalogo, temi A/B, stati dei dati, collegamenti diretti al prototipo e layout a 320/390/1280 px. I dettagli sono nei report `docs/06_design_system/QA_catalogo.json`, `QA_atmosfera_affluenza.json` e `docs/07_prototipo/QA_interazioni.json`. Non sono test con partecipanti.
+Controlli tecnici: 41 regressioni PASS (7 dati, 11 core, 23 interazioni), 122 SVG validati con XML e SHA256, download reali nel browser, tema persistente e layout mobili. Report in `QA_pop_svg.json`, `QA_catalogo.json` e `docs/07_prototipo/QA_interazioni.json`. Non sono test con partecipanti. L’export conserva il gate esistente su tutte le pagine HTML; il manifest registra file e hash distribuiti.
