@@ -29,3 +29,7 @@ La copia comprende le pagine, gli asset incorporati e i download collegati nel p
 Gli SVG e il supporto HTML non costituiscono un prototipo o una libreria di componenti nativa Figma. I report tecnici descrivono i controlli di origine e non risultati con partecipanti.
 
 Boldonse è distribuito con la propria licenza OFL nella cartella `docs/05_style_tiles/fonts`. I font di sistema non sono incorporati; per Forma DJR Text è dichiarato il fallback dell’anteprima.
+
+## Identità e logo
+
+La pagina `docs/12_identita/index.html`, collegata dalla Home, dal catalogo dei materiali e dalle style tile, approfondisce tre strade: Nodo S, Punto d’incontro e Dialogo. Include le tre proposte iniziali, tre tavole di sviluppo, nove studi SVG, applicazioni, prove interattive di dimensione e colore, appunti locali e download. Gli studi sono esplorazioni, non marchi esecutivi o risultati di test.

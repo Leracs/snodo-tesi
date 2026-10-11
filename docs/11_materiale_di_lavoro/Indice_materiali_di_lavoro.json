@@ -198,6 +198,25 @@
       ]
     },
     {
+      "file": "12_identita/Esplorazioni_identita.md",
+      "html": "12_identita/index.html",
+      "tipologia": "guide",
+      "area_progetto": "visivo",
+      "titolo_catalogo": "Identità e logo di SNODO",
+      "uso": "Approfondisci tre direzioni di logo con varianti, applicazioni e confronto interattivo.",
+      "categoria": "Guide e materiali per Figma",
+      "risorse": [
+        {
+          "file": "12_identita/SNODO_esplorazioni_identita.zip",
+          "titolo": "Esplorazioni · ZIP"
+        },
+        {
+          "file": "12_identita/Scheda_confronto.csv",
+          "titolo": "Scheda vuota · CSV"
+        }
+      ]
+    },
+    {
       "file": "04_wireframe/LEGGIMI.md",
       "html": "04_wireframe/LEGGIMI.html",
       "tipologia": "guide",
