@@ -54,7 +54,7 @@
       "Dati parziali e assenti leggibili, senza barre inventate",
       "Controllo del giorno alto 48 px",
       "Semantica e nomi disponibili nell’albero di accessibilità",
-      "Tab e Shift+Tab mantengono il focus nel pannello aperto"
+      "Anteprima del catalogo con scope A/B; tema A conserva titolo Georgia 24 px"
     ],
     "limitations": [
       "Non è una sessione VoiceOver né un test con partecipanti.",
@@ -213,7 +213,7 @@
   },
   "assets": {
     "atmosfera-affluenza.js": "662cf167cef55bbab3f0562eaf255943e3b0a5c864ed68f4ebefebe1d7124581",
-    "atmosfera-affluenza.css": "f01282829905dab48a51bae405cfacdb23572f2d20054a4a95d1fe7366e4a084",
+    "atmosfera-affluenza.css": "b442faeb9aec0d9b70ff716b17f0bba298204c89c0501ef233995fb0a89a8b28",
     "tokens_A.css": "bbafde42627b9351bba1b68fe052de15153c9f70fa6630b03eafd94ddda02442",
     "tokens_B.css": "d239690954d0e17226c936d049aee12bd49e1ae8ec0559398ed16815e804f4c6"
   },

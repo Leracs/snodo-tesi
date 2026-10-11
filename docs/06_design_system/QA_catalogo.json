@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-11",
+  "status": "PASS",
+  "scope": "Libreria dei componenti, navigazione e ingresso nel prototipo",
+  "catalogue": {
+    "components": 18,
+    "groups": 5,
+    "interactive_patterns": [
+      "DS08",
+      "DS19"
+    ],
+    "source": "Componenti_e_comportamenti.json",
+    "duplicate_ids": 0
+  },
+  "browser": {
+    "status": "PASS",
+    "browser": "Codex in-app browser",
+    "transport": "HTTP localhost",
+    "viewports": [
+      320,
+      390,
+      1280
+    ],
+    "checks": [
+      "Ricerca affluenza: solo DS19, conteggio 1/18",
+      "Ricerca senza risultati: stato vuoto esplicito",
+      "Azzera filtri: catalogo completo e focus al campo",
+      "Filtro anteprime: DS08 e DS19",
+      "Categoria Feedback: DS14 e DS15",
+      "Cambio A/B aggiorna token, font e destinazioni del prototipo",
+      "Fascia assente il lunedì: nessun riempimento inventato",
+      "Dati assenti: zero punteggi e zero barre",
+      "320 px: nessun overflow o testo tagliato; voci di navigazione alte 44 px",
+      "S05 aperta con luogo Spazio Lume e tema B",
+      "S06 aperta con luogo Cortile Uno e tema A",
+      "Link di ritorno alla libreria nella cornice mobile",
+      "Home con ingresso Design system nella navigazione e nei materiali"
+    ]
+  },
+  "regression_tests": {
+    "passed": 31,
+    "failed": 0,
+    "data": 6,
+    "core": 11,
+    "interactions": 14,
+    "new_cases": [
+      "I13: ingressi S05/S06 con luogo e tema coerenti",
+      "I14: parametri non validi ignorati"
+    ]
+  },
+  "publication": {
+    "status": "ready_for_push",
+    "source_branch": "codex/atmosfera-affluenza",
+    "pages_branch": "codex/pubblicazione",
+    "pages_directory": "docs",
+    "catalogue_path": "06_design_system/index.html"
+  },
+  "limitations": [
+    "Non sono test con partecipanti né una verifica completa di accessibilità.",
+    "Apertura file:// non verificata: protocollo bloccato dalla policy del browser di verifica.",
+    "La pubblicazione sul ramo Pages non è stata eseguita."
+  ],
+  "assets": {
+    "catalogo.css": "e2b24d3b2095780bb279b098227362b002c42eaf3721be1a3075b36cda76e925",
+    "catalogo-ui.js": "3b69c78f91c7a009a983569e320d94d8ab01960fa795a8e5b5330f762a44abfb",
+    "costruisci_catalogo.mjs": "cf536401e95ec0c26e10f6ae101db6c7a79e55fe417f94f976a408ffa4d50dc4",
+    "Componenti_e_comportamenti.json": "9edbb758c07aaaac8f162ea26d43935ec9aa41dea42c829cadaa7c9f5e5034eb"
+  },
+  "publication_note": "Copia per consultazione: i controlli e gli hash di origine descrivono gli asset del workspace. I percorsi locali sono stati normalizzati; il manifest di pubblicazione descrive i file distribuiti."
+}

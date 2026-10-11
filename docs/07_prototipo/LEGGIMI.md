@@ -27,3 +27,7 @@ Per la consegna Figma seguire `Assemblaggio_Figma.md` e `Collegamenti_Figma.csv`
 ## Atmosfera e affluenza — revisione v0.4
 
 Le schede S05/S06 riusano il [pattern DS08/DS19](../06_design_system/Atmosfera_affluenza.md): luce, rumore e comfort separati dall’affluenza in tre fasce, selettore del giorno con pannello accessibile. Gli intervalli della demo rispettano apertura 16–23; comfort e profili aggiunti sono mock predisposti. La [demo del design system](../06_design_system/Atmosfera_affluenza_demo.html) mostra anche assenza completa e fascia mancante. I controlli dedicati sono distinti dai precedenti test generali della demo.
+
+## Libreria dei componenti
+
+Il [design system](../06_design_system/index.html) raccoglie i componenti e le anteprime A/B. Le azioni “Prova nella scheda” e “Apri il dettaglio” aprono direttamente S05/S06 con luogo e direzione selezionati. La cornice della demo offre il link di ritorno al catalogo, anche su mobile. I parametri di ingresso sono validati e le bozze della sessione sono conservate.

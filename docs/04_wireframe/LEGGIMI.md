@@ -37,6 +37,10 @@ Visibilità H: Pubblico oppure Gruppo scelto; se gruppo, selettore esplicito obb
 I quattro controlli della barra hanno label visibili. L’AI ha label propria ed è trasversale; non equivale a creare recensioni. Per composizione e dettaglio il ritorno è contestuale, senza perdere bozza o oggetto.
 I widget sono strutturali: alcune viste mostrano una porzione delle informazioni e richiedono scroll/detail. Nessun grafico delle statistiche dei questionari entra nelle schermate dell’app. Il catalogo concreto è separato e usa gli ID di luogo condivisi.
 
+## Integrazioni dal benchmark
+
+Il [benchmark UX/UI](../11_materiale_di_lavoro/Benchmark_UX_UI_e_integrazioni_SNODO.md#2-proposta-di-integrazione-per-schermate-e-componenti) propone una nuova composizione di S02–S05: mappa/lista coerenti, card compatte, criteri da applicare e scheda con un’azione primaria contestuale. La [tavola annotata](../11_materiale_di_lavoro/Benchmark_UX_UI_e_integrazioni_SNODO.md#5-tavole-di-proposta) è materiale di lavoro aggiuntivo; i 33 frame correnti restano la baseline. Portare le proposte in una pagina Figma separata e confrontarle prima di sostituire le viste.
+
 ## Stato di verifica
 
 Verificati nel builder: 21 ID base invariati, requisiti e componenti referenziati, frame 390×844, altezza disponibile e assenza di clipping SVG. PNG e tavole vengono ispezionati visivamente. Usabilità, scroll, tastiera, focus, screen reader e comportamento Figma richiedono verifiche successive; non viene dichiarata conformità generale.

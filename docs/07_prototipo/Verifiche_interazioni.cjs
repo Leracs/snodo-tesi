@@ -21,7 +21,7 @@ const attribute = (tag, name) => {
 };
 const plain = value => decode(value.replace(/<[^>]*>/g, ''));
 
-function harness() {
+function harness(search = '') {
   const page = new Map();
   const root = new Map();
   const listeners = new Map();
@@ -76,10 +76,10 @@ function harness() {
     addEventListener: (name, listener) => listeners.set(name, listener)
   };
   const context = {
-    window: { SNODO_CATALOG: JSON.parse(JSON.stringify(catalog)), SnodoCore: core, SnodoAtmosfera: require('../06_design_system/atmosfera-affluenza.js') },
+    window: { location: {search}, SNODO_CATALOG: JSON.parse(JSON.stringify(catalog)), SnodoCore: core, SnodoAtmosfera: require('../06_design_system/atmosfera-affluenza.js') },
     document,
     sessionStorage: { getItem: key => storage.get(key) || null, setItem: (key, value) => storage.set(key, value) },
-    setTimeout: () => 0, clearTimeout() {}, console
+    URLSearchParams, setTimeout: () => 0, clearTimeout() {}, console
   };
   vm.createContext(context);
   vm.runInContext(application, context, { filename: 'app.js' });
@@ -274,6 +274,22 @@ test('I12', 'Errore e retry preservano bozza, nome, visibilità e un solo invio'
   h.run('doPublish()');
   assert.equal(h.run('state.submissions.length'), 1);
   return 'Il recupero mantiene il contributo e le scelte; il retry duplicato non crea un altro invio.';
+});
+
+test('I13', 'Il catalogo apre S05/S06 con luogo e tema coerenti', () => {
+ for (const screen of ['S05','S06']) {
+  const h=harness('?screen='+screen+'&place=luogo-milano-02&theme=B');
+  assert.equal(h.run('state.screen'),screen);assert.equal(h.run('state.selected'),'luogo-milano-02');
+  assert.equal(h.run('state.criteria.city'),'Milano');assert.equal(h.run('document.body.dataset.theme'),'B');
+  assert.ok(h.html().includes('snodo-context'));
+ }
+ return 'Entrambe le schermate aprono lo stesso oggetto e i componenti condivisi, senza creare un luogo nuovo.';
+});
+test('I14', 'Parametri non validi non creano schermate, luoghi o temi', () => {
+ const h=harness('?screen=S06&place=inesistente&theme=inesistente');
+ assert.equal(h.run('state.screen'),'S01');assert.equal(h.run('state.selected'),null);
+ assert.equal(h.run('document.body.dataset.theme'),'A');
+ return 'La sessione conserva il normale avvio quando la destinazione non è valida.';
 });
 
 const sources = ['index.html', 'app.js', 'core.js', 'catalogo.js', 'Catalogo_mock.json', 'build_catalogo.py', 'Verifiche_core.cjs', 'Verifiche_interazioni.cjs'].map(file => ({

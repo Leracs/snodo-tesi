@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-11T14:42:35.461Z",
+  "generatedAt": "2026-10-11T14:57:11.638Z",
   "type": "technical_code_harness_with_minimal_fake_DOM",
   "executed": true,
   "finiteRun": true,
-  "passed": 12,
+  "passed": 14,
   "failed": 0,
   "status": "PASS",
   "scope": "Integrità dei dati e handler delle interazioni; regressioni delle correzioni segnalate.",
@@ -21,11 +21,11 @@
   "sources": [
     {
       "file": "index.html",
-      "sha256": "d0d84c02a96d7e51c644d7d6a179001bf064a21ce668c001a1ab6c59319df9ef"
+      "sha256": "dfcf8317615a0b2c7442f250230d0be6398812b6dde7afb3f5075a5f4c45e893"
     },
     {
       "file": "app.js",
-      "sha256": "f75de02752999c7dcd7dbf0c4ce85a447e1faceba1169bebb54d61c93b4475f5"
+      "sha256": "213c8909859dc2139c8b7147123f1dd58b72adacc5ad7030d1a22a578455c637"
     },
     {
       "file": "core.js",
@@ -49,7 +49,7 @@
     },
     {
       "file": "Verifiche_interazioni.cjs",
-      "sha256": "dc46e9ca3f0f59e49f36078a7f54ee39286db99bf6d756c25bef6e43c45948b6"
+      "sha256": "9bd90b740465f5fb43d277b4ac99ecc4b3a22ef5bdb32460cc5c85fdef9c1429"
     }
   ],
   "results": [
@@ -124,6 +124,18 @@
       "name": "Errore e retry preservano bozza, nome, visibilità e un solo invio",
       "status": "PASS",
       "evidence": "Il recupero mantiene il contributo e le scelte; il retry duplicato non crea un altro invio."
+    },
+    {
+      "id": "I13",
+      "name": "Il catalogo apre S05/S06 con luogo e tema coerenti",
+      "status": "PASS",
+      "evidence": "Entrambe le schermate aprono lo stesso oggetto e i componenti condivisi, senza creare un luogo nuovo."
+    },
+    {
+      "id": "I14",
+      "name": "Parametri non validi non creano schermate, luoghi o temi",
+      "status": "PASS",
+      "evidence": "La sessione conserva il normale avvio quando la destinazione non è valida."
     }
   ],
   "publication_note": "Copia per consultazione: i controlli e gli hash di origine descrivono gli asset del workspace. I percorsi locali sono stati normalizzati; il manifest di pubblicazione descrive i file distribuiti."

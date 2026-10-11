@@ -5,7 +5,7 @@
 .snodo-context .snodo-context-atmosphere { background: var(--atmosphereBg); padding: 16px; }
 .snodo-context .snodo-context-attendance { padding: 16px; }
 .snodo-context h2 { font: var(--heading-weight) 24px/1.4 var(--font-heading); color: var(--text); margin: 0; letter-spacing: 0; }
-body[data-theme="B"] .snodo-context h2 { font-size: 18px; line-height: 1.65; }
+[data-theme="B"] .snodo-context h2 { font-size: 18px; line-height: 1.65; }
 .snodo-context-atmosphere > h2 { display: flex; align-items: center; gap: 8px; }
 .snodo-context-atmosphere > h2::before { content: ''; height: 24px; width: 4px; border-radius: 4px; background: var(--dataAccent); flex: 0 0 4px; }
 .snodo-context dl { margin: 8px 0 0; }

@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-11",
+  "status": "static_proposal_not_baseline",
+  "same_product_copy_A_B": {
+    "search": true,
+    "card": true,
+    "markers": true,
+    "source": true,
+    "ai": true
+  },
+  "overflows": [],
+  "contrast_pairs_used": 221,
+  "contrast_failures": [],
+  "checks_scope": "Text bounds, measured font wrapping, selected text/icon color pairs; not a usability or accessibility audit.",
+  "artifacts": [
+    {
+      "file": "Proposta_componenti_A_B.svg",
+      "png": "Proposta_componenti_A_B.png",
+      "width": 1440,
+      "height": 1740,
+      "components": [
+        {
+          "id": "A-search",
+          "title": "Ricerca e filtri rapidi",
+          "x": 201,
+          "y": 334,
+          "width": 390,
+          "height": 208
+        },
+        {
+          "id": "A-card",
+          "title": "Card di lista proposta",
+          "x": 217,
+          "y": 590,
+          "width": 358,
+          "height": 256
+        },
+        {
+          "id": "A-markers",
+          "title": "Stati del marker proposti",
+          "x": 201,
+          "y": 918,
+          "width": 390,
+          "height": 132
+        },
+        {
+          "id": "A-source",
+          "title": "Copertura e dato assente",
+          "x": 201,
+          "y": 1088,
+          "width": 390,
+          "height": 132
+        },
+        {
+          "id": "A-ai",
+          "title": "AI nel contesto della ricerca",
+          "x": 201,
+          "y": 1258,
+          "width": 390,
+          "height": 236
+        },
+        {
+          "id": "B-search",
+          "title": "Ricerca e filtri rapidi",
+          "x": 897,
+          "y": 334,
+          "width": 390,
+          "height": 208
+        },
+        {
+          "id": "B-card",
+          "title": "Card di lista proposta",
+          "x": 913,
+          "y": 590,
+          "width": 358,
+          "height": 256
+        },
+        {
+          "id": "B-markers",
+          "title": "Stati del marker proposti",
+          "x": 897,
+          "y": 918,
+          "width": 390,
+          "height": 132
+        },
+        {
+          "id": "B-source",
+          "title": "Copertura e dato assente",
+          "x": 897,
+          "y": 1088,
+          "width": 390,
+          "height": 132
+        },
+        {
+          "id": "B-ai",
+          "title": "AI nel contesto della ricerca",
+          "x": 897,
+          "y": 1258,
+          "width": 390,
+          "height": 236
+        }
+      ]
+    },
+    {
+      "file": "Proposta_wireframe.svg",
+      "png": "Proposta_wireframe.png",
+      "width": 1736,
+      "height": 1160,
+      "components": [
+        {
+          "id": "S02",
+          "title": "Mappa e selezione",
+          "x": 40,
+          "y": 192,
+          "width": 390,
+          "height": 844
+        },
+        {
+          "id": "S03",
+          "title": "Lista confrontabile",
+          "x": 462,
+          "y": 192,
+          "width": 390,
+          "height": 844
+        },
+        {
+          "id": "S04",
+          "title": "Criteri da applicare",
+          "x": 884,
+          "y": 192,
+          "width": 390,
+          "height": 844
+        },
+        {
+          "id": "S05",
+          "title": "Scheda · contesto gruppo",
+          "x": 1306,
+          "y": 192,
+          "width": 390,
+          "height": 844
+        }
+      ]
+    }
+  ],
+  "mock_values": "All places, images, prices, contributions and atmosphere values. No user preference or native Figma import claimed."
+}

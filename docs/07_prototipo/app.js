@@ -4,7 +4,7 @@ const STORAGE_KEY='altrove-demo-v01';
 const escapeHtml=s=>String(s??'').replace(/[&<>"']/g,x=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[x]));
 const E=escapeHtml;
 const icon=(name)=>{const paths={explore:'<circle cx="12" cy="12" r="8"/><path d="m15 9-2 4-4 2 2-4Z"/>',saved:'<path d="M6 4h12v16l-6-4-6 4Z"/>',chat:'<path d="M4 4h16v12H9l-5 4Z"/><path d="M8 8h8M8 12h5"/>',profile:'<circle cx="12" cy="8" r="3"/><path d="M5 21v-2a7 7 0 0 1 14 0v2"/>',back:'<path d="m14 5-7 7 7 7"/>',ai:'<path d="m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5Z"/>'};return `<svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">${paths[name]||paths.explore}</svg>`;};
-const screens={S01:'Avvio e città',S02:'Esplora mappa',S03:'Ricerca e lista',S04:'Filtri',S05:'Scheda luogo',S06:'Atmosfera',S07:'Galleria',S08:'Recensioni',S09:'Origine del dato',S10:'Assistente individuale',S11:'Chat e proposte',S12:'Crea proposta',S13:'Proposta di gruppo',S14:'Esito condiviso',S15:'Recensione guidata',S16:'Testo e aiuto AI',S17:'Anteprima e visibilità',S18:'Esito contributo',S19:'Salvati',S20:'Profilo e bozze',S21:'Uscita e ritorno Maps'};
+const screens={S01:'Avvio e città',S02:'Esplora mappa',S03:'Ricerca e lista',S04:'Filtri',S05:'Scheda luogo',S06:'Atmosfera e affluenza',S07:'Galleria',S08:'Recensioni',S09:'Origine del dato',S10:'Assistente individuale',S11:'Chat e proposte',S12:'Crea proposta',S13:'Proposta di gruppo',S14:'Esito condiviso',S15:'Recensione guidata',S16:'Testo e aiuto AI',S17:'Anteprima e visibilità',S18:'Esito contributo',S19:'Salvati',S20:'Profilo e bozze',S21:'Uscita e ritorno Maps'};
 const fresh=()=>({screen:'S01',criteria:{city:'Roma',query:'',budgetMax:null,noise:'',outdoor:false},selected:null,mapSelected:null,filterDraft:null,saved:[],history:[],sheet:'intermedio',sourceKind:'budget',sourceReturn:'S05',mediaSelected:null,ai:null,aiRequest:'',aiFail:false,group:null,draft:null,drafts:[],submissions:[],sendFail:false,lastSend:null});
 let state=fresh(),toastTimer;
 function persist(){try{sessionStorage.setItem(STORAGE_KEY,JSON.stringify(state));}catch(_){}}
@@ -159,4 +159,16 @@ document.querySelectorAll('[data-sim]').forEach(b=>b.addEventListener('click',()
  if(sim==='send-fail'){state.sendFail=true;toast('Il prossimo invio fallirà; la bozza sarà conservata.');}
  render();$('#app').scrollTop=0;
 }));
+// Accessi contestuali dalla libreria: soltanto schermate e luoghi validi.
+if (window.location?.search) {
+ const entry = new URLSearchParams(window.location.search);
+ const entryPlace = C.places.find(place=>place.id===entry.get('place'));
+ if (['S05','S06'].includes(entry.get('screen')) && entryPlace) {
+  state.screen=entry.get('screen');state.selected=entryPlace.id;
+  state.criteria.city=entryPlace.city;state.history=['S02'];state.sheet='intermedio';
+ }
+ if (['A','B'].includes(entry.get('theme'))) {
+  document.body.dataset.theme=entry.get('theme');$('#theme').value=entry.get('theme');
+ }
+}
 render();

@@ -1,6 +1,6 @@
 {
   "title": "SNODO — base DS A/B",
-  "version": "0.4",
+  "version": "0.5",
   "date": "2026-10-11",
   "status": "provisional_no_selected_direction",
   "namespace": "DS01–DS17 e DS19, distinta da C01–C40 dell’architettura",
@@ -835,5 +835,7 @@
       "tokens_A.json",
       "tokens_B.json"
     ]
-  }
+  },
+  "catalogue": "index.html",
+  "catalogue_guide": "Guida_catalogo.md"
 }
