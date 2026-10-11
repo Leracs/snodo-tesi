@@ -197,7 +197,7 @@ button.chip.neutral { background: var(--surface); color: var(--muted); border-co
 
 .place-hero span { position: absolute; z-index: 1; top: 12px; left: 12px; background: var(--surface); color: var(--text); padding: 5px 8px; font-size: 12px; line-height: 1.4; border-radius: 6px; }
 .sheet-grip { width: 40px; height: 4px; border-radius: 2px; background: var(--border); margin: 0 auto 16px; }
-.detail-title { font: 36px/1.14 var(--heading) !important; letter-spacing: -.03em; margin: 24px 0 8px !important; }
+.detail-title { font: var(--heading-weight,400) 36px/1.35 var(--heading) !important; letter-spacing: -.03em; margin: 24px 0 8px !important; }
 .action-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 24px 0 20px; }
 .action-grid button { min-width: 0; padding: 14px 8px; font-size: 16px; line-height: 1.35; }
 .fact-row { display: flex; justify-content: space-between; gap: 16px; border-bottom: 1px solid var(--divider); padding: 15px 0; font-size: 16px; line-height: 1.5; }
@@ -425,3 +425,19 @@ body[data-detail-surface="aqua"] #app[data-screen="S05"] .app-head { background:
 .review-photo-row { display:flex; gap:10px; margin:16px 0; }
 .review-photo { position:relative; padding:0; width:126px; max-width:100%; flex:none; border:0; border-radius:12px; overflow:hidden; color:var(--text); background:var(--surface); }
 .review-photo .sd-photo { height:100px; }.review-photo .photo-origin-tag { position:absolute; top:6px; left:6px; max-width:calc(100% - 12px); font-size:10px; padding:4px 7px; }
+
+/* Calda · Mali 600: allineamento alla style tile approvata dall’autore. */
+body[data-theme="A"] :is(.app-head h1,.hero h1,.content h2,.section-title,.place-card h3,.detail-title,.empty h2){font-family:var(--heading);font-weight:600;line-height:1.35;letter-spacing:0}
+body[data-theme="A"] .device{border-color:var(--divider)}
+body[data-theme="A"] .card{border-color:var(--divider);border-radius:var(--radius-card)}
+body[data-theme="A"] .primary{color:var(--onPrimary);border-radius:var(--radius-control)}
+body[data-theme="A"] .secondary{background:var(--secondaryBg);color:var(--onSecondary);border-color:var(--border);border-radius:var(--radius-control)}
+body[data-theme="A"] .chip{border-radius:var(--radius-passive-tag)}
+body[data-theme="A"] #app[data-screen="S05"]{--bg:#F6EDE0;--text:#022E21;--muted:#335449;--surface:#FFFCF7;--surfaceMuted:#EEE5D9;--border:#647166;--divider:#647166;--focus:#33173A;--primary:#33173A;--primary-hover:#49264F;--primaryHover:#49264F;--primaryPressed:#24102A;--onPrimary:#F6EDE0;--primarySoft:#E9DFEB;--secondaryBg:#F6EDE0;--onSecondary:#022E21;background:var(--bg);color:var(--text)}
+body[data-theme="A"] .hero-art{height:92px;border:0}
+body[data-theme="A"] .hero-art::before{width:124px;height:48px;top:28px;left:24px;border:2px solid var(--primary);border-radius:50%;background:transparent;transform:rotate(-12deg)}
+body[data-theme="A"] .hero-art::after{width:76px;height:40px;right:28px;bottom:12px;border:2px solid var(--text);border-radius:80% 0 80% 0;background:transparent}
+
+body[data-theme="A"] .detail-surface-control{display:none}
+
+body[data-theme="A"] .map-preview-title h2{font-weight:600;line-height:1.35;letter-spacing:0}

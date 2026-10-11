@@ -1,0 +1,34 @@
+{
+  "fonts": [
+    {
+      "family": "Mali",
+      "weight": 600,
+      "source": "https://github.com/google/fonts/tree/main/ofl/mali",
+      "license": "OFL"
+    },
+    {
+      "family": "Coming Soon",
+      "weight": 400,
+      "source": "https://github.com/google/fonts/tree/main/apache/comingsoon",
+      "license": "Apache 2.0"
+    }
+  ],
+  "files": [
+    {
+      "file": "Mali-SemiBold.ttf",
+      "sha256": "0ba6d92b46369ec5040d119f87a17586be96364fac743fbf510b54a3ead1adcc"
+    },
+    {
+      "file": "Mali-OFL.txt",
+      "sha256": "bc1175730d609233043cde47e48f69831f012e85537c5ec1a2cf4836757c1540"
+    },
+    {
+      "file": "ComingSoon-Regular.ttf",
+      "sha256": "cf81388f587ff6122de1a705d1070b8f00abccdba66108509908b5d10715068c"
+    },
+    {
+      "file": "ComingSoon-LICENSE.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    }
+  ]
+}

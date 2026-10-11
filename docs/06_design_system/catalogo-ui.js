@@ -31,8 +31,8 @@
     const tokens=window.SNODO_DESIGN_TOKENS[value];
     document.querySelectorAll('[data-token-color]').forEach(item=>{const color=tokens[item.dataset.tokenColor];item.querySelector('.ds-swatch').style.backgroundColor=color;item.querySelector('code').textContent=color;});
     if(window.SnodoDiscoveryGallery)window.SnodoDiscoveryGallery.updateLinks();
-    document.getElementById('font-heading-name').textContent=value==='B'?'Boldonse':'Georgia';
-    document.getElementById('font-body-name').textContent=value==='B'?'Forma DJR Text · fallback Helvetica Neue':'Trebuchet MS';
+    document.getElementById('font-heading-name').textContent=value==='B'?'Boldonse':'Mali SemiBold · 600';
+    document.getElementById('font-body-name').textContent=value==='B'?'Forma DJR Text · fallback Helvetica Neue':'Forma DJR Text · fallback Helvetica Neue';
   }
   function render() {
     const id=selector.value, combined=id==='pattern', shared=combined||id==='DS08'||id==='DS19';

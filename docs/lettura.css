@@ -402,9 +402,9 @@ body[data-review-view="clean"] .figure-revision-note{display:none}
 .home-feature .demo-launch:focus-visible{outline-color:var(--surface)}
 .feature-note{font-size:11px;line-height:1.6;color:#d3ddd1;max-width:47ch;margin:16px 0 0}
 .home-feature-preview{--preview-width:236px;display:block;justify-self:center;width:var(--preview-width);text-decoration:none;color:#d3ddd1}
-.demo-preview-window{position:relative;width:var(--preview-width);height:310px;border-radius:20px 20px 9px 9px;overflow:hidden;background:#e8ede9;box-shadow:0 12px 30px #17251b30}
-/* Inquadratura CSS della schermata reale, conservata integralmente nel PNG. */
-.demo-preview-window img{position:absolute;display:block;width:calc(var(--preview-width)*5.171794872);height:auto;max-width:none;left:calc(var(--preview-width)*-2.578205128);top:calc(var(--preview-width)*-.123076923);margin:0}
+.demo-preview-window{position:relative;width:var(--preview-width);height:auto;aspect-ratio:390/640;border-radius:20px 20px 9px 9px;overflow:hidden;background:#e8ede9;box-shadow:0 12px 30px #17251b30}
+/* Anteprima del prototipo, coordinata con la direzione selezionata. */
+.demo-preview-window img{position:absolute;display:block;width:100%;height:100%;object-fit:cover;object-position:top;max-width:none;left:0;top:0;margin:0}
 .demo-preview-caption{display:block;margin-top:12px;font-size:10px;line-height:1.6;text-align:center}
 .home-feature-preview:hover .demo-preview-window{box-shadow:0 12px 30px #17251b70}
 .home-feature-preview:focus-visible{outline-color:var(--surface);border-radius:20px}
@@ -417,7 +417,7 @@ body[data-review-view="clean"] .figure-revision-note{display:none}
 .home-resource-grid .home-route h3 span{font:18px/1 sans-serif;color:var(--accent)}
 .home-resource-grid .home-route p{font-size:12px;line-height:1.6}
 @media(max-width:900px){.home-feature{grid-template-columns:minmax(0,1fr) 236px;gap:22px;padding:28px}.home-feature h2{font-size:44px}.home-resource-grid .home-route{padding:18px}.home-resource-grid .home-route h3{font-size:21px}}
-@media(max-width:650px){.indice .home-header h1{font-size:34px}.home-feature{grid-template-columns:1fr;gap:26px;padding:27px 24px}.home-feature h2{font-size:42px}.feature-lead{font-size:18px}.feature-description{font-size:14px;margin-bottom:21px}.home-feature-preview{--preview-width:220px}.demo-preview-window{height:280px}.home-resource-grid{grid-template-columns:1fr;gap:12px}.home-resource-grid .home-route{padding:20px 22px}.home-resource-grid .home-route h3{font-size:24px}.home-resources{margin-top:25px}}
+@media(max-width:650px){.indice .home-header h1{font-size:34px}.home-feature{grid-template-columns:1fr;gap:26px;padding:27px 24px}.home-feature h2{font-size:42px}.feature-lead{font-size:18px}.feature-description{font-size:14px;margin-bottom:21px}.home-feature-preview{--preview-width:220px}.demo-preview-window{height:auto}.home-resource-grid{grid-template-columns:1fr;gap:12px}.home-resource-grid .home-route{padding:20px 22px}.home-resource-grid .home-route h3{font-size:24px}.home-resources{margin-top:25px}}
 @media print{.home-feature{display:none}.home-resource-grid{grid-template-columns:repeat(3,1fr)}}
 
 /* Catalogo dei materiali: tipologia d’uso, area e allegati della stessa voce. */

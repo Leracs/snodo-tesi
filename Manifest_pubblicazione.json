@@ -4,8 +4,8 @@
   "gate_type": "client_side_only_bypassable",
   "source_preserved": true,
   "checks": {
-    "html_pages": 45,
-    "local_references_checked": 1893,
+    "html_pages": 50,
+    "local_references_checked": 2010,
     "all_HTML_gated": true,
     "absolute_local_HTML_paths": 0
   },
@@ -22,8 +22,8 @@
     },
     {
       "path": "docs/01_ricerca/Matrice_evidenze.html",
-      "sha256": "0b803bece240076cfaca5bf631fd1d2a5fff266d520a9f133b27d72e4e1bf9c2",
-      "bytes": 38123
+      "sha256": "babb79fc51958969c66222325cec4d20db2780e73889f19ed8dba40e6c340f31",
+      "bytes": 38116
     },
     {
       "path": "docs/01_ricerca/Matrice_evidenze.md",
@@ -67,8 +67,8 @@
     },
     {
       "path": "docs/02_flussi/Journey_comparabili.html",
-      "sha256": "37386501b79cd828386e7e1dd3063c39b3c25e7ea001e54a9992d89f0fbb7f72",
-      "bytes": 12545
+      "sha256": "e942148e378cf627b898902e8c53284e2c4ae5d04d86cb20cc189938773b9c51",
+      "bytes": 12538
     },
     {
       "path": "docs/02_flussi/Journey_comparabili.md",
@@ -77,8 +77,8 @@
     },
     {
       "path": "docs/02_flussi/User_flow.html",
-      "sha256": "099190f739ded8d86cdba04a24b68c3cce049f8a135052397777400adab726e6",
-      "bytes": 13856
+      "sha256": "a8169615ad0d819055befc85393e6d5c804fe7fc1bb02e742160f0e3c396304d",
+      "bytes": 13849
     },
     {
       "path": "docs/02_flussi/User_flow.md",
@@ -87,8 +87,8 @@
     },
     {
       "path": "docs/03_architettura/Architettura_generale.html",
-      "sha256": "0a77076d9a8b3ef2d7e52f3b9fc21a8739958d56a1866bb0e3e9541461f6d867",
-      "bytes": 40747
+      "sha256": "d74ddbe8d47f6e26a92ea2b42e2910c7b3ce6623f66d10c9f0facc139ea4a967",
+      "bytes": 40751
     },
     {
       "path": "docs/03_architettura/Architettura_generale.md",
@@ -127,8 +127,8 @@
     },
     {
       "path": "docs/03_architettura/Inventario_schermate.html",
-      "sha256": "e397eb480dadad43062989480b4b56354bfdfb0694062cce95ad5dfaec7420c3",
-      "bytes": 70693
+      "sha256": "ea0739480b38a4717846d1696516050de62dffbd854a55c104ce5d54dea08e9d",
+      "bytes": 70686
     },
     {
       "path": "docs/03_architettura/Inventario_schermate.md",
@@ -142,18 +142,13 @@
     },
     {
       "path": "docs/03_architettura/Matrice_requisiti.html",
-      "sha256": "3ec3ee8d95e443e71898eeb8ca6df8421d726fd50f0357db6f819fe932fbf7d0",
-      "bytes": 14295
+      "sha256": "f8270d296bd9f68b9994751cbe6c9339b5160a1ce888cd0aa088ab683fb5deab",
+      "bytes": 14288
     },
     {
       "path": "docs/03_architettura/Matrice_requisiti.md",
       "sha256": "ac09de26d993b252ff6f25e4396b140aad3c179b489f9aaa7503116b398f7e21",
       "bytes": 6751
-    },
-    {
-      "path": "docs/03_architettura/dossier-ia.css",
-      "sha256": "09cf3305e4ea5e42f8b634ccd4e4b10d2a49210fd864d0a24cd6697cae092d48",
-      "bytes": 1240
     },
     {
       "path": "docs/03_architettura/dossier-ia/Architettura_informazioni_SNODO.docx",
@@ -256,9 +251,14 @@
       "bytes": 8221
     },
     {
+      "path": "docs/03_architettura/dossier-ia.css",
+      "sha256": "09cf3305e4ea5e42f8b634ccd4e4b10d2a49210fd864d0a24cd6697cae092d48",
+      "bytes": 1240
+    },
+    {
       "path": "docs/04_wireframe/LEGGIMI.html",
-      "sha256": "a93291d55541880a658bb16062fd2e20c22a72a7ad54f9989ab9b175be9438ac",
-      "bytes": 32384
+      "sha256": "811e3f2bb0c37b754be933d371eb6b1f9918d9fe0b4a7571fa3fa94000674c99",
+      "bytes": 32377
     },
     {
       "path": "docs/04_wireframe/LEGGIMI.md",
@@ -297,8 +297,8 @@
     },
     {
       "path": "docs/04_wireframe/Verifica_materiali.html",
-      "sha256": "7deafd9e739f336c36cb52b8146ae68f9f9a5eb88361340bc3d81d4b7b84deff",
-      "bytes": 8214
+      "sha256": "54ea76802b1568407de7ea8c317e1650845e83688768841cfd4b6af4ac848199",
+      "bytes": 8207
     },
     {
       "path": "docs/04_wireframe/Verifica_materiali.md",
@@ -636,6 +636,31 @@
       "bytes": 4185
     },
     {
+      "path": "docs/05_style_tiles/Alternative_tipografiche_Calda.html",
+      "sha256": "c9d142834d45bb984930e476eac26721e2a0dd0b6e46935cbacda3e86e2c9e99",
+      "bytes": 12416
+    },
+    {
+      "path": "docs/05_style_tiles/Confronto_Kalam_Handlee.html",
+      "sha256": "3ab26ecf2389132f9635f003443da90943b9be302464100881295ff9668673bd",
+      "bytes": 12438
+    },
+    {
+      "path": "docs/05_style_tiles/Confronto_Mali_ComingSoon.html",
+      "sha256": "08cf7bed1e36d2f48c5d870ecb58ed8e15a6af4ce31334c1ba3a7b4185919c5d",
+      "bytes": 13478
+    },
+    {
+      "path": "docs/05_style_tiles/Confronto_Pop_Calda.png",
+      "sha256": "42994933b779ac400c7c8fd3f70a8b252dc603ec68b218af2af5580cc0d7e318",
+      "bytes": 746926
+    },
+    {
+      "path": "docs/05_style_tiles/Confronto_Pop_Calda.svg",
+      "sha256": "3611af836df930c46263781612d1c4d904640c9c3b902051c4fdeb2438d6b73e",
+      "bytes": 2882230
+    },
+    {
       "path": "docs/05_style_tiles/Media_cortile_A.png",
       "sha256": "0a4dad1d7ce8fa2e459136940ace86250714852d7246ed213ea8938f4383cb3e",
       "bytes": 11757
@@ -656,9 +681,109 @@
       "bytes": 4422
     },
     {
+      "path": "docs/05_style_tiles/Proposta_Calda_ComingSoon.png",
+      "sha256": "51159ee7d3440206630b9eb26fbf4c9e791d90a05f2294a013c68736815b422c",
+      "bytes": 758600
+    },
+    {
+      "path": "docs/05_style_tiles/Proposta_Calda_ComingSoon.svg",
+      "sha256": "482de36316a3658bf1b34f12c3c35175e94afe4ca6c559543027a0a56f05c317",
+      "bytes": 3000048
+    },
+    {
+      "path": "docs/05_style_tiles/Proposta_Calda_Fraunces.png",
+      "sha256": "cff16bb48697a4a3875f4d9ac2b55aa59699baa97bec438cb5f977bc79329893",
+      "bytes": 748619
+    },
+    {
+      "path": "docs/05_style_tiles/Proposta_Calda_Fraunces.svg",
+      "sha256": "28feb515442a42c2757a4a438589c27218441fc801e34e2871e9bf953d4cb5c0",
+      "bytes": 2967905
+    },
+    {
+      "path": "docs/05_style_tiles/Proposta_Calda_Handlee.png",
+      "sha256": "8c18870a78fb644899c86ad96bb8c27f6167611386f4433c4ef5d9b900f81b1b",
+      "bytes": 751856
+    },
+    {
+      "path": "docs/05_style_tiles/Proposta_Calda_Handlee.svg",
+      "sha256": "a16fcc54f7dbdbfc03022f01367cb82aaf9ff747aeaeba670fedcd442c458a74",
+      "bytes": 2933972
+    },
+    {
+      "path": "docs/05_style_tiles/Proposta_Calda_Handwritten.html",
+      "sha256": "39aeb7d6a3b0b2713e09c892622502609a7cfb4317950c4124011d5c9b095a73",
+      "bytes": 12215
+    },
+    {
+      "path": "docs/05_style_tiles/Proposta_Calda_Handwritten.png",
+      "sha256": "5b89c4007f60ba44489ce5545e774fae1ce5fb7d343318bda051a00ec8801012",
+      "bytes": 750041
+    },
+    {
+      "path": "docs/05_style_tiles/Proposta_Calda_Handwritten.svg",
+      "sha256": "adfd78a18d2aae3abfde86d0230e560fba432ec99d75d363ce28f2ca74dc3265",
+      "bytes": 3008661
+    },
+    {
+      "path": "docs/05_style_tiles/Proposta_Calda_Kalam.png",
+      "sha256": "1fd8dcfd7b9f712572798f8c224fa4bff79747e133d8fb2f278bb616747ed7fb",
+      "bytes": 751396
+    },
+    {
+      "path": "docs/05_style_tiles/Proposta_Calda_Kalam.svg",
+      "sha256": "d066ff4b567a9a62732dd5739db1d622583196d710e0a9d220f733448a2a8f38",
+      "bytes": 2932727
+    },
+    {
+      "path": "docs/05_style_tiles/Proposta_Calda_Mali.png",
+      "sha256": "e5d2aecf6f30d1a38c7cc2392537837c4d3a7112a4bfa0fcf21f2cca046cca6f",
+      "bytes": 752371
+    },
+    {
+      "path": "docs/05_style_tiles/Proposta_Calda_Mali.svg",
+      "sha256": "660229577aa1d9d00afd669dab4f2d9393e8ffc8574d7dae078e4b30f7987571",
+      "bytes": 2937827
+    },
+    {
+      "path": "docs/05_style_tiles/Proposta_Calda_Patrick_Hand.png",
+      "sha256": "afe318de82935b26fc357f764b11119e8a59b4280114b1d81a459d269644b8c7",
+      "bytes": 752841
+    },
+    {
+      "path": "docs/05_style_tiles/Proposta_Calda_Patrick_Hand.svg",
+      "sha256": "a2fc54a82e73aa481e07bd7de146ebf9e22119b8d2aa0f955049861614e4a849",
+      "bytes": 2925307
+    },
+    {
+      "path": "docs/05_style_tiles/Proposta_Calda_Pop.html",
+      "sha256": "f5fac3a42b7cba1d526ef9f9f24a2b72d18ccb681e3e89b8a2286089c5927ea7",
+      "bytes": 9728
+    },
+    {
+      "path": "docs/05_style_tiles/Proposta_Calda_Pop.png",
+      "sha256": "223dd4453d64cab8dd1e1499bcda762239c5185feebaab7f87ca5e24b6ad1061",
+      "bytes": 751699
+    },
+    {
+      "path": "docs/05_style_tiles/Proposta_Calda_Pop.svg",
+      "sha256": "b29f436e49a5e9fd9282ce141810ae8749864d48479ca8c4ca584a6e8863a1db",
+      "bytes": 2878414
+    },
+    {
+      "path": "docs/05_style_tiles/Proposta_Calda_Shantell.png",
+      "sha256": "1b13dc04fba33fa6b97a0236056ef8e3b134a1a586bc114741b3764842aeb680",
+      "bytes": 754476
+    },
+    {
+      "path": "docs/05_style_tiles/Proposta_Calda_Shantell.svg",
+      "sha256": "abcdcf9f942679653a57be186ca1c0396906ed379c170061085ff5d1ff480193",
+      "bytes": 2973449
+    },
+    {
       "path": "docs/05_style_tiles/Protocollo_confronto.html",
-      "sha256": "4f484f876b704b36c1ff2ba2920e9f25476a7338047f49f6b348f13afa3e4ca4",
-      "bytes": 13432
+      "sha256": "fe6b01dbe2193e841a0864eb29964cc34740df092bb2e71ca077c1d876fd1bd7",
+      "bytes": 13458
     },
     {
       "path": "docs/05_style_tiles/Protocollo_confronto.md",
@@ -666,14 +791,49 @@
       "bytes": 4832
     },
     {
+      "path": "docs/05_style_tiles/QA_Alternative_tipografiche.json",
+      "sha256": "15fd3a5201b56925d26665dc3969b81ab42c275560702342f34cb6fed46b68d6",
+      "bytes": 29016
+    },
+    {
+      "path": "docs/05_style_tiles/QA_Handwritten_browser.json",
+      "sha256": "c9075b0cf3d94c3e2724a70483799266af093bee1ca43c41a69b4368e16bfe8a",
+      "bytes": 1262
+    },
+    {
+      "path": "docs/05_style_tiles/QA_Kalam_Handlee.json",
+      "sha256": "31f54ed77209b953e84a8068fc350903317c1a7a6a1a09d6bcd24963029476ce",
+      "bytes": 28977
+    },
+    {
+      "path": "docs/05_style_tiles/QA_Mali_ComingSoon.json",
+      "sha256": "416b6158f1475f88dbdcdb27e4e6cd1f8a3c2352395a7ac4fc47fa9c81ca41c9",
+      "bytes": 28992
+    },
+    {
+      "path": "docs/05_style_tiles/QA_Mali_ComingSoon_browser.json",
+      "sha256": "d00d02a12c23324d0ece02ca6e8f01c9e8ebc2cb6dbe308455ca474afcafdfb8",
+      "bytes": 616
+    },
+    {
+      "path": "docs/05_style_tiles/QA_Proposta_Calda_Handwritten.json",
+      "sha256": "7f84d27dc6d9c58fb6336aa9c6edc9ebb3e09045de210b5de7485dbfc4f8ed32",
+      "bytes": 29016
+    },
+    {
+      "path": "docs/05_style_tiles/QA_Proposta_Calda_Pop.json",
+      "sha256": "dc61222421c886afd35a6fd0414986e755fe59fc0c4ac0f87648430194296e91",
+      "bytes": 29104
+    },
+    {
       "path": "docs/05_style_tiles/README.html",
-      "sha256": "d65ccd6448d4a2baa22acb2cdc27b209a70cfbe2b03043a966e6913bc3d61fd0",
-      "bytes": 21202
+      "sha256": "a2ccd0b003e8d3881f3487b7c673062be2f1ecc8cabf11d3c9b8d5cb4f7f61ca",
+      "bytes": 23221
     },
     {
       "path": "docs/05_style_tiles/README.md",
-      "sha256": "c29a67315f7d7e5eee6db123b64cda9d0fc7a8d290c7a66a8124acafb203aea5",
-      "bytes": 9649
+      "sha256": "f9009122999f530628bf37698438bb780203e00b2ea92348625ad8016d2110ad",
+      "bytes": 12079
     },
     {
       "path": "docs/05_style_tiles/Risposte_style_tiles.csv",
@@ -682,13 +842,13 @@
     },
     {
       "path": "docs/05_style_tiles/Style_tile_A.png",
-      "sha256": "7b080645043cc328735b46c6ef9793716dce6569a47fc619dc7d88ba56399402",
-      "bytes": 297956
+      "sha256": "e5d2aecf6f30d1a38c7cc2392537837c4d3a7112a4bfa0fcf21f2cca046cca6f",
+      "bytes": 752371
     },
     {
       "path": "docs/05_style_tiles/Style_tile_A.svg",
-      "sha256": "05ed408786eac22a14cbe6707976587e1059fe83f5cecc083587e766c109e716",
-      "bytes": 32031
+      "sha256": "660229577aa1d9d00afd669dab4f2d9393e8ffc8574d7dae078e4b30f7987571",
+      "bytes": 2937827
     },
     {
       "path": "docs/05_style_tiles/Style_tile_B.png",
@@ -701,9 +861,34 @@
       "bytes": 67400
     },
     {
+      "path": "docs/05_style_tiles/build_alternative_tipografiche.py",
+      "sha256": "f1946ca8af83542a8d53c825be5c1b7a3fb07b4bfbde0c5da524c94889625948",
+      "bytes": 11984
+    },
+    {
+      "path": "docs/05_style_tiles/build_kalam_handlee.py",
+      "sha256": "bdf24cff1b5c239597c390b1d9474d8e7213af8e0d269a56f9a4679d366c72ab",
+      "bytes": 11611
+    },
+    {
+      "path": "docs/05_style_tiles/build_mali_comingsoon.py",
+      "sha256": "5b13996d0c944f4a9928307baaf3f87cfe782ddc75a77946f093a4eb912636eb",
+      "bytes": 11630
+    },
+    {
+      "path": "docs/05_style_tiles/build_proposta_calda_handwritten.py",
+      "sha256": "fa95f71082196f3fd0d739879cbadf356694e5791f69c59521c1db164cf41a21",
+      "bytes": 11796
+    },
+    {
+      "path": "docs/05_style_tiles/build_proposta_calda_pop.py",
+      "sha256": "674a20325303c920278e10870c1ed4f4e706927e2318a193e7f416142228b886",
+      "bytes": 8792
+    },
+    {
       "path": "docs/05_style_tiles/build_style_tiles.py",
-      "sha256": "6415f8227b3ab7c93d47057adfa6b57bbc88b75af9c6765ba8e66b09a094abd8",
-      "bytes": 18136
+      "sha256": "5b8b47e7deb995d1175d93c2fe284643bdda04edc5e5f45f8ba8a0410d997551",
+      "bytes": 18814
     },
     {
       "path": "docs/05_style_tiles/fonts/Boldonse-Regular.ttf",
@@ -711,24 +896,144 @@
       "bytes": 78240
     },
     {
+      "path": "docs/05_style_tiles/fonts/Caveat-OFL.txt",
+      "sha256": "1f9d81d094273d82f3898a1ee8b598a717d050ecbf5ff7bede105b704880157b",
+      "bytes": 4385
+    },
+    {
+      "path": "docs/05_style_tiles/fonts/Caveat-SemiBold.ttf",
+      "sha256": "7a2f23a2ca6e675056b7e388a96a926257484fd754f100f4d6e4d8c766cb9754",
+      "bytes": 266980
+    },
+    {
+      "path": "docs/05_style_tiles/fonts/Caveat-Variable.ttf",
+      "sha256": "0bdb6b660482d31531b3945849fba5916b3ef8695da7024a9e6b9ee3c4157988",
+      "bytes": 403648
+    },
+    {
+      "path": "docs/05_style_tiles/fonts/ComingSoon-LICENSE.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    {
+      "path": "docs/05_style_tiles/fonts/ComingSoon-Regular.ttf",
+      "sha256": "cf81388f587ff6122de1a705d1070b8f00abccdba66108509908b5d10715068c",
+      "bytes": 53256
+    },
+    {
+      "path": "docs/05_style_tiles/fonts/Fonte_font.json",
+      "sha256": "c2a9bd912e28e0cb4285e4eb9f713cda775aee7d323eae352e6bfb254141d366",
+      "bytes": 685
+    },
+    {
+      "path": "docs/05_style_tiles/fonts/Fonti_Kalam_Handlee.json",
+      "sha256": "1e8ca0c997ba6cba8dc2c6742d0ac97e40d3c7f54f25e7e4f5df9c9f3ad22f3b",
+      "bytes": 822
+    },
+    {
+      "path": "docs/05_style_tiles/fonts/Fonti_Mali_ComingSoon.json",
+      "sha256": "1a49adadfab830272d58235ffd1149bc1130aaca939bbf59819d9a63f2dd418c",
+      "bytes": 891
+    },
+    {
+      "path": "docs/05_style_tiles/fonts/Fonti_alternative_calda.json",
+      "sha256": "85f23c701d94bb9498a05bfb7a1bc345b7bcd49b6a2d1f54fe705fa1d4a4c7da",
+      "bytes": 1349
+    },
+    {
+      "path": "docs/05_style_tiles/fonts/Fonti_handwritten.json",
+      "sha256": "67df54d252de97fa3c05b6af602a413976bea14e1735d593fe95c43553a633b5",
+      "bytes": 741
+    },
+    {
+      "path": "docs/05_style_tiles/fonts/Fraunces-Calda.ttf",
+      "sha256": "ab8fda64a953bb200262fb0a2f433cd020371f916b40241491468860225d4527",
+      "bytes": 72972
+    },
+    {
+      "path": "docs/05_style_tiles/fonts/Fraunces-OFL.txt",
+      "sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+      "bytes": 4391
+    },
+    {
+      "path": "docs/05_style_tiles/fonts/Fraunces-Variable.ttf",
+      "sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb",
+      "bytes": 360440
+    },
+    {
+      "path": "docs/05_style_tiles/fonts/Handlee-OFL.txt",
+      "sha256": "5f1f5510eff7922864bf326ffa1d4a62f01add5193e9367b542378e5a808b500",
+      "bytes": 4418
+    },
+    {
+      "path": "docs/05_style_tiles/fonts/Handlee-Regular.ttf",
+      "sha256": "7b99c0f291b5d52e06c66498a1d0dd6dff45a32e32d13be089c60d2d8dc00445",
+      "bytes": 39132
+    },
+    {
+      "path": "docs/05_style_tiles/fonts/Kalam-Bold.ttf",
+      "sha256": "2f6576601db015d4f6c08678120277fc8510b98c06e932ce7a6a9cbff4cbdded",
+      "bytes": 460896
+    },
+    {
+      "path": "docs/05_style_tiles/fonts/Kalam-OFL.txt",
+      "sha256": "f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f",
+      "bytes": 4373
+    },
+    {
+      "path": "docs/05_style_tiles/fonts/Mali-OFL.txt",
+      "sha256": "bc1175730d609233043cde47e48f69831f012e85537c5ec1a2cf4836757c1540",
+      "bytes": 4381
+    },
+    {
+      "path": "docs/05_style_tiles/fonts/Mali-SemiBold.ttf",
+      "sha256": "0ba6d92b46369ec5040d119f87a17586be96364fac743fbf510b54a3ead1adcc",
+      "bytes": 112924
+    },
+    {
       "path": "docs/05_style_tiles/fonts/OFL.txt",
       "sha256": "45cc82ab4032273c0924025ffcf8f0665a68e1a5955e3f7247e5daf1deeb1326",
       "bytes": 4390
     },
     {
+      "path": "docs/05_style_tiles/fonts/PatrickHand-OFL.txt",
+      "sha256": "377f4f9c19e935228552478eb68cc2ed82910988a60ba60e2ac73b09f32d02d1",
+      "bytes": 4376
+    },
+    {
+      "path": "docs/05_style_tiles/fonts/PatrickHand-Regular.ttf",
+      "sha256": "0f173b3e6cb6d1af25babf7f0057c5ac4ee11f9992b0469bb817e967ef4ad0fc",
+      "bytes": 214772
+    },
+    {
+      "path": "docs/05_style_tiles/fonts/ShantellSans-Calda.ttf",
+      "sha256": "30c9e65620daf2547b350df62027a1cb4c36841f7dbb0b766f75089aeb86f107",
+      "bytes": 401796
+    },
+    {
+      "path": "docs/05_style_tiles/fonts/ShantellSans-OFL.txt",
+      "sha256": "ebfce7d104d597c385b71e9fbf8f0e2034e73320f857086105dc265b82c05caa",
+      "bytes": 4397
+    },
+    {
+      "path": "docs/05_style_tiles/fonts/ShantellSans-Variable.ttf",
+      "sha256": "d98a7913853f78d71aa0b86daf66b5eddb5a3266c07bfd51ef70632b88c41084",
+      "bytes": 1284736
+    },
+    {
       "path": "docs/05_style_tiles/ui_canvas.py",
-      "sha256": "5aeaa2fc5658c70595ac16843e24f1df15c3dd10d29a9ea480f7eadd07418f20",
-      "bytes": 8423
+      "sha256": "298f0b23b3cf89eec9c371bbafd586caa6ae65f4967b3a6c3d14574d5850f9a8",
+      "bytes": 8445
     },
     {
       "path": "docs/05_style_tiles/ui_layout.py",
-      "sha256": "33f556e4f1e6b4c8d11faa853af848a0ec617d0c283e7fea3f77df98bfd5e042",
-      "bytes": 17093
+      "sha256": "5747355a7a96f505d00cbb8b6b3561fba155eeff0976d8fa7fee3b9495c5f5ac",
+      "bytes": 17155
     },
     {
       "path": "docs/06_design_system/Atmosfera_affluenza.html",
-      "sha256": "040162377bd21278b5436aaedf1b249a593967758844a118e1f365f0bf614c14",
-      "bytes": 11641
+      "sha256": "561c167be42bc4a52a06ecd282d0b165ec631dd0ff153d14e4df9017fb236e3c",
+      "bytes": 11664
     },
     {
       "path": "docs/06_design_system/Atmosfera_affluenza.md",
@@ -737,13 +1042,13 @@
     },
     {
       "path": "docs/06_design_system/Atmosfera_affluenza_demo.html",
-      "sha256": "673a2fcf47afdacda6e1ec706b18fdff3d8f7c59143a4fffb74dbc7828e61b79",
-      "bytes": 4751
+      "sha256": "c3cdd8dab9c23451f2c382c2be7e09d73bdd931bf5e36dd0a4342141895f6c50",
+      "bytes": 4723
     },
     {
       "path": "docs/06_design_system/Componenti_e_comportamenti.html",
-      "sha256": "59c5a76fc7ae083858fd35b19d3875ec0cd7abf2d63bf5f5a0c7aeed41b1ce38",
-      "bytes": 20343
+      "sha256": "f14e48c311f84a6d74e1e3d80b8f622b6db137c7634288852114d3cf859dfead",
+      "bytes": 20366
     },
     {
       "path": "docs/06_design_system/Componenti_e_comportamenti.json",
@@ -757,18 +1062,18 @@
     },
     {
       "path": "docs/06_design_system/Contrasti.csv",
-      "sha256": "21e670f42dea76a7ee91bc121f4c8e2869abbda9100c46821bdb6728141b4535",
-      "bytes": 12022
+      "sha256": "d98abcb42e9c63497c08570d6d7f6e5d5b5499ed2edffb022aa72a7b235e428c",
+      "bytes": 10551
     },
     {
       "path": "docs/06_design_system/Contrasti.html",
-      "sha256": "7499091516971b3753a5aa8e579289f23a875fdd91d178fcca67b6f60f9ba166",
-      "bytes": 21768
+      "sha256": "60afc4f9f5e4d9a47cedfc3647d5445b608082a80c6eb6b366aead47ab6a4904",
+      "bytes": 17407
     },
     {
       "path": "docs/06_design_system/Contrasti.md",
-      "sha256": "6912cf6e10182151aaa6b96cc7f75ae3162fe743b4490f04d2a62ff3deaed5ce",
-      "bytes": 9736
+      "sha256": "342c4287002732214c622165e3c209817f74cfa94dfabe20b70e5ebb4bbd72d5",
+      "bytes": 7259
     },
     {
       "path": "docs/06_design_system/Controlli_build.json",
@@ -776,9 +1081,14 @@
       "bytes": 9395
     },
     {
+      "path": "docs/06_design_system/Controlli_esplorazione.json",
+      "sha256": "01f4feac2bd2a7b4e69913ee9ef5b7f6dac28beaa94f1b32efc55fad4eee3468",
+      "bytes": 2628
+    },
+    {
       "path": "docs/06_design_system/Corrispondenza_componenti_IA_DS.html",
-      "sha256": "a3cce79ad524d3f6a56bbc0091ffd0aec73448e42b43634a5765e70a6c4a2b61",
-      "bytes": 10440
+      "sha256": "b38af7529d2755835fd49e5eca4ee5526e97eb62d94dc8218a13c4bceb5a8c9d",
+      "bytes": 10463
     },
     {
       "path": "docs/06_design_system/Corrispondenza_componenti_IA_DS.json",
@@ -792,13 +1102,13 @@
     },
     {
       "path": "docs/06_design_system/Esplorazione_demo.html",
-      "sha256": "e3020166b92a3e9702b409263c5313ec10c32c12a2930773b768cef5ae8dad07",
-      "bytes": 6538
+      "sha256": "c4553e2eecfe45d6ffca7f1a2b24650b158ba15df3085cd6e45d5d1a3babb2af",
+      "bytes": 6524
     },
     {
       "path": "docs/06_design_system/Esplorazione_e_recensioni.html",
-      "sha256": "7420e228c336013103770ebf6472e453b5f32c7f91230360be42fca9a8d4dac2",
-      "bytes": 12478
+      "sha256": "60aa6702f868f8c32377c537803242caac2ca5f4fec5190359e8331b599ced37",
+      "bytes": 12501
     },
     {
       "path": "docs/06_design_system/Esplorazione_e_recensioni.md",
@@ -807,13 +1117,18 @@
     },
     {
       "path": "docs/06_design_system/Guida_catalogo.html",
-      "sha256": "c6ab20fd7883f6c2b6910106d289f491576ea22e64fdcec246f30d5a2fc89dc3",
-      "bytes": 10892
+      "sha256": "37123ebab11f07bfc981282f285bbdac7d98e40870eacf7dd79d8d4859909687",
+      "bytes": 10992
     },
     {
       "path": "docs/06_design_system/Guida_catalogo.md",
-      "sha256": "ca20d47ca16efb85ed9b11bdf584e52be0a1d4f83f1e2db03cecad7cbf81fa61",
-      "bytes": 5202
+      "sha256": "62dd2e0d6027693d2211437866f49ed725996509f7aab05115bf0e415842adfc",
+      "bytes": 5249
+    },
+    {
+      "path": "docs/06_design_system/QA_Calda_Mali.json",
+      "sha256": "ca9d04c91e4b2f282de0d112e094846e1629d7e7193e1ee3d98bcb39d8b8a458",
+      "bytes": 1783
     },
     {
       "path": "docs/06_design_system/QA_atmosfera_affluenza.json",
@@ -824,6 +1139,11 @@
       "path": "docs/06_design_system/QA_catalogo.json",
       "sha256": "ae5a6082045dc7f29fb679dd2d753497c051bad6ecdeaf1167c4cdc9c0002152",
       "bytes": 3821
+    },
+    {
+      "path": "docs/06_design_system/QA_esplorazione.json",
+      "sha256": "d42204d682788e60d3094e57e43009b1589890b17f0c0e46f32b524368d8d0aa",
+      "bytes": 3881
     },
     {
       "path": "docs/06_design_system/QA_pop_lettura.json",
@@ -837,33 +1157,33 @@
     },
     {
       "path": "docs/06_design_system/README.html",
-      "sha256": "f549fac960d7f11e575fa886eaf926feba16844da5506abd25f93fd26b4aaa05",
-      "bytes": 14574
+      "sha256": "d3c462a2fb75bcaa3baf98bb4ab2fcac3a14f9fa916c84202440dbb31750e66e",
+      "bytes": 14786
     },
     {
       "path": "docs/06_design_system/README.md",
-      "sha256": "c924948d4c68141f2b6bc1e747d6c514240c1b3d74984419d909786dd2adbefc",
-      "bytes": 7368
+      "sha256": "d70efaa63a8a8d59cc16016acd88d388fec9782f37c1432ab30e03efdf029ec9",
+      "bytes": 7467
     },
     {
       "path": "docs/06_design_system/SVG_manifest.json",
-      "sha256": "a576c2305e297f8e2c4cbc26f9425008015a8353378251e2d0123d87184fb9cf",
-      "bytes": 35487
+      "sha256": "1d290f563c81e8fd2a4166c4b72315c7265102ebfaa3087db7fec765474a0f5f",
+      "bytes": 35510
     },
     {
       "path": "docs/06_design_system/Scelta_direzione.json",
-      "sha256": "df458676bf0ab63cda648914c77f8b589266664942a43dee46dfc6f5e0b53dc8",
-      "bytes": 691
+      "sha256": "520f154ea2a7476151cbcdcb29e49ebc7a8edaa41c63f5a9bcd4b038b7ec6802",
+      "bytes": 721
     },
     {
       "path": "docs/06_design_system/Stati_e_controlli.png",
-      "sha256": "9aef2ff9d28ee8891c932c5b7367e73032c52d33ee6163ec05ccdb60cdfc2bc0",
-      "bytes": 305348
+      "sha256": "0dbc75b5c12e44e45ebb94b77b86718b67324c29e89db59719c42fd5bd85d1aa",
+      "bytes": 303754
     },
     {
       "path": "docs/06_design_system/Stati_e_controlli.svg",
-      "sha256": "5e15b595bd69cf27acff03d07a3d71efaccc004879b034ce62d03fc7cee16324",
-      "bytes": 28717
+      "sha256": "c5a163940b5a27a270a13ac95a221ceda1989ef3bf7d130370403154bc9a9e3f",
+      "bytes": 54024
     },
     {
       "path": "docs/06_design_system/Verifiche_atmosfera.cjs",
@@ -872,8 +1192,8 @@
     },
     {
       "path": "docs/06_design_system/atmosfera-affluenza.css",
-      "sha256": "b442faeb9aec0d9b70ff716b17f0bba298204c89c0501ef233995fb0a89a8b28",
-      "bytes": 6867
+      "sha256": "c65fb1def1fba386f23709ca68f484703b658f14791a9130ab077352f9c1ae67",
+      "bytes": 6986
     },
     {
       "path": "docs/06_design_system/atmosfera-affluenza.js",
@@ -882,8 +1202,8 @@
     },
     {
       "path": "docs/06_design_system/campioni-componenti.css",
-      "sha256": "9029e503b83284e2d4a191a3c9c456fd3934bd005d93808bc589cecec44b068f",
-      "bytes": 7562
+      "sha256": "0bd4bbe3ea3aedb8cd3fe05ce9eab9c742f33046485a7636c28270f9d5a53436",
+      "bytes": 7748
     },
     {
       "path": "docs/06_design_system/campioni-componenti.js",
@@ -897,23 +1217,23 @@
     },
     {
       "path": "docs/06_design_system/catalogo-token.js",
-      "sha256": "07e2afae10678395556712e5ad56c074b362391143c73931dfde3564fa0318d6",
+      "sha256": "b7a5a64a0668804a46ef2deeb2b652515715ab769c4243222f0f9dea7e645243",
       "bytes": 1407
     },
     {
       "path": "docs/06_design_system/catalogo-ui.js",
-      "sha256": "76f60ad843ed457cf10695896dd9039a86b3eb51a6dbb47f547badec0c505e34",
-      "bytes": 6106
+      "sha256": "a8b315b73802b52f5dd419beab1600997536fa9648933edad5bb512f496e9565",
+      "bytes": 6148
     },
     {
       "path": "docs/06_design_system/catalogo.css",
-      "sha256": "528fb642c201c325a733b64399db5f8c82681deaf6040acc2b4ae1708a40ae39",
-      "bytes": 8455
+      "sha256": "bcd377e445cdfc5e4c36dd3ed2d5fac6d3c86a3f598ca678b4ff309e47a5610b",
+      "bytes": 8473
     },
     {
       "path": "docs/06_design_system/costruisci_catalogo.mjs",
-      "sha256": "a17b1e2a1faccaab692c1070fca6089e0f876f9297aba9bf481a12e61d8ddd30",
-      "bytes": 14240
+      "sha256": "9dc90f91f98632e68456a31ff7255c21501574bae25a5708ecd5cd818807dd01",
+      "bytes": 14238
     },
     {
       "path": "docs/06_design_system/esplorazione-catalogo.js",
@@ -922,8 +1242,8 @@
     },
     {
       "path": "docs/06_design_system/esplorazione.css",
-      "sha256": "32f252131210337516f9d88a043f0cd9aefce0c38c8ae1cd97548c763560cd45",
-      "bytes": 11268
+      "sha256": "4edd3a2b4c0b8921064df774bfca849be250f1a205e8e2be72200aa0aab75c63",
+      "bytes": 11469
     },
     {
       "path": "docs/06_design_system/esplorazione.js",
@@ -932,33 +1252,33 @@
     },
     {
       "path": "docs/06_design_system/index.html",
-      "sha256": "2a4ccc0e60eb1b534d3a52d12ab41caec68674967cdfc0298eb6e04af2e6d524",
-      "bytes": 63528
+      "sha256": "0ce50372a42fdd7a83e405b3a648f966d75dbe18772903994ea3d50c8c69dfb0",
+      "bytes": 63514
     },
     {
       "path": "docs/06_design_system/pacchetto_svg.py",
-      "sha256": "021a5ab207e9d8f9d710fe712e99925256c624bab19340eddfe7eeae3ddfa5b6",
-      "bytes": 2065
+      "sha256": "1e2eeb9daa49905e27f55fb271c8fdf80449b87fe96a5d663ada9784ddb41c6c",
+      "bytes": 2205
     },
     {
       "path": "docs/06_design_system/svg/DS01-A-caricamento.svg",
-      "sha256": "e3e70ac63ea89ecafb9b75f0dc3c84fd9464891d97207586122e595a5a362289",
-      "bytes": 1580
+      "sha256": "92b361cb72249d278bcd6fcebc7a079899f75ee93101b3e40e30efaec85f592f",
+      "bytes": 152354
     },
     {
       "path": "docs/06_design_system/svg/DS01-A-disabilitato.svg",
-      "sha256": "260b4994b17c8e3425e526464a6c1b250067337ebb21be3ed76c83e274215d5f",
-      "bytes": 1312
+      "sha256": "4ea1bda2e6f41681def4d119649116d1cf65e5bd61f2ce08dfecc10882968248",
+      "bytes": 152085
     },
     {
       "path": "docs/06_design_system/svg/DS01-A-primario.svg",
-      "sha256": "b876dad850e8515aaef4432ac81f815d89c2f8d8a07a3164ee435d255f6d920b",
-      "bytes": 1306
+      "sha256": "58dccde1a022916ba27e09dc76b94e14f4dfa2b6524450e9b9be3d3dcfd0a53a",
+      "bytes": 152078
     },
     {
       "path": "docs/06_design_system/svg/DS01-A-secondario.svg",
-      "sha256": "018ff9aa0e3e60586db7dc57de7121d3ba2a811d53175ed075c7aaf345ec7876",
-      "bytes": 1309
+      "sha256": "5e4d99712e174fe0b92bfe84587636ea95f4ccb414d23d3a1271da5d6008c467",
+      "bytes": 152082
     },
     {
       "path": "docs/06_design_system/svg/DS01-B-caricamento.svg",
@@ -982,18 +1302,18 @@
     },
     {
       "path": "docs/06_design_system/svg/DS02-A-compilato.svg",
-      "sha256": "e132173449ca795814a250ae0119b2cf22edeacebd969c0a6c9cd1af07fc8e56",
-      "bytes": 1951
+      "sha256": "dbd4a1ca745eda8748a1b624a9051b65d724c3cf55638415a326e1620b7b76a4",
+      "bytes": 152576
     },
     {
       "path": "docs/06_design_system/svg/DS02-A-errore.svg",
-      "sha256": "2d410549b33ba3cc290658341d6993fc2a88d33cd0568e29ac36764f0afe8241",
-      "bytes": 1937
+      "sha256": "787bef5e3cc0359ccb6262c5052c1e6bc053ecf94e0a296e7426c0455ce37687",
+      "bytes": 152563
     },
     {
       "path": "docs/06_design_system/svg/DS02-A-vuoto.svg",
-      "sha256": "1114c0ab38a5264b4d65064b86fdfcb3670e2bb189f8894ee72f955f59876267",
-      "bytes": 1948
+      "sha256": "0cf4e752516510b08a2f5fc42969f9b06c08f9a2b1cb9342ab07de8caf5a3e88",
+      "bytes": 152573
     },
     {
       "path": "docs/06_design_system/svg/DS02-B-compilato.svg",
@@ -1012,13 +1332,13 @@
     },
     {
       "path": "docs/06_design_system/svg/DS03-A-non-selezionato.svg",
-      "sha256": "f9d12a72ae44cf0e2b056633775e7ab582ac1873a09c9bf7910aa231ee9565d0",
-      "bytes": 1589
+      "sha256": "a9a95889706c22891548d831f26b5fbdecce8da47bbc90bd82f0b44ea68d937d",
+      "bytes": 152404
     },
     {
       "path": "docs/06_design_system/svg/DS03-A-selezionato.svg",
-      "sha256": "8b7e05179beb598df3decff158f3e9b9b7654b7f7fe4d562465eeaa70aa6c7e2",
-      "bytes": 1957
+      "sha256": "0d4a8b260c923ef9e11992d104003a1324b231e097b872d3d7ac3ba624095fe5",
+      "bytes": 152675
     },
     {
       "path": "docs/06_design_system/svg/DS03-B-non-selezionato.svg",
@@ -1032,13 +1352,13 @@
     },
     {
       "path": "docs/06_design_system/svg/DS04-A-esplora.svg",
-      "sha256": "d37ce2e7bfd30617896ea6fae3b1e6e51854b398f2810a2b73e2a08623e315f0",
-      "bytes": 3390
+      "sha256": "7a1319583134460bf8051840e3e3891e994ae5c8ce83851582ce36c996e6e299",
+      "bytes": 153669
     },
     {
       "path": "docs/06_design_system/svg/DS04-A-salvati.svg",
-      "sha256": "729b4a4a47b66e04f24981fd47ef6b30b2090911a5bb22d0f8db9980aee30999",
-      "bytes": 3391
+      "sha256": "9792fd5b6bfcc092618d5abcaf6d70883bf2634705861d6d2ea2e3c785a92321",
+      "bytes": 153670
     },
     {
       "path": "docs/06_design_system/svg/DS04-B-esplora.svg",
@@ -1052,13 +1372,13 @@
     },
     {
       "path": "docs/06_design_system/svg/DS05-A-corrente.svg",
-      "sha256": "361a7e9f6e4e1691588cc56c728f9521ee0c3ed0eca11610bee2f75e1e8794db",
-      "bytes": 1638
+      "sha256": "a839af3360a30a933778b82be38568874f867c3aaac225f45baf29fef5791ef4",
+      "bytes": 152222
     },
     {
       "path": "docs/06_design_system/svg/DS05-A-posizione-negata.svg",
-      "sha256": "d0b5b576c7cc11f696acdaa5fcb39fdcf5b93a20acb249555318b1047a2b0230",
-      "bytes": 1648
+      "sha256": "22fd80405943e27213f2c1b2758df6af39caec42908127da5e81456fe4b5408d",
+      "bytes": 152232
     },
     {
       "path": "docs/06_design_system/svg/DS05-B-corrente.svg",
@@ -1072,13 +1392,13 @@
     },
     {
       "path": "docs/06_design_system/svg/DS06-A-nessuna-recensione.svg",
-      "sha256": "daa0fc450160623db43568e42df2a2bd18b0ed18d2465a35678b092d9d25900f",
-      "bytes": 6080
+      "sha256": "df4ecc41b5b92c314be097ee7218c3a7b4c01f226605276b6495966a5cf49a4b",
+      "bytes": 156015
     },
     {
       "path": "docs/06_design_system/svg/DS06-A-standard.svg",
-      "sha256": "355d720b707a98236e6764f7552b6a0b481fd79ffa5ccd549ed66b7f656d609b",
-      "bytes": 8685
+      "sha256": "235f7a455efac065d78446190c1fc145af32ca9cb276d2b87f341a4666183474",
+      "bytes": 159134
     },
     {
       "path": "docs/06_design_system/svg/DS06-B-nessuna-recensione.svg",
@@ -1092,18 +1412,18 @@
     },
     {
       "path": "docs/06_design_system/svg/DS07-A-disponibile.svg",
-      "sha256": "ae32511f7a259f855a88b0ffc348894f120847bfc08971d5295047b2505b0986",
-      "bytes": 1437
+      "sha256": "4fc5b8678b545ce8e851ee45179cb1f0cfaf2689bcd331aef5aabf57177efd4a",
+      "bytes": 152117
     },
     {
       "path": "docs/06_design_system/svg/DS07-A-mancante.svg",
-      "sha256": "5ffc086b3238a2552e6f994af8d744fb7614a4b40e69a6a6b9bbe2b9f1b6ad54",
-      "bytes": 1425
+      "sha256": "794f7b7e43b666764e31c9f2cff50eb4694749758cbfce7bfd7f12656cc6a8e2",
+      "bytes": 152105
     },
     {
       "path": "docs/06_design_system/svg/DS07-A-vecchio.svg",
-      "sha256": "20d0de9ae997761134c5b36cfc1ac34ee7ec3aec311592de4a8547a8d591ebb0",
-      "bytes": 1614
+      "sha256": "a230243ec8d21feefbddcd2e7129f00e7f07ed5f5066df47bccb4c28ae7f8918",
+      "bytes": 152198
     },
     {
       "path": "docs/06_design_system/svg/DS07-B-disponibile.svg",
@@ -1122,13 +1442,13 @@
     },
     {
       "path": "docs/06_design_system/svg/DS08-A-dati-assenti.svg",
-      "sha256": "48783988b52ae6c2ccb9132793cb3f69287a8d45d5ff35ac453cf7efa99e0afd",
-      "bytes": 5182
+      "sha256": "a71e37448bddeb258e4ce0e877f6d9790dc70e0643a306f17d4e89384916c2a8",
+      "bytes": 155776
     },
     {
       "path": "docs/06_design_system/svg/DS08-A-dati-limitati.svg",
-      "sha256": "0097c17dd31ffd9cda453df90cefb81508c53d72dc476333891b2b492bd11457",
-      "bytes": 7310
+      "sha256": "30369bb941c0835e31ed94e25d2802bdec2f121b461c24570bb81236bf295b12",
+      "bytes": 158009
     },
     {
       "path": "docs/06_design_system/svg/DS08-B-dati-assenti.svg",
@@ -1142,18 +1462,18 @@
     },
     {
       "path": "docs/06_design_system/svg/DS08-DS19-A-dati-assenti.svg",
-      "sha256": "69a9fca634b4b16f1aa22954c5684bd4882dc66fea220efda5a5a3b5ff8b312d",
-      "bytes": 10430
+      "sha256": "df96e9efa3747050460d9b4985646f2249b744a41063895a54dfa9ebc70f0145",
+      "bytes": 161424
     },
     {
       "path": "docs/06_design_system/svg/DS08-DS19-A-dati-limitati.svg",
-      "sha256": "57443e2bdab9a8a80558d6608237c03a7e221071a31b09a1d6213f9efe2283da",
-      "bytes": 13191
+      "sha256": "e48e3adbaebddf1602838d7c03b703cc1ea1ca890d7064eda96fc7646e6c0bcf",
+      "bytes": 163931
     },
     {
       "path": "docs/06_design_system/svg/DS08-DS19-A-fascia-assente-il-lunedi.svg",
-      "sha256": "5922ed6a324e7ac15b6568eb429c0a00b4c3d2b0435f463e89a109e824c05df7",
-      "bytes": 13105
+      "sha256": "7beba92c576535fe62e5d349a4a3fc34c32a7e7480dc626a85ef79e89c05e2c2",
+      "bytes": 163884
     },
     {
       "path": "docs/06_design_system/svg/DS08-DS19-B-dati-assenti.svg",
@@ -1172,13 +1492,13 @@
     },
     {
       "path": "docs/06_design_system/svg/DS09-A-breve.svg",
-      "sha256": "607df79e8ed30e311e34d453e5aa9685b2bc98c96b48bfa94a5af0296410d5fb",
-      "bytes": 1583
+      "sha256": "20eff72adc47d6021b9032fccf3d44b7ee466eb951b3d747e7d8bed613aad329",
+      "bytes": 152203
     },
     {
       "path": "docs/06_design_system/svg/DS09-A-senza-testo.svg",
-      "sha256": "ebce350bf098911116ffcf65a5dbda77c2c11933c5ec58f965f93aa652127ba2",
-      "bytes": 1363
+      "sha256": "c2efc4f3d93df218cde54fc5ab341b9488f0a915bdc4dbdc086e349f3473610c",
+      "bytes": 152179
     },
     {
       "path": "docs/06_design_system/svg/DS09-B-breve.svg",
@@ -1192,18 +1512,18 @@
     },
     {
       "path": "docs/06_design_system/svg/DS10-A-attesa.svg",
-      "sha256": "3b0211d130dd1f931634aab0e24dd9c3d189320492fe729fcaa123a140ae1fbf",
-      "bytes": 1664
+      "sha256": "f4e0d5384793cf1a9c4dd459b631bbf7baf181d488afc867bd9fc12e7e9bf5e1",
+      "bytes": 152286
     },
     {
       "path": "docs/06_design_system/svg/DS10-A-nessun-risultato.svg",
-      "sha256": "f9dd0454eb84bd3eb1dcde616faeebfd4ec7a9bba5a75aef6e40da751fd94c07",
-      "bytes": 3645
+      "sha256": "a9f003e3696babc4fa857f925c1438e4a11f993ebb86e5d585a29bc9a5c2e3bc",
+      "bytes": 154922
     },
     {
       "path": "docs/06_design_system/svg/DS10-A-risposta.svg",
-      "sha256": "28458b5c9a21d726a083163a0852bc7e8d5f27d2d3b75f6094bc71b53b94720d",
-      "bytes": 3435
+      "sha256": "24101455ed0d75ca57b43cd03275d0bd79840886f3ace608aefbd72dbdd01288",
+      "bytes": 154671
     },
     {
       "path": "docs/06_design_system/svg/DS10-B-attesa.svg",
@@ -1222,13 +1542,13 @@
     },
     {
       "path": "docs/06_design_system/svg/DS11-A-intermedio.svg",
-      "sha256": "5f099b5558505cb2eae566fcb6a8f8168e93e708b39943da888942a46f68e9b3",
-      "bytes": 2315
+      "sha256": "4c6f3b89c96febcc650ac325e873f3d7afbecf25bc3246379e6dd6ec4c0e7008",
+      "bytes": 153209
     },
     {
       "path": "docs/06_design_system/svg/DS11-A-ridotto.svg",
-      "sha256": "b741f3fbf5f71f65565cca980e5c0df0867015cd9a803430ce70d959eb4ec806",
-      "bytes": 1326
+      "sha256": "2dc79895def570a2ba5a2b46e9137ac546731a76ea9d4e5f25e8e589cc8aaa93",
+      "bytes": 152101
     },
     {
       "path": "docs/06_design_system/svg/DS11-B-intermedio.svg",
@@ -1242,18 +1562,18 @@
     },
     {
       "path": "docs/06_design_system/svg/DS12-A-concordato.svg",
-      "sha256": "e11924855fbe421fc5a78756ea420c316c4a353db0570eb8182e5c57892ec840",
-      "bytes": 2712
+      "sha256": "cee38d853fdb0511367b088d820c48c67cb724a1f2500f2b92b4d1e68508750a",
+      "bytes": 153641
     },
     {
       "path": "docs/06_design_system/svg/DS12-A-da-rivedere.svg",
-      "sha256": "a39040dd02641a75164e9e96f9d51a0b696efb42618c0337e22ae428cf4a17e1",
-      "bytes": 2721
+      "sha256": "a71f0834c1cff85e19018ab52e531f3620aba08a924b7f2662656f5b469bfafb",
+      "bytes": 153649
     },
     {
       "path": "docs/06_design_system/svg/DS12-A-proposto.svg",
-      "sha256": "025600eae9c02bbea11e3c3f819aa11e1389d949c44d09190cbc5f927ac92ff9",
-      "bytes": 2714
+      "sha256": "31b5a2334586ef377c291a1e71627d756959e76c5af33993125274f442c38309",
+      "bytes": 153642
     },
     {
       "path": "docs/06_design_system/svg/DS12-B-concordato.svg",
@@ -1272,13 +1592,13 @@
     },
     {
       "path": "docs/06_design_system/svg/DS13-A-bozza.svg",
-      "sha256": "2db5c6cb592d10c8000a1ea498cbd3e83ec6cf5bdd5126daaafd22b2029ec8b7",
-      "bytes": 1459
+      "sha256": "30a7be47a9fe267852087fdb36642d71ebd82ea9ad7cca444d3d478a9964edc3",
+      "bytes": 152274
     },
     {
       "path": "docs/06_design_system/svg/DS13-A-proposta.svg",
-      "sha256": "d45e4b71c5d62cf9cc22c69ae6e2bdacc436ee14ab58e3e1e6485bb0e060a0b9",
-      "bytes": 1704
+      "sha256": "52786b2627aa07a958183884ae50dc3e836641995119fbf3aaea59d964e9c3cc",
+      "bytes": 152560
     },
     {
       "path": "docs/06_design_system/svg/DS13-B-bozza.svg",
@@ -1292,18 +1612,18 @@
     },
     {
       "path": "docs/06_design_system/svg/DS14-A-avviso.svg",
-      "sha256": "ab713fb2358994c2e49cd054b6090e71652b3878d8349cd3d968f35e10960553",
-      "bytes": 1405
+      "sha256": "7e4c1add391b37a42ea50aa06abb25dfd68a0d4ec9a252c9ef2a1d840f320a73",
+      "bytes": 152225
     },
     {
       "path": "docs/06_design_system/svg/DS14-A-conferma.svg",
-      "sha256": "09ccea6e2010ab95a8fd3edd880f67ede8f2efb9c7b34165e5711ad1b8a7e813",
-      "bytes": 1191
+      "sha256": "03fafed7ecfb164f7f9d97338bb295ea1da5d6c93a99afe6424009b0568715d2",
+      "bytes": 151966
     },
     {
       "path": "docs/06_design_system/svg/DS14-A-errore.svg",
-      "sha256": "15ff5cbaf0a401faf84b92fad17d869a59ee05df8d790ea536a58af4793b6ace",
-      "bytes": 1181
+      "sha256": "6061f6930fa712fb8acf60318a3edc6f22ab921477ddc7daaea9be96a6e432ab",
+      "bytes": 151958
     },
     {
       "path": "docs/06_design_system/svg/DS14-B-avviso.svg",
@@ -1322,13 +1642,13 @@
     },
     {
       "path": "docs/06_design_system/svg/DS15-A-errore.svg",
-      "sha256": "f79ea8de5e4bbb34740d37c20348e55a185fb2d235df6cfa961b6d25638a7820",
-      "bytes": 2065
+      "sha256": "512a99dc383424e5be1aaeac62c65af3b3f6dcfbe1d8c6f15ffac7b860efe341",
+      "bytes": 152688
     },
     {
       "path": "docs/06_design_system/svg/DS15-A-vuoto.svg",
-      "sha256": "765b5918217ca07a886cb1639392cbfb64d7b8facbdd11331e09574f28a18e68",
-      "bytes": 1915
+      "sha256": "f7e5900514f320b79a45fe50bd522c3029d9a33f4789513f63d70e8a55472b74",
+      "bytes": 152634
     },
     {
       "path": "docs/06_design_system/svg/DS15-B-errore.svg",
@@ -1342,13 +1662,13 @@
     },
     {
       "path": "docs/06_design_system/svg/DS16-A-app-assente.svg",
-      "sha256": "7f331c558ca403ce23e954ede6deedf52b932d59722c6cca582ddb72501584b4",
-      "bytes": 2128
+      "sha256": "f494b4e8345b88ff87f4dadee4c50c78008e217cb1a7d3dd077d20dca986792d",
+      "bytes": 152979
     },
     {
       "path": "docs/06_design_system/svg/DS16-A-uscita-esterna.svg",
-      "sha256": "f6da406663652bdc067f652d8f3a6b768a36b0f71c1c9f1f8b0934a6c64cfd06",
-      "bytes": 2339
+      "sha256": "c7d2a57e3b23a6b362e77e1318f303b7b11f04b7ab7f2d6a3b2067be9f2cbd8e",
+      "bytes": 153234
     },
     {
       "path": "docs/06_design_system/svg/DS16-B-app-assente.svg",
@@ -1362,13 +1682,13 @@
     },
     {
       "path": "docs/06_design_system/svg/DS17-A-assente.svg",
-      "sha256": "91f20671f55f67736e2e468096f0944a93395fb9db5a5d1378d0b0c0865d6ef3",
-      "bytes": 1920
+      "sha256": "250deb1fd745a7a7efcc4368f88ac47b189c71ad405f538b2f38b298303ec015",
+      "bytes": 152408
     },
     {
       "path": "docs/06_design_system/svg/DS17-A-caricata.svg",
-      "sha256": "024a279b08a9ed05f10fc14f97f002df0165567de42e99641fada52d95fc0c0e",
-      "bytes": 1750
+      "sha256": "011efca38541cf8a941724c3e40c89d80bb90019435cf3bb59073fd174d5e48e",
+      "bytes": 152477
     },
     {
       "path": "docs/06_design_system/svg/DS17-B-assente.svg",
@@ -1382,23 +1702,23 @@
     },
     {
       "path": "docs/06_design_system/svg/DS18-A-default.svg",
-      "sha256": "a884c9b19e477da0043cf56fe597bb46e957f1b79f78f858871eb61e760ad5fc",
-      "bytes": 4431
+      "sha256": "9bd40cb2fa754e84cec9039e8e3e0a0e7d031ef84a290ea7857f16a66f360c6d",
+      "bytes": 155015
     },
     {
       "path": "docs/06_design_system/svg/DS18-A-rumore-assente.svg",
-      "sha256": "1eddab748e673f5a3fdc16bf05eb5639062397a83c199e996070a03ab5500747",
-      "bytes": 4659
+      "sha256": "a2a032a1225521643da7494ebdac76be50d8ce4872bca5fbec057ab963e4fdfd",
+      "bytes": 155283
     },
     {
       "path": "docs/06_design_system/svg/DS18-A-salvato.svg",
-      "sha256": "c2c4aafae55a47907caa99a43d9ea44d590841328e0213516211fbfda948f7f7",
-      "bytes": 4851
+      "sha256": "16a20a3a516355eaac2c2c660abb56a0bc0f62eb2a80f479b27048791f60f84f",
+      "bytes": 155470
     },
     {
       "path": "docs/06_design_system/svg/DS18-A-selezionato.svg",
-      "sha256": "871a19a58d72d3be649ddefab822ea9d1be154e370b94a000c2290c941be27c6",
-      "bytes": 4434
+      "sha256": "876d9843a50879429ff6eada086b50ca4a246e867dfac4657e45046905e3e1fe",
+      "bytes": 155017
     },
     {
       "path": "docs/06_design_system/svg/DS18-B-default.svg",
@@ -1422,23 +1742,23 @@
     },
     {
       "path": "docs/06_design_system/svg/DS19-A-dati-assenti.svg",
-      "sha256": "2cceea12ecd6832cc5daa9b5089d882957c2747def6a70580c896fa8f95fe16d",
-      "bytes": 5945
+      "sha256": "e8fc521fef1e9a6edb127f9539edf9c5da5c83e7d3599e1491da8508f331a3c1",
+      "bytes": 156924
     },
     {
       "path": "docs/06_design_system/svg/DS19-A-dati-limitati.svg",
-      "sha256": "426ee0572fe588f0f27a85594109fc57183bf2a318e0431404c3c167ed9f6511",
-      "bytes": 6560
+      "sha256": "f36d1da0e0f1e17aafbda3f9c05d32f23b2202beb070e145634d974527abc17f",
+      "bytes": 157182
     },
     {
       "path": "docs/06_design_system/svg/DS19-A-fascia-assente-il-lunedi.svg",
-      "sha256": "85129a3218d0e23c554595c3d04e50cc82d2662a8c6f9cb9df85bd325b83023f",
-      "bytes": 6480
+      "sha256": "b6bdddd0419dd3e88b094bcda74f8ee71e61df10a1bdb966d3016fd13112786c",
+      "bytes": 157139
     },
     {
       "path": "docs/06_design_system/svg/DS19-A-selettore-giorno.svg",
-      "sha256": "19e0407c77e6dd7fe0beaf22c82a2dd33dc5e8069d7a4eedd323f421d775e81d",
-      "bytes": 3694
+      "sha256": "a134940a53e6e0aaafb1960b4abe70f293dbdc0d52624e72d9f538911f9a0f91",
+      "bytes": 153996
     },
     {
       "path": "docs/06_design_system/svg/DS19-B-dati-assenti.svg",
@@ -1462,18 +1782,18 @@
     },
     {
       "path": "docs/06_design_system/svg/DS20-A-disponibile.svg",
-      "sha256": "8e293d90c2dc44730e328523cd1787c257347d59b4f93b61c7e6b92fa63331aa",
-      "bytes": 3861
+      "sha256": "065daf9c7db499d17af63c5919d2fba05f1746cbccbb370c70e7cd8f80415084",
+      "bytes": 155149
     },
     {
       "path": "docs/06_design_system/svg/DS20-A-nessuna-recensione.svg",
-      "sha256": "6f2499feddf37238db8b684817db5bdf631d1846d80e05b863a904df188e3fe0",
-      "bytes": 1469
+      "sha256": "eed5b730942b68aa8a4e73115f1ba6c55ac300ea5288e1c4ffb54fc04dd5cd5b",
+      "bytes": 152286
     },
     {
       "path": "docs/06_design_system/svg/DS20-A-testo-lungo.svg",
-      "sha256": "3dea87c02bdeec01920c5189b58a71d5154efd9a395c233051c88d38d7dbbc69",
-      "bytes": 5080
+      "sha256": "15d479390db34544dea11ce92adc43b1956309a889a710e670bf6b3e8dc8610b",
+      "bytes": 156284
     },
     {
       "path": "docs/06_design_system/svg/DS20-B-disponibile.svg",
@@ -1492,18 +1812,18 @@
     },
     {
       "path": "docs/06_design_system/svg/DS21-A-non-selezionato.svg",
-      "sha256": "f722a1e7bbcbfea0828f74ce94762859890be82c5144e53d0acd545bfa7819dd",
-      "bytes": 2617
+      "sha256": "10f5957e9c14ed20b110ee6c0c53d7d1dcee79d2a13416989526015d3ce181ba",
+      "bytes": 153154
     },
     {
       "path": "docs/06_design_system/svg/DS21-A-preferenza.svg",
-      "sha256": "45c38ad365fbaf4d32f8f22ee81ed44995b0b22b4d81616e34eade5416f0a398",
-      "bytes": 2896
+      "sha256": "021d6f00fe2a9811fff2154091b6facf647ab8a95a0836d7d025ee485ccee4c5",
+      "bytes": 153471
     },
     {
       "path": "docs/06_design_system/svg/DS21-A-requisito.svg",
-      "sha256": "a4a6ae2a1e63d1dfcd8e043448a8619ea4a629ab57e429db5febdfa7b9268358",
-      "bytes": 2880
+      "sha256": "91c7a4b628250df9427196c452246585dff9c36f34259994b1026d94ab86fe12",
+      "bytes": 153455
     },
     {
       "path": "docs/06_design_system/svg/DS21-B-non-selezionato.svg",
@@ -1522,18 +1842,18 @@
     },
     {
       "path": "docs/06_design_system/svg/DS22-A-incompatibile.svg",
-      "sha256": "da6b4399d0214e7f56fed6665ad449e58d9e4f69c0091324cb80cc2cedaf2932",
-      "bytes": 1822
+      "sha256": "a8402bc593e9efafdcd3f9bfc82bb3dbb77167850db4d3a5963cbfa88a81b615",
+      "bytes": 152504
     },
     {
       "path": "docs/06_design_system/svg/DS22-A-preferenza-nel-gruppo.svg",
-      "sha256": "2466b1b932897b643a346af510ddde294cb3837c457fd0f5f0153d0943670700",
-      "bytes": 1573
+      "sha256": "5afcd70445a901ce5139e4851bba08efb52431de71df9f10c1c4db00af58216e",
+      "bytes": 152214
     },
     {
       "path": "docs/06_design_system/svg/DS22-A-proponi-al-gruppo.svg",
-      "sha256": "887e7a469293b67e4c8d0c5b1d5f726a14d24881b1bdbb78665566ad2da56cd3",
-      "bytes": 1564
+      "sha256": "08f79e5bf9252b743f8c61b9046fb9a2ffa09c5268d8335337fc88532fa22f0e",
+      "bytes": 152204
     },
     {
       "path": "docs/06_design_system/svg/DS22-B-incompatibile.svg",
@@ -1552,38 +1872,38 @@
     },
     {
       "path": "docs/06_design_system/svg/SNODO-componenti-SVG.zip",
-      "sha256": "e8f9a257aa56cfa9c1c6cb857a5701514bfa0b75491af8f784c4b1710e792581",
-      "bytes": 3317412
+      "sha256": "17c2b03b396f4cd6445b78f785abcb1dab8e77b42639121f8971b4083862278a",
+      "bytes": 7888903
     },
     {
       "path": "docs/06_design_system/svg/layouts.json",
-      "sha256": "4ecbe71aa60055ef3a39a1fc48ef7508a054ed7d683ac670d994cd8949e9a022",
-      "bytes": 779310
+      "sha256": "4e27bee92ee82d20c0af829c9cac0b2e3a7ac5db91f0726c8496adda0c5072e6",
+      "bytes": 853031
     },
     {
       "path": "docs/06_design_system/svg-componenti.mjs",
-      "sha256": "6781f8914b25c97a492b056588e0f32b82d6a8272b8235d76da84a4704d7e62e",
-      "bytes": 5142
+      "sha256": "cb2e97bcb68e7e7f6c6449204266b34083960e528fc2f4232dcb2342b4f98ffc",
+      "bytes": 5406
     },
     {
       "path": "docs/06_design_system/theme_A.json",
-      "sha256": "81a7c3f165ed368099b1f6171c0d37b617832c946fb8361f0d46d5faac8b2c11",
-      "bytes": 2252
+      "sha256": "e32661adb2bcd480734b72f81ce5d5fdad7b1a7efb64198363ca59ae84e0223a",
+      "bytes": 2489
     },
     {
       "path": "docs/06_design_system/theme_B.json",
-      "sha256": "d7e1093d3bebf735795f5474c25e20aec474afa2ff94b9a274b3cc26ecbd6ebb",
-      "bytes": 2506
+      "sha256": "0dfa2c3dfa79fca2a74d9a6974f88e6a9945b5cb00a2bf76d8f3efe4773ab859",
+      "bytes": 2639
     },
     {
       "path": "docs/06_design_system/tokens_A.css",
-      "sha256": "f7f9467711da2b3bdb02baa88f51fc38ffe1b49cef19b20da336e8989cece133",
-      "bytes": 1469
+      "sha256": "86f59cd7222bb9a0b361dcde681e506a586e27ee71ef83554fa26b12e8d14c6d",
+      "bytes": 1717
     },
     {
       "path": "docs/06_design_system/tokens_A.json",
-      "sha256": "0517f1b96bd21c3ab333dd8e8a64b53cdee442b316e75af26bb6879252af917a",
-      "bytes": 6666
+      "sha256": "156a4ebc3085ec3209f229569da915a489bba3803c49adfdc1df8c4c6b276c82",
+      "bytes": 6734
     },
     {
       "path": "docs/06_design_system/tokens_B.css",
@@ -1596,9 +1916,14 @@
       "bytes": 7127
     },
     {
+      "path": "docs/07_prototipo/Anteprima_home_Mali.png",
+      "sha256": "71f476bf48200cccaee0cdecb6d6703550fbbb14b84a0a88c71d10f16605e65c",
+      "bytes": 51351
+    },
+    {
       "path": "docs/07_prototipo/Anteprima_home_SNODO.png",
-      "sha256": "2ad39c9b845925781b46a3e0b105d7f669a198a9f6f6126141cef55e5d65da0d",
-      "bytes": 85667
+      "sha256": "89c44e1eac6f7b58bbcad50f086508fe4a8250d95070a9aded6f24459532a12a",
+      "bytes": 51958
     },
     {
       "path": "docs/07_prototipo/Anteprima_supporto.png",
@@ -1607,8 +1932,8 @@
     },
     {
       "path": "docs/07_prototipo/Assemblaggio_Figma.html",
-      "sha256": "9753923e7da02c34c3df544cb8d431e6423d84a8becfd076dbcf510e4085ac7f",
-      "bytes": 19172
+      "sha256": "bbd8cffc86d90ff5d64d405c791f8b946cf7cef843a7ba202c117c0b03469952",
+      "bytes": 19228
     },
     {
       "path": "docs/07_prototipo/Assemblaggio_Figma.md",
@@ -1626,9 +1951,19 @@
       "bytes": 19072
     },
     {
+      "path": "docs/07_prototipo/Collegamenti_Figma.json",
+      "sha256": "a0e5dff0435799ef567b873694735d51d5a098c72384bdc589f5a7df59e739aa",
+      "bytes": 43884
+    },
+    {
+      "path": "docs/07_prototipo/Contrasti_dettaglio_acqua.json",
+      "sha256": "729c0320cf3f7ffaa00b94f269cb5986a74ad71a8ab8aa3b8126d59910e53c0c",
+      "bytes": 3021
+    },
+    {
       "path": "docs/07_prototipo/LEGGIMI.html",
-      "sha256": "2b8cc540bbb5bfafb04ce6875c9369cde347a4942695c3bae511220bbf326e15",
-      "bytes": 15102
+      "sha256": "60130075587eec8545491b5a31018ca8f82c2946bf06d54c4b07574490e500f6",
+      "bytes": 15095
     },
     {
       "path": "docs/07_prototipo/LEGGIMI.md",
@@ -1637,13 +1972,23 @@
     },
     {
       "path": "docs/07_prototipo/QA_carosello_foto.json",
-      "sha256": "20b09346efccc43aef64e4a0ac82cea0bc985ca3bc0ebe1c4842545a4e5c4c95",
-      "bytes": 1637
+      "sha256": "cd333f1d9c9d61926143418e64e461be2d87014db072c22ed16f7a0d2680ffed",
+      "bytes": 1762
+    },
+    {
+      "path": "docs/07_prototipo/QA_fotografie_e_acqua.json",
+      "sha256": "70f0e09a8f733f93cbfa0998d3f3d9288c1c8c5b5e557dae3e6d6f8f238be792",
+      "bytes": 14145
     },
     {
       "path": "docs/07_prototipo/QA_galleria_unica.json",
       "sha256": "b9c190f6d8698f3c24324d096683f25f3ac13077b2572d860c837acef263bdae",
       "bytes": 1533
+    },
+    {
+      "path": "docs/07_prototipo/QA_gallerie_browser.json",
+      "sha256": "aeea4e9ab0d08c57ede146cd00761a32c7adb2902b3efcb99118209cdb77714d",
+      "bytes": 1606
     },
     {
       "path": "docs/07_prototipo/QA_interazioni.json",
@@ -1657,8 +2002,8 @@
     },
     {
       "path": "docs/07_prototipo/Specifica_assistente_AI.html",
-      "sha256": "8a97b7cff659a3ab6e827442712eacce7df63eb5d16e3f08e7ed7328feaebb0c",
-      "bytes": 27259
+      "sha256": "5040f3249ac916f94b657f871f5c91bc2c0127eb1d697eb7e979a4103892d351",
+      "bytes": 27252
     },
     {
       "path": "docs/07_prototipo/Specifica_assistente_AI.md",
@@ -1672,8 +2017,8 @@
     },
     {
       "path": "docs/07_prototipo/Verifica_supporto_locale.html",
-      "sha256": "77e79469d74e136c1a4589407bac62ca316e96bae601a64eaf9bc49e9be4b0d9",
-      "bytes": 11839
+      "sha256": "e0c8cd45dbf9c6da4ae762de78b645097002fa07f0505bb1e4abf726e91265b3",
+      "bytes": 11832
     },
     {
       "path": "docs/07_prototipo/Verifica_supporto_locale.md",
@@ -1692,8 +2037,8 @@
     },
     {
       "path": "docs/07_prototipo/app.css",
-      "sha256": "43ef0f409d6d034882b958f841f399d1b19b55431aae05bb920d71146889cf62",
-      "bytes": 33628
+      "sha256": "68398cf40ac81bf0c83363e4a851cbbfc0337f76027d618dc6f3336d2318a2ac",
+      "bytes": 35331
     },
     {
       "path": "docs/07_prototipo/app.js",
@@ -1717,13 +2062,13 @@
     },
     {
       "path": "docs/07_prototipo/index.html",
-      "sha256": "10fff4e04a30f3dda56beb33ab30f276c14b6b58be76612cf4d7d79f209c8e9d",
-      "bytes": 4927
+      "sha256": "338b4925f8547e25e7cb2982a95485034ad6c3c5fad7eb1d3e3bfb9a138ecc80",
+      "bytes": 4899
     },
     {
       "path": "docs/07_prototipo/media/Crediti_fotografie.html",
-      "sha256": "2b1dac14eb09bcd93637c1d8bb03de834e906b7f0819f6645d6f788a2d2f9231",
-      "bytes": 7077
+      "sha256": "ed31964a1214bdd705bfbb70fc8d5183764c97d22fd6969715f99aaf5f32dc41",
+      "bytes": 7070
     },
     {
       "path": "docs/07_prototipo/media/Fotografie.json",
@@ -1812,8 +2157,8 @@
     },
     {
       "path": "docs/08_test/Protocollo_test_formativo.html",
-      "sha256": "ad7f750e59b6bcef106724ad1ec2b4353360d142073d6af52de79e14b97e40de",
-      "bytes": 18754
+      "sha256": "4803a9c5f92e83f9e5b307052694dfd7e390c64eaa98ec24e2e1654edce68a3c",
+      "bytes": 18747
     },
     {
       "path": "docs/08_test/Protocollo_test_formativo.md",
@@ -1827,8 +2172,8 @@
     },
     {
       "path": "docs/09_tesi/Registro_editoriale.html",
-      "sha256": "69ad14890fb9f007b8768c9ba9e30ade86ab5f6ccff235aaf2561ed1d4df87b8",
-      "bytes": 11363
+      "sha256": "8761125fb4d0518dd2d54003e10ea712d413a1471c108b34c9245dbd3028eadf",
+      "bytes": 11356
     },
     {
       "path": "docs/09_tesi/Registro_editoriale.md",
@@ -1842,8 +2187,8 @@
     },
     {
       "path": "docs/09_tesi/Tesi_sezioni_revisionate_e_sviluppo.html",
-      "sha256": "ea21d9fc2c6794fbd7ba37085ebf3a25fe3b02c5e08a5f9291ee77b5c53d6f47",
-      "bytes": 58101
+      "sha256": "f953f86b374f9e3d5338cc8c746b8ff41fcb7c6b3f3d6de4c51288b872852b10",
+      "bytes": 58094
     },
     {
       "path": "docs/09_tesi/Tesi_sezioni_revisionate_e_sviluppo.md",
@@ -1852,8 +2197,8 @@
     },
     {
       "path": "docs/10_contributi_tesi/01_Introduzione_e_metodo.html",
-      "sha256": "e3e02cf23557cadf728bc674bc5aaa958474fae32d9d318719ef6202f5298abf",
-      "bytes": 42733
+      "sha256": "42d5c2c91d0176992cb8f6b43164d52db91003792342af6aa6a5b9398dca2f28",
+      "bytes": 42726
     },
     {
       "path": "docs/10_contributi_tesi/01_Introduzione_e_metodo.md",
@@ -1862,8 +2207,8 @@
     },
     {
       "path": "docs/10_contributi_tesi/02_Risultati_della_ricerca.html",
-      "sha256": "1fe9a472f4e6db94150ed599d8f47c91db1161d8fc835f9fc7ed4c2edf5fa44e",
-      "bytes": 65996
+      "sha256": "790809c491ef622f2f1e89cdc2ed99d5e90b8f4c570e8458741ddbfc091159d4",
+      "bytes": 65989
     },
     {
       "path": "docs/10_contributi_tesi/02_Risultati_della_ricerca.md",
@@ -1872,18 +2217,18 @@
     },
     {
       "path": "docs/10_contributi_tesi/03_Proposta_progettuale.html",
-      "sha256": "fe367eeb1149308c708e3cecf26b6387a196193f6d3ef7e7fc7bde8f93093ff8",
-      "bytes": 154128
+      "sha256": "12ddcd6d44431a002aa6b786af9661ccfb6b6acde7164b98f34878f48bec43c5",
+      "bytes": 154741
     },
     {
       "path": "docs/10_contributi_tesi/03_Proposta_progettuale.md",
-      "sha256": "a21cd0e2dd3168d10b7b745fc749c47cd5144504c355fd83c100d464a9bc08ac",
-      "bytes": 21438
+      "sha256": "bfe4d1eb3f5056c90a5aad317e4b8049d3cad3cd9db022de0a407763164f1b9a",
+      "bytes": 21658
     },
     {
       "path": "docs/10_contributi_tesi/04_Valutazione_prevista.html",
-      "sha256": "251d3ff0f3b7088235abf9bb333ba8e343e0146fc7f9fa0b5dd5ee35a73df397",
-      "bytes": 13848
+      "sha256": "ddd03f47ab2657037610e6ec054623ea0f3615eb3270322970cce4409ec18de3",
+      "bytes": 13841
     },
     {
       "path": "docs/10_contributi_tesi/04_Valutazione_prevista.md",
@@ -1892,8 +2237,8 @@
     },
     {
       "path": "docs/10_contributi_tesi/05_Grafici_della_ricerca.html",
-      "sha256": "64e6942b2d80debf7caaec68cff536fe5a5e957f3b69bf45e83708ed04c3c684",
-      "bytes": 33339
+      "sha256": "b449d60cf4b335723efdcfe1ecb1e31780be46f1fc8e2db2a3898e1ca4a061e6",
+      "bytes": 33332
     },
     {
       "path": "docs/10_contributi_tesi/05_Grafici_della_ricerca.md",
@@ -1902,13 +2247,13 @@
     },
     {
       "path": "docs/10_contributi_tesi/06_Apparati_del_progetto.html",
-      "sha256": "594f5c6616b1144b2da783ec27225514c13de6eac57b7c726a09d5e74bdabe94",
-      "bytes": 36555
+      "sha256": "a3a518bef5a407af07102af85e1bd6c1e7949104fee7976884070fc01a991e2d",
+      "bytes": 36758
     },
     {
       "path": "docs/10_contributi_tesi/06_Apparati_del_progetto.md",
-      "sha256": "073f27b333c06ccdaf5b9fc76485e9768ca2f5aa191af490a7840ca555d15a3f",
-      "bytes": 7077
+      "sha256": "38c8836a5ace5718c551a4e40199a2d807bb8ef568a2c07950be40bfdd4244ec",
+      "bytes": 7116
     },
     {
       "path": "docs/10_contributi_tesi/Contributi_testuali_per_la_tesi.docx",
@@ -2047,8 +2392,8 @@
     },
     {
       "path": "docs/11_materiale_di_lavoro/Benchmark_UX_UI_e_integrazioni_SNODO.html",
-      "sha256": "f927231c8b67c859762b5f0a04e84e1408d0ff6f1c288e5b3ad77a5cd1726b88",
-      "bytes": 45969
+      "sha256": "f6fb663309fc0b5149ffbedfb3083b5787201039517a2b1bb39580eed9542b44",
+      "bytes": 45962
     },
     {
       "path": "docs/11_materiale_di_lavoro/Benchmark_UX_UI_e_integrazioni_SNODO.md",
@@ -2072,8 +2417,8 @@
     },
     {
       "path": "docs/11_materiale_di_lavoro/Separazione_editoriale.html",
-      "sha256": "ec4b4cd2e5187127d4bcc3a157cef4e2b4579502a677b75a25b42dbdd4d89f69",
-      "bytes": 15212
+      "sha256": "9c62b2a30c83c1854ce162442219e54fdb40e458e2b522357439ca3b1b3ef4f6",
+      "bytes": 15205
     },
     {
       "path": "docs/11_materiale_di_lavoro/Separazione_editoriale.md",
@@ -2172,18 +2517,18 @@
     },
     {
       "path": "docs/Contributi_tesi.html",
-      "sha256": "fe1b1d23a3f2bffa269b5dd58b44dfcc962cefbf1973c250cc4485b6ad7e72c1",
-      "bytes": 7241
+      "sha256": "ef729562de4e77ca6a1950cda90c0ef3c355f9f638183b98cfecbdc34371f63a",
+      "bytes": 7234
     },
     {
       "path": "docs/Indice_consegne.html",
-      "sha256": "a4691ac698a99b1154dd7b22b711cf16c9d287c16c0e22b7d6f1725d3895b612",
-      "bytes": 3752
+      "sha256": "467744b890e3ed1201efe05087b8a6509059f948f3a119b38bd7e21824565b3c",
+      "bytes": 3925
     },
     {
       "path": "docs/LEGGIMI.html",
-      "sha256": "4d99cd5f6a34358df2ed5940c54dcac890c28d5aab1a8db3aa86c3ec67377bda",
-      "bytes": 7482
+      "sha256": "e926cf895ed595151054d47d8d094abbcfa42e82056ec851a6a77d21c5a9106b",
+      "bytes": 7475
     },
     {
       "path": "docs/LEGGIMI.md",
@@ -2192,13 +2537,13 @@
     },
     {
       "path": "docs/Materiale_di_lavoro.html",
-      "sha256": "13e80d8fd5c961371acbc626158f60ab579564abccfab507db3dec143042703b",
-      "bytes": 30403
+      "sha256": "741a2da8252564c7339e27a673a6f58e8acf1e6ba0472bd4f33e1f23f876db18",
+      "bytes": 30396
     },
     {
       "path": "docs/Registro_decisioni.html",
-      "sha256": "9f6c8e455c68c0c24d8ecf89a545c48ca2a4926a7ec49e98338af2d8230a5ae3",
-      "bytes": 9741
+      "sha256": "640bda5977633ed19e2b81c4314cff14c6ae32808c1be18e0277a51a8b2fc41f",
+      "bytes": 9734
     },
     {
       "path": "docs/Registro_decisioni.md",
@@ -2207,8 +2552,8 @@
     },
     {
       "path": "docs/Revisione_professore.html",
-      "sha256": "6f722a0670bf7cc8962e90d364170869f524c711847e087821ef86933bd7cb62",
-      "bytes": 7970
+      "sha256": "4178d3a65f1ce1b561722a5f25d8c562f290e18c3ad87436ad4efc86947f52cc",
+      "bytes": 7963
     },
     {
       "path": "docs/Revisione_professore.md",
@@ -2217,8 +2562,8 @@
     },
     {
       "path": "docs/Stato_consegne.html",
-      "sha256": "f1d555546fd7db73677833ba5edf7c37ccae63297fc93a1af946bc8289e7c6d3",
-      "bytes": 8211
+      "sha256": "a6c03d3236a1f92af1fef7a015bf2a2d37e63bd27208fd47309dd9604b5374c3",
+      "bytes": 8204
     },
     {
       "path": "docs/Stato_consegne.md",
@@ -2237,13 +2582,13 @@
     },
     {
       "path": "docs/index.html",
-      "sha256": "a4691ac698a99b1154dd7b22b711cf16c9d287c16c0e22b7d6f1725d3895b612",
-      "bytes": 3752
+      "sha256": "467744b890e3ed1201efe05087b8a6509059f948f3a119b38bd7e21824565b3c",
+      "bytes": 3925
     },
     {
       "path": "docs/lettura.css",
-      "sha256": "868e5071176ce753cd7866aeffee961d229630ac02f0cb998187bca0b96bb39b",
-      "bytes": 50341
+      "sha256": "de4b946c7cc9e6a7b30289aa7d0fb23385156b6d4deaf102fe0cb94ab1baa3e1",
+      "bytes": 50280
     },
     {
       "path": "docs/lettura.js",
@@ -2252,8 +2597,8 @@
     },
     {
       "path": "docs/navigazione-sito.mjs",
-      "sha256": "d9c45f3d8d4b8d22508545093b7a459de0fe25692f39539121c55e99b02f10d1",
-      "bytes": 4542
+      "sha256": "78e614494860addcea7aabbd51e148fcffb532c64e1f668e98f2975e7e100bfe",
+      "bytes": 4535
     },
     {
       "path": "docs/robots.txt",
@@ -2262,22 +2607,13 @@
     },
     {
       "path": "docs/tema-sito.css",
-      "sha256": "0304e64d432a455db75ecc5bee5a6f324b0bbb735a82c0fa958380bfc981e536",
-      "bytes": 13290
+      "sha256": "893f8af1d2f32e1963792c26f265b20d723b43b4353b0e88d908a47a75e2f115",
+      "bytes": 14514
     },
     {
       "path": "docs/tema-sito.js",
-      "sha256": "5e89b6f89f3fe26e6d95fce21a46e39583a26746507971f2af7c35a3b5248b6b",
-      "bytes": 1287
+      "sha256": "a163355f260c9628ac89623194529f5c1b34f09af2eb12508c6d6d598c5eadc4",
+      "bytes": 1593
     }
-  ],
-  "architecture_dossier": {
-    "versione": "1.0",
-    "data": "2026-10-11",
-    "tavole": 3,
-    "tabelle": 11,
-    "schermate": 21,
-    "word_download": "docs/03_architettura/dossier-ia/Architettura_informazioni_SNODO.docx",
-    "page": "docs/03_architettura/Architettura_generale.html"
-  }
+  ]
 }

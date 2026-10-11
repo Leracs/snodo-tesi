@@ -1,0 +1,132 @@
+{
+  "scope": "Nove coppie di testo effettivamente usate nei nuovi pattern per ciascun tema; non una verifica completa di accessibilità",
+  "status": "PASS",
+  "pairs": [
+    {
+      "theme": "A",
+      "foreground": "text",
+      "background": "surface",
+      "ratio": 15.33,
+      "pass": true
+    },
+    {
+      "theme": "A",
+      "foreground": "muted",
+      "background": "surface",
+      "ratio": 7.05,
+      "pass": true
+    },
+    {
+      "theme": "A",
+      "foreground": "text",
+      "background": "surfaceMuted",
+      "ratio": 12.48,
+      "pass": true
+    },
+    {
+      "theme": "A",
+      "foreground": "muted",
+      "background": "surfaceMuted",
+      "ratio": 5.75,
+      "pass": true
+    },
+    {
+      "theme": "A",
+      "foreground": "primary",
+      "background": "surfaceMuted",
+      "ratio": 5.14,
+      "pass": true
+    },
+    {
+      "theme": "A",
+      "foreground": "primary",
+      "background": "surface",
+      "ratio": 6.31,
+      "pass": true
+    },
+    {
+      "theme": "A",
+      "foreground": "onPrimary",
+      "background": "primary",
+      "ratio": 6.45,
+      "pass": true
+    },
+    {
+      "theme": "A",
+      "foreground": "success",
+      "background": "successBg",
+      "ratio": 6.96,
+      "pass": true
+    },
+    {
+      "theme": "A",
+      "foreground": "warning",
+      "background": "surface",
+      "ratio": 6.93,
+      "pass": true
+    },
+    {
+      "theme": "B",
+      "foreground": "text",
+      "background": "surface",
+      "ratio": 21.0,
+      "pass": true
+    },
+    {
+      "theme": "B",
+      "foreground": "muted",
+      "background": "surface",
+      "ratio": 8.72,
+      "pass": true
+    },
+    {
+      "theme": "B",
+      "foreground": "text",
+      "background": "surfaceMuted",
+      "ratio": 18.71,
+      "pass": true
+    },
+    {
+      "theme": "B",
+      "foreground": "muted",
+      "background": "surfaceMuted",
+      "ratio": 7.77,
+      "pass": true
+    },
+    {
+      "theme": "B",
+      "foreground": "primary",
+      "background": "surfaceMuted",
+      "ratio": 18.71,
+      "pass": true
+    },
+    {
+      "theme": "B",
+      "foreground": "primary",
+      "background": "surface",
+      "ratio": 21.0,
+      "pass": true
+    },
+    {
+      "theme": "B",
+      "foreground": "onPrimary",
+      "background": "primary",
+      "ratio": 15.49,
+      "pass": true
+    },
+    {
+      "theme": "B",
+      "foreground": "success",
+      "background": "successBg",
+      "ratio": 7.2,
+      "pass": true
+    },
+    {
+      "theme": "B",
+      "foreground": "warning",
+      "background": "surface",
+      "ratio": 8.26,
+      "pass": true
+    }
+  ]
+}

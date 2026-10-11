@@ -1,0 +1,13 @@
+{
+  "family": "Boldonse",
+  "style": "Regular",
+  "source": "https://github.com/google/fonts/tree/main/ofl/boldonse",
+  "download_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/boldonse/Boldonse-Regular.ttf",
+  "downloaded": "2026-10-11",
+  "license": "SIL Open Font License 1.1",
+  "license_file": "OFL.txt",
+  "font_file": "Boldonse-Regular.ttf",
+  "sha256": "f566c572a85fee25b41ccab1a8d18ef8039a30e3ca44f310ee162899ea6d5fc7",
+  "usage": "Titoli della proposta B; contorni SVG e font locale nel prototipo",
+  "body_font": "Forma DJR Text è previsto nella direzione dello studente ma non fornito né scaricato; Helvetica Neue sostituto dichiarato nelle anteprime."
+}

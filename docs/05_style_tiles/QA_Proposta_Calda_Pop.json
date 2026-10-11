@@ -1,0 +1,1071 @@
+{
+  "status": "proposal",
+  "bodyIntent": "Forma DJR Text",
+  "bodyPreview": "Helvetica Neue",
+  "heading": "Boldonse — glifi da file locale",
+  "images": "Foto stock dimostrative riutilizzate dal prototipo, crediti in 07_prototipo/media",
+  "warmPalette": {
+    "background": "#F5E9D6",
+    "surface": "#FFFCF6",
+    "text": "#2B2822",
+    "muted": "#615446",
+    "primary": "#2B2822",
+    "divider": "#9C8B76",
+    "terracotta": "#D87556",
+    "pink": "#E8B4A2",
+    "green": "#A8B786",
+    "yellow": "#E6B957",
+    "card": "#D87556"
+  },
+  "variants": [
+    {
+      "variant": "warm",
+      "svg": "Proposta_Calda_Pop.svg",
+      "png": "Proposta_Calda_Pop.png",
+      "overflows": [],
+      "contrastPairs": [
+        {
+          "use": "board: CALDA POP",
+          "foreground": "#2B2822",
+          "background": "#F5E9D6",
+          "ratio": 12.2498,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: SNODO",
+          "foreground": "#2B2822",
+          "background": "#F5E9D6",
+          "ratio": 12.2498,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Proposta visiva · contenuti demo",
+          "foreground": "#615446",
+          "background": "#F5E9D6",
+          "ratio": 6.1117,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Tipografia",
+          "foreground": "#2B2822",
+          "background": "#FFFCF6",
+          "ratio": 14.3472,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: BOLDONSE",
+          "foreground": "#2B2822",
+          "background": "#FFFCF6",
+          "ratio": 14.3472,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: QUESTO È UN TITOLO",
+          "foreground": "#2B2822",
+          "background": "#FFFCF6",
+          "ratio": 14.3472,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Forma DJR Text",
+          "foreground": "#2B2822",
+          "background": "#FFFCF6",
+          "ratio": 14.3472,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Questo è un testo.",
+          "foreground": "#2B2822",
+          "background": "#FFFCF6",
+          "ratio": 14.3472,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Palette colori",
+          "foreground": "#2B2822",
+          "background": "#FFFCF6",
+          "ratio": 14.3472,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Rosa argilla",
+          "foreground": "#2B2822",
+          "background": "#E8B4A2",
+          "ratio": 8.0327,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: #E8B4A2",
+          "foreground": "#2B2822",
+          "background": "#E8B4A2",
+          "ratio": 8.0327,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Oliva",
+          "foreground": "#2B2822",
+          "background": "#A8B786",
+          "ratio": 6.8442,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: #A8B786",
+          "foreground": "#2B2822",
+          "background": "#A8B786",
+          "ratio": 6.8442,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Terracotta",
+          "foreground": "#2B2822",
+          "background": "#D87556",
+          "ratio": 4.6166,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: #D87556",
+          "foreground": "#2B2822",
+          "background": "#D87556",
+          "ratio": 4.6166,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Ocra",
+          "foreground": "#2B2822",
+          "background": "#E6B957",
+          "ratio": 8.005,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: #E6B957",
+          "foreground": "#2B2822",
+          "background": "#E6B957",
+          "ratio": 8.005,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Crema  #F5E9D6",
+          "foreground": "#2B2822",
+          "background": "#F5E9D6",
+          "ratio": 12.2498,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Elementi grafici",
+          "foreground": "#2B2822",
+          "background": "#FFFCF6",
+          "ratio": 14.3472,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Pulsanti e tag",
+          "foreground": "#2B2822",
+          "background": "#FFFCF6",
+          "ratio": 14.3472,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: icona arrow",
+          "foreground": "#2B2822",
+          "background": "#F5E9D6",
+          "ratio": 12.2498,
+          "threshold": 3,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Continua",
+          "foreground": "#2B2822",
+          "background": "#F5E9D6",
+          "ratio": 12.2498,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: icona compass",
+          "foreground": "#2B2822",
+          "background": "#F5E9D6",
+          "ratio": 12.2498,
+          "threshold": 3,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Continua",
+          "foreground": "#F5E9D6",
+          "background": "#2B2822",
+          "ratio": 12.2498,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: icona compass",
+          "foreground": "#F5E9D6",
+          "background": "#2B2822",
+          "ratio": 12.2498,
+          "threshold": 3,
+          "status": "PASS"
+        },
+        {
+          "use": "board: all’aperto",
+          "foreground": "#2B2822",
+          "background": "#E8B4A2",
+          "ratio": 8.0327,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: culturale",
+          "foreground": "#2B2822",
+          "background": "#A8B786",
+          "ratio": 6.8442,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: con gli amici",
+          "foreground": "#2B2822",
+          "background": "#E6B957",
+          "ratio": 8.005,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Anteprima locale",
+          "foreground": "#2B2822",
+          "background": "#FFFCF6",
+          "ratio": 14.3472,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Anteprima recensione",
+          "foreground": "#2B2822",
+          "background": "#FFFCF6",
+          "ratio": 14.3472,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: all’aperto",
+          "foreground": "#2B2822",
+          "background": "#E8B4A2",
+          "ratio": 8.0327,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: con amici",
+          "foreground": "#2B2822",
+          "background": "#A8B786",
+          "ratio": 6.8442,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: CORTILE UNO",
+          "foreground": "#2B2822",
+          "background": "#D87556",
+          "ratio": 4.6166,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: icona pin",
+          "foreground": "#2B2822",
+          "background": "#D87556",
+          "ratio": 4.6166,
+          "threshold": 3,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Roma · San Lorenzo",
+          "foreground": "#2B2822",
+          "background": "#D87556",
+          "ratio": 4.6166,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: 12–18 € / persona",
+          "foreground": "#2B2822",
+          "background": "#D87556",
+          "ratio": 4.6166,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Luca · visita con amici",
+          "foreground": "#2B2822",
+          "background": "#D87556",
+          "ratio": 4.6166,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: “Potevamo parlare senza alzare la",
+          "foreground": "#2B2822",
+          "background": "#D87556",
+          "ratio": 4.6166,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: voce.”",
+          "foreground": "#2B2822",
+          "background": "#D87556",
+          "ratio": 4.6166,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Leggi il racconto",
+          "foreground": "#F5E9D6",
+          "background": "#2B2822",
+          "ratio": 12.2498,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Luca",
+          "foreground": "#2B2822",
+          "background": "#FFFCF6",
+          "ratio": 14.3472,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Visita di settembre · demo",
+          "foreground": "#615446",
+          "background": "#FFFCF6",
+          "ratio": 7.1581,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: “Una pausa all’aperto. Al nostro",
+          "foreground": "#2B2822",
+          "background": "#FFFCF6",
+          "ratio": 14.3472,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: tavolo riuscivamo a parlare.”",
+          "foreground": "#2B2822",
+          "background": "#FFFCF6",
+          "ratio": 14.3472,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Leggi la visita →",
+          "foreground": "#2B2822",
+          "background": "#FFFCF6",
+          "ratio": 14.3472,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Chiara",
+          "foreground": "#2B2822",
+          "background": "#FFFCF6",
+          "ratio": 14.3472,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Visita di settembre · demo",
+          "foreground": "#615446",
+          "background": "#FFFCF6",
+          "ratio": 7.1581,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: “Nel pomeriggio ho trovato un",
+          "foreground": "#2B2822",
+          "background": "#FFFCF6",
+          "ratio": 14.3472,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: tavolino libero per leggere.”",
+          "foreground": "#2B2822",
+          "background": "#FFFCF6",
+          "ratio": 14.3472,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Leggi la visita →",
+          "foreground": "#2B2822",
+          "background": "#FFFCF6",
+          "ratio": 14.3472,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Interfaccia",
+          "foreground": "#2B2822",
+          "background": "#FFFCF6",
+          "ratio": 14.3472,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Profilo del luogo · esempio",
+          "foreground": "#2B2822",
+          "background": "#FFFCF6",
+          "ratio": 14.3472,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: icona pin",
+          "foreground": "#F5E9D6",
+          "background": "#2B2822",
+          "ratio": 12.2498,
+          "threshold": 3,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Qui trovi Cortile Uno",
+          "foreground": "#2B2822",
+          "background": "#FFFCF6",
+          "ratio": 14.3472,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: all’aperto",
+          "foreground": "#2B2822",
+          "background": "#E8B4A2",
+          "ratio": 8.0327,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: con amici",
+          "foreground": "#2B2822",
+          "background": "#A8B786",
+          "ratio": 6.8442,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: icona bookmark",
+          "foreground": "#2B2822",
+          "background": "#D87556",
+          "ratio": 4.6166,
+          "threshold": 3,
+          "status": "PASS"
+        },
+        {
+          "use": "board: CORTILE UNO",
+          "foreground": "#2B2822",
+          "background": "#D87556",
+          "ratio": 4.6166,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Roma · San Lorenzo",
+          "foreground": "#2B2822",
+          "background": "#D87556",
+          "ratio": 4.6166,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: 12–18 € / persona   ·   16:00–23:00",
+          "foreground": "#2B2822",
+          "background": "#D87556",
+          "ratio": 4.6166,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Foto del locale",
+          "foreground": "#2B2822",
+          "background": "#D87556",
+          "ratio": 4.6166,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Foto degli utenti",
+          "foreground": "#2B2822",
+          "background": "#D87556",
+          "ratio": 4.6166,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Luca",
+          "foreground": "#2B2822",
+          "background": "#FFFCF6",
+          "ratio": 14.3472,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Chiara",
+          "foreground": "#2B2822",
+          "background": "#FFFCF6",
+          "ratio": 14.3472,
+          "threshold": 4.5,
+          "status": "PASS"
+        }
+      ],
+      "failures": []
+    },
+    {
+      "variant": "pop",
+      "svg": "Confronto_Pop_Calda.svg",
+      "png": "Confronto_Pop_Calda.png",
+      "overflows": [],
+      "contrastPairs": [
+        {
+          "use": "board: POP / CONFRONTO",
+          "foreground": "#000000",
+          "background": "#80EFED",
+          "ratio": 15.4873,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: SNODO",
+          "foreground": "#000000",
+          "background": "#80EFED",
+          "ratio": 15.4873,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Proposta visiva · contenuti demo",
+          "foreground": "#4B4B4B",
+          "background": "#80EFED",
+          "ratio": 6.4337,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Tipografia",
+          "foreground": "#000000",
+          "background": "#FFFFFF",
+          "ratio": 21.0,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: BOLDONSE",
+          "foreground": "#000000",
+          "background": "#FFFFFF",
+          "ratio": 21.0,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: QUESTO È UN TITOLO",
+          "foreground": "#000000",
+          "background": "#FFFFFF",
+          "ratio": 21.0,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Forma DJR Text",
+          "foreground": "#000000",
+          "background": "#FFFFFF",
+          "ratio": 21.0,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Questo è un testo.",
+          "foreground": "#000000",
+          "background": "#FFFFFF",
+          "ratio": 21.0,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Palette colori",
+          "foreground": "#000000",
+          "background": "#FFFFFF",
+          "ratio": 21.0,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Rosa",
+          "foreground": "#000000",
+          "background": "#FD87BA",
+          "ratio": 9.3512,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: #FD87BA",
+          "foreground": "#000000",
+          "background": "#FD87BA",
+          "ratio": 9.3512,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Lime",
+          "foreground": "#000000",
+          "background": "#ADE25D",
+          "ratio": 13.8135,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: #ADE25D",
+          "foreground": "#000000",
+          "background": "#ADE25D",
+          "ratio": 13.8135,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Viola",
+          "foreground": "#000000",
+          "background": "#9E6CDA",
+          "ratio": 5.6112,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: #9E6CDA",
+          "foreground": "#000000",
+          "background": "#9E6CDA",
+          "ratio": 5.6112,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Giallo",
+          "foreground": "#000000",
+          "background": "#FCEC52",
+          "ratio": 17.2591,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: #FCEC52",
+          "foreground": "#000000",
+          "background": "#FCEC52",
+          "ratio": 17.2591,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Turchese  #80EFED",
+          "foreground": "#000000",
+          "background": "#80EFED",
+          "ratio": 15.4873,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Elementi grafici",
+          "foreground": "#000000",
+          "background": "#FFFFFF",
+          "ratio": 21.0,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Pulsanti e tag",
+          "foreground": "#000000",
+          "background": "#FFFFFF",
+          "ratio": 21.0,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: icona arrow",
+          "foreground": "#000000",
+          "background": "#80EFED",
+          "ratio": 15.4873,
+          "threshold": 3,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Continua",
+          "foreground": "#000000",
+          "background": "#80EFED",
+          "ratio": 15.4873,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: icona compass",
+          "foreground": "#000000",
+          "background": "#80EFED",
+          "ratio": 15.4873,
+          "threshold": 3,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Continua",
+          "foreground": "#80EFED",
+          "background": "#000000",
+          "ratio": 15.4873,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: icona compass",
+          "foreground": "#80EFED",
+          "background": "#000000",
+          "ratio": 15.4873,
+          "threshold": 3,
+          "status": "PASS"
+        },
+        {
+          "use": "board: all’aperto",
+          "foreground": "#000000",
+          "background": "#FD87BA",
+          "ratio": 9.3512,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: culturale",
+          "foreground": "#000000",
+          "background": "#ADE25D",
+          "ratio": 13.8135,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: con gli amici",
+          "foreground": "#000000",
+          "background": "#FCEC52",
+          "ratio": 17.2591,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Anteprima locale",
+          "foreground": "#000000",
+          "background": "#FFFFFF",
+          "ratio": 21.0,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Anteprima recensione",
+          "foreground": "#000000",
+          "background": "#FFFFFF",
+          "ratio": 21.0,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: all’aperto",
+          "foreground": "#000000",
+          "background": "#FD87BA",
+          "ratio": 9.3512,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: con amici",
+          "foreground": "#000000",
+          "background": "#ADE25D",
+          "ratio": 13.8135,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: CORTILE UNO",
+          "foreground": "#000000",
+          "background": "#80EFED",
+          "ratio": 15.4873,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: icona pin",
+          "foreground": "#000000",
+          "background": "#80EFED",
+          "ratio": 15.4873,
+          "threshold": 3,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Roma · San Lorenzo",
+          "foreground": "#000000",
+          "background": "#80EFED",
+          "ratio": 15.4873,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: 12–18 € / persona",
+          "foreground": "#000000",
+          "background": "#80EFED",
+          "ratio": 15.4873,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Luca · visita con amici",
+          "foreground": "#000000",
+          "background": "#80EFED",
+          "ratio": 15.4873,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: “Potevamo parlare senza alzare la",
+          "foreground": "#000000",
+          "background": "#80EFED",
+          "ratio": 15.4873,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: voce.”",
+          "foreground": "#000000",
+          "background": "#80EFED",
+          "ratio": 15.4873,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Leggi il racconto",
+          "foreground": "#80EFED",
+          "background": "#000000",
+          "ratio": 15.4873,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Luca",
+          "foreground": "#000000",
+          "background": "#FFFFFF",
+          "ratio": 21.0,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Visita di settembre · demo",
+          "foreground": "#4B4B4B",
+          "background": "#FFFFFF",
+          "ratio": 8.7238,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: “Una pausa all’aperto. Al nostro",
+          "foreground": "#000000",
+          "background": "#FFFFFF",
+          "ratio": 21.0,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: tavolo riuscivamo a parlare.”",
+          "foreground": "#000000",
+          "background": "#FFFFFF",
+          "ratio": 21.0,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Leggi la visita →",
+          "foreground": "#000000",
+          "background": "#FFFFFF",
+          "ratio": 21.0,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Chiara",
+          "foreground": "#000000",
+          "background": "#FFFFFF",
+          "ratio": 21.0,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Visita di settembre · demo",
+          "foreground": "#4B4B4B",
+          "background": "#FFFFFF",
+          "ratio": 8.7238,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: “Nel pomeriggio ho trovato un",
+          "foreground": "#000000",
+          "background": "#FFFFFF",
+          "ratio": 21.0,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: tavolino libero per leggere.”",
+          "foreground": "#000000",
+          "background": "#FFFFFF",
+          "ratio": 21.0,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Leggi la visita →",
+          "foreground": "#000000",
+          "background": "#FFFFFF",
+          "ratio": 21.0,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Interfaccia",
+          "foreground": "#000000",
+          "background": "#FFFFFF",
+          "ratio": 21.0,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Profilo del luogo · esempio",
+          "foreground": "#000000",
+          "background": "#FFFFFF",
+          "ratio": 21.0,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: icona pin",
+          "foreground": "#80EFED",
+          "background": "#000000",
+          "ratio": 15.4873,
+          "threshold": 3,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Qui trovi Cortile Uno",
+          "foreground": "#000000",
+          "background": "#FFFFFF",
+          "ratio": 21.0,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: all’aperto",
+          "foreground": "#000000",
+          "background": "#FD87BA",
+          "ratio": 9.3512,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: con amici",
+          "foreground": "#000000",
+          "background": "#ADE25D",
+          "ratio": 13.8135,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: icona bookmark",
+          "foreground": "#000000",
+          "background": "#80EFED",
+          "ratio": 15.4873,
+          "threshold": 3,
+          "status": "PASS"
+        },
+        {
+          "use": "board: CORTILE UNO",
+          "foreground": "#000000",
+          "background": "#80EFED",
+          "ratio": 15.4873,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Roma · San Lorenzo",
+          "foreground": "#000000",
+          "background": "#80EFED",
+          "ratio": 15.4873,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: 12–18 € / persona   ·   16:00–23:00",
+          "foreground": "#000000",
+          "background": "#80EFED",
+          "ratio": 15.4873,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Foto del locale",
+          "foreground": "#000000",
+          "background": "#80EFED",
+          "ratio": 15.4873,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Foto degli utenti",
+          "foreground": "#000000",
+          "background": "#80EFED",
+          "ratio": 15.4873,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Luca",
+          "foreground": "#000000",
+          "background": "#FFFFFF",
+          "ratio": 21.0,
+          "threshold": 4.5,
+          "status": "PASS"
+        },
+        {
+          "use": "board: Chiara",
+          "foreground": "#000000",
+          "background": "#FFFFFF",
+          "ratio": 21.0,
+          "threshold": 4.5,
+          "status": "PASS"
+        }
+      ],
+      "failures": []
+    }
+  ],
+  "limits": [
+    "Non sostituisce la Calda attuale o i token del prototipo.",
+    "Non è una scelta dei partecipanti.",
+    "Controlli di colori e geometria non sono un audit WCAG completo.",
+    "Boldonse è convertito in contorni SVG; corpo nativo Helvetica Neue."
+  ],
+  "publication_note": "Copia per consultazione: i controlli e gli hash di origine descrivono gli asset del workspace. I percorsi locali sono stati normalizzati; il manifest di pubblicazione descrive i file distribuiti."
+}

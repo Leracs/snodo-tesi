@@ -1,8 +1,8 @@
-@import url('06_design_system/tokens_A.css');
-@import url('06_design_system/tokens_B.css');
+@import url('06_design_system/tokens_A.css?v=86f59cd7222b');
+@import url('06_design_system/tokens_B.css?v=cada0f36d4a6');
 :root { --site-font-heading:'Boldonse',sans-serif; --site-font-body:'Forma DJR Text','Helvetica Neue',Helvetica,sans-serif; --paper:#80EFED; --ink:#000; --accent:#713799; --line:#BDBDB5; --site-soft:#E9DDF0; --site-calm:#E4FAF6; --site-hero-bg:#80EFED; --site-hero-ink:#000; --site-on-primary:#80EFED; }
 html[data-site-theme] { --paper:var(--background); --ink:var(--text); --accent:var(--dataAccent); --line:var(--divider); --site-font-heading:var(--font-heading); --site-font-body:var(--font-body); --site-soft:var(--dataAccentSoft); --site-calm:var(--atmosphereBg); --site-on-primary:var(--onPrimary); }
-html[data-site-theme='A'] { --site-hero-bg:#2F4035; --site-hero-ink:#FFFCF7; }
+html[data-site-theme='A'] { --site-hero-bg:var(--surface); --site-hero-ink:var(--text); }
 html[data-site-theme='B'] { --site-hero-bg:#80EFED; --site-hero-ink:#000; }
 body { font-family:var(--site-font-body); }
 .site-theme-choice { display:flex; align-items:center; gap:8px; font:14px/20px var(--site-font-body); color:var(--ink); flex-shrink:0; }
@@ -153,3 +153,12 @@ body[data-site-layout="standalone"]>h1,body[data-site-layout="standalone"]>p { m
 @media screen { html { scroll-padding-top:84px; } }
 @media screen and (max-width:1000px) { html { scroll-padding-top:128px; } }
 @media screen and (max-width:520px) { html { scroll-padding-top:176px; } }
+
+/* Direzione Calda alternativa: Mali 600 per i titoli, corpo lineare. */
+html[data-site-theme='A'] :is(.document-header h1,.prose h2,.prose h3,.home-feature h2,.home-route h2,.home-route h3,.hub-section-heading h2,.reading-summary h3,.figure-collection-card h3,.area-card h2,.next-step-panel h2,.ds-hero h1,.ds-feature-copy h2,.ds-section>h2,.ds-extension h2,.ds-discovery-title h2,.inline-figure .figure-title,.reading-rule h2,.library-group h3,.revision-panel h2){font-family:var(--site-font-heading);font-weight:600;line-height:1.35;letter-spacing:0;overflow-wrap:anywhere}
+html[data-site-theme='A'] .home-feature{border:1px solid var(--divider);border-radius:22px}
+html[data-site-theme='A'] .home-feature h2{font-size:clamp(32px,3.5vw,48px)}
+html[data-site-theme='A'] .ds-demo .sd-place h3{font-weight:600;letter-spacing:0}
+html[data-site-theme='A'] body[data-theme='A'] .workbench{padding:24px;background:var(--surface);border:1px solid var(--divider);border-radius:22px}
+html[data-site-theme='A'] body[data-theme='A'] .workbench h1{margin-top:0;font-weight:600;letter-spacing:0}
+@media(max-width:780px){html[data-site-theme='A'] body[data-theme='A'] .workbench{padding:18px}}

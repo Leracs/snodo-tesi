@@ -1,0 +1,125 @@
+{
+  "generatedAt": "2026-10-11T15:47:02.397898+00:00",
+  "type": "technical_colour_pairs",
+  "reference": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html",
+  "checks": [
+    {
+      "role": "Testo principale",
+      "foreground": "#102D2B",
+      "background": "#80EFED",
+      "ratio": 10.813132997672705,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "role": "Testo principale",
+      "foreground": "#102D2B",
+      "background": "#FFFFFF",
+      "ratio": 14.662041327129572,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "role": "Testo principale",
+      "foreground": "#102D2B",
+      "background": "#EDF8F5",
+      "ratio": 13.507496402868846,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "role": "Testo secondario",
+      "foreground": "#315452",
+      "background": "#80EFED",
+      "ratio": 6.144392646292678,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "role": "Testo secondario",
+      "foreground": "#315452",
+      "background": "#FFFFFF",
+      "ratio": 8.3314742294804,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "role": "Testo secondario",
+      "foreground": "#315452",
+      "background": "#EDF8F5",
+      "ratio": 7.675422246769285,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "role": "Testo CTA",
+      "foreground": "#FFFFFF",
+      "background": "#102D2B",
+      "ratio": 14.662041327129572,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "role": "Testo hover CTA",
+      "foreground": "#FFFFFF",
+      "background": "#174A43",
+      "ratio": 10.014339813513947,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "role": "Focus su acqua",
+      "foreground": "#102D2B",
+      "background": "#80EFED",
+      "ratio": 10.813132997672705,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "role": "Focus su bianco",
+      "foreground": "#102D2B",
+      "background": "#FFFFFF",
+      "ratio": 14.662041327129572,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "role": "Bordo su acqua",
+      "foreground": "#4F7974",
+      "background": "#80EFED",
+      "ratio": 3.585366924798831,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "role": "Bordo su bianco",
+      "foreground": "#4F7974",
+      "background": "#FFFFFF",
+      "ratio": 4.861569541005204,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "role": "Icona salvato",
+      "foreground": "#102D2B",
+      "background": "#D9F5EF",
+      "ratio": 12.747391581100114,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "role": "CTA Pop esterna",
+      "foreground": "#80EFED",
+      "background": "#000000",
+      "ratio": 15.487324574032014,
+      "minimum": 4.5,
+      "pass": true
+    }
+  ],
+  "passed": 14,
+  "limitations": [
+    "Non è un audit completo WCAG.",
+    "Foto senza testo sovrapposto; attributi alt verificati separatamente.",
+    "I grafici e il sito esterno mantengono i propri token e non sono interamente ricertificati da questo controllo."
+  ]
+}

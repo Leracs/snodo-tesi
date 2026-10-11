@@ -78,3 +78,5 @@
 .sample-compact .sd-place .sd-review { margin-top:10px; padding:10px; }
 @media(max-width:380px) { .snodo-sample .sd-place-top { flex-wrap:wrap; } .snodo-sample .sd-save { flex:none; } }
 .snodo-sample .sd-main[data-disabled="true"] { background:var(--surfaceMuted); color:var(--muted); border-color:var(--divider); }
+
+[data-theme="A"] .snodo-sample h1,[data-theme="A"] .snodo-sample h2,[data-theme="A"] .snodo-sample h3{font-family:var(--font-heading);font-weight:600;line-height:1.35;letter-spacing:0}

@@ -80,7 +80,7 @@ def tile(s,here):
  c=s.c;bg=c['background'];s.rect(0,0,1440,1840,bg)
  s.heading(80,145,'SNODO',76 if s.theme=='A' else 72,maxw=820,bg=bg)
  s.text(1356,83,'Direzione '+s.theme,14,c['text'],700,anchor='end',record=False,bg=bg)
- s.text(1356,108,'Crema / editoriale' if s.theme=='A' else 'Pop / pastello',14,c['muted'],anchor='end',record=False,bg=bg)
+ s.text(1356,108,'Crema / handwritten' if s.theme=='A' else 'Pop / pastello',14,c['muted'],anchor='end',record=False,bg=bg)
  s.heading(80,244,'Un posto per il tuo momento.',44 if s.theme=='A' else 38,maxw=980,bg=bg)
  s.text(80,288,'Luoghi, persone e informazioni da leggere con calma.',18,c['muted'],bg=bg)
  if s.theme=='B':s.swirl(1130,140,118,c['accentPurple'],10);s.star(1310,236,42,c['accentPink']);s.star(1288,162,17,c['accentYellow'],points=4,inner=.22)
@@ -141,7 +141,7 @@ def tile(s,here):
  s.text(80,1712,'SNODO è un nome provvisorio. Tutti i luoghi, le visite e i valori dell’app in questa tavola sono mock.',16,c['muted'],maxw=1276,bg=bg)
  s.text(80,1746,'Style tile statica · stessa struttura A/B · direzione da confrontare con le tre persone',14,c['muted'],maxw=1276,bg=bg)
  s.text(80,1776,'Componenti a scala mobile 1:1 · tag descrittivi 28 px · filtri interattivi 44 px',14,c['muted'],maxw=1276,bg=bg)
- s.text(80,1806,'Georgia + Trebuchet MS' if s.theme=='A' else 'Boldonse in contorni · corpo: Helvetica Neue (fallback); Forma DJR Text è l’intent non disponibile.',14,c['muted'],maxw=1276,record=False,bg=bg)
+ s.text(80,1806,'Mali SemiBold 600 · corpo Helvetica Neue (fallback); Forma DJR Text è l’intent.' if s.theme=='A' else 'Boldonse in contorni · corpo: Helvetica Neue (fallback); Forma DJR Text è l’intent non disponibile.',14,c['muted'],maxw=1276,record=False,bg=bg)
  return s.save(here/('Style_tile_'+s.theme))
 
 def states(s,ds):

@@ -1,0 +1,32 @@
+{
+  "fontOptions": [
+    {
+      "family": "Kalam",
+      "weight": 700,
+      "source": "https://github.com/google/fonts/tree/main/ofl/kalam"
+    },
+    {
+      "family": "Handlee",
+      "weight": 400,
+      "source": "https://github.com/google/fonts/tree/main/ofl/handlee"
+    }
+  ],
+  "files": [
+    {
+      "file": "Kalam-Bold.ttf",
+      "sha256": "2f6576601db015d4f6c08678120277fc8510b98c06e932ce7a6a9cbff4cbdded"
+    },
+    {
+      "file": "Kalam-OFL.txt",
+      "sha256": "f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f"
+    },
+    {
+      "file": "Handlee-Regular.ttf",
+      "sha256": "7b99c0f291b5d52e06c66498a1d0dd6dff45a32e32d13be089c60d2d8dc00445"
+    },
+    {
+      "file": "Handlee-OFL.txt",
+      "sha256": "5f1f5510eff7922864bf326ffa1d4a62f01add5193e9367b542378e5a808b500"
+    }
+  ]
+}

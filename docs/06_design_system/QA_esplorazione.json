@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-11",
+  "version": "0.6",
+  "status": "PASS",
+  "scope": "Integrazione dei pattern di esplorazione e recensioni nel prototipo HTML e nelle anteprime del design system",
+  "new_components": [
+    "DS18",
+    "DS20",
+    "DS21",
+    "DS22"
+  ],
+  "extended_components": [
+    "DS06",
+    "DS10"
+  ],
+  "prototype_code_checks": {
+    "core_passed": 11,
+    "interactions_passed": 22,
+    "failed": 0,
+    "report": "../07_prototipo/QA_interazioni.json"
+  },
+  "browser": {
+    "transport": "HTTP localhost",
+    "browser": "Codex in-app browser",
+    "widths_checked": [
+      320,
+      390
+    ],
+    "checks": [
+      "Preview e metadati della recensione nella scheda e nella lista",
+      "Dato assente e variante lunga nel catalogo",
+      "Nessun overflow dei nuovi pattern alle larghezze controllate",
+      "Controlli attivi delle anteprime alti almeno 44 px a 320",
+      "Cambio A/B applicato alle stesse anteprime",
+      "Filtri preferiti: corrispondenze, da verificare e altre alternative distinti",
+      "Salvataggio sincronizzato nel marker",
+      "Recensioni aperte e ritorno con i filtri conservati",
+      "CTA sopra la navigazione",
+      "Assistente contestuale reperisce il racconto del luogo corretto",
+      "DS20 presente nel selettore della libreria, con variante Nessuna recensione leggibile"
+    ]
+  },
+  "contrasts_report": "Controlli_esplorazione.json",
+  "limitations": [
+    "Dati mock, nessun test con partecipanti",
+    "Nessuna libreria o prototipo nativo Figma costruiti",
+    "Mappa schematica: no GPS, pan geografico o ricerca entro bounds reali",
+    "Campioni statici e tavole wireframe baseline non migrati"
+  ],
+  "sources": [
+    {
+      "file": "06_design_system/esplorazione.js",
+      "sha256": "42d46d5b539eaaf72f1ce53a03e3e28269d03002a98c7c5030277fc4fa4e079e"
+    },
+    {
+      "file": "06_design_system/esplorazione.css",
+      "sha256": "148cdde803e912efbeaebc4e4b334b0a56e9e24ab2a069bccf703bf66e40401c"
+    },
+    {
+      "file": "06_design_system/esplorazione-catalogo.js",
+      "sha256": "d04b19efccaddb89208f6d4e87739cf1c0d779ccb0fc0523e97d5198e9b98a23"
+    },
+    {
+      "file": "06_design_system/Esplorazione_demo.html",
+      "sha256": "d24273ecd1e6d657265ba566dae08d3c8bebb3358d0ff6575b1bfb74382c92b9"
+    },
+    {
+      "file": "06_design_system/Componenti_e_comportamenti.json",
+      "sha256": "3f5185ba5324a1f54db45b6005b55c389132606435110ec71b55311d5843d9ea"
+    },
+    {
+      "file": "06_design_system/Corrispondenza_componenti_IA_DS.json",
+      "sha256": "a0b8a27ca27e32e51d5cd3f6975703a2777844bed099629d7db02df1e0f04e9d"
+    },
+    {
+      "file": "06_design_system/tokens_A.json",
+      "sha256": "0517f1b96bd21c3ab333dd8e8a64b53cdee442b316e75af26bb6879252af917a"
+    },
+    {
+      "file": "06_design_system/tokens_B.json",
+      "sha256": "78b33519595ee6114585447c182eff994180916b6abd3d0932b0b7fab0686d77"
+    },
+    {
+      "file": "07_prototipo/app.js",
+      "sha256": "9d832f6baefe8fcb2ba364816fc69360ded5fefec5d6a3119196e44a9f5fe997"
+    },
+    {
+      "file": "07_prototipo/core.js",
+      "sha256": "fd47192e924161cdffa7eb26ade07c106fa5333d5532348722b211cccfb29975"
+    },
+    {
+      "file": "07_prototipo/index.html",
+      "sha256": "366907dcad49fbba0448fabd84555476fa685489c87fa6be71d94def6a0526fc"
+    }
+  ],
+  "package_snapshot": {
+    "status": "PASS_at_generation",
+    "archive": "../Costruzione_tesi_UX_UI_v01.zip",
+    "files": 328,
+    "note": "Snapshot verificato dell’integrazione. La successiva esportazione SVG e il tema generale sono in aggiornamento nell’altra chat; questo controllo non certifica i file che verranno aggiunti lì."
+  },
+  "publication_note": "Copia per consultazione: i controlli e gli hash di origine descrivono gli asset del workspace. I percorsi locali sono stati normalizzati; il manifest di pubblicazione descrive i file distribuiti."
+}

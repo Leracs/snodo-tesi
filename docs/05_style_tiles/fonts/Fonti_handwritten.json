@@ -1,0 +1,24 @@
+{
+  "fonts": [
+    {
+      "file": "Caveat-Variable.ttf",
+      "family": "Caveat",
+      "source": "https://github.com/google/fonts/tree/main/ofl/caveat",
+      "license": "Caveat-OFL.txt",
+      "sha256": "0bdb6b660482d31531b3945849fba5916b3ef8695da7024a9e6b9ee3c4157988"
+    },
+    {
+      "file": "PatrickHand-Regular.ttf",
+      "family": "Patrick Hand",
+      "source": "https://github.com/google/fonts/tree/main/ofl/patrickhand",
+      "license": "PatrickHand-OFL.txt",
+      "sha256": "0f173b3e6cb6d1af25babf7f0057c5ac4ee11f9992b0469bb817e967ef4ad0fc"
+    }
+  ],
+  "previewInstance": {
+    "file": "Caveat-SemiBold.ttf",
+    "source": "Caveat-Variable.ttf",
+    "weight": 600,
+    "method": "fontTools instantiateVariableFont"
+  }
+}

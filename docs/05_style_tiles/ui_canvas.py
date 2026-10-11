@@ -31,7 +31,7 @@ class Canvas:
   self.parts.append(f'<circle cx="{x}" cy="{y}" r="{r}" fill="{fill}"'+(f' stroke="{stroke}" stroke-width="{sw}"' if stroke else '')+'/>')
  def width(self,s,size=16,weight=400,family=None):
   fam=family or self.t.get('body','Trebuchet MS');width=self.font(fam,size,weight).getlength(s)
-  if fam=='Boldonse':width=max(width,self.outliner(s,size,fam,weight)[1])
+  if fam in ('Boldonse','Mali'):width=max(width,self.outliner(s,size,fam,weight)[1])
   return width
  def text(self,x,y,s,size=16,color=None,weight=400,family=None,anchor='start',maxw=None,record=True,bg=None):
   fam=family or self.t.get('body','Trebuchet MS');color=color or self.c['text'];width=self.width(s,size,weight,fam)
@@ -39,7 +39,7 @@ class Canvas:
   left=x-width if anchor=='end' else x-width/2 if anchor=='middle' else x
   bbox=self.font(fam,size,weight).getbbox(s,anchor='ls')
   if left+min(0,bbox[0])<-.5 or left+width>self.w+.5 or y+bbox[1]<-.5 or y+bbox[3]>self.h+.5:self.overflows.append({'component':self.component,'text':s,'reason':'canvas bounds'})
-  if fam=='Boldonse':
+  if fam in ('Boldonse','Mali'):
    paths,pw=self.outliner(s,size,fam,weight);px=x-pw if anchor=='end' else x-pw/2 if anchor=='middle' else x
    self.parts.append(f'<g transform="translate({px:.3f} {y})" fill="{color}" data-text="{escape(s,quote=True)}" data-font="{escape(fam,quote=True)}" data-size="{size}" data-weight="{weight}" aria-label="{escape(s,quote=True)}"><title>{escape(s)}</title>{paths}</g>')
    self.sources.append({'text':s,'x':x,'baseline':y,'size':size,'weight':weight,'font':fam,'svg':'glyph outlines from actual local font file'})

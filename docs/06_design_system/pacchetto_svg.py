@@ -23,13 +23,14 @@ temporary = archive.with_suffix('.zip.tmp')
 with zipfile.ZipFile(temporary, 'w', zipfile.ZIP_DEFLATED) as package:
     files = [(root / entry['file'], Path(entry['file']).name) for entry in entries]
     files += [(root / 'SVG_manifest.json', 'manifest.json'),
-              (root / '../05_style_tiles/fonts/OFL.txt', 'Boldonse-OFL.txt')]
+              (root / '../05_style_tiles/fonts/OFL.txt', 'Boldonse-OFL.txt'),
+              (root / '../05_style_tiles/fonts/Mali-OFL.txt', 'Mali-OFL.txt')]
     for source, name in files:
         info = zipfile.ZipInfo(name, (2026, 10, 11, 0, 0, 0))
         info.compress_type = zipfile.ZIP_DEFLATED
         package.writestr(info, source.read_bytes())
     info = zipfile.ZipInfo('LEGGIMI.txt', (2026, 10, 11, 0, 0, 0))
     info.compress_type = zipfile.ZIP_DEFLATED
-    package.writestr(info, f'SNODO · {len(entries)} visuali SVG dei 22 componenti e della composizione Atmosfera/Affluenza. Pop (B) principale; Calda (A) alternativa. Testi modificabili, forme e icone vettoriali. Boldonse incorporato in Pop, licenza OFL inclusa. Font del corpo: fallback di sistema. Layout acquisiti a 390 px. Visuali statici: le interazioni rimangono nel prototipo. Importazione Figma non verificata.\n')
+    package.writestr(info, f'SNODO · {len(entries)} visuali SVG dei 22 componenti e della composizione Atmosfera/Affluenza. Pop (B) è lo stile principale; Calda (A) con Mali SemiBold 600 è l’alternativa. Testi modificabili, forme e icone vettoriali. Mali 600 incorporato in Calda e Boldonse in Pop; licenze OFL incluse. Font del corpo: fallback di sistema. Layout acquisiti a 390 px. Visuali statici: le interazioni rimangono nel prototipo. Importazione Figma non verificata.\n')
 os.replace(temporary, archive)
 print(f'{len(entries)} SVG validati; archivio aggiornato ({archive.stat().st_size} byte).')

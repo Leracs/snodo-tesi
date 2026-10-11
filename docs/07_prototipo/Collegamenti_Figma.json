@@ -1,0 +1,1464 @@
+{
+  "version": "0.1",
+  "status": "specifica_non_verificata_nativamente",
+  "connections": [
+    {
+      "origine": "S01",
+      "hotspot": "Esplora nella città scelta",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S02",
+      "regola": "Città manuale; nessun GPS necessario",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S01",
+      "hotspot": "Posizione non concessa",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S01-R",
+      "regola": "Evento predisposto, nessuna autorizzazione reale nel test",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S01-R",
+      "hotspot": "Scegli città manualmente",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S02",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S02",
+      "hotspot": "Ricerca",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S03",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S02",
+      "hotspot": "Cambia città / filtri",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S04",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S02",
+      "hotspot": "Marker / card luogo",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S05-RID",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S02",
+      "hotspot": "Assistente",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S10",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S03",
+      "hotspot": "Filtri",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S04",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S03",
+      "hotspot": "Mappa",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S02",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S03",
+      "hotspot": "Card luogo",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S05",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S03",
+      "hotspot": "Assistente",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S10",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S03",
+      "hotspot": "Combinazione senza corrispondenze",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S03-R",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S03-R",
+      "hotspot": "Modifica criteri",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S04",
+      "regola": "Conserva città e vincoli finché non modificati esplicitamente",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S04",
+      "hotspot": "Applica criteri con risultati",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S03",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S04",
+      "hotspot": "Applica criteri senza risultati",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S03-R",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S05-RID",
+      "hotspot": "Espandi pannello",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S05",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S05",
+      "hotspot": "Espandi dettaglio",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S05-ESP",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S05-ESP",
+      "hotspot": "Riduci pannello",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S05",
+      "regola": "Conserva luogo, criteri e punto della mappa",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S05",
+      "hotspot": "Atmosfera",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S06",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S05",
+      "hotspot": "Galleria",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S07",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S05",
+      "hotspot": "Recensioni",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S08",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S05",
+      "hotspot": "Origine del dato",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S09",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S05",
+      "hotspot": "Proponi agli amici",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S12",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S05",
+      "hotspot": "Racconta visita",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S15",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S05",
+      "hotspot": "Come arrivare",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S21",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S05",
+      "hotspot": "Assistente",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S10",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S05",
+      "hotspot": "Salva luogo",
+      "trigger": "On click",
+      "azione": "Change to / variabile",
+      "destinazione": "S05",
+      "regola": "Resta nella scheda; cambia stato del salvataggio, ID unico",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S05-ESP",
+      "hotspot": "Atmosfera",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S06",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S05-ESP",
+      "hotspot": "Galleria",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S07",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S05-ESP",
+      "hotspot": "Recensioni",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S08",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S05-ESP",
+      "hotspot": "Origine del dato",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S09",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S05-ESP",
+      "hotspot": "Proponi agli amici",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S12",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S05-ESP",
+      "hotspot": "Racconta visita",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S15",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S05-ESP",
+      "hotspot": "Come arrivare",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S21",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S05-ESP",
+      "hotspot": "Assistente",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S10",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S05-ESP",
+      "hotspot": "Salva luogo",
+      "trigger": "On click",
+      "azione": "Change to / variabile",
+      "destinazione": "S05-ESP",
+      "regola": "Resta nella scheda; cambia stato del salvataggio, ID unico",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S06",
+      "hotspot": "Indietro",
+      "trigger": "On click",
+      "azione": "Back",
+      "destinazione": "origine",
+      "regola": "Ripristina oggetto e provenienza; la fonte può essere stata aperta anche da AI/gruppo",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S07",
+      "hotspot": "Indietro",
+      "trigger": "On click",
+      "azione": "Back",
+      "destinazione": "origine",
+      "regola": "Ripristina oggetto e provenienza; la fonte può essere stata aperta anche da AI/gruppo",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S08",
+      "hotspot": "Indietro",
+      "trigger": "On click",
+      "azione": "Back",
+      "destinazione": "origine",
+      "regola": "Ripristina oggetto e provenienza; la fonte può essere stata aperta anche da AI/gruppo",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S09",
+      "hotspot": "Indietro",
+      "trigger": "On click",
+      "azione": "Back",
+      "destinazione": "origine",
+      "regola": "Ripristina oggetto e provenienza; la fonte può essere stata aperta anche da AI/gruppo",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S06",
+      "hotspot": "Origine e limiti",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S09",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S08",
+      "hotspot": "Origine contributo",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S09",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S08",
+      "hotspot": "Scrivi recensione",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S15",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S10",
+      "hotspot": "Richiesta senza città chiara",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S10-C",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S10-C",
+      "hotspot": "Chiarisci città",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S10",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S10",
+      "hotspot": "Applica criteri",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S03",
+      "regola": "Lista e mappa usano la stessa città e criteri",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S10",
+      "hotspot": "Correggi criteri",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S04",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S10",
+      "hotspot": "AI indisponibile",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S10-U",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S10-U",
+      "hotspot": "Percorso manuale",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S03",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S11",
+      "hotspot": "Nuova proposta",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S12",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S11",
+      "hotspot": "Riprendi proposta",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S13",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S12",
+      "hotspot": "Invia inviti",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S12-I",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S12-I",
+      "hotspot": "Vai alla proposta",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S13",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S13",
+      "hotspot": "Esprimi preferenza",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S13-C",
+      "regola": "Preferenza distinta dalla conferma",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S13",
+      "hotspot": "Invoca AI",
+      "trigger": "On click",
+      "azione": "Change to / variabile",
+      "destinazione": "S13",
+      "regola": "Suggerimento, non chiusura della decisione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S13",
+      "hotspot": "Vincoli incompatibili",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S13-R",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S13-R",
+      "hotspot": "Modifica volontariamente un criterio",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S13",
+      "regola": "Nessun allentamento implicito; le conferme precedenti vengono riaperte",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S13-C",
+      "hotspot": "Conferma personale con risposte mancanti",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S14-W",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S13-C",
+      "hotspot": "Tutti aderenti confermati e nessun invito pendente",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S14",
+      "regola": "Evento simulato degli amici, non consenso automatico",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S14",
+      "hotspot": "Riapri / cambia città luogo o vincoli",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S13",
+      "regola": "Invalidate conferme precedenti",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S14",
+      "hotspot": "Apri luogo scelto",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S05",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S14",
+      "hotspot": "Come arrivare",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S21",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S14-W",
+      "hotspot": "Riapri / cambia città luogo o vincoli",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S13",
+      "regola": "Invalidate conferme precedenti",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S14-W",
+      "hotspot": "Apri luogo scelto",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S05",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S14-W",
+      "hotspot": "Come arrivare",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S21",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S15",
+      "hotspot": "Continua al testo",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S16",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S15",
+      "hotspot": "Conserva bozza ed esci",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S20",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S16",
+      "hotspot": "Aiuto AI",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S16-A",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S16-A",
+      "hotspot": "Applica suggerimento alla bozza",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S16",
+      "regola": "Aggiorna soltanto bozza, nessun invio",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S16-A",
+      "hotspot": "Rifiuta suggerimento",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S16",
+      "regola": "Appunti invariati",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S16",
+      "hotspot": "Anteprima",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S17",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S16",
+      "hotspot": "Conserva bozza ed esci",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S20",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S17",
+      "hotspot": "Modifica testo",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S16",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S17",
+      "hotspot": "Invia esplicitamente con destinatari chiari",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S18",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S17",
+      "hotspot": "Errore invio predisposto",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S18-R",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S18-R",
+      "hotspot": "Riprova stesso invio",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S18",
+      "regola": "Controlla stato; bozza e ID non duplicati",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S18-R",
+      "hotspot": "Riprendi bozza",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S16",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S18",
+      "hotspot": "Torna al luogo",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S05",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S19",
+      "hotspot": "Card salvata",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S05",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S19",
+      "hotspot": "Proponi luogo salvato",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S12",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S20",
+      "hotspot": "Riprendi bozza",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S16",
+      "regola": "",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S21",
+      "hotspot": "Simula passaggio Maps e ritorno",
+      "trigger": "On click",
+      "azione": "Back",
+      "destinazione": "origine",
+      "regola": "Nessun tragitto reale per luogo fittizio; stesso contesto al ritorno",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S02",
+      "hotspot": "Navigazione Esplora",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S02",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S02",
+      "hotspot": "Navigazione Salvati",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S19",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S02",
+      "hotspot": "Navigazione Chat",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S11",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S02",
+      "hotspot": "Navigazione Profilo",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S20",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S03",
+      "hotspot": "Navigazione Esplora",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S02",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S03",
+      "hotspot": "Navigazione Salvati",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S19",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S03",
+      "hotspot": "Navigazione Chat",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S11",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S03",
+      "hotspot": "Navigazione Profilo",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S20",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S04",
+      "hotspot": "Navigazione Esplora",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S02",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S04",
+      "hotspot": "Navigazione Salvati",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S19",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S04",
+      "hotspot": "Navigazione Chat",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S11",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S04",
+      "hotspot": "Navigazione Profilo",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S20",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S05",
+      "hotspot": "Navigazione Esplora",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S02",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S05",
+      "hotspot": "Navigazione Salvati",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S19",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S05",
+      "hotspot": "Navigazione Chat",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S11",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S05",
+      "hotspot": "Navigazione Profilo",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S20",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S06",
+      "hotspot": "Navigazione Esplora",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S02",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S06",
+      "hotspot": "Navigazione Salvati",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S19",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S06",
+      "hotspot": "Navigazione Chat",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S11",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S06",
+      "hotspot": "Navigazione Profilo",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S20",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S07",
+      "hotspot": "Navigazione Esplora",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S02",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S07",
+      "hotspot": "Navigazione Salvati",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S19",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S07",
+      "hotspot": "Navigazione Chat",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S11",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S07",
+      "hotspot": "Navigazione Profilo",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S20",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S08",
+      "hotspot": "Navigazione Esplora",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S02",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S08",
+      "hotspot": "Navigazione Salvati",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S19",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S08",
+      "hotspot": "Navigazione Chat",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S11",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S08",
+      "hotspot": "Navigazione Profilo",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S20",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S09",
+      "hotspot": "Navigazione Esplora",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S02",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S09",
+      "hotspot": "Navigazione Salvati",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S19",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S09",
+      "hotspot": "Navigazione Chat",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S11",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S09",
+      "hotspot": "Navigazione Profilo",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S20",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S10",
+      "hotspot": "Navigazione Esplora",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S02",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S10",
+      "hotspot": "Navigazione Salvati",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S19",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S10",
+      "hotspot": "Navigazione Chat",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S11",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S10",
+      "hotspot": "Navigazione Profilo",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S20",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S11",
+      "hotspot": "Navigazione Esplora",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S02",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S11",
+      "hotspot": "Navigazione Salvati",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S19",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S11",
+      "hotspot": "Navigazione Chat",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S11",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S11",
+      "hotspot": "Navigazione Profilo",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S20",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S12",
+      "hotspot": "Navigazione Esplora",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S02",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S12",
+      "hotspot": "Navigazione Salvati",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S19",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S12",
+      "hotspot": "Navigazione Chat",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S11",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S12",
+      "hotspot": "Navigazione Profilo",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S20",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S13",
+      "hotspot": "Navigazione Esplora",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S02",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S13",
+      "hotspot": "Navigazione Salvati",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S19",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S13",
+      "hotspot": "Navigazione Chat",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S11",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S13",
+      "hotspot": "Navigazione Profilo",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S20",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S14",
+      "hotspot": "Navigazione Esplora",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S02",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S14",
+      "hotspot": "Navigazione Salvati",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S19",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S14",
+      "hotspot": "Navigazione Chat",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S11",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S14",
+      "hotspot": "Navigazione Profilo",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S20",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S15",
+      "hotspot": "Navigazione Esplora",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S02",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S15",
+      "hotspot": "Navigazione Salvati",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S19",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S15",
+      "hotspot": "Navigazione Chat",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S11",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S15",
+      "hotspot": "Navigazione Profilo",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S20",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S16",
+      "hotspot": "Navigazione Esplora",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S02",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S16",
+      "hotspot": "Navigazione Salvati",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S19",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S16",
+      "hotspot": "Navigazione Chat",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S11",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S16",
+      "hotspot": "Navigazione Profilo",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S20",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S17",
+      "hotspot": "Navigazione Esplora",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S02",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S17",
+      "hotspot": "Navigazione Salvati",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S19",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S17",
+      "hotspot": "Navigazione Chat",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S11",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S17",
+      "hotspot": "Navigazione Profilo",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S20",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S18",
+      "hotspot": "Navigazione Esplora",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S02",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S18",
+      "hotspot": "Navigazione Salvati",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S19",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S18",
+      "hotspot": "Navigazione Chat",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S11",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S18",
+      "hotspot": "Navigazione Profilo",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S20",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S19",
+      "hotspot": "Navigazione Esplora",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S02",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S19",
+      "hotspot": "Navigazione Salvati",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S19",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S19",
+      "hotspot": "Navigazione Chat",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S11",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S19",
+      "hotspot": "Navigazione Profilo",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S20",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S20",
+      "hotspot": "Navigazione Esplora",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S02",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S20",
+      "hotspot": "Navigazione Salvati",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S19",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S20",
+      "hotspot": "Navigazione Chat",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S11",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S20",
+      "hotspot": "Navigazione Profilo",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S20",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S21",
+      "hotspot": "Navigazione Esplora",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S02",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S21",
+      "hotspot": "Navigazione Salvati",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S19",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S21",
+      "hotspot": "Navigazione Chat",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S11",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    },
+    {
+      "origine": "S21",
+      "hotspot": "Navigazione Profilo",
+      "trigger": "On click",
+      "azione": "Navigate to",
+      "destinazione": "S20",
+      "regola": "Bozza preservata prima di lasciare la composizione",
+      "stato": "da_realizzare_e_verificare_in_Figma"
+    }
+  ]
+}

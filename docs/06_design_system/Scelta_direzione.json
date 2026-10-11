@@ -3,7 +3,7 @@
   "default_theme": "B",
   "default_name": "Pop",
   "alternative_theme": "A",
-  "alternative_name": "Calda",
+  "alternative_name": "Calda · Mali SemiBold 600",
   "decision_author": "progettista",
   "scope": [
     "sito dei materiali",
@@ -12,7 +12,7 @@
     "anteprime"
   ],
   "human_validation": "Non attribuita a test con partecipanti",
-  "preference_storage": "snodo-site-theme-v1",
+  "preference_storage": "snodo-site-theme-pop-mali-v3",
   "reading_surfaces": {
     "page_background": "#80EFED",
     "content_surface": "#FFFFFF",

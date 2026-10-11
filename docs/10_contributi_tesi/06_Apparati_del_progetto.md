@@ -108,7 +108,7 @@ Le figure documentano la proposta progettuale: architettura, flussi, wireframe e
 
 ![Style tile A](../05_style_tiles/Style_tile_A.png)
 
-**Didascalia.** Direzione A, revisione 0.3: crema e terracotta, tipografia editoriale e campioni di componenti a larghezza mobile. La tavola affina gerarchie, spazi e controlli; contenuti e compiti restano confrontabili con B. È una proposta provvisoria, ancora da confrontare con gli utenti.
+**Didascalia.** Direzione A, revisione con Mali SemiBold 600: crema #F6EDE0, verde scuro #022E21 e prugna #33173A. Titoli handwritten senza grazie, corpo lineare, card con preview della recensione e due gallerie. È la direzione alternativa alla Pop, che rimane lo stile principale; il confronto con gli utenti deve ancora avvenire.
 
 [Apri la figura a piena risoluzione](../05_style_tiles/Style_tile_A.png)
 

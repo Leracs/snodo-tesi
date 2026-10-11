@@ -1,6 +1,6 @@
 {
   "variant": "B",
-  "status": "provisional",
+  "status": "selected_by_author",
   "headingFont": "Boldonse",
   "headingWeight": 400,
   "bodyFont": "Helvetica Neue",
@@ -106,5 +106,6 @@
       "detail_media_height": 120,
       "place_action_height": 48
     }
-  }
+  },
+  "selectedBy": "Scelta dell’autore, 11 ottobre 2026; Pop principale, Calda alternativa; non risultato di test con utenti"
 }

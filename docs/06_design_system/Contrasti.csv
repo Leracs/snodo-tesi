@@ -1,26 +1,4 @@
 direzione,primo_piano,sfondo,soglia,criterio,origine,rapporto,esito,uso
-A,#28221F,#F7F1E8,4.5,1.4.3,actual,13.969,PASS,"board: SNODO; board: Direzione A; board: Un posto per il tuo momento.; 01: Sfondo; 01: Superficie; 01: Testo; 01: Azione; 01: Dati limitati; 02: Dove ti va di andare?; 02: Le informazioni utili, prima di scegliere.; board: Gli stessi componenti, nei diversi stati."
-A,#64544A,#F7F1E8,4.5,1.4.3,actual,6.429,PASS,"board: Crema / editoriale; board: Luoghi, persone e informazioni da leggere con calma.; board: LUOGHI; board: PERSONE; board: MOMENTI; 01: #F7F1E8; 01: #FFFCF7; 01: #28221F; 01: #9C432D; 01: #795000; 02: Titolo 24 · corpo 16 / 24 · nota 14 / 20; board: SNODO è un nome provvisorio. Tutti i luoghi, le visite e i valori dell’app in questa tavola sono mock.; board: Style tile statica · stessa struttura A/B · direzione da confrontare con le tre persone; board: Componenti a scala mobile 1:1 · tag descrittivi 28 px · filtri interattivi 44 px; board: Georgia + Trebuchet MS; board: Specifiche statiche da verificare nel prototipo: nessun test con utenti già svolto.; board: Tavola statica: tastiera, scroll, ingrandimento e lettore di schermo richiedono verifiche nel prototipo."
-A,#28221F,#FFFCF7,4.5,1.4.3,actual,15.326,PASS,"05: Illustrazione dimostrativa; 05: Cortile Uno; 05: 12–18 €; 06: Visite · 18–21 · settembre 2026; 06: Rumore; 06: Luce; 06: Affollamento; 03: Cosa cerchi?; 03: Un aperitivo con amici; 03: Per parlare; 03: Altri criteri; 04: Roma · San Lorenzo; 07: Luca; 07: Potevamo parlare senza alzare la; 07: voce.; 08: Assistente AI; 08: Ho mantenuto Roma e budget fino a 20 €.; 08: Il rumore ha dati limitati.; board: Direzione A; board: Campo: default, focus e errore; board: Cosa cerchi?; board: Un aperitivo con amici; board: Città dell’uscita; board: Filtri e tag: interazione distinta dall’informazione; board: Fino a 20 €; board: Informazione assente ≠ risposta negativa; board: AI indisponibile: il compito può continuare; board: Illustrazione dimostrativa"
-A,#9C432D,#FFFCF7,3,1.4.11,actual,6.305,PASS,05: icona bookmark; 03: icona sparkle; 04: icona sparkle; board: icona bookmark
-A,#64544A,#FFFCF7,3,1.4.11,actual,7.054,PASS,05: icona pin; 03: icona search; 04: icona bookmark; 04: icona chat; 04: icona profile; board: icona search
-A,#64544A,#FFFCF7,4.5,1.4.3,actual,7.054,PASS,"05: Roma · San Lorenzo; 05: a persona; 05: Prezzo: gestore · 01/10/2026; 05: Dati dimostrativi; 06: 2/5; 06: 3/5; 06: Scala: 1 intensità bassa; 5 alta.; 06: Copertura: 3 visite mock; 2 risposte sul rumore.; 04: Contesto di ricerca modificabile; 04: Salvati; 04: Chat; 04: Profilo; 04: Accesso trasversale, sempre con nome.; 07: Visita: 21 settembre 2026 · 19–21; 07: Contributo e visita dimostrativi · identità; 07: visibile; 08: Catalogo mock · scheda e contributi del luogo; board: Componenti mobili · controllo 48 px · target raccomandato ≥44 px; board: Default; board: Hover; board: Premuto; board: Focus; board: Caricamento; board: Disabilitato; board: Gerarchia; board: Errore; board: Filtri · 44 px; board: Tag · 28 px; board: Target a icona; board: 44 × 44 px · nome accessibile: “Salva luogo”; board: Tab focus visibile · Invio/Spazio attiva · Esc chiude pannelli/dialoghi"
-A,#28221F,#EEE4D7,4.5,1.4.3,actual,12.484,PASS,05: Cortile; 05: Aperitivo; board: Cortile; board: Aperitivo
-A,#FFFFFF,#9C432D,3,1.4.11,actual,6.453,PASS,05: icona arrow; 03: icona arrow; board: icona arrow
-A,#FFFFFF,#9C432D,4.5,1.4.3,actual,6.453,PASS,05: Apri scheda; 03: Esplora luoghi; board: Esplora luoghi
-A,#795000,#FFF0CB,3,1.4.11,actual,6.276,PASS,06: icona warning; 09: icona warning; board: icona warning
-A,#795000,#FFF0CB,4.5,1.4.3,actual,6.276,PASS,06: Utenti · 01/10/2026 · dati limitati e; 06: dimostrativi; 09: Pochi dati; 09: Limite dei dati visibile; board: Rumore: pochi dati; board: Leggi i contributi o modifica il criterio.
-A,#9C432D,#FFFCF7,4.5,1.4.3,actual,6.305,PASS,03: Chiedi all’AI; 04: Cambia; 04: Esplora; 04: Assistente AI; 08: Modifica criteri; board: Chiedi all’AI; board: Annulla
-A,#9C432D,#F6DDD0,3,1.4.11,actual,4.969,PASS,03: icona check; 04: icona compass; 08: icona sparkle; board: icona check
-A,#9C432D,#F6DDD0,4.5,1.4.3,actual,4.969,PASS,03: Fino a 20 €; board: Fino a 20 €
-A,#28221F,#FFFCF7,3,1.4.11,actual,15.326,PASS,03: icona plus
-A,#28221F,#F6DDD0,4.5,1.4.3,actual,12.079,PASS,07: L
-A,#345968,#E6EFF1,4.5,1.4.3,actual,6.48,PASS,08: Simulato; 09: AI simulata; 09: Origine dichiarata; board: Assistente AI non disponibile; board: Usa ricerca e filtri. I criteri restano conservati.
-A,#285844,#E3F0E8,3,1.4.11,actual,6.964,PASS,09: icona check
-A,#285844,#E3F0E8,4.5,1.4.3,actual,6.964,PASS,09: Contributo inviato; 09: Dopo l’invio esplicito
-A,#A0302C,#FBE4DF,3,1.4.11,actual,5.845,PASS,09: icona error
-A,#A0302C,#FBE4DF,4.5,1.4.3,actual,5.845,PASS,09: Invio non riuscito; 09: Bozza conservata
-A,#345968,#E6EFF1,3,1.4.11,actual,6.48,PASS,09: icona info; board: icona info
 B,#000000,#80EFED,4.5,1.4.3,actual,15.487,PASS,"board: SNODO; board: Direzione B; board: Un posto per il tuo momento.; 01: Rosa; 01: Lime; 01: Viola; 01: Giallo; 01: Turchese; 02: Dove ti va di andare?; 02: Le informazioni utili, prima di scegliere.; 03: Chiedi all’AI; 04: Assistente AI; 08: Modifica criteri; board: Chiedi all’AI"
 B,#4B4B4B,#80EFED,4.5,1.4.3,actual,6.434,PASS,"board: Pop / pastello; board: Luoghi, persone e informazioni da leggere con calma.; 01: #FD87BA; 01: #ADE25D; 01: #9E6CDA; 01: #FCEC52; 01: #80EFED; 02: Titolo 24 · corpo 16 / 24 · nota 14 / 20; board: SNODO è un nome provvisorio. Tutti i luoghi, le visite e i valori dell’app in questa tavola sono mock.; board: Style tile statica · stessa struttura A/B · direzione da confrontare con le tre persone; board: Componenti a scala mobile 1:1 · tag descrittivi 28 px · filtri interattivi 44 px; board: Boldonse in contorni · corpo: Helvetica Neue (fallback); Forma DJR Text è l’intent non disponibile."
 B,#000000,#FFFFFF,4.5,1.4.3,actual,21.0,PASS,"05: Illustrazione dimostrativa; 05: Cortile Uno; 05: 12–18 €; 06: Visite · 18–21 · settembre 2026; 06: Rumore; 06: Luce; 06: Affollamento; 03: Cosa cerchi?; 03: Un aperitivo con amici; 03: Per parlare; 03: Altri criteri; 04: Roma · San Lorenzo; 04: Cambia; 04: Esplora; 07: Luca; 07: Potevamo parlare senza alzare la; 07: voce.; 08: Assistente AI; 08: Ho mantenuto Roma e budget fino a 20 €. Il; 08: rumore ha dati limitati.; board: Direzione B; board: Annulla; board: Campo: default, focus e errore; board: Cosa cerchi?; board: Un aperitivo con amici; board: Città dell’uscita; board: Filtri e tag: interazione distinta dall’informazione; board: Fino a 20 €; board: Informazione assente ≠ risposta negativa; board: AI indisponibile: il compito può continuare; board: Illustrazione dimostrativa"
@@ -43,13 +21,6 @@ B,#235B2E,#E8F6E8,4.5,1.4.3,actual,7.202,PASS,09: Contributo inviato; 09: Dopo l
 B,#A42335,#FDE8EB,3,1.4.11,actual,6.243,PASS,09: icona error
 B,#A42335,#FDE8EB,4.5,1.4.3,actual,6.243,PASS,09: Invio non riuscito; 09: Bozza conservata
 B,#254E68,#E7F1F7,3,1.4.11,actual,7.737,PASS,09: icona info; board: icona info
-A,#FFFFFF,#843824,3,1.4.11,actual,8.164,PASS,board: icona arrow
-A,#FFFFFF,#843824,4.5,1.4.3,actual,8.164,PASS,board: Esplora luoghi
-A,#FFFFFF,#6E2F20,3,1.4.11,actual,10.046,PASS,board: icona arrow
-A,#FFFFFF,#6E2F20,4.5,1.4.3,actual,10.046,PASS,board: Esplora luoghi
-A,#64544A,#EEE4D7,3,1.4.11,actual,5.746,PASS,board: icona arrow
-A,#64544A,#EEE4D7,4.5,1.4.3,actual,5.746,PASS,board: Esplora luoghi
-A,#A0302C,#FFFCF7,4.5,1.4.3,actual,6.947,PASS,board: Scegli una città per vedere luoghi coerenti.
 B,#80EFED,#252525,3,1.4.11,actual,11.305,PASS,board: icona arrow
 B,#80EFED,#252525,4.5,1.4.3,actual,11.305,PASS,board: Esplora luoghi
 B,#80EFED,#111111,3,1.4.11,actual,13.926,PASS,board: icona arrow
@@ -57,12 +28,6 @@ B,#80EFED,#111111,4.5,1.4.3,actual,13.926,PASS,board: Esplora luoghi
 B,#4B4B4B,#F2F2EE,3,1.4.11,actual,7.773,PASS,board: icona arrow
 B,#4B4B4B,#F2F2EE,4.5,1.4.3,actual,7.773,PASS,board: Esplora luoghi
 B,#A42335,#FFFFFF,4.5,1.4.3,actual,7.316,PASS,board: Scegli una città per vedere luoghi coerenti.
-A,#8A7769,#FFFCF7,3,1.4.11,actual,4.168,PASS,Bordo campo su superficie; Bordo secondario su fondo pulsante
-A,#51366F,#FFFCF7,3,1.4.11,actual,9.738,PASS,Focus su superficie
-A,#51366F,#F7F1E8,3,1.4.11,actual,8.876,PASS,Focus su sfondo
-A,#9C432D,#EEE4D7,3,1.4.11,actual,5.136,PASS,Indicatore intensità rispetto al track
-A,#D7C9B9,#FFFCF7,0,decorativo,supplementary,1.585,NON_APPLICATO,Divider decorativo
-A,#64544A,#EEE4D7,0,eccezione inattivo,supplementary,5.746,NON_APPLICATO,Testo disabilitato: leggibilità
 B,#000000,#F2F2EE,3,1.4.11,actual,18.711,PASS,Indicatore intensità rispetto al track
 B,#BDBDB5,#FFFFFF,0,decorativo,supplementary,1.89,NON_APPLICATO,Divider decorativo
 B,#4B4B4B,#F2F2EE,0,eccezione inattivo,supplementary,7.773,NON_APPLICATO,Testo disabilitato: leggibilità
@@ -71,3 +36,29 @@ B,#000000,#ADE25D,4.5,1.4.3,brand_palette_supplementary,13.813,PASS,Palette: ner
 B,#000000,#9E6CDA,4.5,1.4.3,brand_palette_supplementary,5.611,PASS,Palette: nero su viola
 B,#000000,#FCEC52,4.5,1.4.3,brand_palette_supplementary,17.259,PASS,Palette: nero su giallo
 B,#000000,#80EFED,4.5,1.4.3,brand_palette_supplementary,15.487,PASS,Palette: nero su turchese
+A,#022E21,#F6EDE0,4.5,1.4.3,actual_mali_revision,12.795,PASS,"board: Gli stessi componenti, nei diversi stati.; board: Chiedi all’AI; Calda, un’altra voce; board: SNODO; board: Crema  #F6EDE0; board: Continua; board: all’aperto; board: culturale; board: con gli amici; Cortile Uno; board: Roma · San Lorenzo; board: 12–18 € / persona; board: Luca · visita con amici; board: “Potevamo parlare senza alzare la; board: voce.”; board: 12–18 € / persona   ·   16:00–23:00; Foto del locale; Foto degli utenti"
+A,#335449,#F6EDE0,4.5,1.4.3,actual_mali_revision,7.229,PASS,"board: Specifiche statiche da verificare nel prototipo: nessun test con utenti già svolto.; board: Tavola statica: tastiera, scroll, ingrandimento e lettore di schermo richiedono verifiche nel prototipo.; board: Mali · contenuti demo"
+A,#022E21,#FFFCF7,4.5,1.4.3,actual_mali_revision,14.498,PASS,"board: Direzione A; board: Campo: default, focus e errore; board: Cosa cerchi?; board: Un aperitivo con amici; board: Città dell’uscita; board: Filtri e tag: interazione distinta dall’informazione; board: Fino a 20 €; board: Informazione assente ≠ risposta negativa; board: AI indisponibile: il compito può continuare; Tipografia; board: Mali · 600; Un posto per incontrarsi; board: Forma DJR Text · corpo lineare; board: Questo è un testo.; Palette colori; Segni leggeri; Pulsanti e tag; board: Anteprima locale; board: Anteprima recensione; board: Luca; board: “Una pausa all’aperto. Al nostro; board: tavolo riuscivamo a parlare.”; board: Leggi la visita →; board: Chiara; board: “Nel pomeriggio ho trovato un; board: tavolino libero per leggere.”; Interfaccia; board: Profilo del luogo · esempio; board: Qui trovi Cortile Uno"
+A,#335449,#FFFCF7,4.5,1.4.3,actual_mali_revision,8.191,PASS,board: Componenti mobili · controllo 48 px · target raccomandato ≥44 px; board: Default; board: Hover; board: Premuto; board: Focus; board: Caricamento; board: Disabilitato; board: Gerarchia; board: Errore; board: Filtri · 44 px; board: Tag · 28 px; board: Target a icona; board: 44 × 44 px · nome accessibile: “Salva luogo”; board: Tab focus visibile · Invio/Spazio attiva · Esc chiude pannelli/dialoghi; board: Sottolineare; board: Accompagnare; board: Richiamare; board: Visita di settembre · demo
+A,#F6EDE0,#33173A,3,1.4.11,actual_mali_revision,13.673,PASS,board: icona arrow; board: icona compass
+A,#F6EDE0,#33173A,4.5,1.4.3,actual_mali_revision,13.673,PASS,board: Esplora luoghi; board: Prugna; board: #33173A; board: Continua; board: Leggi il racconto
+A,#F6EDE0,#49264F,3,1.4.11,actual_mali_revision,10.821,PASS,board: icona arrow
+A,#F6EDE0,#49264F,4.5,1.4.3,actual_mali_revision,10.821,PASS,board: Esplora luoghi
+A,#F6EDE0,#24102A,3,1.4.11,actual_mali_revision,15.313,PASS,board: icona arrow
+A,#F6EDE0,#24102A,4.5,1.4.3,actual_mali_revision,15.313,PASS,board: Esplora luoghi
+A,#335449,#EEE5D9,3,1.4.11,actual_mali_revision,6.724,PASS,board: icona arrow
+A,#335449,#EEE5D9,4.5,1.4.3,actual_mali_revision,6.724,PASS,board: Esplora luoghi
+A,#33173A,#FFFCF7,4.5,1.4.3,actual_mali_revision,15.493,PASS,board: Annulla
+A,#335449,#FFFCF7,3,1.4.11,actual_mali_revision,8.191,PASS,board: icona search
+A,#A0302C,#FFFCF7,4.5,1.4.3,actual_mali_revision,6.947,PASS,board: Scegli una città per vedere luoghi coerenti.
+A,#33173A,#E9DFEB,3,1.4.11,actual_mali_revision,12.246,PASS,board: icona check
+A,#33173A,#E9DFEB,4.5,1.4.3,actual_mali_revision,12.246,PASS,board: Fino a 20 €
+A,#022E21,#EEE5D9,4.5,1.4.3,actual_mali_revision,11.902,PASS,board: Cortile; board: Aperitivo
+A,#795000,#FFF0CB,3,1.4.11,actual_mali_revision,6.276,PASS,board: icona warning
+A,#795000,#FFF0CB,4.5,1.4.3,actual_mali_revision,6.276,PASS,board: Rumore: pochi dati; board: Leggi i contributi o modifica il criterio.
+A,#022E21,#E3ECE5,3,1.4.11,actual_mali_revision,12.291,PASS,board: icona info
+A,#022E21,#E3ECE5,4.5,1.4.3,actual_mali_revision,12.291,PASS,board: Assistente AI non disponibile; board: Usa ricerca e filtri. I criteri restano conservati.
+A,#33173A,#FFFCF7,3,1.4.11,actual_mali_revision,15.493,PASS,board: icona bookmark
+A,#F6EDE0,#022E21,4.5,1.4.3,actual_mali_revision,12.795,PASS,board: Verde scuro; board: #022E21; board: con amici; board: L
+A,#022E21,#F6EDE0,3,1.4.11,actual_mali_revision,12.795,PASS,board: icona arrow; board: icona compass; board: icona pin; board: icona bookmark
+A,#F6EDE0,#022E21,3,1.4.11,actual_mali_revision,12.795,PASS,board: icona pin

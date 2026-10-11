@@ -1,0 +1,18 @@
+{
+  "mali": {
+    "font": "Mali, sans-serif",
+    "fontLoaded": true,
+    "overflow": false,
+    "weight": "600"
+  },
+  "comingSoon": {
+    "font": "\"Coming Soon\", sans-serif",
+    "fontLoaded": true,
+    "imageLoaded": true,
+    "overflow": false,
+    "svg": "Proposta_Calda_ComingSoon.svg",
+    "weight": "400"
+  },
+  "check": "Campione HTML con testo al 200%; nessun audit WCAG completo",
+  "publication_note": "Copia per consultazione: i controlli e gli hash di origine descrivono gli asset del workspace. I percorsi locali sono stati normalizzati; il manifest di pubblicazione descrive i file distribuiti."
+}

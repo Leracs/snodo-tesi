@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-10-11T16:14:54.079Z",
+  "fontSelection": {
+    "choice": "patrick",
+    "download": "Proposta_Calda_Patrick_Hand.svg",
+    "heading": "\"Patrick Hand\", sans-serif",
+    "headingSize": "32px",
+    "headingWeight": "400",
+    "imageLoaded": true
+  },
+  "keyboardFocus": {
+    "choice": "patrick",
+    "focusVisible": true,
+    "outline": "rgb(2, 46, 33) solid 3px"
+  },
+  "zoomCaveat": {
+    "heading": "Caveat, sans-serif",
+    "headingSize": "64px",
+    "headingWeight": "600",
+    "overflow": false,
+    "pressed": "true",
+    "contextSize": "28px",
+    "bodySize": "32px",
+    "buttonSize": "32px",
+    "buttonHeight": 68
+  },
+  "zoomPatrick": {
+    "bodySize": "32px",
+    "font": "\"Patrick Hand\", sans-serif",
+    "headingSize": "64px",
+    "overflow": false
+  },
+  "limitations": [
+    "Ridimensionamento al 200% del campione HTML; non zoom globale del browser.",
+    "Nessuna verifica con lettore di schermo o partecipanti.",
+    "Valutazione della leggibilità dei titoli da confermare su telefono."
+  ],
+  "publication_note": "Copia per consultazione: i controlli e gli hash di origine descrivono gli asset del workspace. I percorsi locali sono stati normalizzati; il manifest di pubblicazione descrive i file distribuiti."
+}

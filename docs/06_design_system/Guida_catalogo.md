@@ -31,7 +31,7 @@ Le verifiche del catalogo sono registrate in [QA_catalogo.json](QA_catalogo.json
 
 ## Direzione principale e download SVG
 
-Pop (B) è la scelta principale del progettista per l’intero sito e il prototipo. Calda (A) rimane alternativa nel selettore Stile; la scelta si conserva nel browser tra le pagine. I link espliciti `theme=A` e `theme=B` aprono la variante richiesta. Questa decisione non è attribuita a test con partecipanti.
+Pop (B) è la scelta principale del progettista per sito e prototipo. Calda (A), con Mali SemiBold 600 e palette crema, verde scuro e prugna, resta disponibile nel selettore Stile; la scelta si conserva nel browser tra le pagine. I link espliciti `theme=A` e `theme=B` aprono la variante richiesta. Questa decisione non è attribuita a test con partecipanti.
 
 Ogni scheda ha Scarica SVG. Il playground scarica il componente, la variante e il tema selezionati. La sezione SVG permette di scaricare tutti i file in un archivio o ciascuna variante separatamente, compresa la selezione del giorno. Le geometrie e i testi derivano dal layout HTML a 390 px, senza immagini raster o `foreignObject`; Boldonse è incorporato negli SVG Pop e i testi rimangono modificabili. Si tratta di visuali statici.
 

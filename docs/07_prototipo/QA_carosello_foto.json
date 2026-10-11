@@ -29,6 +29,8 @@
     "index.html": "5300359b2f01b1e81b7c3bea99c7f2ae25a7611bd6e0a958d285212676a1d54d",
     "Verifiche_interazioni.cjs": "ffe07b9360af34be6c0cca2bc51c1db3740524d969312dee7ac42764ffda4322"
   },
-  "publication_status": "approved_pending_deploy",
+  "publication_status": "published",
+  "publication_commit": "081abc9f1336bb597e4b6b8dbf522216523d6a6a",
+  "publication_report": "pubblicazione/Esito_galleria_carosello.json",
   "publication_note": "Copia per consultazione: i controlli e gli hash di origine descrivono gli asset del workspace. I percorsi locali sono stati normalizzati; il manifest di pubblicazione descrive i file distribuiti."
 }

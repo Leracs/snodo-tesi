@@ -1,0 +1,504 @@
+{
+  "generatedAt": "2026-10-11T15:47:55.092Z",
+  "scope": "Scheda S05 Pop, Cortile Uno; foto, contrasto CSS dei testi, focus e confronto di sfondi",
+  "textContrast": {
+    "checks": 60,
+    "failures": [],
+    "minimumRatio": 5.931318178740891,
+    "results": [
+      {
+        "background": "rgb(128, 239, 237)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 10.813132997672705,
+        "text": "Il luogo"
+      },
+      {
+        "background": "rgb(128, 239, 237)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 3,
+        "pass": true,
+        "ratio": 10.813132997672705,
+        "text": "Cortile Uno"
+      },
+      {
+        "background": "rgb(128, 239, 237)",
+        "foreground": "rgb(49, 84, 82)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 6.144392646292678,
+        "text": "Caffè · Roma · San Lorenzo"
+      },
+      {
+        "background": "rgb(128, 239, 237)",
+        "foreground": "rgb(49, 84, 82)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 6.144392646292678,
+        "text": "Foto d’esempio ·"
+      },
+      {
+        "background": "rgb(128, 239, 237)",
+        "foreground": "rgb(49, 84, 82)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 6.144392646292678,
+        "text": "Masha / Unsplash"
+      },
+      {
+        "background": "rgb(128, 239, 237)",
+        "foreground": "rgb(49, 84, 82)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 6.144392646292678,
+        "text": "Spesa indicativa"
+      },
+      {
+        "background": "rgb(128, 239, 237)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 10.813132997672705,
+        "text": "12–18 € / persona"
+      },
+      {
+        "background": "rgb(128, 239, 237)",
+        "foreground": "rgb(49, 84, 82)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 6.144392646292678,
+        "text": "Orario dichiarato"
+      },
+      {
+        "background": "rgb(128, 239, 237)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 10.813132997672705,
+        "text": "16:00–23:00"
+      },
+      {
+        "background": "rgb(128, 239, 237)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 10.813132997672705,
+        "text": "Origine delle informazioni"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 14.662041327129572,
+        "text": "Da chi c’è stato"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "foreground": "rgb(49, 84, 82)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 8.3314742294804,
+        "text": "Mock"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 14.662041327129572,
+        "text": "Potevamo parlare senza alzare la voce."
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 14.662041327129572,
+        "text": "L"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 14.662041327129572,
+        "text": "Luca"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "foreground": "rgb(49, 84, 82)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 8.3314742294804,
+        "text": "21.09.2026 · Con amici"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "foreground": "rgb(49, 84, 82)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 8.3314742294804,
+        "text": "Visita 19:00–21:00"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 14.662041327129572,
+        "text": "Tutte le recensioni (1)"
+      },
+      {
+        "background": "rgb(237, 248, 245)",
+        "foreground": "rgb(49, 84, 82)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 7.675422246769285,
+        "text": "Ridotto"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 14.662041327129572,
+        "text": "Intermedio"
+      },
+      {
+        "background": "rgb(237, 248, 245)",
+        "foreground": "rgb(49, 84, 82)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 7.675422246769285,
+        "text": "Espanso"
+      },
+      {
+        "background": "rgb(228, 250, 246)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 13.477769480068227,
+        "text": "Atmosfera"
+      },
+      {
+        "background": "rgb(228, 250, 246)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 13.477769480068227,
+        "text": "Luce"
+      },
+      {
+        "background": "rgb(228, 250, 246)",
+        "foreground": "rgb(49, 84, 82)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 7.658530390737149,
+        "text": "Luce moderata"
+      },
+      {
+        "background": "rgb(228, 250, 246)",
+        "foreground": "rgb(113, 55, 153)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 7.126859063267457,
+        "text": "3"
+      },
+      {
+        "background": "rgb(228, 250, 246)",
+        "foreground": "rgb(49, 84, 82)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 7.658530390737149,
+        "text": "/5"
+      },
+      {
+        "background": "rgb(228, 250, 246)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 13.477769480068227,
+        "text": "Rumore"
+      },
+      {
+        "background": "rgb(228, 250, 246)",
+        "foreground": "rgb(49, 84, 82)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 7.658530390737149,
+        "text": "Silenzioso"
+      },
+      {
+        "background": "rgb(228, 250, 246)",
+        "foreground": "rgb(113, 55, 153)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 7.126859063267457,
+        "text": "2"
+      },
+      {
+        "background": "rgb(228, 250, 246)",
+        "foreground": "rgb(49, 84, 82)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 7.658530390737149,
+        "text": "/5"
+      },
+      {
+        "background": "rgb(228, 250, 246)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 13.477769480068227,
+        "text": "Comfort"
+      },
+      {
+        "background": "rgb(228, 250, 246)",
+        "foreground": "rgb(49, 84, 82)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 7.658530390737149,
+        "text": "Alto"
+      },
+      {
+        "background": "rgb(228, 250, 246)",
+        "foreground": "rgb(113, 55, 153)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 7.126859063267457,
+        "text": "4"
+      },
+      {
+        "background": "rgb(228, 250, 246)",
+        "foreground": "rgb(49, 84, 82)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 7.658530390737149,
+        "text": "/5"
+      },
+      {
+        "background": "rgb(228, 250, 246)",
+        "foreground": "rgb(49, 84, 82)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 7.658530390737149,
+        "text": "settembre 2026 · 18:00–21:00"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 14.662041327129572,
+        "text": "Affluenza"
+      },
+      {
+        "background": "rgb(233, 221, 240)",
+        "foreground": "rgb(113, 55, 153)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 5.931318178740891,
+        "text": "Domenica"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "foreground": "rgb(49, 84, 82)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 8.3314742294804,
+        "text": "Affluenza tipica per fascia oraria"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "foreground": "rgb(49, 84, 82)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 8.3314742294804,
+        "text": "Pomeriggio"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 14.662041327129572,
+        "text": "16–18"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 14.662041327129572,
+        "text": "Bassa"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "foreground": "rgb(49, 84, 82)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 8.3314742294804,
+        "text": "Sera"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 14.662041327129572,
+        "text": "18–21"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 14.662041327129572,
+        "text": "Alta"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "foreground": "rgb(49, 84, 82)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 8.3314742294804,
+        "text": "Tarda sera"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 14.662041327129572,
+        "text": "21–23"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 14.662041327129572,
+        "text": "Media"
+      },
+      {
+        "background": "rgb(228, 250, 246)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 13.477769480068227,
+        "text": "Più tranquillo: 16–18"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "foreground": "rgb(49, 84, 82)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 8.3314742294804,
+        "text": "Dati dimostrativi · confronto tra fasce con dati."
+      },
+      {
+        "background": "rgb(128, 239, 237)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 10.813132997672705,
+        "text": "Leggi atmosfera e fonti"
+      },
+      {
+        "background": "rgb(128, 239, 237)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 10.813132997672705,
+        "text": "Informazioni pratiche"
+      },
+      {
+        "background": "rgb(128, 239, 237)",
+        "foreground": "rgb(49, 84, 82)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 6.144392646292678,
+        "text": "All’aperto"
+      },
+      {
+        "background": "rgb(128, 239, 237)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 10.813132997672705,
+        "text": "Dichiarato dal gestore"
+      },
+      {
+        "background": "rgb(128, 239, 237)",
+        "foreground": "rgb(49, 84, 82)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 6.144392646292678,
+        "text": "Accesso senza gradini"
+      },
+      {
+        "background": "rgb(128, 239, 237)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 10.813132997672705,
+        "text": "Dichiarato dal gestore"
+      },
+      {
+        "background": "rgb(128, 239, 237)",
+        "foreground": "rgb(49, 84, 82)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 6.144392646292678,
+        "text": "0,8 km · Roma · riferimento centrale dimostrativo"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 14.662041327129572,
+        "text": "Indicazioni · navigatore"
+      },
+      {
+        "background": "rgb(128, 239, 237)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 10.813132997672705,
+        "text": "Vedi galleria"
+      },
+      {
+        "background": "rgb(128, 239, 237)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 10.813132997672705,
+        "text": "Racconta una visita"
+      },
+      {
+        "background": "rgb(128, 239, 237)",
+        "foreground": "rgb(16, 45, 43)",
+        "minimum": 4.5,
+        "pass": true,
+        "ratio": 10.813132997672705,
+        "text": "Chiedi su questo luogo"
+      }
+    ]
+  },
+  "keyboardFocus": {
+    "name": "Indietro",
+    "outlineColor": "rgb(16, 45, 43)",
+    "outlineStyle": "solid",
+    "outlineWidth": "3px"
+  },
+  "photoGallery": "Seconda foto caricata nel browser con alt e credito originali; ritorno al dettaglio verificato",
+  "surfaceComparison": "Header bianco nella variante light; ritorno aqua verificato",
+  "limitations": [
+    "Controllo tecnico, non prova di usabilità o certificazione WCAG completa.",
+    "Il controllo CSS dei testi esclude i testi SVG; le coppie di colore di bordi e focus sono nel file Contrasti_dettaglio_acqua.json."
+  ],
+  "publication_note": "Copia per consultazione: i controlli e gli hash di origine descrivono gli asset del workspace. I percorsi locali sono stati normalizzati; il manifest di pubblicazione descrive i file distribuiti."
+}

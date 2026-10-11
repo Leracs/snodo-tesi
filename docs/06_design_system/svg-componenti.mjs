@@ -6,6 +6,7 @@ import crypto from 'node:crypto';
 const root=path.dirname(fileURLToPath(import.meta.url));
 const layouts=JSON.parse(fs.readFileSync(path.join(root,'svg/layouts.json'),'utf8'));
 const font=fs.readFileSync(path.join(root,'../05_style_tiles/fonts/Boldonse-Regular.ttf')).toString('base64');
+const mali=fs.readFileSync(path.join(root,'../05_style_tiles/fonts/Mali-SemiBold.ttf')).toString('base64');
 const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]));
 const N=n=>Number(n.toFixed(2));
 const color=c=>c&&c!=='transparent'&&c!=='rgba(0, 0, 0, 0)';
@@ -31,10 +32,10 @@ for(const layout of layouts){
  }
  const drawing=paint(layout.tree);
  const title=`${layout.id} · ${layout.name} · ${layout.theme==='B'?'Pop':'Calda'} · ${layout.variant}`;
- const svg=`<?xml version="1.0" encoding="UTF-8"?>\n<svg xmlns="http://www.w3.org/2000/svg" width="${Math.ceil(layout.width)}" height="${Math.ceil(layout.height)}" viewBox="0 0 ${Math.ceil(layout.width)} ${Math.ceil(layout.height)}" role="img" aria-labelledby="title desc"><title id="title">${E(title)}</title><desc id="desc">Componente SNODO, visuale statica con dati dimostrativi. Forme, icone e testi vettoriali. Layout HTML a 390 px.</desc><defs>${clips}${layout.theme==='B'?`<style>@font-face{font-family:Boldonse;src:url(data:font/ttf;base64,${font}) format('truetype');font-weight:400;font-style:normal}</style>`:''}</defs>${drawing}</svg>\n`;
+ const svg=`<?xml version="1.0" encoding="UTF-8"?>\n<svg xmlns="http://www.w3.org/2000/svg" width="${Math.ceil(layout.width)}" height="${Math.ceil(layout.height)}" viewBox="0 0 ${Math.ceil(layout.width)} ${Math.ceil(layout.height)}" role="img" aria-labelledby="title desc"><title id="title">${E(title)}</title><desc id="desc">Componente SNODO, visuale statica con dati dimostrativi. Forme, icone e testi vettoriali. Layout HTML a 390 px.</desc><defs>${clips}${layout.theme==='B'?`<style>@font-face{font-family:Boldonse;src:url(data:font/ttf;base64,${font}) format('truetype');font-weight:400;font-style:normal}</style>`:`<style>@font-face{font-family:Mali;src:url(data:font/ttf;base64,${mali}) format('truetype');font-weight:600;font-style:normal}</style>`}</defs>${drawing}</svg>\n`;
  if(/foreignObject|<image\b|https?:\/\/(?!www.w3.org)/i.test(svg))throw new Error('SVG non autonomo: '+layout.file);
  fs.writeFileSync(path.join(root,'svg',layout.file),svg);
  manifest.push({id:layout.id,name:layout.name,theme:layout.theme,variant:layout.variant,file:'svg/'+layout.file,width:Math.ceil(layout.width),height:Math.ceil(layout.height),sha256:crypto.createHash('sha256').update(svg).digest('hex')});
 }
-fs.writeFileSync(path.join(root,'SVG_manifest.json'),JSON.stringify({default_theme:'B',format:'native_SVG_shapes_and_editable_text',font:'Boldonse embedded under OFL; body fonts use system fallbacks',entries:manifest},null,2)+'\n');
+fs.writeFileSync(path.join(root,'SVG_manifest.json'),JSON.stringify({default_theme:'B',format:'native_SVG_shapes_and_editable_text',font:'Mali SemiBold 600 and Boldonse embedded under OFL; body fonts use system fallbacks',entries:manifest},null,2)+'\n');
 console.log(`${manifest.length} SVG vettoriali generati.`);

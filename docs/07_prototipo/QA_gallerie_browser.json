@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-10-11T15:58:34.731Z",
+  "type": "browser_checks",
+  "detailAqua": {
+    "checked": 69,
+    "failures": [],
+    "horizontalOverflow": false,
+    "min": 5.931318178740891,
+    "screen": "S05"
+  },
+  "galleryPop": {
+    "checked": 17,
+    "failures": [],
+    "horizontalOverflow": false,
+    "min": 7.77288792986493,
+    "screen": "S07"
+  },
+  "galleryCalda": {
+    "checked": 17,
+    "failures": [],
+    "horizontalOverflow": false,
+    "min": 5.745876811803418,
+    "screen": "S07"
+  },
+  "keyboardFocus": {
+    "origin": "reviews",
+    "outline": "rgb(0, 0, 0) solid 3px",
+    "visibleFocus": true
+  },
+  "observedInteractions": [
+    "Foto degli utenti dalla scheda",
+    "Scatto di Chiara caricato",
+    "Leggi questa recensione apre rec-roma-01-02 e porta il focus al racconto",
+    "Indietro torna allo stesso scatto",
+    "Cambio raccolta mostra solo le foto del locale",
+    "Cambio A/B mantiene la raccolta utenti"
+  ],
+  "screenshots": [
+    "../../../pubblicazione/Anteprima_SNODO_due_gallerie.png",
+    "../../../pubblicazione/Anteprima_SNODO_foto_utenti.png"
+  ],
+  "limitations": [
+    "Contrasto del testo verificato da colori CSS computati; esclusi SVG, testo nelle immagini e stati disabilitati.",
+    "Non costituisce audit WCAG completo o test con partecipanti.",
+    "Fotografie e origini gestore/utente illustrative; recensioni mock."
+  ],
+  "publication_note": "Copia per consultazione: i controlli e gli hash di origine descrivono gli asset del workspace. I percorsi locali sono stati normalizzati; il manifest di pubblicazione descrive i file distribuiti."
+}

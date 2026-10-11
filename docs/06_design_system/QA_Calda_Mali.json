@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-11",
+  "default_direction": "B · Pop",
+  "alternative_direction": "A · Calda con Mali SemiBold 600",
+  "selection": "Scelta progettuale dell’autore; nessun risultato attribuito a partecipanti.",
+  "palette_A": {
+    "cream": "#F6EDE0",
+    "green": "#022E21",
+    "plum": "#33173A"
+  },
+  "checked": {
+    "source_JS_syntax": "PASS (tema-sito, app, catalogo-ui, svg-componenti)",
+    "style_tile_matches_selected_Mali_board": "PASS (SVG identico)",
+    "contrast_pairs": 63,
+    "contrast_failures": 0,
+    "SVG_validated": 122,
+    "browser_home_default": "Pop; Boldonse; nessun overflow orizzontale al viewport osservato 1265px",
+    "browser_home_alternative": "Mali 600; anteprima coordinata col selettore; nessun overflow orizzontale",
+    "browser_design_system_A": "Mali 600 per titoli sito, Atmosfera e Affluenza; token crema/verde/prugna",
+    "browser_prototype_A": "S02 → S22 → selezione Spazio Lume → S05 → S07; preview recensioni presente su mappa e card",
+    "prototype_detail_A": "Mali 600; sfondo rgb(246, 237, 224); nessun overflow orizzontale nel dispositivo a 390px",
+    "browser_prototype_standard_open": "Pop (B) dopo selezione e persistenza della preferenza"
+  },
+  "font_body": "Forma DJR Text previsto, Helvetica Neue disponibile come fallback.",
+  "limits": [
+    "Controlli tecnici e visivi mirati, non certificazione WCAG completa.",
+    "Importazione Figma e test con utenti non eseguiti.",
+    "Aggiornamento dei materiali locali; nessuna pubblicazione GitHub eseguita in questo intervento."
+  ],
+  "publication_note": "Copia per consultazione: i controlli e gli hash di origine descrivono gli asset del workspace. I percorsi locali sono stati normalizzati; il manifest di pubblicazione descrive i file distribuiti."
+}

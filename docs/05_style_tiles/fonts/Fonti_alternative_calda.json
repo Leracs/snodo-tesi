@@ -1,0 +1,51 @@
+{
+  "source": "Repository ufficiale Google Fonts",
+  "fontOptions": [
+    {
+      "family": "Fraunces",
+      "source": "https://github.com/google/fonts/tree/main/ofl/fraunces",
+      "instance": {
+        "wght": 600,
+        "opsz": 32,
+        "SOFT": 30,
+        "WONK": 0
+      }
+    },
+    {
+      "family": "Shantell Sans",
+      "source": "https://github.com/google/fonts/tree/main/ofl/shantellsans",
+      "instance": {
+        "wght": 500,
+        "BNCE": 0,
+        "INFM": 0,
+        "SPAC": 0
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "Fraunces-Variable.ttf",
+      "sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb"
+    },
+    {
+      "file": "Fraunces-Calda.ttf",
+      "sha256": "2f8fbf68f9ffa8fa0ccb9283ada1ebd4af21581e40f37f8a88e37dc682047ac0"
+    },
+    {
+      "file": "Fraunces-OFL.txt",
+      "sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b"
+    },
+    {
+      "file": "ShantellSans-Variable.ttf",
+      "sha256": "d98a7913853f78d71aa0b86daf66b5eddb5a3266c07bfd51ef70632b88c41084"
+    },
+    {
+      "file": "ShantellSans-Calda.ttf",
+      "sha256": "469e9d98299a34c73ad497096053f983a9b2f645f001a6f400e6097465615431"
+    },
+    {
+      "file": "ShantellSans-OFL.txt",
+      "sha256": "ebfce7d104d597c385b71e9fbf8f0e2034e73320f857086105dc265b82c05caa"
+    }
+  ]
+}

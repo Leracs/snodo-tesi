@@ -2,7 +2,7 @@
   "color": {
     "background": {
       "$type": "color",
-      "$value": "#F7F1E8"
+      "$value": "#F6EDE0"
     },
     "surface": {
       "$type": "color",
@@ -10,63 +10,63 @@
     },
     "surfaceMuted": {
       "$type": "color",
-      "$value": "#EEE4D7"
+      "$value": "#EEE5D9"
     },
     "text": {
       "$type": "color",
-      "$value": "#28221F"
+      "$value": "#022E21"
     },
     "muted": {
       "$type": "color",
-      "$value": "#64544A"
+      "$value": "#335449"
     },
     "primary": {
       "$type": "color",
-      "$value": "#9C432D"
+      "$value": "#33173A"
     },
     "primaryHover": {
       "$type": "color",
-      "$value": "#843824"
+      "$value": "#49264F"
     },
     "primaryPressed": {
       "$type": "color",
-      "$value": "#6E2F20"
+      "$value": "#24102A"
     },
     "primarySoft": {
       "$type": "color",
-      "$value": "#F6DDD0"
+      "$value": "#E9DFEB"
     },
     "secondaryBg": {
       "$type": "color",
-      "$value": "#FFFCF7"
+      "$value": "#F6EDE0"
     },
     "onSecondary": {
       "$type": "color",
-      "$value": "#9C432D"
+      "$value": "#022E21"
     },
     "border": {
       "$type": "color",
-      "$value": "#8A7769"
+      "$value": "#647166"
     },
     "divider": {
       "$type": "color",
-      "$value": "#D7C9B9"
+      "$value": "#647166"
     },
     "focus": {
       "$type": "color",
-      "$value": "#51366F"
+      "$value": "#33173A"
     },
     "accentDecorative": {
       "$type": "color",
-      "$value": "#D97A4A"
+      "$value": "#022E21"
     },
     "success": {
       "$type": "color",
-      "$value": "#285844"
+      "$value": "#022E21"
     },
     "successBg": {
       "$type": "color",
-      "$value": "#E3F0E8"
+      "$value": "#E3ECE5"
     },
     "warning": {
       "$type": "color",
@@ -86,42 +86,42 @@
     },
     "info": {
       "$type": "color",
-      "$value": "#345968"
+      "$value": "#022E21"
     },
     "infoBg": {
       "$type": "color",
-      "$value": "#E6EFF1"
+      "$value": "#E3ECE5"
     },
     "onPrimary": {
       "$type": "color",
-      "$value": "#FFFFFF"
+      "$value": "#F6EDE0"
     },
     "atmosphereBg": {
       "$type": "color",
-      "$value": "#EEE4D7"
+      "$value": "#F6EDE0"
     },
     "atmosphereIconBg": {
       "$type": "color",
-      "$value": "#F6DDD0"
+      "$value": "#E9DFEB"
     },
     "dataAccent": {
       "$type": "color",
-      "$value": "#9C432D"
+      "$value": "#33173A"
     },
     "dataAccentSoft": {
       "$type": "color",
-      "$value": "#F6DDD0"
+      "$value": "#E9DFEB"
     }
   },
   "font": {
     "heading": {
       "$type": "fontFamily",
-      "$value": "Georgia"
+      "$value": "Mali"
     },
     "body": {
       "$type": "fontFamily",
-      "$value": "Trebuchet MS",
-      "$description": "Font effettivo della preview."
+      "$value": "Helvetica Neue",
+      "$description": "Forma DJR Text previsto; Helvetica Neue è il fallback disponibile nella preview."
     },
     "bodyPreview": {
       "$type": "fontFamily",
@@ -209,23 +209,23 @@
   "radius": {
     "card": {
       "$type": "dimension",
-      "$value": "20px"
+      "$value": "22px"
     },
     "control": {
       "$type": "dimension",
-      "$value": "12px"
+      "$value": "14px"
     },
     "chip": {
       "$type": "dimension",
-      "$value": "22px"
+      "$value": "14px"
     },
     "field": {
       "$type": "dimension",
-      "$value": "12px"
+      "$value": "14px"
     },
     "passiveTag": {
       "$type": "dimension",
-      "$value": "8px"
+      "$value": "10px"
     }
   },
   "size": {
@@ -271,7 +271,7 @@
   "fontWeight": {
     "heading": {
       "$type": "fontWeight",
-      "$value": 400
+      "$value": 600
     },
     "body": {
       "$type": "fontWeight",
@@ -292,7 +292,7 @@
       "$value": "0ms"
     }
   },
-  "$description": "SNODO variante A; provvisoria, non selezionata. JSON da mappare in importer/variabili Figma; import nativo non eseguito.",
+  "$description": "SNODO A · Calda con Mali SemiBold 600, scelta dall’autore. Palette crema, verde scuro e prugna; nessuna preferenza utenti attribuita.",
   "component": {
     "discovery": {
       "place-thumbnail-width": {
