@@ -40,3 +40,7 @@ Ogni scheda ha Scarica SVG. Il playground scarica il componente, la variante e i
 Dopo la rigenerazione eseguire `python3 pacchetto_svg.py` ([script](pacchetto_svg.py)) per validare i file e ricostruire lo ZIP. Il report [QA_pop_svg.json](QA_pop_svg.json) registra i controlli di questa integrazione.
 
 L’archivio include la [licenza OFL di Boldonse](../05_style_tiles/fonts/OFL.txt).
+
+## Superfici di lettura Pop
+
+Il verde acqua è la cornice della pagina. Titoli, testo lungo, navigazione e catalogo si leggono su superfici bianche o neutre; gli accenti restano circoscritti a controlli, selezioni e illustrazioni. Nei documenti il corpo è 18 px su desktop e 17 px su mobile, con interlinea 1,75 e righe fino a 68ch. La stessa regola è applicata alla cornice del prototipo e alla superficie del dispositivo. [Controlli della revisione](QA_pop_lettura.json).

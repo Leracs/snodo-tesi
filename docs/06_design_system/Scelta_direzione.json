@@ -5,7 +5,24 @@
   "alternative_theme": "A",
   "alternative_name": "Calda",
   "decision_author": "progettista",
-  "scope": ["sito dei materiali", "catalogo componenti", "prototipo HTML", "anteprime"],
+  "scope": [
+    "sito dei materiali",
+    "catalogo componenti",
+    "prototipo HTML",
+    "anteprime"
+  ],
   "human_validation": "Non attribuita a test con partecipanti",
-  "preference_storage": "snodo-site-theme-v1"
+  "preference_storage": "snodo-site-theme-v1",
+  "reading_surfaces": {
+    "page_background": "#80EFED",
+    "content_surface": "#FFFFFF",
+    "body_desktop": "18px / 31.5px",
+    "body_mobile": "17px / 29.75px",
+    "body_max_width": "68ch",
+    "scope": [
+      "site pages",
+      "catalogue",
+      "prototype device and workbench"
+    ]
+  }
 }

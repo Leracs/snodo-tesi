@@ -28,7 +28,7 @@ function harness(search = '') {
   const storage = new Map();
   let appHtml = '';
   const element = (id, initial = {}) => ({
-    id, value: '', checked: false, textContent: '', innerHTML: '', scrollTop: 0,
+    id, dataset: {}, value: '', checked: false, textContent: '', innerHTML: '', scrollTop: 0,
     focus() {}, addEventListener() {},
     classList: { add() {}, remove() {} },
     remove() { page.delete('#' + id); },
@@ -365,6 +365,41 @@ test('I23', 'Ricerca diretta in mappa e lista conserva città, filtri e salvati'
  assert.equal(h.run('state.criteria.budgetMax'),20);assert.equal(h.run('state.criteria.noiseMode'),'preferred');
  assert.equal(h.run('state.saved[0]'),'luogo-roma-01');assert.ok(h.html().includes('Seleziona Spazio Lume'));
  return 'Submit del form sulla mappa e pulsante Cerca nella lista applicano la query senza cambiare vista, città, vincoli o salvati.';
+});
+
+test('I24', 'Mappa aperta: selezione, dettaglio e ritorno conservano il luogo', () => {
+ const h=harness();h.run("route('S02')");h.click('open-map');assert.equal(h.run('state.screen'),'S22');
+ h.click('pin',{id:'luogo-roma-02'});assert.ok(h.html().includes('data-map-preview="luogo-roma-02"'));
+ assert.ok(h.html().includes('Durante la mia visita il volume era più alto'));h.click('card-save',{id:'luogo-roma-02'});
+ h.click('place',{id:'luogo-roma-02'});assert.equal(h.run('state.selected'),'luogo-roma-02');assert.equal(h.run('state.screen'),'S05');
+ h.click('back');assert.equal(h.run('state.screen'),'S22');assert.equal(h.run('state.mapSelected'),'luogo-roma-02');assert.equal(h.run('state.saved[0]'),'luogo-roma-02');
+ h.click('pin',{id:'luogo-roma-04'});assert.ok(h.html().includes('Nessuna recensione disponibile per questo luogo.'));
+ h.click('back');assert.equal(h.run('state.screen'),'S02');assert.equal(h.run('state.mapSelected'),'luogo-roma-04');
+ return 'Selezione di due luoghi, anteprima coerente, salvataggio, scheda e back; assenza di recensione esplicita.';
+});
+test('I25', 'Mappa aperta: query e stato vuoto non lasciano dettagli estranei', () => {
+ const h=harness('?screen=S22');h.input('[name=query]','Luogo inesistente');h.submit('search-form');
+ assert.equal(h.run('state.screen'),'S22');assert.equal(h.run('state.mapSelected'),null);
+ assert.ok(!h.html().includes('data-map-preview'));assert.ok(h.html().includes('Nessun luogo con questi criteri'));
+ h.click('pin',{id:'luogo-roma-01'},true);assert.equal(h.run('state.mapSelected'),null);
+ h.click('clear-filters');assert.equal(h.run('state.screen'),'S22');assert.equal(h.run('state.criteria.city'),'Roma');assert.ok(h.html().includes('data-map-preview="luogo-roma-01"'));
+ return 'La ricerca resta nella mappa aperta; lo stato vuoto rimuove l’anteprima e Azzera recupera i luoghi della città.';
+});
+test('I26', 'Ingresso diretto nella mappa aperta di Milano', () => {
+ const h=harness('?screen=S22&place=luogo-milano-02&theme=A');
+ assert.equal(h.run('state.criteria.city'),'Milano');assert.equal(h.run('state.mapSelected'),'luogo-milano-02');
+ assert.ok(h.html().includes('data-map-preview="luogo-milano-02"'));assert.ok(!h.html().includes('data-id="luogo-roma-01"'));
+ h.click('back');assert.equal(h.run('state.screen'),'S02');assert.equal(h.run('state.criteria.city'),'Milano');
+ return 'Link diretto validato: città e selezione coerenti, con ritorno all’esplorazione.';
+});
+
+test('I27', 'Applica filtri torna alla mappa aperta senza perdere la selezione valida', () => {
+ const h=harness('?screen=S22');h.click('pin',{id:'luogo-roma-02'});h.click('filters');
+ h.get('#budget').value='20';h.click('apply-filters');assert.equal(h.run('state.screen'),'S22');assert.equal(h.run('state.mapSelected'),'luogo-roma-02');
+ h.click('city');h.get('#filter-city').value='Milano';h.click('apply-filters');
+ assert.equal(h.run('state.screen'),'S22');assert.equal(h.run('state.criteria.city'),'Milano');assert.ok(!h.html().includes('data-id="luogo-roma-02"'));
+ h.click('back');assert.equal(h.run('state.screen'),'S02');
+ return 'Budget applicato nella vista aperta, selezione conservata finché valida; cambio città aggiorna i segnaposto e non lascia l’editor nello storico.';
 });
 
 const sources = ['index.html', 'app.js', 'core.js', 'catalogo.js', 'Catalogo_mock.json', 'build_catalogo.py', 'Verifiche_core.cjs', 'Verifiche_interazioni.cjs', '../06_design_system/esplorazione.js', '../06_design_system/esplorazione.css'].map(file => ({
