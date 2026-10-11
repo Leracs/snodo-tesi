@@ -84,5 +84,33 @@
       "html_pages": 38,
       "gate_script_and_stylesheet_links_validated_per_page": true
     }
+  },
+  "featured_demo_home_update": {
+    "date": "2026-10-11",
+    "status": "PASS",
+    "scope": "Verifica locale prima del deploy; controlli online registrati separatamente.",
+    "home_demo_promoted_before_other_materials": true,
+    "real_demo_screenshot_added": true,
+    "UI_direction_provisional_explicit": true,
+    "desktop_and_mobile_CTA_above_fold": true,
+    "tested_viewports": [
+      [
+        1280,
+        720
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "horizontal_overflow": false,
+    "CTA_opens_demo_S01": true,
+    "demo_app_sources_and_password_gate_unchanged": true,
+    "static_export": {
+      "html_pages": 38,
+      "files": 245,
+      "local_references_checked": 1344,
+      "all_HTML_gated": true
+    }
   }
 }
